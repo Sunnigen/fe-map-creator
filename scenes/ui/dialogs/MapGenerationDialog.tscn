@@ -1,0 +1,188 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwskqfwpgqn8v"]
+
+[ext_resource type="Script" path="res://scenes/ui/dialogs/MapGenerationDialog.gd" id="1_wgx73"]
+
+[node name="MapGenerationDialog" type="AcceptDialog"]
+initial_position = 2
+size = Vector2i(450, 650)
+script = ExtResource("1_wgx73")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -49.0
+
+[node name="PresetContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="PresetLabel" type="Label" parent="VBoxContainer/PresetContainer"]
+layout_mode = 2
+text = "Preset:"
+
+[node name="PresetOption" type="OptionButton" parent="VBoxContainer/PresetContainer"]
+layout_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BasicContainer" type="GridContainer" parent="VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="AlgorithmLabel" type="Label" parent="VBoxContainer/BasicContainer"]
+layout_mode = 2
+text = "Algorithm:"
+
+[node name="AlgorithmOption" type="OptionButton" parent="VBoxContainer/BasicContainer"]
+layout_mode = 2
+
+[node name="ThemeLabel" type="Label" parent="VBoxContainer/BasicContainer"]
+layout_mode = 2
+text = "Theme:"
+
+[node name="ThemeOption" type="OptionButton" parent="VBoxContainer/BasicContainer"]
+layout_mode = 2
+
+[node name="TilesetLabel" type="Label" parent="VBoxContainer/BasicContainer"]
+layout_mode = 2
+text = "Tileset:"
+
+[node name="TilesetOption" type="OptionButton" parent="VBoxContainer/BasicContainer"]
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="SizeContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="SizeLabel" type="Label" parent="VBoxContainer/SizeContainer"]
+layout_mode = 2
+text = "Size:"
+
+[node name="WidthSpin" type="SpinBox" parent="VBoxContainer/SizeContainer"]
+layout_mode = 2
+min_value = 10.0
+max_value = 100.0
+value = 20.0
+
+[node name="XLabel" type="Label" parent="VBoxContainer/SizeContainer"]
+layout_mode = 2
+text = "x"
+
+[node name="HeightSpin" type="SpinBox" parent="VBoxContainer/SizeContainer"]
+layout_mode = 2
+min_value = 8.0
+max_value = 100.0
+value = 15.0
+
+[node name="SeedContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="SeedLabel" type="Label" parent="VBoxContainer/SeedContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Seed:"
+
+[node name="SeedSpin" type="SpinBox" parent="VBoxContainer/SeedContainer"]
+layout_mode = 2
+min_value = 1.0
+max_value = 999999.0
+value = 12345.0
+
+[node name="HSeparator3" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ComplexityContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ComplexityLabel" type="Label" parent="VBoxContainer/ComplexityContainer"]
+layout_mode = 2
+text = "Complexity: 0.5"
+
+[node name="ComplexitySlider" type="HSlider" parent="VBoxContainer/ComplexityContainer"]
+layout_mode = 2
+max_value = 1.0
+step = 0.1
+value = 0.5
+
+[node name="TerrainContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TerrainLabel" type="Label" parent="VBoxContainer/TerrainContainer"]
+layout_mode = 2
+text = "Terrain Distribution:"
+
+[node name="WaterContainer" type="VBoxContainer" parent="VBoxContainer/TerrainContainer"]
+layout_mode = 2
+
+[node name="WaterLabel" type="Label" parent="VBoxContainer/TerrainContainer/WaterContainer"]
+layout_mode = 2
+text = "Water: 10%"
+
+[node name="WaterSlider" type="HSlider" parent="VBoxContainer/TerrainContainer/WaterContainer"]
+layout_mode = 2
+max_value = 0.5
+step = 0.05
+value = 0.1
+
+[node name="ForestContainer" type="VBoxContainer" parent="VBoxContainer/TerrainContainer"]
+layout_mode = 2
+
+[node name="ForestLabel" type="Label" parent="VBoxContainer/TerrainContainer/ForestContainer"]
+layout_mode = 2
+text = "Forest: 25%"
+
+[node name="ForestSlider" type="HSlider" parent="VBoxContainer/TerrainContainer/ForestContainer"]
+layout_mode = 2
+max_value = 0.6
+step = 0.05
+value = 0.25
+
+[node name="MountainContainer" type="VBoxContainer" parent="VBoxContainer/TerrainContainer"]
+layout_mode = 2
+
+[node name="MountainLabel" type="Label" parent="VBoxContainer/TerrainContainer/MountainContainer"]
+layout_mode = 2
+text = "Mountain: 15%"
+
+[node name="MountainSlider" type="HSlider" parent="VBoxContainer/TerrainContainer/MountainContainer"]
+layout_mode = 2
+max_value = 0.5
+step = 0.05
+value = 0.15
+
+[node name="HSeparator4" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BorderContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BorderLabel" type="Label" parent="VBoxContainer/BorderContainer"]
+layout_mode = 2
+text = "Border Type:"
+
+[node name="BorderOption" type="OptionButton" parent="VBoxContainer/BorderContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OptionsContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="OptionsLabel" type="Label" parent="VBoxContainer/OptionsContainer"]
+layout_mode = 2
+text = "Options:"
+
+[node name="ConnectivityCheck" type="CheckBox" parent="VBoxContainer/OptionsContainer"]
+layout_mode = 2
+button_pressed = true
+text = "Ensure connectivity"
+
+[node name="StrategicCheck" type="CheckBox" parent="VBoxContainer/OptionsContainer"]
+layout_mode = 2
+button_pressed = true  
+text = "Add strategic features"

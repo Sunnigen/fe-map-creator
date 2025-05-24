@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=3 uid="uid://dckdlwm4hn7u8"]
+
+[ext_resource type="Script" path="res://scenes/ui/TilesetPanel.gd" id="1_qc6kj"]
+[ext_resource type="PackedScene" uid="uid://cm7y55pjq3k2c" path="res://scenes/components/TilesetViewer.tscn" id="2_5oejr"]
+
+[node name="TilesetPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 600.0
+script = ExtResource("1_qc6kj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HeaderContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TilesetLabel" type="Label" parent="VBoxContainer/HeaderContainer"]
+layout_mode = 2
+text = "Tilesets"
+horizontal_alignment = 1
+
+[node name="TilesetSelector" type="OptionButton" parent="VBoxContainer/HeaderContainer"]
+layout_mode = 2
+
+[node name="ControlsContainer" type="HBoxContainer" parent="VBoxContainer/HeaderContainer"]
+layout_mode = 2
+
+[node name="SearchBox" type="LineEdit" parent="VBoxContainer/HeaderContainer/ControlsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Search tiles..."
+
+[node name="FilterButton" type="Button" parent="VBoxContainer/HeaderContainer/ControlsContainer"]
+layout_mode = 2
+text = "Filter"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TilesetViewer" parent="VBoxContainer/ScrollContainer" instance=ExtResource("2_5oejr")]
+layout_mode = 2
+
+[node name="FooterContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TileInfoLabel" type="Label" parent="VBoxContainer/FooterContainer"]
+layout_mode = 2
+text = "No tile selected"
+autowrap_mode = 3

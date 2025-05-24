@@ -1,0 +1,81 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3jcqj8hv7w8n"]
+
+[ext_resource type="Script" path="res://scenes/ui/dialogs/MapPropertiesDialog.gd" id="1_8k2fd"]
+
+[node name="MapPropertiesDialog" type="AcceptDialog"]
+initial_position = 2
+size = Vector2i(400, 350)
+script = ExtResource("1_8k2fd")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -49.0
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="NameLabel" type="Label" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Name:"
+
+[node name="NameEdit" type="LineEdit" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Enter map name"
+
+[node name="DescriptionLabel" type="Label" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Description:"
+
+[node name="DescriptionEdit" type="TextEdit" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+custom_minimum_size = Vector2(0, 60)
+placeholder_text = "Enter map description"
+
+[node name="WidthLabel" type="Label" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Width:"
+
+[node name="WidthSpin" type="SpinBox" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+min_value = 5.0
+max_value = 100.0
+value = 20.0
+
+[node name="HeightLabel" type="Label" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Height:"
+
+[node name="HeightSpin" type="SpinBox" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+min_value = 5.0
+max_value = 100.0
+value = 15.0
+
+[node name="TilesetLabel" type="Label" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Tileset:"
+
+[node name="TilesetOption" type="OptionButton" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="PreserveDataCheck" type="CheckBox" parent="VBoxContainer"]
+layout_mode = 2
+button_pressed = true
+text = "Preserve existing tile data when resizing"
+
+[node name="InfoLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Note: Changing dimensions will resize the map. Unchecked preserve option will clear the map."
+autowrap_mode = 3

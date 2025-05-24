@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjd8lrxs1ocjn"]
+
+[ext_resource type="Script" path="res://scenes/ui/TerrainInspector.gd" id="1_1m53w"]
+
+[node name="TerrainInspector" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+script = ExtResource("1_1m53w")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="HeaderLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Terrain Inspector"
+horizontal_alignment = 1
+
+[node name="TerrainNameLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "No terrain selected"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PositionLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = ""
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="StatsLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Terrain Bonuses"
+
+[node name="StatsContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="MovementCostsContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="MovementLabel" type="Label" parent="VBoxContainer/MovementCostsContainer"]
+layout_mode = 2
+text = "Movement Costs"
+
+[node name="MovementCostsGrid" type="GridContainer" parent="VBoxContainer/MovementCostsContainer"]
+layout_mode = 2
+columns = 4
+
+[node name="HSeparator3" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="SpecialPropertiesLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = ""
+autowrap_mode = 3

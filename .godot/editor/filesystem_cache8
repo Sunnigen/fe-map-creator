@@ -1,0 +1,94 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1748073119
+icon.svg::CompressedTexture2D::1923443300849328521::1748037718::1748068652::1::::<><>::
+README.md::TextFile::-1::1748072858::0::1::::<><>::
+::res://assets/::1748071023
+::res://assets/tilesets/::1748071037
+FE6 - Bridge - 014c4d4e.png::CompressedTexture2D::7105359314059935505::1417251436::1748071037::1::::<><>::
+FE6 - Castle - 2c002d2e.png::CompressedTexture2D::3944857666845488213::1417251436::1748071037::1::::<><>::
+FE6 - Cave - 5300bdbe.png::CompressedTexture2D::4247758675883434560::1417251436::1748071037::1::::<><>::
+FE6 - Desert - 53005455.png::CompressedTexture2D::3898229271563081411::1417251436::1748071037::1::::<><>::
+FE6 - Fields - 01020304.png::CompressedTexture2D::1726363015193922248::1417251436::1748071037::1::::<><>::
+FE6 - Fort - 21002223.png::CompressedTexture2D::7884204734069018123::1417251436::1748071037::1::::<><>::
+FE6 - Frontier - 33003435.png::CompressedTexture2D::5248543948798036078::1417251436::1748071037::1::::<><>::
+FE6 - Frontier Castle - 45004647.png::CompressedTexture2D::702450670262730679::1417251436::1748071037::1::::<><>::
+FE6 - Frontier Village - 3e003f40.png::CompressedTexture2D::7132107392900816179::1417251436::1748071037::1::::<><>::
+FE6 - Mountainous - 7a007b7c.png::CompressedTexture2D::8819324702448520662::1417251436::1748071037::1::::<><>::
+FE6 - Plains - a500a6a7.png::CompressedTexture2D::5551749466075295322::1417251436::1748071037::1::::<><>::
+FE6 - Plains Castle - b100b2b3.png::CompressedTexture2D::4315659936736181887::1417251436::1748071037::1::::<><>::
+FE6 - Plains Village - a500abac.png::CompressedTexture2D::8318371260911325050::1417251436::1748071037::1::::<><>::
+FE6 - Snow - 66006768.png::CompressedTexture2D::3922421750330572763::1417251436::1748071037::1::::<><>::
+FE6 - Snow Castle - 73007475.png::CompressedTexture2D::6124389406556294969::1417251436::1748071037::1::::<><>::
+FE6 - Stronghold - 81008283.png::CompressedTexture2D::3707875129138276984::1417251436::1748071037::1::::<><>::
+FE6 - Temple - 8e008f90.png::CompressedTexture2D::7376532787998148834::1417251436::1748071037::1::::<><>::
+FE6 - Village - 12001314.png::CompressedTexture2D::2634179701617965777::1417251436::1748071037::1::::<><>::
+FE7 - Castle - 0a000b0c.png::CompressedTexture2D::4748550857128887184::1417251436::1748071037::1::::<><>::
+FE7 - Cave - ae00afb0.png::CompressedTexture2D::9081758892554569563::1417251436::1748071037::1::::<><>::
+FE7 - Desert - 7b007c7d.png::CompressedTexture2D::1307673555757522108::1417251436::1748071037::1::::<><>::
+FE7 - Dragon Gate - c100c2c3.png::CompressedTexture2D::115903709985119575::1417251436::1748071037::1::::<><>::
+FE7 - Fields - 1c1d1e1f.png::CompressedTexture2D::1392551154940824339::1417251436::1748071037::1::::<><>::
+FE7 - Fort - 16007718.png::CompressedTexture2D::6846989240194666364::1417251436::1748071037::1::::<><>::
+FE7 - Lava Cave - a700a8a9.png::CompressedTexture2D::4821382071362655223::1417251436::1748071037::1::::<><>::
+FE7 - Mountainous - 6a006b6c.png::CompressedTexture2D::442171818428630193::1417251436::1748071037::1::::<><>::
+FE7 - Plains - 01000703.png::CompressedTexture2D::5035944194162862171::1417251436::1748071037::1::::<><>::
+FE7 - Ship - 5b005c5d.png::CompressedTexture2D::2047350518889678000::1417251436::1748071037::1::::<><>::
+FE7 - Snow Castle - 91009293.png::CompressedTexture2D::353375097435975154::1417251436::1748071037::1::::<><>::
+FE7 - Village - 10001112.png::CompressedTexture2D::2470341698892182332::1417251436::1748071037::1::::<><>::
+FE8 - Black Temple - 5f006061.png::CompressedTexture2D::8348777885600902381::1417251436::1748071037::1::::<><>::
+FE8 - Castle - 1800481a.png::CompressedTexture2D::3591901485443921266::1417251436::1748071037::1::::<><>::
+FE8 - Desert - 42004344.png::CompressedTexture2D::461357930298759442::1417251436::1748071037::1::::<><>::
+FE8 - Fields - 01000203.png::CompressedTexture2D::8716548947487304149::1417251436::1748071037::1::::<><>::
+FE8 - Fort - 3c003d3e.png::CompressedTexture2D::4465454342222438887::1417251436::1748071037::1::::<><>::
+FE8 - Lava Cave - 50005152.png::CompressedTexture2D::7131234658488055422::1417251436::1748071037::1::::<><>::
+FE8 - Mountainous - 6c006d6e.png::CompressedTexture2D::626742844535271466::1417251436::1748071037::1::::<><>::
+FE8 - Plains - 2e002f30.png::CompressedTexture2D::3824555236357497979::1417251436::1748071037::1::::<><>::
+FE8 - Stronghold - 79007a7b.png::CompressedTexture2D::8499807032088451160::1417251436::1748071037::1::::<><>::
+FE8 - Temple - 8800898a.png::CompressedTexture2D::6830913309032092024::1417251436::1748071037::1::::<><>::
+FE8 - Village - 0e000f10.png::CompressedTexture2D::1920713332642878622::1417251436::1748071037::1::::<><>::
+::res://data/::1748037255
+::res://resources/::1748037250
+::res://resources/icons/::1748037250
+::res://resources/themes/::1748037246
+::res://resources/tilesets/::1748037241
+::res://scenes/::1748070113
+::res://scenes/components/::1748069551
+DebugOverlay.tscn::PackedScene::8311820126210618663::1748069551::0::1::::<><>::res://scripts/components/DebugOverlay.gd
+MapCanvas.tscn::PackedScene::2477820856871742508::1748040888::0::1::::<><>::res://scripts/components/MapCanvas.gd
+TilesetViewer.tscn::PackedScene::5682679960120029312::1748040949::0::1::::<><>::res://scripts/components/TilesetViewer.gd
+::res://scenes/main/::1748072858
+Editor.gd::GDScript::-1::1748041189::0::1::::<>Control<>::
+Editor.tscn::PackedScene::2930462250695914860::1748072858::0::1::::<><>::res://scenes/main/Editor.gd<>uid://dckdlwm4hn7u8::::res://scenes/ui/TilesetPanel.tscn<>uid://bbkjl2yc1t7bs::::res://scenes/components/MapCanvas.tscn<>uid://bjd8lrxs1ocjn::::res://scenes/ui/TerrainInspector.tscn
+Main.gd::GDScript::-1::1748068737::0::1::::<>Control<>::
+Main.tscn::PackedScene::6001096499234587127::1748072858::0::1::::<><>::res://scenes/main/Main.gd
+::res://scenes/ui/::1748070717
+TerrainInspector.gd::GDScript::-1::1748041082::0::1::::<>Control<>::
+TerrainInspector.tscn::PackedScene::3026337643472408279::1748041100::0::1::::<><>::res://scenes/ui/TerrainInspector.gd
+TilesetPanel.gd::GDScript::-1::1748071923::0::1::::<>Control<>::
+TilesetPanel.tscn::PackedScene::7320486485986105409::1748070717::0::1::::<><>::res://scenes/ui/TilesetPanel.gd<>uid://cm7y55pjq3k2c::::res://scenes/components/TilesetViewer.tscn
+::res://scenes/ui/dialogs/::1748069486
+MapGenerationDialog.gd::GDScript::-1::1748069486::0::1::::<>AcceptDialog<>::
+MapGenerationDialog.tscn::PackedScene::6354790766918775787::1748061882::0::1::::<><>::res://scenes/ui/dialogs/MapGenerationDialog.gd
+MapPropertiesDialog.gd::GDScript::-1::1748061770::0::1::::<>AcceptDialog<>::
+MapPropertiesDialog.tscn::PackedScene::4370438236068649399::1748061788::0::1::::<><>::res://scenes/ui/dialogs/MapPropertiesDialog.gd
+::res://scripts/::1748069504
+::res://scripts/autoload/::1748071094
+AssetManager.gd::GDScript::-1::1748071909::0::1::::<>Node<>::
+EventBus.gd::GDScript::-1::1748037439::0::1::::<>Node<>::
+Settings.gd::GDScript::-1::1748037572::0::1::::<>Node<>::
+::res://scripts/components/::1748068996
+DebugOverlay.gd::GDScript::-1::1748068996::0::1::::<>CanvasLayer<>::
+MapCanvas.gd::GDScript::-1::1748070696::0::1::::MapCanvas<>Control<>::
+TileAnimationSystem.gd::GDScript::-1::1748068701::0::1::::TileAnimationSystem<>Node<>::
+TilesetViewer.gd::GDScript::-1::1748040938::0::1::::TilesetViewer<>Control<>::
+::res://scripts/managers/::1748041856
+MapIO.gd::GDScript::-1::1748037638::0::1::::MapIO<>RefCounted<>::
+MapValidator.gd::GDScript::-1::1748072247::0::1::::MapValidator<>RefCounted<>::
+UndoRedoManager.gd::GDScript::-1::1748072517::0::1::::UndoRedoManager<>RefCounted<>::
+::res://scripts/resources/::1748037412
+AnimatedTileData.gd::GDScript::-1::1748037324::0::1::::AnimatedTileData<>Resource<>::
+FEMap.gd::GDScript::-1::1748037412::0::1::::FEMap<>Resource<>::
+FETilesetData.gd::GDScript::-1::1748037359::0::1::::FETilesetData<>Resource<>::
+TerrainData.gd::GDScript::-1::1748037303::0::1::::TerrainData<>Resource<>::
+::res://scripts/tools/::1748070073
+MapGenerator.gd::GDScript::-1::1748070073::0::1::::MapGenerator<>RefCounted<>::
+TestRunner.gd::GDScript::-1::1748072831::0::1::::TestRunner<>Node<>::

@@ -1,0 +1,909 @@
+## Map Generator
+##
+## Generates procedural Fire Emblem maps using various algorithms.
+## Creates balanced tactical maps with proper terrain distribution.
+class_name MapGenerator
+extends RefCounted
+
+# Generation algorithms
+enum Algorithm {
+	RANDOM,
+	PERLIN_NOISE,
+	CELLULAR_AUTOMATA,
+	TEMPLATE_BASED,
+	STRATEGIC_PLACEMENT
+}
+
+# Map themes
+enum MapTheme {
+	PLAINS,
+	FOREST,
+	MOUNTAIN,
+	DESERT,
+	CASTLE,
+	VILLAGE,
+	MIXED
+}
+
+# Generation parameters
+class GenerationParams:
+	var width: int = 20
+	var height: int = 15
+	var tileset_id: String = ""
+	var algorithm: Algorithm = Algorithm.PERLIN_NOISE
+	var map_theme: MapTheme = MapTheme.PLAINS
+	var seed_value: int = -1
+	var complexity: float = 0.5  # 0.0 = simple, 1.0 = complex
+	var defensive_terrain_ratio: float = 0.3
+	var water_ratio: float = 0.1
+	var mountain_ratio: float = 0.15
+	var forest_ratio: float = 0.25
+	var ensure_connectivity: bool = true
+	var add_strategic_features: bool = true
+	var border_type: String = "natural"  # "natural", "walls", "water", "none"
+
+## Generate a new map with given parameters
+static func generate_map(params: GenerationParams) -> FEMap:
+	# Set up random seed
+	if params.seed_value > 0:
+		seed(params.seed_value)
+	else:
+		randomize()
+	
+	var map = FEMap.new()
+	map.initialize(params.width, params.height, 0)
+	map.tileset_id = params.tileset_id
+	map.name = "Generated Map (%s)" % _get_theme_name(params.map_theme)
+	map.description = "Procedurally generated using %s algorithm" % _get_algorithm_name(params.algorithm)
+	
+	# Get tileset data for terrain mapping
+	var tileset_data = AssetManager.get_tileset_data(params.tileset_id)
+	if not tileset_data:
+		push_error("Cannot generate map: tileset not found - " + params.tileset_id)
+		return map
+	
+	# Generate base terrain
+	match params.algorithm:
+		Algorithm.RANDOM:
+			_generate_random(map, tileset_data, params)
+		Algorithm.PERLIN_NOISE:
+			_generate_perlin_noise(map, tileset_data, params)
+		Algorithm.CELLULAR_AUTOMATA:
+			_generate_cellular_automata(map, tileset_data, params)
+		Algorithm.TEMPLATE_BASED:
+			_generate_template_based(map, tileset_data, params)
+		Algorithm.STRATEGIC_PLACEMENT:
+			_generate_strategic_placement(map, tileset_data, params)
+	
+	# Post-processing
+	if params.ensure_connectivity:
+		_ensure_connectivity(map, tileset_data)
+	
+	if params.add_strategic_features:
+		_add_strategic_features(map, tileset_data, params)
+	
+	_add_borders(map, tileset_data, params)
+	
+	# Validate and fix obvious issues
+	var validation = MapValidator.validate_map(map)
+	if validation.has_critical_issues():
+		MapValidator.auto_fix_map(map, validation.issues)
+	
+	print("Generated map: %dx%d using %s" % [params.width, params.height, _get_algorithm_name(params.algorithm)])
+	return map
+
+## Generate using random placement
+static func _generate_random(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, params.map_theme)
+	
+	for y in range(map.height):
+		for x in range(map.width):
+			var tile_category = _random_terrain_category(params)
+			var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
+			map.set_tile_at(x, y, tile_index)
+
+## Generate using Perlin noise
+static func _generate_perlin_noise(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	var noise = FastNoiseLite.new()
+	noise.seed = randi()
+	noise.frequency = 0.1 * (1.0 + params.complexity)
+	
+	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, params.map_theme)
+	
+	for y in range(map.height):
+		for x in range(map.width):
+			var noise_value = noise.get_noise_2d(x, y)
+			var tile_category = _noise_to_terrain_category(noise_value, params)
+			var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
+			map.set_tile_at(x, y, tile_index)
+
+## Generate using cellular automata
+static func _generate_cellular_automata(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, params.map_theme)
+	
+	# Initial random fill
+	var cells = []
+	for y in range(map.height):
+		cells.append([])
+		for x in range(map.width):
+			cells[y].append(randf() < 0.45)  # 45% chance for "wall"
+	
+	# Apply cellular automata rules
+	var iterations = int(5 + params.complexity * 3)
+	for i in range(iterations):
+		cells = _apply_cellular_rules(cells, map.width, map.height)
+	
+	# Convert to terrain
+	for y in range(map.height):
+		for x in range(map.width):
+			var is_wall = cells[y][x]
+			var tile_category = "wall" if is_wall else "floor"
+			var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
+			map.set_tile_at(x, y, tile_index)
+
+## Generate using template-based approach
+static func _generate_template_based(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, params.map_theme)
+	
+	# Select template based on theme and size
+	var template = _select_map_template(params)
+	
+	# Apply the template to the map
+	_apply_template_to_map(map, template, terrain_tiles, params)
+	
+	# Add variation and details
+	_add_template_variations(map, terrain_tiles, params)
+
+## Apply cellular automata rules
+static func _apply_cellular_rules(cells: Array, width: int, height: int) -> Array:
+	var new_cells = []
+	
+	for y in range(height):
+		new_cells.append([])
+		for x in range(width):
+			var wall_count = 0
+			
+			# Count neighboring walls
+			for dy in range(-1, 2):
+				for dx in range(-1, 2):
+					var nx = x + dx
+					var ny = y + dy
+					
+					if nx < 0 or nx >= width or ny < 0 or ny >= height:
+						wall_count += 1  # Treat borders as walls
+					elif cells[ny][nx]:
+						wall_count += 1
+			
+			# Apply rules
+			new_cells[y].append(wall_count >= 4)
+	
+	return new_cells
+
+## Generate using strategic placement
+static func _generate_strategic_placement(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, params.map_theme)
+	
+	# Fill with base terrain
+	var base_tile = _get_random_tile_for_category(terrain_tiles, "plains")
+	for y in range(map.height):
+		for x in range(map.width):
+			map.set_tile_at(x, y, base_tile)
+	
+	# Add strategic features
+	_place_mountain_ranges(map, terrain_tiles, params)
+	_place_forests(map, terrain_tiles, params)
+	_place_water_features(map, terrain_tiles, params)
+	_place_defensive_positions(map, terrain_tiles, params)
+
+## Select appropriate template based on parameters
+static func _select_map_template(params: GenerationParams) -> Dictionary:
+	var templates = _get_map_templates()
+	
+	# Filter templates by size category
+	var size_category = _get_size_category(params.width, params.height)
+	var theme_name = _get_theme_name(params.map_theme).to_lower()
+	
+	# Look for theme-specific template first
+	var template_key = theme_name + "_" + size_category
+	if template_key in templates:
+		return templates[template_key]
+	
+	# Fall back to generic template
+	var generic_key = "generic_" + size_category
+	if generic_key in templates:
+		return templates[generic_key]
+	
+	# Ultimate fallback
+	return templates["generic_medium"]
+
+## Get predefined map templates
+static func _get_map_templates() -> Dictionary:
+	var templates = {}
+	
+	# Small map templates (10-20 tiles)
+	templates["generic_small"] = {
+		"pattern": [
+			"MMMMMMMMMMMMMMMM",
+			"M..............M",
+			"M..FF....FF....M",
+			"M.....~~~~~~...M",
+			"M....~~~~~~~...M",
+			"M..FF~~~~~~~FF.M",
+			"M....~~~~~~~...M",
+			"M.....~~~~~~...M",
+			"M..FF....FF....M",
+			"M..............M",
+			"MMMMMMMMMMMMMMMM"
+		],
+		"legend": {
+			"M": "mountain",
+			".": "plains",
+			"F": "forest",
+			"~": "water"
+		}
+	}
+	
+	templates["forest_small"] = {
+		"pattern": [
+			"FFFFFFFFFFFFFFFF",
+			"F..............F",
+			"F..FF......FF..F",
+			"F..............F",
+			"F....~~~~~~....F",
+			"F...~~~~~~~~...F",
+			"F....~~~~~~....F",
+			"F..............F",
+			"F..FF......FF..F",
+			"F..............F",
+			"FFFFFFFFFFFFFFFF"
+		],
+		"legend": {
+			"F": "forest",
+			".": "plains",
+			"~": "water"
+		}
+	}
+	
+	# Medium map templates (20-30 tiles)
+	templates["generic_medium"] = {
+		"pattern": [
+			"MMMMMMMMMMMMMMMMMMMMMMMMM",
+			"M.......................M",
+			"M...FF...........FF.....M",
+			"M.......................M",
+			"M........~~~~~~~........M",
+			"M.......~~~~~~~~~.......M",
+			"M......~~~~~~~~~~~......M",
+			"M.....~~~~~~~~~~~~~.....M",
+			"M......~~~~~~~~~~~......M",
+			"M.......~~~~~~~~~.......M",
+			"M........~~~~~~~........M",
+			"M.......................M",
+			"M...FF...........FF.....M",
+			"M.......................M",
+			"MMMMMMMMMMMMMMMMMMMMMMMMM"
+		],
+		"legend": {
+			"M": "mountain",
+			".": "plains",
+			"F": "forest",
+			"~": "water"
+		}
+	}
+	
+	templates["mountain_medium"] = {
+		"pattern": [
+			"MMMMMMMMMMMMMMMMMMMMMMMMM",
+			"MMMM.................MMMM",
+			"MMM...................MMM",
+			"MM...FF.........FF.....MM",
+			"M......................M",
+			"M......................M",
+			"M........~~~~~.........M",
+			"M.......~~~~~~~........M",
+			"M........~~~~~.........M",
+			"M......................M",
+			"M......................M",
+			"MM...FF.........FF.....MM",
+			"MMM...................MMM",
+			"MMMM.................MMMM",
+			"MMMMMMMMMMMMMMMMMMMMMMMMM"
+		],
+		"legend": {
+			"M": "mountain",
+			".": "plains",
+			"F": "forest",
+			"~": "water"
+		}
+	}
+	
+	# Large map templates (30+ tiles)
+	templates["generic_large"] = {
+		"pattern": [
+			"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+			"M................................M",
+			"M...FF....................FF.....M",
+			"M................................M",
+			"M................................M",
+			"M..........~~~~~~~~~~............M",
+			"M.........~~~~~~~~~~~~...........M",
+			"M........~~~~~~~~~~~~~~..........M",
+			"M.......~~~~~~~~~~~~~~~~.........M",
+			"M........~~~~~~~~~~~~~~..........M",
+			"M.........~~~~~~~~~~~~...........M",
+			"M..........~~~~~~~~~~............M",
+			"M................................M",
+			"M................................M",
+			"M...FF....................FF.....M",
+			"M................................M",
+			"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
+		],
+		"legend": {
+			"M": "mountain",
+			".": "plains",
+			"F": "forest",
+			"~": "water"
+		}
+	}
+	
+	return templates
+
+## Get size category for template selection
+static func _get_size_category(width: int, height: int) -> String:
+	var total_tiles = width * height
+	
+	if total_tiles <= 300:
+		return "small"
+	elif total_tiles <= 600:
+		return "medium"
+	else:
+		return "large"
+
+## Apply template pattern to map
+static func _apply_template_to_map(map: FEMap, template: Dictionary, terrain_tiles: Dictionary, params: GenerationParams):
+	var pattern = template["pattern"]
+	var legend = template["legend"]
+	
+	# Scale template to fit map dimensions
+	var scaled_pattern = _scale_template_pattern(pattern, map.width, map.height)
+	
+	# Apply the scaled pattern
+	for y in range(map.height):
+		for x in range(map.width):
+			if y < scaled_pattern.size() and x < scaled_pattern[y].length():
+				var pattern_char = scaled_pattern[y][x]
+				var terrain_category = legend.get(pattern_char, "plains")
+				var tile_index = _get_random_tile_for_category(terrain_tiles, terrain_category)
+				map.set_tile_at(x, y, tile_index)
+			else:
+				# Fill remaining space with plains
+				var tile_index = _get_random_tile_for_category(terrain_tiles, "plains")
+				map.set_tile_at(x, y, tile_index)
+
+## Scale template pattern to fit target dimensions
+static func _scale_template_pattern(pattern: Array[String], target_width: int, target_height: int) -> Array[String]:
+	var scaled_pattern: Array[String] = []
+	
+	if pattern.is_empty():
+		# Create default pattern
+		for y in range(target_height):
+			scaled_pattern.append(".".repeat(target_width))
+		return scaled_pattern
+	
+	var template_height = pattern.size()
+	var template_width = pattern[0].length() if template_height > 0 else 1
+	
+	# Simple scaling - repeat or truncate as needed
+	for y in range(target_height):
+		var template_y = y % template_height
+		var template_row = pattern[template_y]
+		
+		var scaled_row = ""
+		for x in range(target_width):
+			var template_x = x % template_width
+			scaled_row += template_row[template_x]
+		
+		scaled_pattern.append(scaled_row)
+	
+	return scaled_pattern
+
+## Add variations to template-based map
+static func _add_template_variations(map: FEMap, terrain_tiles: Dictionary, params: GenerationParams):
+	# Add random variations to make the template less predictable
+	var variation_chance = params.complexity * 0.3  # Up to 30% tiles can be varied
+	
+	for y in range(map.height):
+		for x in range(map.width):
+			if randf() < variation_chance:
+				# Replace tile with a related terrain type
+				var current_tile = map.get_tile_at(x, y)
+				var varied_tile = _get_terrain_variation(current_tile, terrain_tiles, params)
+				map.set_tile_at(x, y, varied_tile)
+
+## Get a terrain variation for adding randomness
+static func _get_terrain_variation(base_tile: int, terrain_tiles: Dictionary, params: GenerationParams) -> int:
+	# This is a simplified approach - could be more sophisticated
+	var variation_types = ["plains", "forest"]
+	
+	# Bias variations based on theme
+	match params.map_theme:
+		MapTheme.FOREST:
+			variation_types = ["forest", "plains"]
+		MapTheme.MOUNTAIN:
+			variation_types = ["mountain", "plains"]
+		MapTheme.PLAINS:
+			variation_types = ["plains", "forest"]
+		_:
+			variation_types = ["plains", "forest", "mountain"]
+	
+	var random_category = variation_types[randi() % variation_types.size()]
+	return _get_random_tile_for_category(terrain_tiles, random_category)
+
+## Place mountain ranges
+static func _place_mountain_ranges(map: FEMap, terrain_tiles: Dictionary, params: GenerationParams):
+	var mountain_tiles = terrain_tiles.get("mountain", [0])
+	if mountain_tiles.is_empty():
+		return
+	
+	var num_ranges = int(1 + params.complexity * 2)
+	
+	for i in range(num_ranges):
+		var start_x = randi() % map.width
+		var start_y = randi() % map.height
+		var length = int(3 + randf() * 8)
+		
+		_place_line_feature(map, Vector2i(start_x, start_y), length, mountain_tiles[0])
+
+## Place forests
+static func _place_forests(map: FEMap, terrain_tiles: Dictionary, params: GenerationParams):
+	var forest_tiles = terrain_tiles.get("forest", [0])
+	if forest_tiles.is_empty():
+		return
+	
+	var num_forests = int(2 + params.complexity * 3)
+	
+	for i in range(num_forests):
+		var center_x = randi() % map.width
+		var center_y = randi() % map.height
+		var size = int(2 + randf() * 4)
+		
+		_place_blob_feature(map, Vector2i(center_x, center_y), size, forest_tiles[0])
+
+## Place water features
+static func _place_water_features(map: FEMap, terrain_tiles: Dictionary, params: GenerationParams):
+	if params.water_ratio <= 0:
+		return
+	
+	var water_tiles = terrain_tiles.get("water", [0])
+	if water_tiles.is_empty():
+		return
+	
+	# Place rivers or lakes
+	if randf() < 0.5:
+		_place_river(map, water_tiles[0])
+	else:
+		_place_lakes(map, water_tiles[0], params)
+
+## Place defensive positions
+static func _place_defensive_positions(map: FEMap, terrain_tiles: Dictionary, params: GenerationParams):
+	var fort_tiles = terrain_tiles.get("fort", [0])
+	if fort_tiles.is_empty():
+		return
+	
+	var num_forts = int(1 + params.defensive_terrain_ratio * 3)
+	
+	for i in range(num_forts):
+		var x = randi() % map.width
+		var y = randi() % map.height
+		map.set_tile_at(x, y, fort_tiles[0])
+
+## Place line feature (like mountain ranges)
+static func _place_line_feature(map: FEMap, start: Vector2i, length: int, tile_index: int):
+	var current = start
+	var direction = Vector2i([-1, 0, 1][randi() % 3], [-1, 0, 1][randi() % 3])
+	
+	for i in range(length):
+		if current.x >= 0 and current.x < map.width and current.y >= 0 and current.y < map.height:
+			map.set_tile_at(current.x, current.y, tile_index)
+		
+		# Randomly change direction
+		if randf() < 0.3:
+			direction = Vector2i([-1, 0, 1][randi() % 3], [-1, 0, 1][randi() % 3])
+		
+		current += direction
+
+## Place blob feature (like forests)
+static func _place_blob_feature(map: FEMap, center: Vector2i, size: int, tile_index: int):
+	for dy in range(-size, size + 1):
+		for dx in range(-size, size + 1):
+			var distance = sqrt(dx * dx + dy * dy)
+			if distance <= size and randf() < (1.0 - distance / size):
+				var x = center.x + dx
+				var y = center.y + dy
+				if x >= 0 and x < map.width and y >= 0 and y < map.height:
+					map.set_tile_at(x, y, tile_index)
+
+## Place a river across the map
+static func _place_river(map: FEMap, water_tile: int):
+	var start_side = randi() % 4  # 0=top, 1=right, 2=bottom, 3=left
+	var start_pos: Vector2i
+	var direction: Vector2i
+	
+	match start_side:
+		0:  # Top
+			start_pos = Vector2i(randi() % map.width, 0)
+			direction = Vector2i(0, 1)
+		1:  # Right
+			start_pos = Vector2i(map.width - 1, randi() % map.height)
+			direction = Vector2i(-1, 0)
+		2:  # Bottom
+			start_pos = Vector2i(randi() % map.width, map.height - 1)
+			direction = Vector2i(0, -1)
+		3:  # Left
+			start_pos = Vector2i(0, randi() % map.height)
+			direction = Vector2i(1, 0)
+	
+	var current = start_pos
+	var steps = max(map.width, map.height)
+	
+	for i in range(steps):
+		if current.x >= 0 and current.x < map.width and current.y >= 0 and current.y < map.height:
+			map.set_tile_at(current.x, current.y, water_tile)
+		
+		# Randomly meander
+		if randf() < 0.3:
+			direction = Vector2i(direction.y, direction.x)  # Perpendicular
+			if randf() < 0.5:
+				direction = -direction
+		
+		current += direction
+		
+		# Stop if we hit the opposite edge
+		if (start_side == 0 and current.y >= map.height - 1) or \
+		   (start_side == 1 and current.x <= 0) or \
+		   (start_side == 2 and current.y <= 0) or \
+		   (start_side == 3 and current.x >= map.width - 1):
+			break
+
+## Place lakes
+static func _place_lakes(map: FEMap, water_tile: int, params: GenerationParams):
+	var num_lakes = int(1 + params.water_ratio * 3)
+	
+	for i in range(num_lakes):
+		var center = Vector2i(randi() % map.width, randi() % map.height)
+		var size = int(1 + randf() * 3)
+		_place_blob_feature(map, center, size, water_tile)
+
+## Get terrain tiles for a theme
+static func _get_theme_terrain_tiles(tileset_data: FETilesetData, map_theme: MapTheme) -> Dictionary:
+	var terrain_categories = {
+		"plains": [],
+		"forest": [],
+		"mountain": [],
+		"water": [],
+		"fort": [],
+		"wall": [],
+		"floor": []
+	}
+	
+	# Analyze tileset to categorize tiles by terrain type
+	for tile_index in range(min(1024, tileset_data.terrain_tags.size())):
+		var terrain_id = tileset_data.terrain_tags[tile_index]
+		var terrain_data = AssetManager.get_terrain_data(terrain_id)
+		
+		if not terrain_data:
+			continue
+		
+		var terrain_name = terrain_data.name.to_lower()
+		
+		# Categorize based on terrain name
+		if "plain" in terrain_name or "grass" in terrain_name or "road" in terrain_name:
+			terrain_categories["plains"].append(tile_index)
+		elif "forest" in terrain_name or "tree" in terrain_name:
+			terrain_categories["forest"].append(tile_index)
+		elif "mountain" in terrain_name or "hill" in terrain_name or "peak" in terrain_name:
+			terrain_categories["mountain"].append(tile_index)
+		elif "water" in terrain_name or "sea" in terrain_name or "river" in terrain_name:
+			terrain_categories["water"].append(tile_index)
+		elif "fort" in terrain_name or "castle" in terrain_name or "throne" in terrain_name:
+			terrain_categories["fort"].append(tile_index)
+		elif "wall" in terrain_name or terrain_data.defense_bonus > 2:
+			terrain_categories["wall"].append(tile_index)
+		else:
+			terrain_categories["floor"].append(tile_index)
+	
+	# Ensure we have at least basic tiles
+	if terrain_categories["plains"].is_empty():
+		terrain_categories["plains"].append(0)  # Fallback to tile 0
+	if terrain_categories["floor"].is_empty():
+		terrain_categories["floor"] = terrain_categories["plains"]
+	
+	return terrain_categories
+
+## Convert noise value to terrain category
+static func _noise_to_terrain_category(noise_value: float, params: GenerationParams) -> String:
+	# Normalize noise from [-1, 1] to [0, 1]
+	var normalized = (noise_value + 1.0) / 2.0
+	
+	match params.map_theme:
+		MapTheme.PLAINS:
+			if normalized < 0.2:
+				return "water"
+			elif normalized < 0.4:
+				return "forest"
+			elif normalized < 0.9:
+				return "plains"
+			else:
+				return "mountain"
+		
+		MapTheme.FOREST:
+			if normalized < 0.1:
+				return "water"
+			elif normalized < 0.6:
+				return "forest"
+			elif normalized < 0.9:
+				return "plains"
+			else:
+				return "mountain"
+		
+		MapTheme.MOUNTAIN:
+			if normalized < 0.1:
+				return "water"
+			elif normalized < 0.3:
+				return "plains"
+			elif normalized < 0.5:
+				return "forest"
+			else:
+				return "mountain"
+		
+		_:
+			return "plains"
+
+## Random terrain category based on theme ratios
+static func _random_terrain_category(params: GenerationParams) -> String:
+	var roll = randf()
+	
+	if roll < params.water_ratio:
+		return "water"
+	elif roll < params.water_ratio + params.forest_ratio:
+		return "forest"
+	elif roll < params.water_ratio + params.forest_ratio + params.mountain_ratio:
+		return "mountain"
+	else:
+		return "plains"
+
+## Get random tile for category
+static func _get_random_tile_for_category(terrain_tiles: Dictionary, category: String) -> int:
+	var tiles = terrain_tiles.get(category, [0])
+	if tiles.is_empty():
+		tiles = terrain_tiles.get("plains", [0])
+	
+	return tiles[randi() % tiles.size()]
+
+## Ensure map connectivity
+static func _ensure_connectivity(map: FEMap, tileset_data: FETilesetData):
+	# Simple approach: replace impassable islands with passable terrain
+	var passable_tile = _find_passable_tile(tileset_data)
+	if passable_tile < 0:
+		return
+	
+	# This is a simplified connectivity check
+	# A full implementation would use proper pathfinding
+	for y in range(1, map.height - 1):
+		for x in range(1, map.width - 1):
+			if _is_tile_impassable(map.get_tile_at(x, y), tileset_data):
+				# Check if surrounded by passable terrain
+				var surrounded = true
+				for dy in [-1, 0, 1]:
+					for dx in [-1, 0, 1]:
+						if dx == 0 and dy == 0:
+							continue
+						var neighbor_tile = map.get_tile_at(x + dx, y + dy)
+						if _is_tile_impassable(neighbor_tile, tileset_data):
+							surrounded = false
+							break
+					if not surrounded:
+						break
+				
+				if surrounded:
+					map.set_tile_at(x, y, passable_tile)
+
+## Find a passable tile in the tileset
+static func _find_passable_tile(tileset_data: FETilesetData) -> int:
+	for tile_index in range(min(100, tileset_data.terrain_tags.size())):
+		var terrain_id = tileset_data.terrain_tags[tile_index]
+		var terrain_data = AssetManager.get_terrain_data(terrain_id)
+		
+		if terrain_data and terrain_data.is_passable(0, 0):
+			return tile_index
+	
+	return -1
+
+## Check if tile is impassable
+static func _is_tile_impassable(tile_index: int, tileset_data: FETilesetData) -> bool:
+	if tile_index < 0 or tile_index >= tileset_data.terrain_tags.size():
+		return true
+	
+	var terrain_id = tileset_data.terrain_tags[tile_index]
+	var terrain_data = AssetManager.get_terrain_data(terrain_id)
+	
+	return not terrain_data or not terrain_data.is_passable(0, 0)
+
+## Add strategic features like chests, spawn points, etc.
+static func _add_strategic_features(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	# This would add special features like:
+	# - Chest tiles
+	# - Village tiles  
+	# - Gate/door tiles
+	# - Throne tiles
+	# For now, just add a few defensive positions
+	pass
+
+## Add borders to the map
+static func _add_borders(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
+	if params.border_type == "none":
+		return
+	
+	var border_tile = _find_border_tile(tileset_data, params.border_type)
+	
+	match params.border_type:
+		"walls":
+			_add_wall_borders(map, border_tile)
+		"water":
+			_add_water_borders(map, border_tile)
+		"natural":
+			_add_natural_borders(map, tileset_data)
+
+## Find appropriate border tile
+static func _find_border_tile(tileset_data: FETilesetData, border_type: String) -> int:
+	for tile_index in range(min(100, tileset_data.terrain_tags.size())):
+		var terrain_id = tileset_data.terrain_tags[tile_index]
+		var terrain_data = AssetManager.get_terrain_data(terrain_id)
+		
+		if not terrain_data:
+			continue
+		
+		var terrain_name = terrain_data.name.to_lower()
+		
+		match border_type:
+			"walls":
+				if "wall" in terrain_name or not terrain_data.is_passable(0, 0):
+					return tile_index
+			"water":
+				if "water" in terrain_name or "sea" in terrain_name:
+					return tile_index
+	
+	return 0  # Fallback
+
+## Add wall borders
+static func _add_wall_borders(map: FEMap, wall_tile: int):
+	# Top and bottom
+	for x in range(map.width):
+		map.set_tile_at(x, 0, wall_tile)
+		map.set_tile_at(x, map.height - 1, wall_tile)
+	
+	# Left and right
+	for y in range(map.height):
+		map.set_tile_at(0, y, wall_tile)
+		map.set_tile_at(map.width - 1, y, wall_tile)
+
+## Add water borders
+static func _add_water_borders(map: FEMap, water_tile: int):
+	# Similar to walls but might leave gaps for bridges
+	_add_wall_borders(map, water_tile)
+	
+	# Add some bridge gaps
+	var num_gaps = 2 + randi() % 3
+	for i in range(num_gaps):
+		var side = randi() % 4
+		match side:
+			0:  # Top
+				var x = 1 + randi() % (map.width - 2)
+				map.set_tile_at(x, 0, _find_passable_tile(AssetManager.get_tileset_data(map.tileset_id)))
+			1:  # Right
+				var y = 1 + randi() % (map.height - 2)
+				map.set_tile_at(map.width - 1, y, _find_passable_tile(AssetManager.get_tileset_data(map.tileset_id)))
+
+## Add natural borders (varied terrain)
+static func _add_natural_borders(map: FEMap, tileset_data: FETilesetData):
+	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, MapTheme.MIXED)
+	
+	# Top and bottom - mix of mountain and forest
+	for x in range(map.width):
+		var tile_category = "mountain" if randf() < 0.6 else "forest"
+		var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
+		map.set_tile_at(x, 0, tile_index)
+		map.set_tile_at(x, map.height - 1, tile_index)
+	
+	# Left and right - similar variety
+	for y in range(1, map.height - 1):
+		var tile_category = "mountain" if randf() < 0.6 else "forest"
+		var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
+		map.set_tile_at(0, y, tile_index)
+		map.set_tile_at(map.width - 1, y, tile_index)
+
+## Get algorithm name for display
+static func _get_algorithm_name(algorithm: Algorithm) -> String:
+	match algorithm:
+		Algorithm.RANDOM:
+			return "Random"
+		Algorithm.PERLIN_NOISE:
+			return "Perlin Noise"
+		Algorithm.CELLULAR_AUTOMATA:
+			return "Cellular Automata"
+		Algorithm.TEMPLATE_BASED:
+			return "Template Based"
+		Algorithm.STRATEGIC_PLACEMENT:
+			return "Strategic Placement"
+		_:
+			return "Unknown"
+
+## Get theme name for display
+static func _get_theme_name(map_theme: MapTheme) -> String:
+	match map_theme:
+		MapTheme.PLAINS:
+			return "Plains"
+		MapTheme.FOREST:
+			return "Forest"
+		MapTheme.MOUNTAIN:
+			return "Mountain"
+		MapTheme.DESERT:
+			return "Desert"
+		MapTheme.CASTLE:
+			return "Castle"
+		MapTheme.VILLAGE:
+			return "Village"
+		MapTheme.MIXED:
+			return "Mixed"
+		_:
+			return "Unknown"
+
+## Create quick preset parameters
+static func create_preset(preset_name: String, tileset_id: String) -> GenerationParams:
+	var params = GenerationParams.new()
+	params.tileset_id = tileset_id
+	
+	match preset_name.to_lower():
+		"small_skirmish":
+			params.width = 15
+			params.height = 12
+			params.algorithm = Algorithm.STRATEGIC_PLACEMENT
+			params.map_theme = MapTheme.PLAINS
+			params.complexity = 0.3
+		
+		"large_battle":
+			params.width = 30
+			params.height = 20
+			params.algorithm = Algorithm.PERLIN_NOISE
+			params.map_theme = MapTheme.MIXED
+			params.complexity = 0.7
+		
+		"forest_maze":
+			params.width = 20
+			params.height = 15
+			params.algorithm = Algorithm.CELLULAR_AUTOMATA
+			params.map_theme = MapTheme.FOREST
+			params.complexity = 0.8
+			params.forest_ratio = 0.6
+		
+		"mountain_pass":
+			params.width = 25
+			params.height = 15
+			params.algorithm = Algorithm.STRATEGIC_PLACEMENT
+			params.map_theme = MapTheme.MOUNTAIN
+			params.complexity = 0.5
+			params.mountain_ratio = 0.4
+		
+		"river_crossing":
+			params.width = 20
+			params.height = 15
+			params.algorithm = Algorithm.STRATEGIC_PLACEMENT
+			params.map_theme = MapTheme.PLAINS
+			params.water_ratio = 0.3
+			params.complexity = 0.4
+		
+		_:  # Default
+			params.algorithm = Algorithm.PERLIN_NOISE
+			params.map_theme = MapTheme.PLAINS
+	
+	return params
