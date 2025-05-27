@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyhgnq1y1nxqx"]
+
+[ext_resource type="Script" path="res://demo_autotiling.gd" id="1_j7qvm"]
+
+[node name="AutotilingDemo" type="Node"]
+script = ExtResource("1_j7qvm")

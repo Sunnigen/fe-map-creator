@@ -67,7 +67,7 @@ func _run_asset_loading_tests():
 	
 	# Test AssetManager initialization
 	_test("AssetManager Initialization", func():
-		var fe_data_path = "/Users/sunnigen/Godot/FEMapCreator"
+		var fe_data_path = "/Users/sunnigen/Godot/projects/fe-map-creator"
 		AssetManager.initialize(fe_data_path)
 		return AssetManager.is_ready()
 	)
@@ -400,7 +400,7 @@ func run_quick_demo():
 	
 	# Initialize
 	print("1. Initializing AssetManager...")
-	AssetManager.initialize("/Users/sunnigen/Godot/FEMapCreator")
+	AssetManager.initialize("/Users/sunnigen/Godot/projects/fe-map-creator")
 	
 	if not AssetManager.is_ready():
 		print("   Error: AssetManager failed to initialize!")

@@ -123,20 +123,33 @@ func _populate_tilesets():
 	tileset_option.clear()
 	
 	if not AssetManager.is_ready():
-		tileset_option.add_item("(No tilesets available)")
+		print("AssetManager not ready - adding placeholder")
+		tileset_option.add_item("(AssetManager not initialized)")
 		tileset_option.disabled = true
 		return
 	
 	var tileset_ids = AssetManager.get_tileset_ids()
+	print("Found %d tilesets: %s" % [tileset_ids.size(), str(tileset_ids)])
+	
+	if tileset_ids.is_empty():
+		tileset_option.add_item("(No tilesets found)")
+		tileset_option.disabled = true
+		return
+	
+	tileset_option.disabled = false
 	for tileset_id in tileset_ids:
 		var tileset_data = AssetManager.get_tileset_data(tileset_id)
 		var display_name = tileset_id
 		
-		if tileset_data:
+		if tileset_data and tileset_data.name:
 			display_name = "%s - %s" % [tileset_id, tileset_data.name]
 		
 		tileset_option.add_item(display_name)
 		tileset_option.set_item_metadata(tileset_option.get_item_count() - 1, tileset_id)
+	
+	# Select first tileset by default
+	if tileset_option.get_item_count() > 0:
+		tileset_option.select(0)
 
 ## Apply default preset
 func _apply_default_preset():
@@ -145,6 +158,9 @@ func _apply_default_preset():
 
 ## Show generation dialog
 func show_generation_dialog():
+	# Refresh tileset list in case AssetManager was initialized since dialog creation
+	_populate_tilesets()
+	
 	# Randomize seed
 	seed_spin.value = randi() % 999999 + 1
 	popup_centered()
@@ -244,8 +260,26 @@ func _on_confirmed():
 	
 	# Get selected tileset
 	var selected_tileset_index = tileset_option.selected
-	if selected_tileset_index >= 0:
-		params.tileset_id = tileset_option.get_item_metadata(selected_tileset_index)
+	if selected_tileset_index >= 0 and not tileset_option.disabled:
+		var tileset_id = tileset_option.get_item_metadata(selected_tileset_index)
+		if tileset_id != null:
+			params.tileset_id = tileset_id
+		else:
+			# Fallback: use first available tileset
+			var tileset_ids = AssetManager.get_tileset_ids()
+			if tileset_ids.size() > 0:
+				params.tileset_id = tileset_ids[0]
+			else:
+				push_error("No tilesets available for map generation")
+				return
+	else:
+		# No selection or disabled dropdown - use first available tileset
+		var tileset_ids = AssetManager.get_tileset_ids()
+		if tileset_ids.size() > 0:
+			params.tileset_id = tileset_ids[0]
+		else:
+			push_error("No tilesets available for map generation")
+			return
 	
 	# Algorithm
 	match algorithm_option.selected:
@@ -257,14 +291,14 @@ func _on_confirmed():
 	
 	# Theme
 	match theme_option.selected:
-		0: params.theme = MapGenerator.MapTheme.PLAINS
-		1: params.theme = MapGenerator.MapTheme.FOREST
-		2: params.theme = MapGenerator.MapTheme.MOUNTAIN
-		3: params.theme = MapGenerator.MapTheme.DESERT
-		4: params.theme = MapGenerator.MapTheme.CASTLE
-		5: params.theme = MapGenerator.MapTheme.VILLAGE
-		6: params.theme = MapGenerator.MapTheme.MIXED
-		_: params.theme = MapGenerator.MapTheme.PLAINS
+		0: params.map_theme = MapGenerator.MapTheme.PLAINS
+		1: params.map_theme = MapGenerator.MapTheme.FOREST
+		2: params.map_theme = MapGenerator.MapTheme.MOUNTAIN
+		3: params.map_theme = MapGenerator.MapTheme.DESERT
+		4: params.map_theme = MapGenerator.MapTheme.CASTLE
+		5: params.map_theme = MapGenerator.MapTheme.VILLAGE
+		6: params.map_theme = MapGenerator.MapTheme.MIXED
+		_: params.map_theme = MapGenerator.MapTheme.PLAINS
 	
 	# Terrain ratios
 	params.complexity = complexity_slider.value
@@ -284,6 +318,13 @@ func _on_confirmed():
 		2: params.border_type = "water"
 		3: params.border_type = "none"
 		_: params.border_type = "natural"
+	
+	# Final validation
+	if params.tileset_id.is_empty():
+		push_error("Cannot generate map: no valid tileset selected")
+		return
+	
+	print("Generating map with tileset: %s, algorithm: %s, theme: %s" % [params.tileset_id, params.algorithm, params.map_theme])
 	
 	# Emit signal
 	map_generation_requested.emit(params)

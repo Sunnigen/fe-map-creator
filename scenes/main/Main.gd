@@ -16,7 +16,8 @@ var test_runner: TestRunner
 
 func _ready():
 	# Set up the FE data path (adjust this to your actual path)
-	fe_data_path = "/Users/sunnigen/Godot/FEMapCreator"
+	fe_data_path = "/Users/sunnigen/Godot/projects/fe-map-creator"
+	#fe_data_path = "/Users/sunnigen/Godot/FEMapCreator"
 	
 	# Create test runner
 	test_runner = TestRunner.new()

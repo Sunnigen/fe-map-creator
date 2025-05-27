@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdl3k5mwfbn7e"]
+
+[ext_resource type="Script" path="res://test_map_generation.gd" id="1_ey5v8"]
+
+[node name="TestMapGeneration" type="Node"]
+script = ExtResource("1_ey5v8")

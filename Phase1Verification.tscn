@@ -1,0 +1,62 @@
+[gd_scene load_steps=2 format=3 uid="uid://dax2mndvuxoqo"]
+
+[ext_resource type="Script" path="res://phase1_verification.gd" id="1_n8gfm"]
+
+[node name="Phase1Verification" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_n8gfm")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = -10.0
+
+[node name="Title" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "🔍 Phase 1 Autotiling Intelligence - Comprehensive Verification"
+horizontal_alignment = 1
+
+[node name="Description" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "This test verifies that all Phase 1 components are working correctly.
+It will check file structure, pattern extraction, smart tile selection, and more."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="RunTestButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+text = "🚀 Run Full Verification"
+
+[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer"]
+layout_mode = 2
+visible = false
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OutputLabel" type="RichTextLabel" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+fit_content = true
+scroll_active = false

@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bh0sjxuqhrsqm"]
+[gd_scene load_steps=6 format=3 uid="uid://bh0sjxuqhrsqm"]
 
 [ext_resource type="Script" path="res://scenes/main/Editor.gd" id="1_8u6jb"]
 [ext_resource type="PackedScene" uid="uid://dckdlwm4hn7u8" path="res://scenes/ui/TilesetPanel.tscn" id="2_xahsr"]
 [ext_resource type="PackedScene" uid="uid://bbkjl2yc1t7bs" path="res://scenes/components/MapCanvas.tscn" id="3_u02hl"]
 [ext_resource type="PackedScene" uid="uid://bjd8lrxs1ocjn" path="res://scenes/ui/TerrainInspector.tscn" id="4_8t5sg"]
+[ext_resource type="PackedScene" uid="uid://cwskqfwpgqn8v" path="res://scenes/ui/dialogs/MapGenerationDialog.tscn" id="5_gen_dialog"]
 
 [node name="Editor" type="Control"]
 layout_mode = 3
@@ -65,8 +66,6 @@ size_flags_horizontal = 3
 
 [node name="MapCanvas" parent="VBoxContainer/ContentArea/CenterPanel" instance=ExtResource("3_u02hl")]
 layout_mode = 1
-grow_horizontal = 2
-grow_vertical = 2
 
 [node name="RightPanel" type="Control" parent="VBoxContainer/ContentArea"]
 custom_minimum_size = Vector2(320, 0)
@@ -128,3 +127,5 @@ title = "Save Map As"
 initial_position = 2
 size = Vector2i(800, 600)
 ok_button_text = "Save"
+
+[node name="MapGenerationDialog" parent="." instance=ExtResource("5_gen_dialog")]

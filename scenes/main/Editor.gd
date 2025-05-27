@@ -18,6 +18,7 @@ extends Control
 # File dialogs
 @onready var open_dialog: FileDialog = $OpenDialog
 @onready var save_dialog: FileDialog = $SaveDialog
+@onready var map_generation_dialog: AcceptDialog = $MapGenerationDialog
 
 # Tool buttons
 var tool_buttons: Dictionary = {}
@@ -30,7 +31,7 @@ var current_tool: EventBus.EditorTool = EventBus.EditorTool.PAINT
 
 func _ready():
 	# Initialize AssetManager first
-	var fe_data_path = "/Users/sunnigen/Godot/FEMapCreator"  # You may want to make this configurable
+	var fe_data_path = "/Users/sunnigen/Godot/projects/fe-map-creator"  # You may want to make this configurable
 	AssetManager.initialize(fe_data_path)
 	
 	# Set up UI
@@ -123,6 +124,16 @@ func _setup_toolbar():
 	var separator = VSeparator.new()
 	toolbar.add_child(separator)
 	
+	# Generate Map button
+	var generate_button = Button.new()
+	generate_button.text = "Generate Map"
+	generate_button.pressed.connect(_on_generate_map_pressed)
+	toolbar.add_child(generate_button)
+	
+	# Add another separator
+	var separator2 = VSeparator.new()
+	toolbar.add_child(separator2)
+	
 	# Grid toggle
 	var grid_button = Button.new()
 	grid_button.text = "Grid (G)"
@@ -158,6 +169,9 @@ func _connect_signals():
 	
 	tileset_panel.tile_selected.connect(_on_tileset_tile_selected)
 	tileset_panel.tileset_changed.connect(_on_tileset_changed)
+	
+	# Map generation dialog
+	map_generation_dialog.map_generation_requested.connect(_on_map_generation_requested)
 
 func _get_or_create_tool_button_group() -> ButtonGroup:
 	# Create a button group for tool selection
@@ -407,6 +421,39 @@ func _export_to_scene():
 	
 	add_child(export_dialog)
 	export_dialog.popup_centered(Vector2i(800, 600))
+
+## Handle Generate Map button press
+func _on_generate_map_pressed():
+	map_generation_dialog.show_generation_dialog()
+
+## Handle map generation request from dialog
+func _on_map_generation_requested(params: MapGenerator.GenerationParams):
+	_update_status("Generating map...")
+	
+	# Generate the map
+	var generated_map = MapGenerator.generate_map(params)
+	
+	if generated_map:
+		_load_map(generated_map)
+		_update_status("Generated %dx%d map using %s algorithm" % [generated_map.width, generated_map.height, _get_algorithm_name(params.algorithm)])
+	else:
+		_update_status("Failed to generate map")
+
+## Get algorithm name for display
+func _get_algorithm_name(algorithm: MapGenerator.Algorithm) -> String:
+	match algorithm:
+		MapGenerator.Algorithm.RANDOM:
+			return "Random"
+		MapGenerator.Algorithm.PERLIN_NOISE:
+			return "Perlin Noise"
+		MapGenerator.Algorithm.CELLULAR_AUTOMATA:
+			return "Cellular Automata"
+		MapGenerator.Algorithm.TEMPLATE_BASED:
+			return "Template Based"
+		MapGenerator.Algorithm.STRATEGIC_PLACEMENT:
+			return "Strategic Placement"
+		_:
+			return "Unknown"
 
 ## Export to JSON
 func _export_to_json():

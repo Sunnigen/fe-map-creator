@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu5qn5br4agfh"]
+
+[ext_resource type="Script" path="res://debug_terrain_names.gd" id="1_k7w6h"]
+
+[node name="DebugTerrainNames" type="Node"]
+script = ExtResource("1_k7w6h")

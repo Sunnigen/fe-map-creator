@@ -33,11 +33,15 @@ func initialize(data_path: String):
 	load_tileset_data()
 	load_tileset_textures()
 	
+	# NEW: Extract autotiling intelligence from original maps
+	extract_autotiling_patterns()
+	
 	initialized = true
 	print("AssetManager initialized successfully")
 	print("- Loaded %d terrain types" % terrain_data.size())
 	print("- Loaded %d tilesets" % tileset_data.size())
 	print("- Loaded %d textures" % tileset_textures.size())
+	print("- Pattern analysis completed for smart autotiling")
 	
 	# Emit signal to notify other systems that initialization is complete
 	initialization_completed.emit()
@@ -72,12 +76,11 @@ func load_tileset_data():
 
 ## Load tileset PNG files and create Godot TileSet resources
 func load_tileset_textures():
-	#var tilesets_path = fe_data_path + "/Tilesets/"
+	# Try Godot project structure first
 	var tilesets_path = "res://assets/tilesets/"
 	var dir = DirAccess.open(tilesets_path)
-	if not dir:
-		push_error("Could not open tilesets directory: " + tilesets_path)
-		return
+	
+	print("Loading tileset textures from: ", tilesets_path)
 	
 	print("Loading tileset textures...")
 	dir.list_dir_begin()
@@ -96,78 +99,162 @@ func load_tileset_textures():
 				print("- Loaded tileset: ", tileset_id, " (", file_name, ")")
 		file_name = dir.get_next()
 
-## Parse terrain XML data using simple string parsing
+## Parse terrain XML data using proper nested XML handling
 func parse_terrain_xml(xml_content: String):
-	# Split content into entries
-	var entries = xml_content.split("<KeyValuePairOfInt32TerrainTerrainData>")
+	# Clean up the XML content first
+	var clean_xml = xml_content.replace("\r", "")
+	var terrain_count = 0
+	var search_pos = 0
 	
-	for entry in entries:
-		if entry.strip_edges().is_empty():
+	print("Starting terrain XML parsing...")
+	
+	while true:
+		# Find the start of the next <Item> block
+		var item_start = clean_xml.find("<Item>", search_pos)
+		if item_start == -1:
+			break
+		
+		# Find the matching </Item> by counting nested tags
+		var item_end = find_matching_closing_tag(clean_xml, item_start, "<Item>", "</Item>")
+		if item_end == -1:
+			print("Found <Item> at ", item_start, " but no matching closing </Item>")
+			break
+		
+		# Extract the complete item block including tags
+		var complete_item = clean_xml.substr(item_start, item_end - item_start + 7)  # +7 for </Item>
+		
+		# Find the Value section within the complete Item
+		var value_start = complete_item.find("<Value>")
+		var value_end = find_matching_closing_tag(complete_item, value_start, "<Value>", "</Value>")
+		if value_start == -1 or value_end == -1:
+			print("Item has no complete Value section, skipping")
+			search_pos = item_end + 7
 			continue
-			
+		
+		var value_section = complete_item.substr(value_start, value_end - value_start + 8)  # +8 for </Value>
+		
 		var terrain = TerrainData.new()
 		
-		# Extract key (terrain ID)
-		var key_match = _extract_xml_value(entry, "Key")
+		# Extract key (terrain ID) from the complete Item
+		var key_match = _extract_xml_value(complete_item, "Key")
 		if key_match.is_empty():
+			print("Item has no Key, skipping")
+			search_pos = item_end + 7
 			continue
 		var terrain_id = key_match.to_int()
 		
-		# Extract terrain properties
-		terrain.id = _extract_xml_value(entry, "Id").to_int()
-		terrain.name = _extract_xml_value(entry, "n")
-		terrain.avoid_bonus = _extract_xml_value(entry, "Avoid").to_int()
-		terrain.defense_bonus = _extract_xml_value(entry, "Def").to_int()
-		terrain.resistance_bonus = _extract_xml_value(entry, "Res").to_int()
-		terrain.healing_amount = _extract_xml_value(entry, "HP").to_int()
-		terrain.healing_turns = _extract_xml_value(entry, "HP_Turns").to_int() 
-		terrain.sound_group = _extract_xml_value(entry, "Sound_Group").to_int()
-		terrain.stats_visible = _extract_xml_value(entry, "Stats_Visible") == "true"
-		terrain.fire_through = _extract_xml_value(entry, "Fire_Through") == "true"
+		# Extract terrain properties from the Value section
+		terrain.id = _extract_xml_value(value_section, "Id").to_int()
+		var extracted_name = _extract_xml_value(value_section, "Name")
+		
+		# DEBUG: Show what we're extracting for first few terrains
+		if terrain_count < 3:
+			print("DEBUG terrain %d:" % terrain_count)
+			print("  Extracted name: '%s'" % extracted_name)
+		
+		terrain.name = extracted_name
+		terrain.avoid_bonus = _extract_xml_value(value_section, "Avoid").to_int()
+		terrain.defense_bonus = _extract_xml_value(value_section, "Def").to_int()
+		terrain.resistance_bonus = _extract_xml_value(value_section, "Res").to_int()
+		
+		# Parse healing data (format: "HP_amount turns" or "Null")
+		var heal_data = _extract_xml_value(value_section, "Heal")
+		if heal_data != "" and not heal_data.contains("Null"):
+			var heal_parts = heal_data.split(" ")
+			if heal_parts.size() >= 2:
+				terrain.healing_amount = heal_parts[0].to_int()
+				terrain.healing_turns = heal_parts[1].to_int()
+		
+		terrain.sound_group = _extract_xml_value(value_section, "Step_Sound_Group").to_int()
+		terrain.stats_visible = _extract_xml_value(value_section, "Stats_Visible") == "true"
+		terrain.fire_through = _extract_xml_value(value_section, "Fire_Through") == "true"
 		
 		# Parse movement costs (more complex)
-		parse_movement_costs(entry, terrain)
+		parse_movement_costs(value_section, terrain)
 		
 		terrain_data[terrain_id] = terrain
+		
+		# Only show first few for debugging
+		if terrain_count < 5:
+			print("Loaded terrain %d: '%s' (avoid:%d, def:%d)" % [terrain_id, terrain.name, terrain.avoid_bonus, terrain.defense_bonus])
+		
+		terrain_count += 1
+		search_pos = item_end + 7
+	
+	print("Terrain parsing complete. Loaded ", terrain_count, " terrains.")
+
+## Find matching closing tag by counting nested tags
+func find_matching_closing_tag(text: String, start_pos: int, open_tag: String, close_tag: String) -> int:
+	var pos = start_pos + open_tag.length()
+	var nesting_level = 1
+	
+	while nesting_level > 0 and pos < text.length():
+		# Look for the next occurrence of either opening or closing tag
+		var next_open = text.find(open_tag, pos)
+		var next_close = text.find(close_tag, pos)
+		
+		if next_close == -1:
+			# No more closing tags found
+			return -1
+		
+		if next_open != -1 and next_open < next_close:
+			# Found another opening tag before the closing tag
+			nesting_level += 1
+			pos = next_open + open_tag.length()
+		else:
+			# Found a closing tag
+			nesting_level -= 1
+			if nesting_level == 0:
+				return next_close
+			pos = next_close + close_tag.length()
+	
+	return -1
 
 ## Parse movement cost data from terrain XML entry
 func parse_movement_costs(entry: String, terrain: TerrainData):
 	terrain.movement_costs = []
 	
-	# Look for ArrayOfArrayOfByte sections
-	var array_sections = entry.split("<ArrayOfArrayOfByte>")
-	for i in range(1, array_sections.size()):  # Skip first split
-		var section = array_sections[i]
-		if not section.contains("</ArrayOfArrayOfByte>"):
+	# Look for Move_Costs section
+	var start_tag = "<Move_Costs>"
+	var end_tag = "</Move_Costs>"
+	
+	var start_index = entry.find(start_tag)
+	if start_index == -1:
+		return
+	
+	var end_index = entry.find(end_tag, start_index)
+	if end_index == -1:
+		return
+	
+	var move_costs_section = entry.substr(start_index + start_tag.length(), end_index - start_index - start_tag.length())
+	
+	# Parse each Item (faction's movement costs)
+	var items = move_costs_section.split("<Item>")
+	for i in range(1, items.size()):  # Skip first empty split
+		var item = items[i]
+		if not item.contains("</Item>"):
 			continue
 			
-		section = section.split("</ArrayOfArrayOfByte>")[0]
+		var costs_str = item.split("</Item>")[0].strip_edges()
+		if costs_str.is_empty():
+			continue
 		
-		# Parse individual byte arrays (unit types for this faction)
-		var unit_costs: Array[int] = []
-		var byte_arrays = section.split("<ArrayOfByte>")
+		# Split the space-separated costs and convert to integers
+		var cost_parts = costs_str.split(" ")
+		var faction_costs: Array[int] = []
 		
-		for j in range(1, byte_arrays.size()):
-			var byte_section = byte_arrays[j]
-			if not byte_section.contains("</ArrayOfByte>"):
-				continue
-				
-			byte_section = byte_section.split("</ArrayOfByte>")[0]
-			
-			# Extract individual bytes
-			var items = byte_section.split("<byte>")
-			for k in range(1, items.size()):
-				var item = items[k]
-				if item.contains("</byte>"):
-					var cost = item.split("</byte>")[0].strip_edges().to_int()
-					unit_costs.append(cost)
+		for cost_str in cost_parts:
+			cost_str = cost_str.strip_edges()
+			if not cost_str.is_empty():
+				faction_costs.append(cost_str.to_int())
 		
-		if unit_costs.size() > 0:
-			terrain.movement_costs.append(unit_costs)
+		if faction_costs.size() > 0:
+			terrain.movement_costs.append(faction_costs)
 
 ## Parse tileset XML data
 func parse_tileset_xml(xml_content: String):
-	var entries = xml_content.split("<KeyValuePairOfInt32TileSetData>")
+	# Split content into entries - the XML uses <Item> tags
+	var entries = xml_content.split("<Item>")
 	
 	for entry in entries:
 		if entry.strip_edges().is_empty():
@@ -183,7 +270,7 @@ func parse_tileset_xml(xml_content: String):
 		
 		# Extract tileset properties
 		tileset_data_obj.id = _extract_xml_value(entry, "Id")
-		tileset_data_obj.name = _extract_xml_value(entry, "Name")
+		tileset_data_obj.name = _extract_xml_value(entry, "Name")  # XML uses 'Name' tag
 		tileset_data_obj.graphic_name = _extract_xml_value(entry, "Graphic_Name")
 		
 		# Parse terrain tags
@@ -261,19 +348,23 @@ func create_tileset_resource(tileset_id: String, texture: Texture2D):
 
 ## Extract value from XML tags
 func _extract_xml_value(xml_text: String, tag: String) -> String:
+	# Clean up line endings first to handle Windows/Unix compatibility
+	var clean_xml = xml_text.replace("\r", "")
+	
 	var start_tag = "<" + tag + ">"
 	var end_tag = "</" + tag + ">"
 	
-	var start_index = xml_text.find(start_tag)
+	var start_index = clean_xml.find(start_tag)
 	if start_index == -1:
 		return ""
 	
 	start_index += start_tag.length()
-	var end_index = xml_text.find(end_tag, start_index)
+	var end_index = clean_xml.find(end_tag, start_index)
 	if end_index == -1:
 		return ""
 	
-	return xml_text.substr(start_index, end_index - start_index).strip_edges()
+	var result = clean_xml.substr(start_index, end_index - start_index).strip_edges()
+	return result
 
 ## Extract array from XML
 func _extract_xml_array(xml_text: String, array_tag: String, item_tag: String) -> Array[String]:
@@ -323,8 +414,18 @@ func extract_tileset_id_from_filename(filename: String) -> String:
 
 ## Find hex ID for a tileset by graphic name
 func find_hex_id_for_tileset(graphic_name: String) -> String:
-	var tilesets_path = fe_data_path + "/Tilesets/"
+	# Try Godot project structure first
+	var godot_tilesets_path = "res://assets/tilesets/"
+	var original_tilesets_path = fe_data_path + "/Tilesets/"
+	
+	var tilesets_path = godot_tilesets_path
 	var dir = DirAccess.open(tilesets_path)
+	
+	# If that fails, try original structure
+	if not dir:
+		tilesets_path = original_tilesets_path
+		dir = DirAccess.open(tilesets_path)
+	
 	if not dir:
 		return ""
 	
@@ -373,12 +474,53 @@ func get_movement_cost(terrain_id: int, faction: int, unit_type: int) -> int:
 func is_ready() -> bool:
 	return initialized
 
+## Extract autotiling intelligence from original maps
+func extract_autotiling_patterns():
+	print("🧠 Extracting autotiling intelligence from original maps...")
+	
+	# Analyze all original maps to build pattern databases
+	var pattern_databases = PatternAnalyzer.analyze_all_original_maps(fe_data_path)
+	
+	# Integrate pattern databases into tileset data
+	for tileset_id in pattern_databases:
+		if tileset_id in tileset_data:
+			tileset_data[tileset_id].autotiling_db = pattern_databases[tileset_id]
+			tileset_data[tileset_id].pattern_analysis_complete = true
+			
+			print("  📚 Tileset %s: %d patterns extracted" % [tileset_id, pattern_databases[tileset_id].patterns.size()])
+	
+	# Save pattern databases as resources for future use
+	save_pattern_databases(pattern_databases)
+
+func save_pattern_databases(databases: Dictionary):
+	var patterns_dir = "res://resources/autotiling_patterns/"
+	
+	# Create directory if needed
+	if not DirAccess.dir_exists_absolute(patterns_dir):
+		DirAccess.open("res://").make_dir_recursive(patterns_dir)
+	
+	# Save each database as a .tres resource
+	for tileset_id in databases:
+		var save_path = patterns_dir + tileset_id + "_patterns.tres"
+		var error = ResourceSaver.save(databases[tileset_id], save_path)
+		
+		if error == OK:
+			print("  💾 Saved patterns: ", save_path)
+		else:
+			push_error("Failed to save pattern database: " + save_path)
+
 ## Get initialization status
 func get_status() -> Dictionary:
+	var autotiling_stats = {}
+	for tileset_id in tileset_data:
+		var tileset = tileset_data[tileset_id]
+		autotiling_stats[tileset_id] = tileset.has_autotiling_intelligence()
+	
 	return {
 		"initialized": initialized,
 		"terrain_count": terrain_data.size(),
 		"tileset_count": tileset_data.size(),
 		"texture_count": tileset_textures.size(),
-		"fe_data_path": fe_data_path
+		"fe_data_path": fe_data_path,
+		"autotiling_available": autotiling_stats
 	}

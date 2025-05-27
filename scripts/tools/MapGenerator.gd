@@ -62,6 +62,13 @@ static func generate_map(params: GenerationParams) -> FEMap:
 		push_error("Cannot generate map: tileset not found - " + params.tileset_id)
 		return map
 	
+	print("\n=== MAP GENERATION DEBUG ===")
+	print("Tileset: %s (%s)" % [params.tileset_id, tileset_data.name])
+	print("Algorithm: %s" % _get_algorithm_name(params.algorithm))
+	print("Theme: %s" % _get_theme_name(params.map_theme))
+	print("Size: %dx%d" % [params.width, params.height])
+	print("Seed: %d" % params.seed_value)
+	
 	# Generate base terrain
 	match params.algorithm:
 		Algorithm.RANDOM:
@@ -110,12 +117,34 @@ static func _generate_perlin_noise(map: FEMap, tileset_data: FETilesetData, para
 	
 	var terrain_tiles = _get_theme_terrain_tiles(tileset_data, params.map_theme)
 	
+	print("\n=== PERLIN NOISE GENERATION DEBUG ===")
+	print("Noise seed: %d, frequency: %f" % [noise.seed, noise.frequency])
+	
+	# Sample some noise values and see what categories they map to
+	var sample_positions = [Vector2i(0,0), Vector2i(5,5), Vector2i(10,7), Vector2i(15,12)]
+	for pos in sample_positions:
+		var noise_value = noise.get_noise_2d(pos.x, pos.y)
+		var tile_category = _noise_to_terrain_category(noise_value, params)
+		var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
+		print("  Sample at (%d,%d): noise=%.3f -> category='%s' -> tile=%d" % [pos.x, pos.y, noise_value, tile_category, tile_index])
+	
+	var tiles_placed = {}
 	for y in range(map.height):
 		for x in range(map.width):
 			var noise_value = noise.get_noise_2d(x, y)
 			var tile_category = _noise_to_terrain_category(noise_value, params)
 			var tile_index = _get_random_tile_for_category(terrain_tiles, tile_category)
 			map.set_tile_at(x, y, tile_index)
+			
+			# Count tile usage
+			if tile_index not in tiles_placed:
+				tiles_placed[tile_index] = 0
+			tiles_placed[tile_index] += 1
+	
+	print("\nTiles placed:")
+	for tile_idx in tiles_placed:
+		print("  Tile %d: %d times" % [tile_idx, tiles_placed[tile_idx]])
+	print("=== END PERLIN NOISE GENERATION ===\n")
 
 ## Generate using cellular automata
 static func _generate_cellular_automata(map: FEMap, tileset_data: FETilesetData, params: GenerationParams):
@@ -586,37 +615,73 @@ static func _get_theme_terrain_tiles(tileset_data: FETilesetData, map_theme: Map
 		"floor": []
 	}
 	
+	print("\n=== TERRAIN CATEGORIZATION DEBUG ===")
+	print("Tileset ID: %s, Name: %s" % [tileset_data.id, tileset_data.name])
+	print("Terrain tags array size: %d" % tileset_data.terrain_tags.size())
+	
 	# Analyze tileset to categorize tiles by terrain type
+	var tiles_processed = 0
+	var tiles_categorized = 0
 	for tile_index in range(min(1024, tileset_data.terrain_tags.size())):
+		tiles_processed += 1
 		var terrain_id = tileset_data.terrain_tags[tile_index]
 		var terrain_data = AssetManager.get_terrain_data(terrain_id)
 		
 		if not terrain_data:
+			if tile_index < 10:  # Only show first few to avoid spam
+				print("  Tile %d: terrain_id=%d -> NO TERRAIN DATA" % [tile_index, terrain_id])
 			continue
 		
 		var terrain_name = terrain_data.name.to_lower()
+		var categorized = false
 		
 		# Categorize based on terrain name
 		if "plain" in terrain_name or "grass" in terrain_name or "road" in terrain_name:
 			terrain_categories["plains"].append(tile_index)
+			categorized = true
 		elif "forest" in terrain_name or "tree" in terrain_name:
 			terrain_categories["forest"].append(tile_index)
+			categorized = true
 		elif "mountain" in terrain_name or "hill" in terrain_name or "peak" in terrain_name:
 			terrain_categories["mountain"].append(tile_index)
+			categorized = true
 		elif "water" in terrain_name or "sea" in terrain_name or "river" in terrain_name:
 			terrain_categories["water"].append(tile_index)
+			categorized = true
 		elif "fort" in terrain_name or "castle" in terrain_name or "throne" in terrain_name:
 			terrain_categories["fort"].append(tile_index)
+			categorized = true
 		elif "wall" in terrain_name or terrain_data.defense_bonus > 2:
 			terrain_categories["wall"].append(tile_index)
+			categorized = true
 		else:
 			terrain_categories["floor"].append(tile_index)
+			categorized = true
+		
+		# Debug output for first few tiles
+		if tile_index < 20:
+			print("  Tile %d: terrain_id=%d, name='%s' -> %s" % [tile_index, terrain_id, terrain_name, "categorized" if categorized else "uncategorized"])
+		
+		if categorized:
+			tiles_categorized += 1
+	
+	print("Processed %d tiles, categorized %d tiles" % [tiles_processed, tiles_categorized])
 	
 	# Ensure we have at least basic tiles
 	if terrain_categories["plains"].is_empty():
+		print("WARNING: No plains tiles found, using tile 0 as fallback")
 		terrain_categories["plains"].append(0)  # Fallback to tile 0
 	if terrain_categories["floor"].is_empty():
+		print("WARNING: No floor tiles found, using plains as fallback")
 		terrain_categories["floor"] = terrain_categories["plains"]
+	
+	# Print category summary
+	print("\nTerrain categories:")
+	for category in terrain_categories:
+		var tiles = terrain_categories[category]
+		print("  %s: %d tiles %s" % [category, tiles.size(), str(tiles.slice(0, 5)) if tiles.size() > 0 else "[]"])
+	
+	print("=== END TERRAIN CATEGORIZATION ===\n")
 	
 	return terrain_categories
 
@@ -674,11 +739,21 @@ static func _random_terrain_category(params: GenerationParams) -> String:
 
 ## Get random tile for category
 static func _get_random_tile_for_category(terrain_tiles: Dictionary, category: String) -> int:
-	var tiles = terrain_tiles.get(category, [0])
+	var tiles = terrain_tiles.get(category, [])
 	if tiles.is_empty():
+		print("WARNING: No tiles found for category '%s', falling back to plains" % category)
 		tiles = terrain_tiles.get("plains", [0])
 	
-	return tiles[randi() % tiles.size()]
+	if tiles.is_empty():
+		print("CRITICAL: No tiles available at all, using tile 0")
+		return 0
+	
+	var selected_tile = tiles[randi() % tiles.size()]
+	# Only print for debugging specific cases
+	if category == "water" or category == "mountain" or randi() % 100 == 0:  # 1% chance for general tiles
+		print("    Selected tile %d from category '%s' (had %d options)" % [selected_tile, category, tiles.size()])
+	
+	return selected_tile
 
 ## Ensure map connectivity
 static func _ensure_connectivity(map: FEMap, tileset_data: FETilesetData):

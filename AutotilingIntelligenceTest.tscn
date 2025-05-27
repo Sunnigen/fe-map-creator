@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdt8lnx0hkd8p"]
+
+[ext_resource type="Script" path="res://test_autotiling_intelligence.gd" id="1_0rl6m"]
+
+[node name="AutotilingIntelligenceTest" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_0rl6m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = -10.0
+
+[node name="Title" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "🧠 FE Map Creator - Autotiling Intelligence Test"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TestButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+disabled = true
+text = "🧪 Test System"
+
+[node name="AnalyzeButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+disabled = true
+text = "📊 Analyze Patterns"
+
+[node name="ValidateButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+disabled = true
+text = "✅ Validate Database"
+
+[node name="ClearButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+text = "🗑️ Clear Console"
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OutputLabel" type="RichTextLabel" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+fit_content = true
+scroll_active = false
+
+[connection signal="pressed" from="VBoxContainer/ButtonContainer/ClearButton" to="." method="_on_clear_pressed"]

@@ -28,6 +28,12 @@ extends Resource
 ## Texture resource for this tileset
 @export var texture: Texture2D
 
+## Autotiling database for intelligent tile placement
+@export var autotiling_db: AutotilingDatabase
+
+## Whether pattern analysis has been completed for this tileset
+@export var pattern_analysis_complete: bool = false
+
 ## Dictionary mapping tile indices to their animation data
 var _animation_lookup: Dictionary = {}
 
@@ -131,20 +137,57 @@ func get_tiles_with_terrain(terrain_type: int) -> Array[int]:
 			tiles.append(i)
 	return tiles
 
+## Gets smart tile using autotiling intelligence
+func get_smart_tile(center_terrain: int, neighbors: Array[int]) -> int:
+	if autotiling_db and pattern_analysis_complete:
+		return autotiling_db.get_best_tile(center_terrain, neighbors)
+	else:
+		# Fallback to basic terrain lookup
+		return get_basic_tile_for_terrain(center_terrain)
+
+## Gets basic tile for terrain type (fallback method)
+func get_basic_tile_for_terrain(terrain_id: int) -> int:
+	var tiles = get_tiles_with_terrain(terrain_id)
+	if tiles.is_empty():
+		return 0  # Default tile
+	return tiles[0]  # Return first available tile
+
+## Checks if autotiling intelligence is available
+func has_autotiling_intelligence() -> bool:
+	return autotiling_db != null and pattern_analysis_complete
+
+## Gets autotiling database statistics
+func get_autotiling_stats() -> Dictionary:
+	if not has_autotiling_intelligence():
+		return {"available": false}
+	
+	return {
+		"available": true,
+		"patterns": autotiling_db.patterns.size(),
+		"terrain_coverage": autotiling_db.terrain_tiles.size(),
+		"extraction_stats": autotiling_db.extraction_stats
+	}
+
 ## Gets tileset statistics for debugging
 func get_stats() -> Dictionary:
 	var terrain_counts = {}
 	for terrain_id in terrain_tags:
 		terrain_counts[terrain_id] = terrain_counts.get(terrain_id, 0) + 1
 	
-	return {
+	var stats = {
 		"id": id,
 		"name": name,
 		"total_tiles": terrain_tags.size(),
 		"unique_terrains": terrain_counts.size(),
 		"animated_groups": animated_tiles.size(),
-		"terrain_distribution": terrain_counts
+		"terrain_distribution": terrain_counts,
+		"autotiling_available": has_autotiling_intelligence()
 	}
+	
+	if has_autotiling_intelligence():
+		stats["autotiling"] = get_autotiling_stats()
+	
+	return stats
 
 func _to_string() -> String:
 	return "FETileset(%s - %s): %d tiles, %d animations" % [
