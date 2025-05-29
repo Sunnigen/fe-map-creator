@@ -18,7 +18,7 @@ static func analyze_all_original_maps(fe_data_path: String) -> Dictionary:
 	
 	# Analyze each game's maps
 	for game in ["FE6", "FE7", "FE8"]:
-		var maps_path = fe_data_path + "/" + game + " Maps/"
+		var maps_path = fe_data_path + "/maps/" + game + " Maps/"
 		var game_results = analyze_game_maps(maps_path, tileset_databases)
 		total_maps_processed += game_results.get("maps_processed", 0)
 		print("  📊 %s: %d maps processed" % [game, game_results.get("maps_processed", 0)])

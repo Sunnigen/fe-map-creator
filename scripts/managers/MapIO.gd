@@ -12,7 +12,7 @@ static func load_map_from_file(file_path: String) -> FEMap:
 		push_error("Could not open map file: " + file_path)
 		return null
 	
-	print("Loading map from: ", file_path)
+	#print("Loading map from: ", file_path)
 	
 	# Parse map format:
 	# Line 1: Tileset ID

@@ -28,6 +28,12 @@ func initialize(data_path: String):
 	fe_data_path = data_path
 	print("Initializing AssetManager with path: ", data_path)
 	
+	# Clear existing data if re-initializing
+	terrain_data.clear()
+	tileset_data.clear()
+	tileset_resources.clear()
+	tileset_textures.clear()
+	
 	# Load data in order
 	load_terrain_data()
 	load_tileset_data()
@@ -432,10 +438,40 @@ func find_hex_id_for_tileset(graphic_name: String) -> String:
 	dir.list_dir_begin()
 	var file_name = dir.get_next()
 	
+	# Create variations of the graphic name to try matching
+	var name_variants = [
+		graphic_name,
+		graphic_name.replace("_", " "),  # Mountain_Village -> Mountain Village
+		graphic_name.replace("1", ""),   # Village1 -> Village
+		graphic_name.split("_")[0]       # Coastal_Village -> Coastal, Mountain_Village -> Mountain
+	]
+	
 	while file_name != "":
-		if file_name.ends_with(".png") and file_name.contains(graphic_name):
-			return extract_tileset_id_from_filename(file_name)
+		if file_name.ends_with(".png"):
+			# Try all name variants
+			for variant in name_variants:
+				if not variant.is_empty() and file_name.to_lower().contains(variant.to_lower()):
+					return extract_tileset_id_from_filename(file_name)
 		file_name = dir.get_next()
+	
+	return ""
+
+## Find matching tileset ID for a pattern database ID (handles "xx" wildcards)
+func find_matching_tileset_id(pattern_db_id: String, tileset_ids: Array) -> String:
+	# First try exact match
+	if pattern_db_id in tileset_ids:
+		return pattern_db_id
+	
+	# If pattern_db_id contains "xx", try wildcard matching
+	if pattern_db_id.contains("xx"):
+		# Convert pattern like "5300xx55" to regex pattern "5300..55"
+		var regex_pattern = pattern_db_id.replace("xx", "..")
+		var regex = RegEx.new()
+		regex.compile("^" + regex_pattern + "$")
+		
+		for tileset_id in tileset_ids:
+			if regex.search(tileset_id):
+				return tileset_id
 	
 	return ""
 
@@ -474,23 +510,91 @@ func get_movement_cost(terrain_id: int, faction: int, unit_type: int) -> int:
 func is_ready() -> bool:
 	return initialized
 
+## Safely wait for AssetManager to be ready, handling race conditions
+func await_ready() -> void:
+	if initialized:
+		# Already initialized, return immediately
+		return
+	
+	# Connect to the signal and wait for initialization
+	var signal_received = false
+	var connection = initialization_completed.connect(
+		func(): signal_received = true,
+		CONNECT_ONE_SHOT
+	)
+	
+	# Wait with timeout to prevent infinite hangs
+	var timeout_time = 10.0  # 10 second timeout
+	var start_time = Time.get_time_dict_from_system()
+	
+	while not initialized and not signal_received:
+		await get_tree().process_frame
+		
+		# Check timeout
+		var current_time = Time.get_time_dict_from_system()
+		var elapsed = (current_time.hour * 3600 + current_time.minute * 60 + current_time.second) - \
+		              (start_time.hour * 3600 + start_time.minute * 60 + start_time.second)
+		
+		if elapsed > timeout_time:
+			push_error("AssetManager initialization timeout after %d seconds" % timeout_time)
+			break
+
 ## Extract autotiling intelligence from original maps
 func extract_autotiling_patterns():
 	print("🧠 Extracting autotiling intelligence from original maps...")
 	
-	# Analyze all original maps to build pattern databases
-	var pattern_databases = PatternAnalyzer.analyze_all_original_maps(fe_data_path)
+	# First, try to load existing pattern databases
+	var pattern_databases = load_pattern_databases()
+	
+	# If no existing patterns found, analyze maps to create them
+	if pattern_databases.is_empty():
+		print("  📊 No existing patterns found, analyzing original maps...")
+		pattern_databases = PatternAnalyzer.analyze_all_original_maps(fe_data_path)
+		
+		# Save the newly generated patterns
+		save_pattern_databases(pattern_databases)
+	else:
+		print("  ✅ Loaded %d existing pattern databases" % pattern_databases.size())
 	
 	# Integrate pattern databases into tileset data
-	for tileset_id in pattern_databases:
-		if tileset_id in tileset_data:
-			tileset_data[tileset_id].autotiling_db = pattern_databases[tileset_id]
-			tileset_data[tileset_id].pattern_analysis_complete = true
-			
-			print("  📚 Tileset %s: %d patterns extracted" % [tileset_id, pattern_databases[tileset_id].patterns.size()])
+	print("  🔗 Linking patterns to tilesets...")
+	print("  Available tilesets: %s" % str(tileset_data.keys()))
+	print("  Pattern databases: %s" % str(pattern_databases.keys()))
 	
-	# Save pattern databases as resources for future use
-	save_pattern_databases(pattern_databases)
+	for pattern_db_id in pattern_databases:
+		var matching_tileset_id = find_matching_tileset_id(pattern_db_id, tileset_data.keys())
+		if matching_tileset_id != "":
+			tileset_data[matching_tileset_id].autotiling_db = pattern_databases[pattern_db_id]
+			tileset_data[matching_tileset_id].pattern_analysis_complete = true
+			
+			print("  📚 Tileset %s matches pattern DB %s: %d patterns available" % [matching_tileset_id, pattern_db_id, pattern_databases[pattern_db_id].patterns.size()])
+		else:
+			print("  ⚠️ Pattern database %s has no matching tileset!" % pattern_db_id)
+
+func load_pattern_databases() -> Dictionary:
+	var loaded_databases = {}
+	var patterns_dir = "res://resources/autotiling_patterns/"
+	
+	if not DirAccess.dir_exists_absolute(patterns_dir):
+		return loaded_databases
+	
+	var dir = DirAccess.open(patterns_dir)
+	if not dir:
+		return loaded_databases
+		
+	dir.list_dir_begin()
+	var file_name = dir.get_next()
+	
+	while file_name != "":
+		if file_name.ends_with("_patterns.tres"):
+			var pattern_db = load(patterns_dir + file_name) as AutotilingDatabase
+			if pattern_db and pattern_db.patterns.size() > 0:
+				# Extract tileset ID from filename (e.g., "0100xx03_patterns.tres" -> "0100xx03")
+				var tileset_id = file_name.replace("_patterns.tres", "")
+				loaded_databases[tileset_id] = pattern_db
+		file_name = dir.get_next()
+	
+	return loaded_databases
 
 func save_pattern_databases(databases: Dictionary):
 	var patterns_dir = "res://resources/autotiling_patterns/"
@@ -505,7 +609,8 @@ func save_pattern_databases(databases: Dictionary):
 		var error = ResourceSaver.save(databases[tileset_id], save_path)
 		
 		if error == OK:
-			print("  💾 Saved patterns: ", save_path)
+			pass
+			#print("  💾 Saved patterns: ", save_path)
 		else:
 			push_error("Failed to save pattern database: " + save_path)
 

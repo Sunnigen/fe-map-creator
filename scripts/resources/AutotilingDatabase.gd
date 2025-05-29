@@ -52,7 +52,8 @@ func _build_terrain_tiles_mapping():
 		var terrain_id = pattern.center_terrain
 		
 		if terrain_id not in terrain_tiles:
-			terrain_tiles[terrain_id] = []
+			var typed_array: Array[int] = []
+			terrain_tiles[terrain_id] = typed_array
 		
 		for tile_index in pattern.valid_tiles:
 			if tile_index not in terrain_tiles[terrain_id]:
@@ -69,7 +70,8 @@ func _build_tile_relationships():
 		var terrain_id = pattern.center_terrain
 		
 		if terrain_id not in terrain_groups:
-			terrain_groups[terrain_id] = []
+			var typed_array: Array[int] = []
+			terrain_groups[terrain_id] = typed_array
 		
 		for tile_index in pattern.valid_tiles:
 			if tile_index not in terrain_groups[terrain_id]:
@@ -85,10 +87,18 @@ func _build_tile_relationships():
 func get_best_tile(center_terrain: int, neighbors: Array[int]) -> int:
 	var signature = create_neighbor_signature(center_terrain, neighbors)
 	
+	# Count how many neighbors are the same terrain
+	var same_terrain_count = 0
+	for n in neighbors:
+		if n == center_terrain:
+			same_terrain_count += 1
+	
 	# Try exact pattern match first
 	if signature in patterns:
 		var pattern = patterns[signature] as TilePattern
-		return pattern.get_random_tile()
+		var tile = pattern.get_primary_tile()
+		# Use primary tile for consistency
+		return tile
 	
 	# Try with wildcards (ignore some neighbors)
 	var fallback_tile = get_fallback_tile(center_terrain, neighbors)
@@ -96,7 +106,8 @@ func get_best_tile(center_terrain: int, neighbors: Array[int]) -> int:
 		return fallback_tile
 	
 	# Last resort: any tile of the right terrain
-	return get_default_tile_for_terrain(center_terrain)
+	var default_tile = get_default_tile_for_terrain(center_terrain)
+	return default_tile
 
 ## Gets a fallback tile using partial pattern matching
 func get_fallback_tile(center_terrain: int, neighbors: Array[int]) -> int:
@@ -156,7 +167,8 @@ func add_pattern(center_terrain: int, neighbors: Array[int], tile_index: int, so
 	if signature not in patterns:
 		var pattern = TilePattern.new()
 		pattern.center_terrain = center_terrain
-		pattern.neighbor_terrains = neighbors.duplicate()
+		# Ensure proper typing when duplicating the neighbors array
+		pattern.neighbor_terrains.assign(neighbors)
 		patterns[signature] = pattern
 	
 	var pattern = patterns[signature] as TilePattern
@@ -174,6 +186,10 @@ func get_patterns_for_terrain(terrain_id: int) -> Array[TilePattern]:
 			terrain_patterns.append(pattern)
 	
 	return terrain_patterns
+
+## Gets the total number of patterns in the database
+func get_pattern_count() -> int:
+	return patterns.size()
 
 ## Gets database statistics
 func get_stats() -> Dictionary:
