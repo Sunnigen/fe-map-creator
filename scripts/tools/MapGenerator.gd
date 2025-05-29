@@ -1,7 +1,8 @@
 ## Map Generator
 ##
-## Generates procedural Fire Emblem maps using various algorithms.
-## Creates balanced tactical maps with proper terrain distribution.
+## Recreates the original FE Map Creator's sophisticated generation algorithm.
+## Current implementation: Basic generation + pattern matching (functional)
+## TODO: Implement original's Generation_Data + 8-method validation system
 class_name MapGenerator
 extends RefCounted
 
@@ -28,7 +29,7 @@ enum MapTheme {
 	MIXED
 }
 
-# Generation parameters
+# Generation parameters (TODO: Recreate original FE Map Creator parameters)
 class GenerationParams:
 	var width: int = 20
 	var height: int = 15
@@ -36,6 +37,8 @@ class GenerationParams:
 	var algorithm: Algorithm = Algorithm.PERLIN_NOISE
 	var map_theme: MapTheme = MapTheme.PLAINS
 	var seed_value: int = -1
+	
+	# Current basic parameters
 	var complexity: float = 0.5  # 0.0 = simple, 1.0 = complex
 	var defensive_terrain_ratio: float = 0.3
 	var water_ratio: float = 0.1
@@ -44,6 +47,12 @@ class GenerationParams:
 	var ensure_connectivity: bool = true
 	var add_strategic_features: bool = true
 	var border_type: String = "natural"  # "natural", "walls", "water", "none"
+	
+	# TODO: Add original FE Map Creator parameters found in executable:
+	# var depth_complexity: float = 0.5     # DepthUpDown - terrain variety
+	# var feature_spacing: float = 3.0      # DistUpDown - feature distribution  
+	# var priority_bias: float = 0.8        # tile_priorities weighting
+	# var terrain_variety: float = 0.7      # Generation_Data configuration
 
 ## Generate a new map with given parameters
 static func generate_map(params: GenerationParams) -> FEMap:
@@ -66,6 +75,8 @@ static func generate_map(params: GenerationParams) -> FEMap:
 		return map
 	
 	print("\n=== MAP GENERATION DEBUG ===")
+	print("🔧 Current: Basic generation + pattern matching")
+	print("🎯 TODO: Recreate original's Generation_Data + 8-method validation")
 	print("Tileset: %s (%s)" % [params.tileset_id, tileset_data.name])
 	print("Algorithm: %s" % _get_algorithm_name(params.algorithm))
 	print("Theme: %s" % _get_theme_name(params.map_theme))
@@ -777,6 +788,7 @@ static func _get_random_tile_for_category(terrain_tiles: Dictionary, category: S
 	return selected_tile
 
 ## Get smart tile using autotiling intelligence when available
+## TODO: Replace with original's 8-method validation + tile_priorities system
 static func _get_smart_tile_for_terrain(tileset_data: FETilesetData, terrain_id: int, neighbors: Array[int]) -> int:
 	if tileset_data.has_autotiling_intelligence():
 		return tileset_data.get_smart_tile(terrain_id, neighbors)
@@ -811,6 +823,7 @@ static func _get_smart_tile_with_position_variation(tileset_data: FETilesetData,
 			same_terrain_count += 1
 	
 	# For completely uniform areas, add spatial variation using authentic Fire Emblem tiles
+	# TODO: Replace with original's Identical_Tiles + tile_priorities system
 	if same_terrain_count == 8:  # All same terrain (not just plains)
 		# Get authentic tiles from Fire Emblem patterns instead of all terrain tiles
 		var authentic_tiles = tileset_data.get_authentic_tiles_for_terrain(terrain_id)
@@ -821,6 +834,7 @@ static func _get_smart_tile_with_position_variation(tileset_data: FETilesetData,
 			return tileset_data.get_smart_tile(terrain_id, neighbors)
 		
 		# Use position-based selection from authentic Fire Emblem tiles
+		# TODO: Replace with priority-weighted selection like original tile_priorities
 		var position_hash = hash(Vector2i(x, y))
 		var noise_factor = int((variation_noise + 1.0) * 50)  # Convert noise to integer
 		var combined_hash = position_hash + noise_factor
