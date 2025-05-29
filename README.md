@@ -18,9 +18,14 @@ A complete recreation and modernization of the Fire Emblem Map Creator tool, bui
 
 ### 🎲 **Procedural Generation**
 - **Multiple algorithms**: Random, Perlin Noise, Cellular Automata, Strategic Placement
+- **Sophisticated two-phase system** (recreating original FEMapCreator):
+  - **Phase 1**: Intelligent terrain layout using depth/distance parameters
+  - **Phase 2**: Complex tile selection with 8 validation methods + priority weighting
+- **Original FE parameters**: Depth complexity, feature spacing, terrain distribution
 - **Theme-based generation**: Plains, Forest, Mountain, Desert, Castle, Village, Mixed
-- **Configurable parameters**: terrain distribution, complexity, connectivity
-- **Preset templates**: Small Skirmish, Large Battle, Forest Maze, Mountain Pass, River Crossing
+- **Advanced validation**: Edge matching, corner rules, pattern frequency, aesthetic spacing
+- **Tile priority system**: Weighted selection favoring high-quality, authentic tiles
+- **Generation data**: Uses original .dat file configuration for authentic results
 
 ### 📊 **Advanced Tools**
 - **Map validation** with issue detection and auto-fix capabilities
@@ -154,10 +159,23 @@ var is_passable = terrain.is_passable(0, 0)
 ```
 
 ### **MapGenerator**
-Procedural map creation with various algorithms.
+Procedural map creation recreating the original FE Map Creator algorithm.
 ```gdscript
-var params = MapGenerator.create_preset("forest_maze", tileset_id)
+var params = MapGenerator.GenerationParams.new()
+params.width = 25
+params.height = 20
+params.depth_complexity = 0.7    # Terrain variety (original DepthUpDown)
+params.feature_spacing = 4.0     # Feature distribution (original DistUpDown)
+params.priority_bias = 0.8       # Weight toward high-priority tiles
 var generated_map = MapGenerator.generate_map(params)
+
+# Current implementation:
+# - Basic terrain generation + pattern matching (functional)
+# TODO: Recreate original's sophisticated algorithm:
+# - Generation_Data structure from .dat files
+# - 8-method tile validation system
+# - Identical_Tiles priority weighting
+# - Complex terrain layout with depth/distance parameters
 ```
 
 ### **MapValidator**

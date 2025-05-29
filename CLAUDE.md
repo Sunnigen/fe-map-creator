@@ -89,7 +89,14 @@ if AssetManager.is_ready():
 var params = MapGenerator.GenerationParams.new()
 params.algorithm = MapGenerator.Algorithm.PERLIN_NOISE
 params.map_theme = MapGenerator.MapTheme.FOREST
+params.depth_complexity = 0.5  # Terrain variety (DepthUpDown parameter)
+params.feature_spacing = 3.0   # Feature distribution (DistUpDown parameter)
 var generated_map = MapGenerator.generate_map(params)
+
+# Note: The original FEMapCreator used a sophisticated two-phase system:
+# PHASE 1: Terrain Layout - Uses depth/distance parameters for terrain distribution
+# PHASE 2: Smart Tile Selection - 8 different validation methods + priority system
+# Current implementation: Basic generation + pattern matching (needs full recreation)
 ```
 
 ### Testing Framework
@@ -166,6 +173,39 @@ var animation_system = TileAnimationSystem.new()
 animation_system.initialize(tilemap, tileset_data)
 animation_system.set_animation_speed(1.5)  # Viewport culling automatic
 ```
+
+## Original FEMapCreator Algorithm Analysis
+
+Based on reverse engineering of the original .NET executable, the generation was much more sophisticated than initially thought:
+
+### Two-Phase Generation Process
+1. **`generate_map()`** - Sophisticated terrain layout using depth/distance parameters + 8-method tile validation
+2. **`repair_map()`** - Separate manual tool for fixing hand-edited maps (not part of generation)
+
+### Key Generation Components Found
+**Core Algorithm:**
+- `Generation_Data` + `get_generation_data` - Core algorithm configuration
+- `Identical_Tiles` + `get_identical_tiles` - Tile variety management
+- 8 different `<valid_tiles>b__XX` methods - Complex validation system
+- `tile_priorities` + `tile_priority` - Aesthetic weighting for tile selection
+
+**UI Parameters:**
+- `WidthUpDown`, `HeightUpDown` - Map dimensions
+- `DepthUpDown` - Terrain variety complexity
+- `DistUpDown` - Feature spacing/distribution
+
+**Validation System:**
+- `is_open_tile`, `test_valid_tiles` - Quality checking
+- `matching_corners`, `matching_sides` - Edge compatibility (editor features)
+
+### Binary Data Files (.dat)
+The 145KB .dat files contain generation configuration:
+- First 4 bytes: Total tile count  
+- Each 4 bytes after: [tile_index][terrain_type] mappings
+- Used by Generation_Data for terrain distribution and tile selection rules
+
+### Key Insight
+The original was NOT "rough generation + repair" but rather "intelligent terrain layout + sophisticated tile selection with 8 validation methods". Much more complex than initially analyzed.
 
 ## Development Patterns
 
