@@ -46,11 +46,11 @@ func _ready():
 ## Set up control ranges and values
 func _setup_controls():
 	# Size controls
-	width_spin.min_value = 10
+	width_spin.min_value = 5
 	width_spin.max_value = 100
 	width_spin.value = 20
 	
-	height_spin.min_value = 8
+	height_spin.min_value = 5
 	height_spin.max_value = 100
 	height_spin.value = 15
 	
@@ -92,6 +92,7 @@ func _populate_options():
 	preset_option.add_item("Forest Maze")
 	preset_option.add_item("Mountain Pass")
 	preset_option.add_item("River Crossing")
+	preset_option.add_item("5x5 Plains Test")
 	
 	# Algorithms
 	algorithm_option.add_item("Random")
@@ -170,7 +171,7 @@ func _on_preset_selected(index: int):
 	if index == 0:  # Custom
 		return
 	
-	var preset_names = ["", "small_skirmish", "large_battle", "forest_maze", "mountain_pass", "river_crossing"]
+	var preset_names = ["", "small_skirmish", "large_battle", "forest_maze", "mountain_pass", "river_crossing", "5x5_plains_test"]
 	if index < preset_names.size():
 		_apply_preset(preset_names[index])
 
@@ -226,6 +227,17 @@ func _apply_preset(preset_name: String):
 			water_slider.value = 0.3
 			forest_slider.value = 0.2
 			mountain_slider.value = 0.1
+		
+		"5x5_plains_test":
+			width_spin.value = 5
+			height_spin.value = 5
+			algorithm_option.select(1)  # Perlin Noise (to test intelligence)
+			theme_option.select(0)      # Plains
+			complexity_slider.value = 0.1  # Low complexity for simple test
+			water_slider.value = 0.0
+			forest_slider.value = 0.0
+			mountain_slider.value = 0.0
+			border_option.select(3)     # None
 	
 	_update_slider_labels()
 

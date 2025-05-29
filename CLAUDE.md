@@ -61,7 +61,7 @@ Settings.get_setting("ui_theme", "default")
 ### Core Data Flow
 ```
 FEMapCreator XML/PNG → AssetManager → Godot Resources → Editor Components → Export
-       ↓                    ↓              ↓               ↓             ↓
+	   ↓                    ↓              ↓               ↓             ↓
 • Terrain_Data.xml    • Parse/Convert  • TerrainData    • Visual Edit  • .map
 • Tileset_Data.xml    • Validate       • FETilesetData  • Tools        • .tscn
 • PNG Tilesets        • Generate       • TileSet        • Animation    • .json
@@ -78,7 +78,7 @@ FEMapCreator XML/PNG → AssetManager → Godot Resources → Editor Components 
 
 # Always check AssetManager.is_ready() before accessing data
 if AssetManager.is_ready():
-    var terrain = AssetManager.get_terrain_data(terrain_id)
+	var terrain = AssetManager.get_terrain_data(terrain_id)
 ```
 
 ## Essential Systems
@@ -113,7 +113,7 @@ var available_maps = MapIO.get_available_maps(fe_data_path)
 # scripts/managers/MapValidator.gd
 var validation = MapValidator.validate_map(map)
 if validation.has_critical_issues():
-    MapValidator.auto_fix_map(map, validation.issues)
+	MapValidator.auto_fix_map(map, validation.issues)
 ```
 
 ## Data Path Configuration
@@ -129,9 +129,9 @@ fe_data_path/
 ├── FE7 Maps/
 ├── FE8 Maps/
 └── Tilesets/              # PNG tileset images
-    ├── FE6 - Plains - 01020304.png
-    ├── FE7 - Castle - 0a000b0c.png
-    └── FE8 - Fields - 01000203.png
+	├── FE6 - Plains - 01020304.png
+	├── FE7 - Castle - 0a000b0c.png
+	└── FE8 - Fields - 01000203.png
 ```
 
 ## Editor Tools & Input Map

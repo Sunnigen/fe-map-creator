@@ -152,6 +152,22 @@ func get_basic_tile_for_terrain(terrain_id: int) -> int:
 		return 0  # Default tile
 	return tiles[0]  # Return first available tile
 
+## Gets authentic Fire Emblem tiles for a terrain type (from pattern analysis)
+func get_authentic_tiles_for_terrain(terrain_id: int) -> Array[int]:
+	if not has_autotiling_intelligence():
+		var empty_array: Array[int] = []
+		return empty_array
+	
+	# Get tiles that actually appeared in Fire Emblem maps for this terrain
+	if terrain_id in autotiling_db.terrain_tiles:
+		var tiles_array = autotiling_db.terrain_tiles[terrain_id] as Array
+		var typed_array: Array[int] = []
+		typed_array.assign(tiles_array)
+		return typed_array
+	else:
+		var empty_array: Array[int] = []
+		return empty_array
+
 ## Checks if autotiling intelligence is available
 func has_autotiling_intelligence() -> bool:
 	return autotiling_db != null and pattern_analysis_complete
