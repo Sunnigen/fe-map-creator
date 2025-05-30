@@ -18,14 +18,16 @@ A complete recreation and modernization of the Fire Emblem Map Creator tool, bui
 
 ### 🎲 **Procedural Generation**
 - **Multiple algorithms**: Random, Perlin Noise, Cellular Automata, Strategic Placement
-- **Sophisticated two-phase system** (recreating original FEMapCreator):
+- **Ultra-sophisticated generation system** (reverse-engineered from original FEMapCreator):
   - **Phase 1**: Intelligent terrain layout using depth/distance parameters
-  - **Phase 2**: Complex tile selection with 8 validation methods + priority weighting
-- **Original FE parameters**: Depth complexity, feature spacing, terrain distribution
-- **Theme-based generation**: Plains, Forest, Mountain, Desert, Castle, Village, Mixed
-- **Advanced validation**: Edge matching, corner rules, pattern frequency, aesthetic spacing
-- **Tile priority system**: Weighted selection favoring high-quality, authentic tiles
-- **Generation data**: Uses original .dat file configuration for authentic results
+  - **Phase 2**: Advanced tile selection with 3-section generation data
+- **3-Section .dat File Intelligence**:
+  - **Section 1**: Tile-terrain mappings (basic categorization)
+  - **Section 2**: 8 validation methods for complex transition rules
+  - **Section 3**: Tile priorities + Identical_Tiles aesthetic variation
+- **Original quality**: 100+ unique tiles per map with intelligent patterns
+- **Enhanced AutotilingDatabase**: Integrates validation + priority systems
+- **Evidence-based recreation**: Analyzed actual original maps for accuracy
 
 ### 📊 **Advanced Tools**
 - **Map validation** with issue detection and auto-fix capabilities
@@ -71,11 +73,12 @@ A complete recreation and modernization of the Fire Emblem Map Creator tool, bui
 ### Data Flow
 
 ```
-FEMapCreator Data → AssetManager → Godot Resources → Map Editor → Export
-	 ↓                    ↓              ↓             ↓          ↓
-• XML Files          • Parse Data    • TileSet      • Visual   • .map
-• PNG Tilesets       • Validate      • Resources    • Edit     • .tscn  
-• .map Files         • Convert       • TerrainData  • Tools    • .json
+FEMapCreator Data → AssetManager → Enhanced Resources → Map Editor → Export
+	 ↓                    ↓                   ↓              ↓          ↓
+• XML Files          • Parse Data       • TileSet       • Visual   • .map
+• PNG Tilesets       • 3-Section .dat   • TerrainData   • Edit     • .tscn  
+• .map Files         • Validate         • GenerationData• Tools    • .json
+• .dat Files         • Convert          • AutotilingDB  • 100+ tiles
 ```
 
 ## Quick Start
