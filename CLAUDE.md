@@ -75,17 +75,19 @@ FEMapCreator XML/PNG → AssetManager → Godot Resources → Editor Components 
 # - TerrainData.gd (gameplay properties) 
 # - FETilesetData.gd (tileset metadata)
 # - AnimatedTileData.gd (animation sequences)
+# - GenerationData.gd (3-section .dat file parser)
 
 # Always check AssetManager.is_ready() before accessing data
 if AssetManager.is_ready():
 	var terrain = AssetManager.get_terrain_data(terrain_id)
+	var gen_data = AssetManager.get_generation_data(tileset_id)
 ```
 
 ## Essential Systems
 
-### Map Generation
+### Map Generation - Enhanced Integration Approach
 ```gdscript
-# scripts/tools/MapGenerator.gd
+# scripts/tools/MapGenerator.gd - Enhanced tile selection
 var params = MapGenerator.GenerationParams.new()
 params.algorithm = MapGenerator.Algorithm.PERLIN_NOISE
 params.map_theme = MapGenerator.MapTheme.FOREST
@@ -93,10 +95,19 @@ params.depth_complexity = 0.5  # Terrain variety (DepthUpDown parameter)
 params.feature_spacing = 3.0   # Feature distribution (DistUpDown parameter)
 var generated_map = MapGenerator.generate_map(params)
 
-# Note: The original FEMapCreator used a sophisticated two-phase system:
-# PHASE 1: Terrain Layout - Uses depth/distance parameters for terrain distribution
-# PHASE 2: Smart Tile Selection - 8 different validation methods + priority system
-# Current implementation: Basic generation + pattern matching (needs full recreation)
+# Enhanced AutotilingDatabase integration:
+# scripts/resources/AutotilingDatabase.gd
+func get_intelligent_tile(terrain_id: int, neighbors: Dictionary, generation_data: GenerationData) -> int:
+	# 1. Get candidates from existing patterns
+	var candidates = get_tiles_for_context(terrain_id, neighbors)
+	# 2. Apply 8 validation methods from Section 2
+	candidates = apply_validation_rules(candidates, neighbors, generation_data)
+	# 3. Apply priorities and identical tiles from Section 3
+	return select_by_priority(candidates, generation_data)
+
+# Current vs Target:
+# CURRENT: Basic generation + existing pattern matching (~5-10 tiles)
+# TARGET: Sophisticated generation + 3-section validation (~100+ tiles like original)
 ```
 
 ### Testing Framework
@@ -198,14 +209,36 @@ Based on reverse engineering of the original .NET executable, the generation was
 - `is_open_tile`, `test_valid_tiles` - Quality checking
 - `matching_corners`, `matching_sides` - Edge compatibility (editor features)
 
-### Binary Data Files (.dat)
-The 145KB .dat files contain generation configuration:
-- First 4 bytes: Total tile count  
-- Each 4 bytes after: [tile_index][terrain_type] mappings
-- Used by Generation_Data for terrain distribution and tile selection rules
+### Binary Data Files (.dat) - Complex 3-Section Structure
+The .dat files (14KB-351KB) contain sophisticated generation data in THREE sections:
 
-### Key Insight
-The original was NOT "rough generation + repair" but rather "intelligent terrain layout + sophisticated tile selection with 8 validation methods". Much more complex than initially analyzed.
+**Section 1: Tile-Terrain Mappings**
+- First 4 bytes: tile mapping count
+- Each 4 bytes: [tile_id:2bytes][terrain_id:2bytes]
+- Basic categorization of tiles by terrain type
+
+**Section 2: Generation/Validation Rules** 
+- Variable length rule data encoding the 8 validation methods
+- Complex algorithms for intelligent tile selection
+- Transition rules for proper terrain boundaries
+
+**Section 3: Priority/Pattern Data**
+- Tile priority weighting for aesthetic preferences
+- Identical_Tiles groupings for variation management
+- Position-based selection parameters
+
+### Key Insights from Multi-Agent Analysis
+
+**Three-Agent Investigation Revealed:**
+1. **.dat files have 3-section structure** - tile mappings, validation rules, priorities
+2. **Original maps use 100+ unique tiles** - evidence of sophisticated selection
+3. **Identical_Tiles system confirmed** - deliberate variation patterns in uniform areas
+4. **8 validation methods encoded in Section 2** - complex transition algorithms
+5. **Tile priorities in Section 3** - aesthetic weighting system
+
+**Architecture Decision:** Enhance existing AutotilingDatabase rather than separate classes
+
+The original was "intelligent terrain layout + ultra-sophisticated tile selection using 3-section generation data". We were only using ~1% of the actual generation intelligence!
 
 ## Development Patterns
 

@@ -48,11 +48,13 @@ class GenerationParams:
 	var add_strategic_features: bool = true
 	var border_type: String = "natural"  # "natural", "walls", "water", "none"
 	
-	# TODO: Add original FE Map Creator parameters found in executable:
+	# TODO: Add original FE Map Creator parameters from 3-section .dat analysis:
 	# var depth_complexity: float = 0.5     # DepthUpDown - terrain variety
 	# var feature_spacing: float = 3.0      # DistUpDown - feature distribution  
-	# var priority_bias: float = 0.8        # tile_priorities weighting
-	# var terrain_variety: float = 0.7      # Generation_Data configuration
+	# var generation_data_path: String = "" # Path to .dat file for this tileset
+	# var use_validation_methods: bool = true   # Enable 8-method validation from Section 2
+	# var tile_priority_weight: float = 0.8     # Section 3 priority weighting
+	# var identical_tiles_mode: bool = true     # Section 3 aesthetic variation
 
 ## Generate a new map with given parameters
 static func generate_map(params: GenerationParams) -> FEMap:
@@ -75,8 +77,9 @@ static func generate_map(params: GenerationParams) -> FEMap:
 		return map
 	
 	print("\n=== MAP GENERATION DEBUG ===")
-	print("🔧 Current: Basic generation + pattern matching")
-	print("🎯 TODO: Recreate original's Generation_Data + 8-method validation")
+	print("🔧 Current: Basic generation + authentic tile selection (~5-10 tiles)")
+	print("🎯 TODO: Ultra-sophisticated generation using 3-section .dat files (~100+ tiles)")
+	print("💡 Agent Analysis: 3 sections = mappings + validation rules + priorities")
 	print("Tileset: %s (%s)" % [params.tileset_id, tileset_data.name])
 	print("Algorithm: %s" % _get_algorithm_name(params.algorithm))
 	print("Theme: %s" % _get_theme_name(params.map_theme))
@@ -797,6 +800,10 @@ static func _get_smart_tile_for_terrain(tileset_data: FETilesetData, terrain_id:
 		return tileset_data.get_basic_tile_for_terrain(terrain_id)
 
 ## Get smart tile with position and noise-based variation
+## TODO: Enhance to use 3-section .dat file data:
+## - Apply 8 validation methods from Section 2 
+## - Use tile priorities from Section 3
+## - Implement Identical_Tiles aesthetic variation from Section 3
 static func _get_smart_tile_with_position_variation(tileset_data: FETilesetData, terrain_id: int, neighbors: Array[int], x: int, y: int, variation_noise: float) -> int:
 	if not tileset_data.has_autotiling_intelligence():
 		return tileset_data.get_basic_tile_for_terrain(terrain_id)
@@ -822,10 +829,12 @@ static func _get_smart_tile_with_position_variation(tileset_data: FETilesetData,
 		if n == terrain_id:
 			same_terrain_count += 1
 	
-	# For completely uniform areas, add spatial variation using authentic Fire Emblem tiles
-	# TODO: Replace with original's Identical_Tiles + tile_priorities system
+	# For completely uniform areas, add spatial variation using authentic Fire Emblem tiles  
+	# TODO: Replace with GenerationData.identical_tile_groups from Section 3 (.dat files)
+	# TODO: Apply GenerationData.tile_priorities weighting instead of position hash
 	if same_terrain_count == 8:  # All same terrain (not just plains)
 		# Get authentic tiles from Fire Emblem patterns instead of all terrain tiles
+		# TODO: Load from GenerationData.parse_complete_dat_file() Section 1 mappings
 		var authentic_tiles = tileset_data.get_authentic_tiles_for_terrain(terrain_id)
 		
 		if authentic_tiles.is_empty():
@@ -834,11 +843,13 @@ static func _get_smart_tile_with_position_variation(tileset_data: FETilesetData,
 			return tileset_data.get_smart_tile(terrain_id, neighbors)
 		
 		# Use position-based selection from authentic Fire Emblem tiles
-		# TODO: Replace with priority-weighted selection like original tile_priorities
+		# TODO: Replace with GenerationData.select_by_priority() using Section 3 data
+		# TODO: Use GenerationData.position_variation_rules instead of simple hash
 		var position_hash = hash(Vector2i(x, y))
 		var noise_factor = int((variation_noise + 1.0) * 50)  # Convert noise to integer
 		var combined_hash = position_hash + noise_factor
 		
+		# TODO: Remove this 5-tile limit - original uses 100+ tiles with priorities
 		var tile_count = min(5, authentic_tiles.size())  # Limit to 5 variations
 		var tile_index = combined_hash % tile_count
 		
@@ -851,6 +862,8 @@ static func _get_smart_tile_with_position_variation(tileset_data: FETilesetData,
 		return authentic_tiles[tile_index]
 	
 	# For edges and other cases, use standard autotiling
+	# TODO: Apply 8 validation methods from GenerationData Section 2 here
+	# TODO: Enhance AutotilingDatabase.get_intelligent_tile() integration
 	var smart_tile = tileset_data.get_smart_tile(terrain_id, neighbors)
 	return smart_tile
 
