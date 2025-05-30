@@ -1,0 +1,2178 @@
+[gd_resource type="Resource" script_class="AutotilingDatabase" load_steps=243 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TilePattern.gd" id="1_w6f4m"]
+[ext_resource type="Script" path="res://scripts/resources/AutotilingDatabase.gd" id="2_ep0ab"]
+
+[sub_resource type="Resource" id="Resource_8ghdk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [160, 357, 416, 352, 290, 353, 355]
+frequency = 44
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_13n8c"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 33, 26, 26, 26, 26, 26]
+valid_tiles = [483]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_r2dv3"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 33, 2, 26, 26, 26, 26, 26]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ah74c"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [33, 2, 2, 26, 26, 26, 26, 26]
+valid_tiles = [196]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_t6sr4"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 2, 26, 26, 2]
+valid_tiles = [257, 259]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_aym5m"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 26, 2, 26, 2, 2]
+valid_tiles = [134, 34, 164, 66]
+frequency = 6
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_8qdav"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [66, 70, 71, 38, 131, 132, 164, 34, 39, 163, 162, 103, 130, 98]
+frequency = 52
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_um50l"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 26]
+valid_tiles = [103, 100, 131, 98, 70, 38, 39, 135]
+frequency = 13
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_v4xx4"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 26, 2, 26, 26]
+valid_tiles = [102, 38, 71, 39, 66, 135, 70, 34, 98, 103]
+frequency = 20
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_p35q6"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 23, 26, 26, 23]
+valid_tiles = [42]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ialox"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [2, 26, 23, 26, 23, 26, 23, 23]
+valid_tiles = [43]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_cbjiq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_djnr5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 31, 23, 23, 23]
+valid_tiles = [43]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_au3in"]
+script = ExtResource("1_w6f4m")
+center_terrain = 31
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 33]
+valid_tiles = [35]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_4pwn3"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 31, 26, 23, 33, 2]
+valid_tiles = [13]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_e1kei"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 33, 2, 26]
+valid_tiles = [228]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ydfxc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 2]
+valid_tiles = [416, 290, 160, 420]
+frequency = 15
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_mx1f5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 2, 2]
+valid_tiles = [289, 293, 291]
+frequency = 9
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_mtksa"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 2, 2, 2]
+valid_tiles = [389, 448, 387, 384]
+frequency = 11
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_fvtut"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 2, 2, 26]
+valid_tiles = [228, 385]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_t3s3j"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 2, 26, 26]
+valid_tiles = [384]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_wp8b1"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 2, 26, 2, 26, 26, 26]
+valid_tiles = [261]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_prirg"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 26, 2, 26, 26, 2]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ehklq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 26, 2, 2]
+valid_tiles = [34, 134, 66, 70]
+frequency = 7
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1jaa3"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 26, 2, 2, 26]
+valid_tiles = [134, 103]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_4884i"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 2, 26, 23]
+valid_tiles = [74]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_fi01s"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 23, 26, 23, 26, 23, 23]
+valid_tiles = [77]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_go8iq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_c1xhd"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_irlsc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [23, 23, 31, 23, 23, 23, 23, 2]
+valid_tiles = [43]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_pf5fn"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [23, 31, 23, 23, 33, 23, 2, 2]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gv0se"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [31, 23, 26, 23, 2, 2, 2, 2]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_b7ayi"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [23, 26, 26, 33, 26, 2, 2, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_nvaoa"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 2, 2, 2, 33]
+valid_tiles = [321]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_j4v6k"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 26, 2, 2, 33, 2]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_grvt2"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 2, 2, 33, 2, 2]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_oi2cu"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 2, 26, 2, 2, 26]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_s2wm0"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 2, 26, 2, 26, 26]
+valid_tiles = [322]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_313mk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 2, 26, 26, 26, 26, 2]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gd87u"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 2, 2, 26, 2, 26, 2, 2]
+valid_tiles = [486]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_blcv2"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 26, 2, 2, 2, 26]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_u0l7i"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 26, 2, 26, 2, 26, 26]
+valid_tiles = [39, 34]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_0pwv0"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 2, 23, 26, 26, 45]
+valid_tiles = [109]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_qjci0"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 26, 23, 26, 45, 45]
+valid_tiles = [43]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7jl6l"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 45, 45, 45]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ojc8m"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 45, 45, 2]
+valid_tiles = [43]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_nrgpo"]
+script = ExtResource("1_w6f4m")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 2, 45, 2, 38]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_53fda"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [23, 23, 33, 23, 2, 2, 38, 2]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_00w4m"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [23, 33, 2, 2, 2, 38, 2, 2]
+valid_tiles = [39]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_fvppq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [33, 2, 26, 2, 26, 2, 2, 38]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_jw2yw"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 2, 2, 2, 2]
+valid_tiles = [325, 321]
+frequency = 10
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ad5h7"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 26, 2, 2, 2, 2]
+valid_tiles = [102, 34, 66]
+frequency = 8
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_pmvge"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 2, 2, 2, 2, 2]
+valid_tiles = [34, 102, 38, 39, 66, 103]
+frequency = 9
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_8f3ma"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 2, 33, 2, 2, 2]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_xxp7u"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_rrsa0"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 33, 2, 2, 2, 2]
+valid_tiles = [2, 98]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_jxf8b"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 26, 2, 26, 2, 2, 2]
+valid_tiles = [66, 103, 34]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_kldie"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 2, 26, 2, 2, 2]
+valid_tiles = [322, 320]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_p0osk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 2, 2, 2, 2]
+valid_tiles = [38, 66, 34, 102, 70, 134, 100]
+frequency = 15
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_twep5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 26, 2, 2, 2]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_b0kmj"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 2, 2, 2]
+valid_tiles = [74, 448]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_8n4a5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 23, 26, 45, 2, 2, 2]
+valid_tiles = [75]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_3evox"]
+script = ExtResource("1_w6f4m")
+center_terrain = 45
+neighbor_terrains = [26, 23, 23, 26, 45, 2, 2, 2]
+valid_tiles = [64]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ur8og"]
+script = ExtResource("1_w6f4m")
+center_terrain = 45
+neighbor_terrains = [23, 23, 23, 45, 45, 2, 2, 2]
+valid_tiles = [65]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_sxphk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 45
+neighbor_terrains = [23, 23, 23, 45, 2, 2, 2, 2]
+valid_tiles = [97]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7sx6a"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [23, 23, 2, 45, 38, 2, 2, 2]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_x7x8d"]
+script = ExtResource("1_w6f4m")
+center_terrain = 38
+neighbor_terrains = [23, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [106]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_htrxs"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 38, 2, 2, 2, 2]
+valid_tiles = [39]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_rcwyx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 26, 2, 38, 2, 2, 2]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gg3ny"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 2, 2, 2, 2, 2]
+valid_tiles = [34, 130, 38, 102, 66]
+frequency = 9
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ln5ub"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 2, 26]
+valid_tiles = [66, 98, 39, 130, 162]
+frequency = 9
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_bs0ik"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 26, 26]
+valid_tiles = [66, 98, 71, 39, 70, 135]
+frequency = 7
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_vmcdm"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 26, 26, 26]
+valid_tiles = [38, 71]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_enco6"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 33, 2, 2, 26, 26, 2]
+valid_tiles = [71, 66]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_c1opu"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 2, 26, 2, 2]
+valid_tiles = [66, 164]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_qj43u"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [33, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [66, 135]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_bsx7d"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 26, 2, 2, 2, 2, 2]
+valid_tiles = [66, 39, 34, 102]
+frequency = 8
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_4mfjc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 26, 26, 2, 2, 2, 2, 2]
+valid_tiles = [102, 103, 38, 66]
+frequency = 7
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_tg7j6"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 2, 26, 2, 2, 2]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gb6pk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 2, 26, 2, 2, 2]
+valid_tiles = [322]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_f8m7y"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [98, 102, 38, 66, 39, 131, 70, 130]
+frequency = 15
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_m5833"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 45, 2, 2, 2, 2, 2]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_2g3vc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 45, 45, 2, 2, 2, 2, 26]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7lvt3"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [45, 45, 45, 2, 2, 2, 26, 2]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gh18g"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [45, 45, 2, 2, 2, 26, 2, 2]
+valid_tiles = [134]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_0w5sg"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [45, 2, 38, 2, 2, 2, 2, 2]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ykgsk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 38, 2, 2, 2, 2, 2, 2]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_xkfxp"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [38, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [131, 39]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_hrib7"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 38, 2, 2, 2, 2, 2]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_i3op5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 2, 26, 26, 26, 26]
+valid_tiles = [256, 258, 260, 194, 485]
+frequency = 9
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_wd8nx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 26, 26, 26, 26]
+valid_tiles = [483]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_wlaow"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 2, 26, 26, 26]
+valid_tiles = [261, 257]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_y7wei"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 26, 2, 26, 26, 26]
+valid_tiles = [134]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gcdqq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 26, 26, 2]
+valid_tiles = [135, 71, 70, 66]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_a1nvx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 2, 2, 26, 26, 2]
+valid_tiles = [257]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_42awf"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 33]
+valid_tiles = [66, 39, 98]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_c3xdo"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 33, 2]
+valid_tiles = [103, 131, 39]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_60fk2"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 26, 26, 26]
+valid_tiles = [226, 290, 322, 292, 324, 258, 320, 260]
+frequency = 14
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_snvrb"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [160, 419, 292]
+frequency = 14
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_rwjab"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 2, 26, 26, 26, 26, 26]
+valid_tiles = [483]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_agbxc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 2, 2, 26, 26, 26, 26, 26]
+valid_tiles = [484]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_mx7oj"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 26, 26, 26, 26]
+valid_tiles = [71, 135]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_bcthx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 2, 26, 26, 26, 2]
+valid_tiles = [260]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_4hm0a"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 2, 26, 2, 2]
+valid_tiles = [486, 261]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_u62xs"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 26, 2, 2, 2, 2]
+valid_tiles = [134, 70, 71]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7ert5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 26, 26, 2]
+valid_tiles = [416, 160]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_uq1jd"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 2, 26, 2, 26, 2, 2]
+valid_tiles = [486, 257]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_x3e3j"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 26, 2, 2, 2, 2]
+valid_tiles = [34, 38, 70, 66]
+frequency = 7
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_pr3l1"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 33, 2, 2, 2]
+valid_tiles = [103, 39, 34]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_i2vdk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [33]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_f8oqv"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 2, 26, 2, 26, 2, 2]
+valid_tiles = [261, 257, 486]
+frequency = 6
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1tvhh"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 26, 2, 2, 2, 33]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_cv1qp"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 33, 2, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_lrkve"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 26, 26, 26, 2, 2]
+valid_tiles = [420]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_d3a8v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 2, 2, 2, 2]
+valid_tiles = [325, 321]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_jdwbx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 26, 2, 2, 2]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_w6dee"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 2, 2, 2, 26]
+valid_tiles = [38, 34]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_bd1wv"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 26, 26]
+valid_tiles = [163, 98]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_8ow8h"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 33, 2, 2, 2, 2, 2]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_0ygdd"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 2, 2, 2, 26]
+valid_tiles = [39]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_x7xki"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 2, 26, 2, 2]
+valid_tiles = [420, 293, 227, 291, 325, 323, 289]
+frequency = 12
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_adrvc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 33, 2, 2, 2]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_85c80"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 26]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_b6b8v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 33, 26, 2, 26, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_f6ec2"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 2, 26, 26, 2]
+valid_tiles = [420]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_5rpby"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 26, 2, 26, 2, 2]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1xkwv"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 2, 2, 2, 2, 26]
+valid_tiles = [131, 38]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_nl71b"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 26, 2, 26, 26]
+valid_tiles = [71, 38, 98]
+frequency = 4
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_6aisy"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 33, 2, 2, 2, 2, 26]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_kwpor"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 26, 2, 26, 26]
+valid_tiles = [66, 98]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_6ewey"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [33, 2, 26, 2, 26, 26, 26, 26]
+valid_tiles = [290]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_j8mim"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 26, 26, 26, 2]
+valid_tiles = [160, 419, 451, 416, 420, 290]
+frequency = 11
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_eqjgn"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 38]
+valid_tiles = [70, 34, 100]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_hp3tc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 38, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gt0lc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 26, 38, 26, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_5fkxc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 2, 26, 26]
+valid_tiles = [322, 324]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_qb6qs"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 2, 26, 2, 33]
+valid_tiles = [420, 261]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_cpbfx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 2, 2, 33, 2]
+valid_tiles = [70, 38]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_f77sm"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 33, 2, 2]
+valid_tiles = [101]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_pcsb2"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 38, 2, 2, 2]
+valid_tiles = [100, 98, 135, 38]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_666vo"]
+script = ExtResource("1_w6f4m")
+center_terrain = 38
+neighbor_terrains = [2, 2, 2, 2, 26, 2, 2, 26]
+valid_tiles = [106]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_p5e1r"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 38, 26, 2, 26, 26]
+valid_tiles = [322]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7a42w"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 2, 26, 26, 2]
+valid_tiles = [420, 257]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_48on1"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 2, 26, 2, 2]
+valid_tiles = [34, 70]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_sh562"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 26, 2, 26, 2, 2, 26]
+valid_tiles = [103, 66]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_cfynf"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 2, 26, 2, 26, 26]
+valid_tiles = [324]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_eb8x8"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 26, 26, 26, 26, 26]
+valid_tiles = [484, 160]
+frequency = 5
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_vo4fs"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 33, 2, 2, 2]
+valid_tiles = [66, 34]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_j3xha"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 2, 26]
+valid_tiles = [33]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_qxx6s"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 33, 2, 2, 26, 2]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_21k2t"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 38, 2, 2, 2, 2, 26]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7mj50"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 38, 26, 2, 26, 2, 26, 26]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_i4jpq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [38, 26, 26, 2, 26, 26, 26, 26]
+valid_tiles = [419]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_jysm7"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 33, 2, 2, 2, 2, 26]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_x1cwk"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [33, 2, 2, 2, 2, 26, 26, 2]
+valid_tiles = [195]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1sfha"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 26, 2, 2, 2, 33, 2]
+valid_tiles = [39]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_lqwss"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 26, 26, 2, 2, 33, 2, 2]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_17llb"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 38, 38, 2]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_sme0o"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 38, 2, 2]
+valid_tiles = [70]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_3ajuq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 38
+neighbor_terrains = [2, 2, 2, 38, 2, 2, 33, 2]
+valid_tiles = [139]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_c3w2s"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 38, 2, 33, 2, 2]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ybe3a"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 2, 26, 26, 26, 26]
+valid_tiles = [288]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_181q0"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 26, 2, 26, 2]
+valid_tiles = [71, 39]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1bock"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 26, 2, 33]
+valid_tiles = [291]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_p8nrd"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 2, 2, 33, 2]
+valid_tiles = [325]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_xv32a"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 2, 33, 2, 2]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ujyhs"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 2, 26, 26, 26]
+valid_tiles = [259, 420]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_yhx8p"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 26, 2, 26, 26, 26]
+valid_tiles = [70, 164]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_30vaw"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 26, 26, 2]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_udhql"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 26, 2, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_rv6nb"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 33, 2, 2, 26, 26, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1a0di"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 2, 26, 26, 2]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_bq6ee"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [33, 2, 2, 2, 2, 26, 2, 2]
+valid_tiles = [134]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_3fnsa"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [38, 38, 2, 2, 2, 2, 2, 2]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_2fpp5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [38, 2, 2, 33, 2, 2, 2, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_16d3l"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 26, 2, 2, 2, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_mta7i"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 2, 26, 2, 2]
+valid_tiles = [325]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_jeing"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 26, 26, 26, 33, 2, 2, 2]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1uowm"]
+script = ExtResource("1_w6f4m")
+center_terrain = 33
+neighbor_terrains = [26, 26, 2, 2, 2, 2, 2, 2]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_vi2el"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 33, 2, 2, 2, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_gfk4j"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 26, 26, 26, 26, 26]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_glct5"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 26, 26, 26, 2]
+valid_tiles = [196, 483]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_w5yek"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 2, 2, 26, 26]
+valid_tiles = [39]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_u7q5v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [33, 2, 2, 2, 26, 26, 26, 26]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_rqgeh"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 2, 26, 26, 2]
+valid_tiles = [259]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_eis1v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 26, 2, 26, 2, 26, 2, 2]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_sgab1"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 33, 2, 2, 2, 2, 2]
+valid_tiles = [38, 131]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_uula0"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 2, 2, 2, 2]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_w3c7d"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [33, 2, 2, 2, 26, 2, 2, 26]
+valid_tiles = [135]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_edgtt"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 2, 26, 26, 26, 26, 26, 26]
+valid_tiles = [416]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_aukac"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 33, 2, 26]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_xrncc"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 2, 26, 2, 2]
+valid_tiles = [289]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_pxuq3"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 26, 2, 2, 2, 2, 26]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_56wqh"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 2, 2, 2, 26, 26]
+valid_tiles = [39]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_e3amx"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 26, 26, 26, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_om8ub"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 33, 26, 2, 26, 2]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_0pivq"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 26, 2, 2]
+valid_tiles = [293]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_2fa6y"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 26, 2, 2, 2, 2, 2, 38]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_hmllg"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 38, 2]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_u542u"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 38, 2, 26]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_5x0x1"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 26, 2, 2, 2]
+valid_tiles = [39]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_g8q4v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [33, 2, 26, 2, 2, 2, 2, 2]
+valid_tiles = [325]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_wsdld"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 26, 26, 26, 2, 2, 2, 2]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_fal8j"]
+script = ExtResource("1_w6f4m")
+center_terrain = 38
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 2, 2]
+valid_tiles = [106]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_hlc42"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 38, 26, 2, 2, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_4o56v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 26, 2, 2, 2, 2, 2, 2]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_vpl6l"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 33, 2, 2]
+valid_tiles = [66, 131]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_28tfw"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 38, 2, 2, 2, 38, 2]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_exqf8"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 38, 2, 2, 2, 38, 2, 2]
+valid_tiles = [101]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_u18e1"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [38, 2, 26, 2, 26, 2, 2, 2]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_c44ea"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 2, 33, 2]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_so7wj"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 2, 38, 2]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_6r2ks"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 38, 2, 38, 2]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_bxcva"]
+script = ExtResource("1_w6f4m")
+center_terrain = 38
+neighbor_terrains = [2, 2, 2, 2, 2, 38, 2, 2]
+valid_tiles = [108]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_xlffg"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 38, 2, 2, 2, 26]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_xylqg"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [26, 2, 2, 2, 2, 26, 26, 26]
+valid_tiles = [134]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_tx68v"]
+script = ExtResource("1_w6f4m")
+center_terrain = 38
+neighbor_terrains = [2, 2, 38, 2, 2, 2, 2, 2]
+valid_tiles = [140]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_ejdia"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 38, 2, 38, 2, 2, 2, 2]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_58ged"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 33, 2, 2, 2, 2, 0, 0]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_wxbq3"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [33, 2, 2, 2, 2, 0, 0, 0]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_s7t5r"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 2, 2, 0, 0, 0]
+valid_tiles = [66, 70, 98, 71]
+frequency = 10
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_2l6vu"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 38, 2, 2, 0, 0, 0]
+valid_tiles = [38, 131]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_y54p8"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 38, 2, 2, 2, 0, 0, 0]
+valid_tiles = [71]
+frequency = 3
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_rr0yu"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [38, 2, 2, 2, 26, 0, 0, 0]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_mu1uo"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 26, 2, 26, 0, 0, 0]
+valid_tiles = [322]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7mtcg"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 26, 26, 26, 26, 0, 0, 0]
+valid_tiles = [160]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_t3812"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 0, 0, 0]
+valid_tiles = [160]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_0qx24"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 26, 2, 26, 26, 0, 0, 0]
+valid_tiles = [261]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_6ap4c"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [26, 2, 2, 26, 26, 0, 0, 0]
+valid_tiles = [258]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_34hp6"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 26, 0, 0, 0]
+valid_tiles = [196]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_7ks72"]
+script = ExtResource("1_w6f4m")
+center_terrain = 26
+neighbor_terrains = [2, 2, 2, 26, 2, 0, 0, 0]
+valid_tiles = [257]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_a4iiw"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [2, 2, 2, 26, 2, 0, 0, 0]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_hgwde"]
+script = ExtResource("1_w6f4m")
+center_terrain = 2
+neighbor_terrains = [38, 2, 2, 2, 2, 0, 0, 0]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_0q2gl"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [2, 2, 2, 2, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1y1x8"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [2, 2, 2, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 16
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_i07pt"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [2, 2, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_pvg46"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [2, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_q2vjf"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [26, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 6
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_mugpl"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [26, 26, 2, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[sub_resource type="Resource" id="Resource_1cbde"]
+script = ExtResource("1_w6f4m")
+center_terrain = 0
+neighbor_terrains = [26, 2, 2, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter12xThunderAxe"]
+
+[resource]
+script = ExtResource("2_ep0ab")
+tileset_id = "5300xxbe"
+patterns = {
+"0_26_26_26_0_0_0_0_0": SubResource("Resource_q2vjf"),
+"0_26_26_2_0_0_0_0_0": SubResource("Resource_mugpl"),
+"0_26_2_2_0_0_0_0_0": SubResource("Resource_1cbde"),
+"0_2_26_26_0_0_0_0_0": SubResource("Resource_pvg46"),
+"0_2_2_26_0_0_0_0_0": SubResource("Resource_i07pt"),
+"0_2_2_2_0_0_0_0_0": SubResource("Resource_1y1x8"),
+"0_2_2_2_2_0_0_0_0": SubResource("Resource_0q2gl"),
+"23_23_23_23_23_23_23_23_23": SubResource("Resource_c1xhd"),
+"23_23_23_23_23_23_45_45_2": SubResource("Resource_ojc8m"),
+"23_23_23_23_23_2_45_2_38": SubResource("Resource_nrgpo"),
+"23_23_23_26_23_31_23_23_23": SubResource("Resource_djnr5"),
+"23_23_23_31_23_23_23_23_2": SubResource("Resource_irlsc"),
+"23_23_31_23_23_33_23_2_2": SubResource("Resource_pf5fn"),
+"23_26_23_23_23_23_23_23_23": SubResource("Resource_cbjiq"),
+"23_26_23_23_23_23_45_45_45": SubResource("Resource_7jl6l"),
+"23_26_23_23_26_23_23_23_23": SubResource("Resource_go8iq"),
+"23_26_26_23_26_23_26_45_45": SubResource("Resource_qjci0"),
+"23_26_26_26_31_26_23_33_2": SubResource("Resource_4pwn3"),
+"23_2_26_23_26_23_26_23_23": SubResource("Resource_ialox"),
+"26_26_26_26_23_26_33_2_26": SubResource("Resource_e1kei"),
+"26_26_26_26_26_26_0_0_0": SubResource("Resource_t3812"),
+"26_26_26_26_26_26_26_26_2": SubResource("Resource_ydfxc"),
+"26_26_26_26_26_26_26_26_26": SubResource("Resource_8ghdk"),
+"26_26_26_26_26_26_26_2_2": SubResource("Resource_mx1f5"),
+"26_26_26_26_26_26_2_26_26": SubResource("Resource_t3s3j"),
+"26_26_26_26_26_26_2_2_2": SubResource("Resource_mtksa"),
+"26_26_26_26_26_26_2_2_26": SubResource("Resource_fvtut"),
+"26_26_26_26_26_2_26_26_2": SubResource("Resource_7a42w"),
+"26_26_26_26_26_2_26_26_26": SubResource("Resource_ujyhs"),
+"26_26_26_26_26_2_26_2_2": SubResource("Resource_x7xki"),
+"26_26_26_26_26_2_26_2_33": SubResource("Resource_qb6qs"),
+"26_26_26_26_26_2_2_2_2": SubResource("Resource_jw2yw"),
+"26_26_26_26_26_2_2_2_33": SubResource("Resource_nvaoa"),
+"26_26_26_26_2_26_2_26_26": SubResource("Resource_s2wm0"),
+"26_26_26_26_2_26_2_2_2": SubResource("Resource_gb6pk"),
+"26_26_26_2_26_26_0_0_0": SubResource("Resource_0qx24"),
+"26_26_26_2_26_26_26_26_2": SubResource("Resource_313mk"),
+"26_26_26_2_26_26_26_26_26": SubResource("Resource_rwjab"),
+"26_26_26_2_26_2_26_26_26": SubResource("Resource_wp8b1"),
+"26_26_26_2_26_2_26_2_2": SubResource("Resource_f8oqv"),
+"26_26_26_33_26_26_26_26_26": SubResource("Resource_13n8c"),
+"26_26_2_26_26_26_26_26_26": SubResource("Resource_edgtt"),
+"26_26_2_2_26_26_0_0_0": SubResource("Resource_6ap4c"),
+"26_26_2_2_26_26_26_26_26": SubResource("Resource_agbxc"),
+"26_26_2_2_26_2_26_2_2": SubResource("Resource_gd87u"),
+"26_26_33_2_26_26_26_26_26": SubResource("Resource_r2dv3"),
+"26_2_26_23_26_23_26_23_23": SubResource("Resource_fi01s"),
+"26_2_26_23_26_45_2_2_2": SubResource("Resource_8n4a5"),
+"26_2_26_26_26_26_0_0_0": SubResource("Resource_7mtcg"),
+"26_2_26_26_26_26_26_26_2": SubResource("Resource_j8mim"),
+"26_2_26_26_26_26_26_26_26": SubResource("Resource_snvrb"),
+"26_2_26_26_26_2_26_26_2": SubResource("Resource_f6ec2"),
+"26_2_26_26_26_2_26_2_2": SubResource("Resource_xrncc"),
+"26_2_26_26_26_2_2_2_2": SubResource("Resource_d3a8v"),
+"26_2_26_26_26_2_2_33_2": SubResource("Resource_p8nrd"),
+"26_2_26_26_2_23_26_26_45": SubResource("Resource_0pwv0"),
+"26_2_26_26_2_26_26_26_26": SubResource("Resource_ybe3a"),
+"26_2_26_26_2_26_2_26_26": SubResource("Resource_cfynf"),
+"26_2_26_26_2_26_2_2_2": SubResource("Resource_kldie"),
+"26_2_26_2_26_2_26_2_2": SubResource("Resource_uq1jd"),
+"26_2_2_26_26_26_26_26_26": SubResource("Resource_eb8x8"),
+"26_2_2_26_26_26_26_2_2": SubResource("Resource_lrkve"),
+"26_2_2_26_2_23_26_26_23": SubResource("Resource_p35q6"),
+"26_2_2_26_2_26_0_0_0": SubResource("Resource_mu1uo"),
+"26_2_2_26_2_26_26_26_2": SubResource("Resource_7ert5"),
+"26_2_2_26_2_26_26_26_26": SubResource("Resource_60fk2"),
+"26_2_2_26_2_26_26_2_2": SubResource("Resource_0pivq"),
+"26_2_2_26_2_26_26_2_33": SubResource("Resource_1bock"),
+"26_2_2_26_2_26_2_26_23": SubResource("Resource_4884i"),
+"26_2_2_26_2_26_2_26_26": SubResource("Resource_5fkxc"),
+"26_2_2_26_2_26_2_2_2": SubResource("Resource_b0kmj"),
+"26_2_2_26_2_2_26_26_2": SubResource("Resource_rqgeh"),
+"26_2_2_26_2_2_26_2_2": SubResource("Resource_mta7i"),
+"26_2_2_26_38_26_2_26_26": SubResource("Resource_p5e1r"),
+"26_2_2_2_26_26_0_0_0": SubResource("Resource_34hp6"),
+"26_2_2_2_26_26_26_26_2": SubResource("Resource_glct5"),
+"26_2_2_2_26_26_26_26_26": SubResource("Resource_wd8nx"),
+"26_2_2_2_26_2_0_0_0": SubResource("Resource_7ks72"),
+"26_2_2_2_26_2_26_26_2": SubResource("Resource_t6sr4"),
+"26_2_2_2_26_2_26_26_26": SubResource("Resource_wlaow"),
+"26_2_2_2_26_2_26_2_2": SubResource("Resource_4hm0a"),
+"26_2_2_2_2_26_26_26_2": SubResource("Resource_bcthx"),
+"26_2_2_2_2_26_26_26_26": SubResource("Resource_i3op5"),
+"26_2_2_2_2_2_26_26_2": SubResource("Resource_a1nvx"),
+"26_33_2_26_2_26_26_26_26": SubResource("Resource_6ewey"),
+"26_33_2_26_2_2_2_2_2": SubResource("Resource_g8q4v"),
+"26_33_2_2_26_26_26_26_26": SubResource("Resource_ah74c"),
+"26_33_2_2_2_2_26_26_2": SubResource("Resource_x1cwk"),
+"26_38_26_26_2_26_26_26_26": SubResource("Resource_i4jpq"),
+"2_23_23_2_45_38_2_2_2": SubResource("Resource_7sx6a"),
+"2_23_23_33_23_2_2_38_2": SubResource("Resource_53fda"),
+"2_23_26_26_33_26_2_2_26": SubResource("Resource_b7ayi"),
+"2_23_33_2_2_2_38_2_2": SubResource("Resource_00w4m"),
+"2_26_26_26_26_2_26_2_2": SubResource("Resource_5rpby"),
+"2_26_26_26_26_2_2_2_2": SubResource("Resource_ad5h7"),
+"2_26_26_26_26_2_2_33_2": SubResource("Resource_j4v6k"),
+"2_26_26_26_2_26_2_2_2": SubResource("Resource_tg7j6"),
+"2_26_26_26_2_26_2_2_26": SubResource("Resource_oi2cu"),
+"2_26_26_26_2_2_2_2_2": SubResource("Resource_pmvge"),
+"2_26_26_26_2_2_2_2_26": SubResource("Resource_pxuq3"),
+"2_26_26_26_2_2_33_2_2": SubResource("Resource_grvt2"),
+"2_26_26_2_26_2_26_26_26": SubResource("Resource_yhx8p"),
+"2_26_26_2_26_2_26_2_2": SubResource("Resource_48on1"),
+"2_26_26_2_26_2_2_2_2": SubResource("Resource_p0osk"),
+"2_26_26_2_26_2_2_2_26": SubResource("Resource_w6dee"),
+"2_26_26_2_26_2_2_33_2": SubResource("Resource_cpbfx"),
+"2_26_26_2_26_2_33_2_2": SubResource("Resource_xv32a"),
+"2_26_26_2_26_33_2_2_2": SubResource("Resource_vo4fs"),
+"2_26_26_2_2_2_2_26_26": SubResource("Resource_56wqh"),
+"2_26_26_2_2_2_2_2_2": SubResource("Resource_gg3ny"),
+"2_26_26_2_2_2_2_2_26": SubResource("Resource_1xkwv"),
+"2_26_26_2_2_2_2_2_38": SubResource("Resource_2fa6y"),
+"2_26_26_2_2_33_2_2_2": SubResource("Resource_8f3ma"),
+"2_26_26_45_2_2_2_2_2": SubResource("Resource_m5833"),
+"2_26_2_2_26_2_26_26_2": SubResource("Resource_prirg"),
+"2_26_2_2_26_2_2_2_2": SubResource("Resource_x3e3j"),
+"2_26_2_2_26_2_2_2_26": SubResource("Resource_16d3l"),
+"2_26_2_2_26_2_2_2_33": SubResource("Resource_1tvhh"),
+"2_26_2_2_2_26_26_26_26": SubResource("Resource_e3amx"),
+"2_26_2_2_2_26_2_26_26": SubResource("Resource_nl71b"),
+"2_26_2_2_2_26_2_2_2": SubResource("Resource_twep5"),
+"2_26_2_2_2_2_26_26_2": SubResource("Resource_30vaw"),
+"2_26_2_2_2_2_26_26_26": SubResource("Resource_xylqg"),
+"2_26_2_2_2_2_2_26_26": SubResource("Resource_bd1wv"),
+"2_26_2_2_2_2_2_2_2": SubResource("Resource_f8m7y"),
+"2_26_2_2_2_2_2_2_26": SubResource("Resource_ln5ub"),
+"2_26_2_2_2_2_2_33_2": SubResource("Resource_c44ea"),
+"2_26_2_2_2_2_2_38_2": SubResource("Resource_hmllg"),
+"2_26_2_2_2_2_33_2_2": SubResource("Resource_f77sm"),
+"2_26_2_2_2_2_33_2_26": SubResource("Resource_aukac"),
+"2_26_2_2_2_2_38_38_2": SubResource("Resource_17llb"),
+"2_26_2_2_2_33_2_2_2": SubResource("Resource_adrvc"),
+"2_26_2_2_33_2_2_2_26": SubResource("Resource_vi2el"),
+"2_26_2_33_2_2_2_2_2": SubResource("Resource_sgab1"),
+"2_26_2_33_2_2_2_2_26": SubResource("Resource_jysm7"),
+"2_26_45_45_2_2_2_2_26": SubResource("Resource_2g3vc"),
+"2_2_26_26_26_2_2_2_2": SubResource("Resource_wsdld"),
+"2_2_26_26_26_33_2_2_2": SubResource("Resource_jeing"),
+"2_2_26_26_2_2_2_2_2": SubResource("Resource_4mfjc"),
+"2_2_26_26_2_2_33_2_2": SubResource("Resource_lqwss"),
+"2_2_26_2_26_2_26_2_2": SubResource("Resource_eis1v"),
+"2_2_26_2_2_2_2_2_2": SubResource("Resource_4o56v"),
+"2_2_2_26_2_26_2_26_26": SubResource("Resource_u0l7i"),
+"2_2_2_26_2_26_2_2_2": SubResource("Resource_jxf8b"),
+"2_2_2_26_2_26_2_2_26": SubResource("Resource_sh562"),
+"2_2_2_26_2_2_2_2_2": SubResource("Resource_bsx7d"),
+"2_2_2_26_2_2_2_33_2": SubResource("Resource_1sfha"),
+"2_2_2_26_2_38_2_2_2": SubResource("Resource_rcwyx"),
+"2_2_2_2_26_26_26_26_26": SubResource("Resource_gfk4j"),
+"2_2_2_2_26_2_0_0_0": SubResource("Resource_a4iiw"),
+"2_2_2_2_26_2_26_26_26": SubResource("Resource_y7wei"),
+"2_2_2_2_26_2_26_2_2": SubResource("Resource_aym5m"),
+"2_2_2_2_26_2_2_2_2": SubResource("Resource_u62xs"),
+"2_2_2_2_26_2_2_2_26": SubResource("Resource_blcv2"),
+"2_2_2_2_2_26_26_26_26": SubResource("Resource_mx7oj"),
+"2_2_2_2_2_26_2_26_2": SubResource("Resource_181q0"),
+"2_2_2_2_2_26_2_26_26": SubResource("Resource_v4xx4"),
+"2_2_2_2_2_26_2_2_2": SubResource("Resource_jdwbx"),
+"2_2_2_2_2_26_2_2_26": SubResource("Resource_1jaa3"),
+"2_2_2_2_2_26_38_26_26": SubResource("Resource_gt0lc"),
+"2_2_2_2_2_2_0_0_0": SubResource("Resource_s7t5r"),
+"2_2_2_2_2_2_26_26_2": SubResource("Resource_gcdqq"),
+"2_2_2_2_2_2_26_26_26": SubResource("Resource_vmcdm"),
+"2_2_2_2_2_2_26_2_2": SubResource("Resource_ehklq"),
+"2_2_2_2_2_2_26_2_26": SubResource("Resource_udhql"),
+"2_2_2_2_2_2_2_26_26": SubResource("Resource_bs0ik"),
+"2_2_2_2_2_2_2_2_2": SubResource("Resource_8qdav"),
+"2_2_2_2_2_2_2_2_26": SubResource("Resource_um50l"),
+"2_2_2_2_2_2_2_2_33": SubResource("Resource_42awf"),
+"2_2_2_2_2_2_2_2_38": SubResource("Resource_eqjgn"),
+"2_2_2_2_2_2_2_33_2": SubResource("Resource_c3xdo"),
+"2_2_2_2_2_2_2_38_2": SubResource("Resource_so7wj"),
+"2_2_2_2_2_2_2_38_26": SubResource("Resource_hp3tc"),
+"2_2_2_2_2_2_33_2_2": SubResource("Resource_vpl6l"),
+"2_2_2_2_2_2_33_2_26": SubResource("Resource_cv1qp"),
+"2_2_2_2_2_2_38_2_2": SubResource("Resource_sme0o"),
+"2_2_2_2_2_2_38_2_26": SubResource("Resource_u542u"),
+"2_2_2_2_2_33_2_2_2": SubResource("Resource_pr3l1"),
+"2_2_2_2_2_38_2_2_2": SubResource("Resource_pcsb2"),
+"2_2_2_2_2_38_2_38_2": SubResource("Resource_6r2ks"),
+"2_2_2_2_33_26_2_26_2": SubResource("Resource_om8ub"),
+"2_2_2_2_33_26_2_26_26": SubResource("Resource_b6b8v"),
+"2_2_2_2_33_2_2_26_2": SubResource("Resource_qxx6s"),
+"2_2_2_2_33_2_2_2_2": SubResource("Resource_rrsa0"),
+"2_2_2_2_38_26_2_2_26": SubResource("Resource_hlc42"),
+"2_2_2_2_38_2_2_2_2": SubResource("Resource_htrxs"),
+"2_2_2_2_38_2_2_2_26": SubResource("Resource_xlffg"),
+"2_2_2_2_38_2_33_2_2": SubResource("Resource_c3w2s"),
+"2_2_2_33_2_2_26_26_2": SubResource("Resource_enco6"),
+"2_2_2_33_2_2_26_26_26": SubResource("Resource_rv6nb"),
+"2_2_2_33_2_2_2_2_2": SubResource("Resource_8ow8h"),
+"2_2_2_33_2_2_2_2_26": SubResource("Resource_6aisy"),
+"2_2_2_38_2_2_0_0_0": SubResource("Resource_2l6vu"),
+"2_2_2_38_2_2_2_2_2": SubResource("Resource_hrib7"),
+"2_2_2_38_2_2_2_2_26": SubResource("Resource_21k2t"),
+"2_2_2_38_2_2_2_38_2": SubResource("Resource_28tfw"),
+"2_2_33_2_2_26_2_26_26": SubResource("Resource_kwpor"),
+"2_2_33_2_2_26_2_2_2": SubResource("Resource_5x0x1"),
+"2_2_33_2_2_2_26_26_2": SubResource("Resource_1a0di"),
+"2_2_33_2_2_2_26_2_2": SubResource("Resource_c1opu"),
+"2_2_33_2_2_2_2_0_0": SubResource("Resource_58ged"),
+"2_2_33_2_2_2_2_26_26": SubResource("Resource_w5yek"),
+"2_2_33_2_2_2_2_2_2": SubResource("Resource_uula0"),
+"2_2_33_2_2_2_2_2_26": SubResource("Resource_0ygdd"),
+"2_2_38_26_2_26_2_26_26": SubResource("Resource_7mj50"),
+"2_2_38_2_2_2_0_0_0": SubResource("Resource_y54p8"),
+"2_2_38_2_2_2_2_2_2": SubResource("Resource_ykgsk"),
+"2_2_38_2_2_2_38_2_2": SubResource("Resource_exqf8"),
+"2_2_38_2_38_2_2_2_2": SubResource("Resource_ejdia"),
+"2_33_2_26_2_26_2_2_38": SubResource("Resource_fvppq"),
+"2_33_2_2_2_26_26_26_26": SubResource("Resource_u7q5v"),
+"2_33_2_2_2_26_2_2_26": SubResource("Resource_w3c7d"),
+"2_33_2_2_2_2_0_0_0": SubResource("Resource_wxbq3"),
+"2_33_2_2_2_2_26_2_2": SubResource("Resource_bq6ee"),
+"2_33_2_2_2_2_2_2_2": SubResource("Resource_qj43u"),
+"2_38_2_26_2_26_2_2_2": SubResource("Resource_u18e1"),
+"2_38_2_2_2_26_0_0_0": SubResource("Resource_rr0yu"),
+"2_38_2_2_2_2_0_0_0": SubResource("Resource_hgwde"),
+"2_38_2_2_2_2_2_2_2": SubResource("Resource_xkfxp"),
+"2_38_2_2_33_2_2_2_26": SubResource("Resource_2fpp5"),
+"2_45_2_38_2_2_2_2_2": SubResource("Resource_0w5sg"),
+"2_45_45_2_2_2_26_2_2": SubResource("Resource_gh18g"),
+"2_45_45_45_2_2_2_26_2": SubResource("Resource_7lvt3"),
+"31_23_26_26_23_23_23_23_33": SubResource("Resource_au3in"),
+"33_26_26_2_2_2_2_2_2": SubResource("Resource_1uowm"),
+"33_26_2_2_2_2_2_2_2": SubResource("Resource_xxp7u"),
+"33_26_2_2_2_2_2_2_26": SubResource("Resource_j3xha"),
+"33_2_2_2_2_2_2_2_2": SubResource("Resource_i2vdk"),
+"33_2_2_2_2_2_2_2_26": SubResource("Resource_85c80"),
+"33_31_23_26_23_2_2_2_2": SubResource("Resource_gv0se"),
+"33_38_38_2_2_2_2_2_2": SubResource("Resource_3fnsa"),
+"38_23_2_2_2_2_2_2_2": SubResource("Resource_x7x8d"),
+"38_2_2_2_2_26_2_2_26": SubResource("Resource_666vo"),
+"38_2_2_2_2_2_2_2_2": SubResource("Resource_fal8j"),
+"38_2_2_2_2_2_38_2_2": SubResource("Resource_bxcva"),
+"38_2_2_2_38_2_2_33_2": SubResource("Resource_3ajuq"),
+"38_2_2_38_2_2_2_2_2": SubResource("Resource_tx68v"),
+"45_23_23_23_45_2_2_2_2": SubResource("Resource_sxphk"),
+"45_23_23_23_45_45_2_2_2": SubResource("Resource_ur8og"),
+"45_26_23_23_26_45_2_2_2": SubResource("Resource_3evox")
+}
+terrain_tiles = {}
+tile_relationships = {}
+extraction_stats = {
+"extraction_timestamp": "2025-05-27T18:24:18",
+"patterns_extracted": 0,
+"terrains_covered": 0,
+"total_tile_variants": 0
+}

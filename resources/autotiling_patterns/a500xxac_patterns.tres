@@ -1,0 +1,4914 @@
+[gd_resource type="Resource" script_class="AutotilingDatabase" load_steps=547 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TilePattern.gd" id="1_2h5mj"]
+[ext_resource type="Script" path="res://scripts/resources/AutotilingDatabase.gd" id="2_cmbot"]
+
+[sub_resource type="Resource" id="Resource_fkc17"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [16, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [961]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ssnkt"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 5, 1, 1, 1]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lv48l"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 26, 1, 1, 5, 1, 1, 25]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0g0wb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [26, 1, 5, 5, 6, 1, 25, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_iqwa3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 6
+neighbor_terrains = [1, 5, 5, 5, 25, 25, 1, 1]
+valid_tiles = [900]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2xps7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [5, 5, 5, 6, 5, 1, 1, 1]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ov8cg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [5, 5, 25, 25, 5, 1, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xv4rx"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [5, 25, 5, 5, 1, 1, 1, 25]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5lddq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 5, 5, 5, 1, 1, 25, 25]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_21y8q"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 1, 1, 25, 25, 25, 45]
+valid_tiles = [727]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_orh1f"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [5, 1, 1, 1, 44, 25, 45, 25]
+valid_tiles = [937]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_btiq8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 44
+neighbor_terrains = [1, 1, 25, 25, 11, 45, 25, 25]
+valid_tiles = [938]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3okyn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 11
+neighbor_terrains = [1, 25, 44, 44, 44, 25, 25, 1]
+valid_tiles = [939]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7fwqb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 44
+neighbor_terrains = [25, 44, 44, 11, 25, 25, 1, 1]
+valid_tiles = [940]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_l1rof"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [44, 44, 44, 44, 1, 1, 1, 1]
+valid_tiles = [941]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wfl5m"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [44, 44, 25, 25, 1, 1, 1, 1]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jgjp6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [44, 25, 1, 1, 5, 1, 1, 25]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_grbmc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [25, 1, 1, 1, 5, 1, 25, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_fkeos"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 5, 5, 25, 25, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_60be3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 5, 5, 5, 1, 1, 1, 1]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_cjqk8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 25, 25, 1, 1, 1, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_fxnbi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 25, 1, 1, 1, 1, 1, 1]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ht88k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [67, 103, 99]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_p4dgi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 5, 1, 1, 1, 1, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_cx8yw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 5, 7, 1, 1, 1, 26, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_fj074"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 7, 5, 1, 26, 26, 1, 26]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rykua"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [7, 5, 5, 1, 1, 1, 26, 1]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_b4o5d"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 26, 26, 26, 26, 1, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tat1y"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [5, 26, 16, 1, 26, 1, 1, 1]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_43shq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 16, 26, 26, 26, 1, 1, 1]
+valid_tiles = [928]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7jyxc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 1, 1, 25]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hetrv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 5, 1, 1, 1, 25, 25]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_t3aqo"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 5, 5, 1, 25, 25, 25, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7xnm4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [5, 5, 6, 1, 1, 25, 1, 1]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_h8qxy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 6, 25, 25, 1, 1, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0avyq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [6, 25, 5, 1, 1, 1, 1, 1]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_i8m1x"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 5, 5, 1, 1, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_yf75w"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 1, 1, 25, 1, 1, 1]
+valid_tiles = [727]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qkste"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [5, 1, 1, 1, 25, 1, 1, 1]
+valid_tiles = [969]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vkic4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 25, 25, 45, 1, 1, 1]
+valid_tiles = [970]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a1xoj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 45
+neighbor_terrains = [1, 25, 44, 25, 25, 1, 1, 1]
+valid_tiles = [971]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ptk8o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [25, 44, 11, 45, 25, 1, 1, 1]
+valid_tiles = [972]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_keeqi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [44, 11, 44, 25, 1, 1, 1, 1]
+valid_tiles = [973]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_j3td4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [11, 44, 25, 25, 1, 1, 1, 25]
+valid_tiles = [760]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tiqx7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [44, 25, 1, 1, 1, 1, 25, 25]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0p8sb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 1, 1, 25, 25, 1]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ir5yn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 5, 1, 25, 25, 1, 1]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_snl1h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 5, 5, 1, 1, 1, 1, 3]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nmtb3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 25, 25, 1, 1, 3, 5]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vnevt"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 25, 1, 1, 1, 3, 5, 1]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_abugi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 1, 1, 5, 1, 5]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_durr2"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 5, 26]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xdu56"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 5, 26, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a2dy1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 1, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_yv25c"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 26, 5]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dp0dd"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 26, 26, 5, 1]
+valid_tiles = [820, 133]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0cv4n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 1, 1, 5, 1, 5]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3mhtk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 26, 26, 1, 1, 5, 5]
+valid_tiles = [819]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_o3b78"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 1, 5, 5, 5]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8ydrj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 5, 5, 1]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_306wy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 25, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mdorc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 25, 25, 1, 1]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ln1ig"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 25, 25, 1, 1, 1, 1]
+valid_tiles = [936]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8i80k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 1, 25, 1, 1, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3wysk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [756, 758, 759, 691, 723, 791, 790, 957, 822, 167, 82, 6, 134, 71, 70, 77, 355, 38, 80, 100, 133, 132, 76, 73, 72, 99, 66, 67, 164, 140, 102, 103, 166, 135, 173, 165, 113, 75, 81, 498, 114, 74]
+frequency = 141
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1qpel"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 1, 1, 1, 1, 1]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8r81x"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 1, 1, 1, 1]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wr807"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 45, 1, 1, 1, 1, 1]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1c56s"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 45, 25, 1, 1, 1, 1, 1]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uxogg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [45, 25, 25, 1, 1, 1, 1, 25]
+valid_tiles = [757]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hphiq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 1, 1, 25, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oorju"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 1, 25, 25, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xmoff"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 1, 1]
+valid_tiles = [934]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6phkq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 1, 1, 1, 5]
+valid_tiles = [967]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_sw57n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 25, 1, 1, 5, 5]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_177fi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 1, 1, 3, 5, 5, 1]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oetlf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 3
+neighbor_terrains = [25, 1, 1, 1, 5, 5, 1, 5]
+valid_tiles = [869]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jvpy6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 1, 3, 1, 1, 5, 26]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3sdwn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 5, 5, 5, 26, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xp1ux"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 1, 26]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ustbn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 5, 1, 1, 26, 5]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_b31oh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 1, 5, 5, 1, 5]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hqlk7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [26, 1, 26, 26, 1, 1, 5, 3]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jktmk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 5, 5, 5, 3, 5]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_c7pvc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [26, 1, 1, 1, 5, 3, 5, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jtjnc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 1, 5, 5, 5, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_apdiv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 1, 5, 1, 1, 1, 27]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ck7ml"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 25, 1, 1, 1, 1, 1]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_twmbq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 25, 1, 1, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lq6g1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 1, 1, 1, 1]
+valid_tiles = [175]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5pgfw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 27]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nt344"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 27, 1]
+valid_tiles = [174]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rsjl4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 25, 27, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2wjqn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [966]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nm8j7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 25, 1, 1, 26, 26]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_n7ifd"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 1, 26, 26, 26]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1buy3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 5, 26, 26, 27]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ups5e"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [25, 1, 1, 1, 5, 26, 27, 26]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ndigs"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 3, 5, 1, 27, 26, 26]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mjb4y"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 3, 5, 5, 5, 26, 26, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_eb465"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [3, 5, 1, 1, 26, 26, 1, 26]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5qaj1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [5, 1, 5, 5, 1, 1, 26, 1]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_svxsg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 5, 26, 26, 26, 26, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_65n4t"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [5, 26, 1, 1, 5, 1, 1, 1]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_y033f"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [26, 1, 26, 26, 1, 1, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6vud5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 5, 5, 5, 1, 1, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7m7vr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [26, 5, 1, 1, 3, 1, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qk7qn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 3
+neighbor_terrains = [5, 1, 5, 5, 5, 1, 1, 1]
+valid_tiles = [869]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_af6q4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 5, 5, 3, 1, 1, 1, 25]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xx365"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 5, 5, 1, 1, 25, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0ai3v"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 1, 1, 27, 25, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4edc2"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 1, 1, 1, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0e80m"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 25]
+valid_tiles = [99, 790]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dhfwb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 25, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rkwub"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 27, 25, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xmqhr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 27
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [810]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_marjq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 27, 1, 1, 26, 26]
+valid_tiles = [112]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mm5fu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 1, 1, 26, 26, 26, 26]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jil82"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [25, 1, 1, 1, 26, 26, 26, 27]
+valid_tiles = [995]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8u2pg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 27, 26]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_k0w4m"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 5, 26, 27, 27, 26, 26]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dsl8s"]
+script = ExtResource("1_2h5mj")
+center_terrain = 27
+neighbor_terrains = [1, 5, 5, 26, 26, 26, 26, 1]
+valid_tiles = [844]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0qw4o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [5, 5, 1, 27, 26, 26, 1, 26]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_h41dc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [5, 1, 5, 26, 1, 1, 26, 26]
+valid_tiles = [963]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_o6a1p"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 5, 26, 26, 26, 26, 26, 27]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_j6xb1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [5, 26, 1, 1, 1, 26, 27, 26]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_alks7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 26, 26, 1, 27, 26, 26]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nkbsn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 5, 1, 1, 26, 26, 26]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_puj5a"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 5, 1, 1, 1, 26, 26, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0rmbp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 1, 5, 1, 1, 26, 1, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7reve"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 5, 3, 1, 1, 1, 1, 25]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7g6lw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 3, 5, 1, 1, 1, 25, 25]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0jy0o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [3, 5, 1, 1, 25, 25, 25, 25]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dc6b7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [5, 1, 1, 1, 1, 25, 25, 1]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gq04w"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 27, 25, 1, 25, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5a0en"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 25, 25]
+valid_tiles = [757, 67]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_es2bm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 25, 25, 25]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_h02vv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 25, 25, 1]
+valid_tiles = [6, 70]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_niftp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 25, 25, 1, 1]
+valid_tiles = [103]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uv7lb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 27, 25, 1, 1, 26, 1]
+valid_tiles = [851]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0yqw1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 27, 1, 1, 26, 26, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nq8sh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [27, 1, 1, 1, 26, 1, 1, 1]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nm1nb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 1, 1, 1]
+valid_tiles = [801, 928, 800]
+frequency = 7
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lsu8l"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 27, 1, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_h6451"]
+script = ExtResource("1_2h5mj")
+center_terrain = 27
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 1, 1]
+valid_tiles = [876]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1y8sx"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 27, 27, 26, 1, 1, 26]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_e420p"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 27, 26, 26, 1, 1, 26, 26]
+valid_tiles = [835]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6jqss"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [27, 26, 26, 26, 26, 26, 26, 27]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nudyt"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 1, 26, 26, 27, 26]
+valid_tiles = [962]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1y2ps"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 27, 27, 26, 26]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wwat4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 27
+neighbor_terrains = [1, 26, 1, 26, 26, 26, 26, 26]
+valid_tiles = [844]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_u31mi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 27, 26, 26, 26, 1]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lnexn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 1, 1]
+valid_tiles = [769, 896]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8h6gw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [994, 961, 963]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6espu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rm62c"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 1, 25]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_awxg7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 25, 25]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_n4o2o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 25, 25, 25, 25, 25, 1]
+valid_tiles = [999]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_iop7o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 25, 1, 25, 1, 25, 1, 25]
+valid_tiles = [936]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6ve0g"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 25, 1, 1, 25, 25]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_o7ycp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 25, 1, 25]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1u2pk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 1, 1]
+valid_tiles = [935]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4h1p7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 1, 1, 1, 26]
+valid_tiles = [1000]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tb2nq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 25, 1, 1, 26, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dim7x"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 1, 1, 26, 26, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1dlhm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [25, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [931, 899]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tgwsu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 1, 1, 1, 1]
+valid_tiles = [387, 355, 819]
+frequency = 11
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_f33cw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [355, 70, 819, 133]
+frequency = 7
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kkfkc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [100, 82, 827, 131, 957, 140, 133, 132]
+frequency = 11
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jqabg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 27, 1, 1, 1, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_n31nx"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 27, 26, 1, 1, 1, 1, 1]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_36vu6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [27, 26, 26, 1, 26, 1, 1, 1]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_f8fe1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 1, 26, 1, 1, 1]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3gt4j"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 27, 1, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1tv2h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 27
+neighbor_terrains = [1, 26, 26, 26, 26, 1, 1, 26]
+valid_tiles = [876]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dqrcy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 27, 27, 26, 1, 26, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pecm5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 27, 26, 26, 26, 26, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ionsj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [27, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gp077"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [355, 821]
+frequency = 6
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uvu2y"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 1, 1, 1]
+valid_tiles = [142, 355, 6, 165, 70, 164, 140, 75, 102]
+frequency = 12
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_b40nn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [79, 6, 74, 15, 112]
+frequency = 7
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ajj6v"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 1, 25, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jqpvb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 25, 25, 1, 25, 1, 1, 5]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_13myu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [25, 25, 25, 25, 1, 1, 5, 5]
+valid_tiles = [1003]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2nl70"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 25, 25, 5, 5, 5]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4yo7i"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [25, 1, 1, 1, 25, 5, 5, 1]
+valid_tiles = [1001]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mowt4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 1, 12]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gehv1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 12, 1]
+valid_tiles = [1001]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dmvwp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 1, 12, 1, 1]
+valid_tiles = [1000]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_w5gvv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 25, 1, 1, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3n3lj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 1, 1, 1, 26]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_v4hbw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 1, 26, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bdo6v"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 26, 26, 1, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ufduh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 1, 1, 1, 1]
+valid_tiles = [355, 821, 142, 819]
+frequency = 6
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2fhak"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 16]
+valid_tiles = [100, 164, 70, 102, 112, 136, 169, 6]
+frequency = 9
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gh7q6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 16, 1]
+valid_tiles = [15, 6, 102, 77, 103]
+frequency = 7
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gtqpf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 1, 1]
+valid_tiles = [14]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nliv8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 1, 1, 1, 1]
+valid_tiles = [819, 355, 133]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5m6it"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 1, 1, 1, 26]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pm3la"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 27, 1, 1, 1, 26, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ph2lm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 27, 26, 1, 26, 26, 1, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6sm8o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [27, 26, 26, 1, 1, 1, 1, 3]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pmm66"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 3, 5]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wk0an"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 3, 5, 1]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rinss"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 5, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jrage"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 5]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uat03"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 1, 1, 1, 5, 5]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_fmwsc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 5, 5, 5, 3]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_psnx3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [25, 25, 1, 1, 5, 5, 3, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rjm0w"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [25, 1, 25, 5, 5, 3, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jcram"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 25, 25, 5, 1, 1, 1, 22]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qsuy6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 25, 1, 12, 22, 22, 12]
+valid_tiles = [80]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2jhwr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 25, 25, 1, 1, 22, 12, 1]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6bnas"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 12, 1, 12, 1, 26]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5f0gi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 1, 1, 1, 26, 1]
+valid_tiles = [47]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oltjh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 1, 1]
+valid_tiles = [67, 355]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_y1mha"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [931, 930]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7wrn3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 16, 16]
+valid_tiles = [102, 132, 137, 166]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_cuta7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 16, 1]
+valid_tiles = [6, 387]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6rdie"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 1, 1]
+valid_tiles = [630, 600]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hg5j3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 16, 1, 1, 1, 26]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jeoc2"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 26, 26]
+valid_tiles = [133, 114]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_cpwi6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [852, 6, 114]
+frequency = 6
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2mxjr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 1]
+valid_tiles = [355, 103]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5ap5i"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 1, 1, 1, 5]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tjoeg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 3, 1, 5, 5]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mdyvm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 3
+neighbor_terrains = [26, 1, 1, 1, 5, 5, 5, 5]
+valid_tiles = [869]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jdarq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 1, 3, 1, 5, 5, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nasii"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 5, 1, 5, 1, 5]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_c0fu1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 5, 5]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tr81l"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 5, 5, 5, 5]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rtyjy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 1, 1, 5, 5, 5, 1]
+valid_tiles = [772]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_m0tiv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 5, 5, 3, 5, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_n7o7g"]
+script = ExtResource("1_2h5mj")
+center_terrain = 3
+neighbor_terrains = [1, 5, 5, 5, 1, 1, 1, 22]
+valid_tiles = [869]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qbkws"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 5, 3, 1, 1, 22, 22]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qiq84"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 1, 1, 22, 22, 22, 22]
+valid_tiles = [103]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gyper"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [1, 1, 12, 22, 12, 22, 12, 26]
+valid_tiles = [58]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_c6tqd"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 12, 1, 22, 1, 12, 26, 26]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2achj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 12, 26, 26, 26, 1]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_m64ok"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qa5r7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 12]
+valid_tiles = [355]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wf4aa"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 12, 16]
+valid_tiles = [70, 102, 6, 175]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gj6kd"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 12, 16, 1]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_yf1bi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 1, 1]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_l74vi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 16, 16, 1, 1, 1, 26]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wjk6r"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 1, 16, 1, 1, 26, 26]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jxfja"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [924]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uuhuf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 26, 1]
+valid_tiles = [866]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pp5bf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 5, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bbrqi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 3, 1, 5, 1, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_f742j"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 3, 5, 5, 5, 1, 1, 3]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kn033"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [3, 5, 1, 5, 1, 1, 3, 5]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oe4tg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 1, 1, 5, 5, 3, 5, 5]
+valid_tiles = [113]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oddf1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 1, 5, 5, 5, 5, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ch355"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [1, 5, 5, 5, 1, 1, 1, 22]
+valid_tiles = [772]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rumnw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 3, 5, 1, 1, 22, 22]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wymrh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 3, 1, 1, 22, 22, 22, 22]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ljhqn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [3, 1, 1, 1, 22, 22, 22, 22]
+valid_tiles = [27]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1gtc3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [1, 1, 22, 22, 22, 22, 22, 1]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ml1wh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [22, 22, 12, 22, 26, 26, 26, 1]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_y8t1v"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [22, 12, 1, 12, 26, 26, 1, 1]
+valid_tiles = [960]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kbcld"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [12, 1, 26, 26, 1, 1, 1, 1]
+valid_tiles = [867]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dkmck"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 26, 1, 1, 1, 1]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_v1t6h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 12, 12, 16, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_typ60"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 1, 1]
+valid_tiles = [780, 718]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6n0gb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 16, 12, 1, 1, 1, 26]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tphxs"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 16, 16, 1, 1, 26, 1]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_twcna"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 1, 1, 26, 26, 1, 1]
+valid_tiles = [924]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xlubi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [16, 1, 1, 1, 26, 1, 1, 1]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pnlxq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [802]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_yqi5j"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 5, 1, 1, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hnbnu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 5, 5, 1, 1, 1, 1, 1]
+valid_tiles = [72]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_r83bh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 5, 1, 3, 1, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3ju5g"]
+script = ExtResource("1_2h5mj")
+center_terrain = 3
+neighbor_terrains = [5, 5, 1, 1, 5, 1, 1, 1]
+valid_tiles = [869]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_id1e6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 5
+neighbor_terrains = [5, 1, 5, 3, 5, 1, 1, 1]
+valid_tiles = [772]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bijl1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 5, 5, 1, 1, 22, 22]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a8wi6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [5, 1, 1, 1, 22, 22, 22, 1]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_q7qae"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [1, 1, 22, 22, 22, 22, 1, 1]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3hg5a"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [1, 22, 22, 22, 22, 1, 1, 1]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pqirr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [22, 22, 22, 22, 1, 1, 1, 26]
+valid_tiles = [22]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_adv7p"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [22, 12, 26, 26, 1, 1, 1, 1]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xwkta"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qovwp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 12, 1, 16, 1]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3u2fp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 12, 12, 1, 1, 1, 26]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_biuku"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 12, 16, 16, 1, 1, 26, 26]
+valid_tiles = [851, 923]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_x160m"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 1, 1, 26, 26, 26, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_v0tqy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [16, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oqqos"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 3, 1, 1, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mfahh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 3, 5, 1, 1, 1, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jg0qh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [3, 5, 5, 1, 1, 1, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6rnfb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [5, 5, 1, 1, 22, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_l8elq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [5, 1, 1, 1, 22, 1, 1, 1]
+valid_tiles = [25]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ir80j"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [1, 1, 22, 22, 22, 1, 1, 1]
+valid_tiles = [87]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1bhtl"]
+script = ExtResource("1_2h5mj")
+center_terrain = 22
+neighbor_terrains = [1, 22, 22, 22, 1, 1, 1, 1]
+valid_tiles = [26]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2hp1g"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [22, 22, 22, 22, 1, 1, 1, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_fc14b"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [22, 22, 22, 1, 1, 1, 26, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_de15h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [22, 22, 1, 1, 26, 26, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nkf1p"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 1, 1]
+valid_tiles = [355, 164, 100]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mf0h1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 12, 1, 1, 1, 1, 26]
+valid_tiles = [664]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6eijf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 1, 1, 26, 26, 26, 26]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oqixl"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [16, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [962, 834]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3ifc5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 1, 26, 26, 1]
+valid_tiles = [994]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ymnlb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 26, 1, 26, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wiwn1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [114]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_es4cu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 25]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jb704"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 25, 25]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4domb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 25, 25, 26]
+valid_tiles = [114]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6p3g2"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 25, 26, 26]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xjpxb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mhl3g"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [45]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jg8tq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 22, 1, 1, 1, 26, 26]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_77k10"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 22, 22, 1, 1, 26, 26, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_f051n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [22, 22, 22, 1, 1, 26, 26, 26]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pf52f"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [22, 22, 1, 1, 1, 26, 26, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3wtsu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [22, 1, 1, 1, 26, 26, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_c1d7o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 19, 1]
+valid_tiles = [38, 71]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6g21n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 19, 1, 1]
+valid_tiles = [821, 164]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gdltk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [600]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_one4i"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 16, 16, 1, 1, 1, 26]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kse78"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 1, 1, 26, 1, 26, 26]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gki1l"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 26, 26, 1]
+valid_tiles = [962]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xh6oh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 26, 1, 1]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0mth8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 1, 1, 1, 26]
+valid_tiles = [994]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_115lf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 1, 26, 26]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dacd4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [110, 168]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vuiil"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [995]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3r3gw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 26, 30]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2vw8c"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 30, 30]
+valid_tiles = [770]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vd2yc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 25, 30, 30, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hirte"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 26, 25, 30, 26, 26]
+valid_tiles = [842]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rx00b"]
+script = ExtResource("1_2h5mj")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 26, 26, 26, 26]
+valid_tiles = [843]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kqyew"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 25, 26, 26, 26, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_37r8h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 26, 1]
+valid_tiles = [769]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pgpgg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 1, 26]
+valid_tiles = [994]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bhe0m"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 26, 26]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_10xvb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 1, 1, 12, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_awuq7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 16, 19, 1, 1, 1, 1]
+valid_tiles = [133, 135]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_klhg2"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 1, 1, 1, 1, 1, 1]
+valid_tiles = [100, 71]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wnsd1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 1, 1, 26, 1, 1, 26]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_aw7gm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 1, 26, 1, 26, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0lm3l"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_amlvv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [898, 930]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_73b0w"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 26, 1]
+valid_tiles = [387]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_h04k1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 26, 26, 1, 1]
+valid_tiles = [889]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_q5tht"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 26, 1, 1, 1]
+valid_tiles = [931]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_n4aml"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 1, 1, 1]
+valid_tiles = [800]
+frequency = 5
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ebejf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 30, 1, 1, 1]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_il4f7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 30
+neighbor_terrains = [26, 26, 26, 26, 30, 1, 1, 1]
+valid_tiles = [874]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_m5fu4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 30
+neighbor_terrains = [26, 26, 25, 30, 26, 1, 1, 1]
+valid_tiles = [875]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pc5ga"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 25, 25, 30, 26, 1, 1, 26]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rnv4h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [25, 25, 26, 26, 26, 1, 26, 26]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_j7c7k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [25, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lcyht"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [835]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_m2e47"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 16, 12]
+valid_tiles = [38, 103]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_473wv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 12, 1]
+valid_tiles = [852, 132]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_do3gk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 19, 1, 12, 1, 1, 1, 1]
+valid_tiles = [851]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pmks8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [19, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_456r7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 26, 26, 26]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_o0bwg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [962]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ka1u3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 1]
+valid_tiles = [769]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0gg83"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 26, 1, 1]
+valid_tiles = [769]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jgddi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [963]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uudvy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 26, 30, 1, 1, 1, 1, 1]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ecqiq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [26, 30, 30, 1, 1, 1, 1, 26]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vmib0"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [30, 30, 26, 1, 1, 1, 26, 26]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_eqti8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [30, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_myret"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [962]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ue18m"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 12, 1, 1, 1]
+valid_tiles = [664, 600]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_nyhls"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 1, 16, 16, 1, 1, 1, 1]
+valid_tiles = [780]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_h7oda"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [132, 102, 112, 70, 71]
+frequency = 6
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_344nw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 1, 1]
+valid_tiles = [822, 164]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4ocvx"]
+script = ExtResource("1_2h5mj")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 1, 1]
+valid_tiles = [834]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_puvaf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 16]
+valid_tiles = [75, 38, 6, 105, 134]
+frequency = 7
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4iywb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 1, 16]
+valid_tiles = [109]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_f8lsu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 16, 16, 1, 1, 1, 1]
+valid_tiles = [355, 99, 100]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a3ybf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 12, 1, 1, 1, 1, 1]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_rb7xy"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 12, 1, 1, 1, 1, 1, 1]
+valid_tiles = [826, 71, 134]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4xje4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 16, 1]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_g0l76"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 1, 12]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tvqgb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 12, 16]
+valid_tiles = [631]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_258fd"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 16, 16, 12, 16, 16]
+valid_tiles = [957]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_clh76"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 16, 38]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mg41o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 16, 16, 1, 16, 38, 38]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_55of4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 1, 16, 1, 38, 38, 1]
+valid_tiles = [891]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_hsg12"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 1, 1, 1, 38, 1, 1]
+valid_tiles = [957]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2i842"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 16, 12, 1, 1]
+valid_tiles = [631]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wh47j"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 16, 1, 1, 1, 12]
+valid_tiles = [598]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bxa37"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 16, 16, 12, 1, 12, 16]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oqgkc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 16, 1, 1, 16, 12, 16, 1]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_plqti"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 1, 16, 12, 16, 16, 1, 38]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vrtqb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 16, 16, 16, 38, 1, 38, 1]
+valid_tiles = [597]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_f2ivv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [16, 16, 1, 16, 38, 38, 1, 1]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_haa2j"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [16, 1, 1, 38, 1, 1, 1, 1]
+valid_tiles = [741]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gck0c"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 1, 1, 1]
+valid_tiles = [100, 140]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2a3cs"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 16, 12, 1, 1, 1, 16]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4vved"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 1, 1, 12, 1, 16, 12]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_08vcu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [16, 1, 12, 1, 16, 16, 12, 38]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_llw31"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 12, 16, 12, 1, 12, 38, 1]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6nb24"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 16, 16, 38, 38, 1, 38]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8ku31"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [16, 16, 38, 1, 1, 1, 38, 38]
+valid_tiles = [640]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_aehgj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 38, 38, 38, 1, 38, 38, 1]
+valid_tiles = [76]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_x4hcv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 38, 1, 1, 1, 38, 1, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_t84sm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [172, 70, 6]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5rluj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 12]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lj2d7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 12, 16, 1]
+valid_tiles = [80]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8o6rg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 12, 1, 1, 1, 1, 16]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_yqt4k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 12, 1, 1, 1, 1, 16, 16]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bqruh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 16, 16, 16, 16]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bmtof"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 12, 1, 12, 16, 16, 19]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jg57r"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 12, 16, 16, 38, 16, 19, 16]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_cp67u"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [12, 16, 1, 12, 1, 19, 16, 1]
+valid_tiles = [674]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_g012i"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 38, 38, 38, 16, 1, 38]
+valid_tiles = [14]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_fukdl"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 38, 1, 1, 38, 1, 38, 1]
+valid_tiles = [740]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_w0wni"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 38, 1, 38, 1, 1]
+valid_tiles = [741]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3gn18"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 1, 1, 12]
+valid_tiles = [467]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_sf4u0"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 12, 1]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bgcfv"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 12, 1, 1]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_l02pl"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 16, 16]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wvwj6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 12, 16, 16, 1]
+valid_tiles = [109, 66]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xocir"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 12, 1, 1, 1, 1]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_vsfg0"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 1, 1, 1, 1, 1, 16]
+valid_tiles = [75]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1qb7e"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 1, 16, 16]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1auga"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 16, 1]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_57lxn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 16, 16, 16, 16, 1, 16]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5ikwa"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 16, 12, 16, 19, 1, 16, 16]
+valid_tiles = [596]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0vuxw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 19
+neighbor_terrains = [16, 12, 38, 16, 16, 16, 16, 16]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_q75rm"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [12, 38, 1, 19, 1, 16, 16, 1]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_q1mvf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 1, 38, 16, 38, 16, 1, 1]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_83pfn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 38, 38, 1, 1, 1, 1, 38]
+valid_tiles = [674]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mew6s"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 38, 1, 38, 1, 1, 38, 12]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dtito"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 12, 38, 12, 1]
+valid_tiles = [169]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ug58d"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 1, 1, 1, 1, 12, 1, 1]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_i36y8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 12, 1, 1, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ym10w"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 38, 38]
+valid_tiles = [70, 103]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_di3po"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 38, 12]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pvcnk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 12, 16]
+valid_tiles = [114]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gmno5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 12, 16, 16]
+valid_tiles = [103, 67]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a5evq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 16, 19]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_cnwma"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 16, 19, 16]
+valid_tiles = [109]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_v4w1o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 19, 16, 38]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_geq0r"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 38, 12]
+valid_tiles = [46]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_70rm3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 16, 38, 12, 1]
+valid_tiles = [631]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xatat"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 16, 16, 12, 1, 1]
+valid_tiles = [538]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bnsy8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 12, 16, 1, 1, 1, 1]
+valid_tiles = [598]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_c6qf4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 12, 16, 16, 1, 1, 1, 1]
+valid_tiles = [132, 100]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dof6n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 1, 1, 1, 1, 1, 1]
+valid_tiles = [47]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2foh7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [107, 76, 82]
+frequency = 4
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_musku"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 1, 1, 1]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uixvp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 16, 1, 16, 1, 1, 1]
+valid_tiles = [628]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_y6xhp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 16, 16, 16, 1, 1, 1, 12]
+valid_tiles = [629]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_aftuk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 16, 16, 16, 1, 12, 16]
+valid_tiles = [14]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jwqb3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 16, 19, 1, 16, 12, 16, 19]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ieg7t"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 19, 16, 16, 16, 16, 19, 16]
+valid_tiles = [570]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8rpi1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [19, 16, 1, 16, 1, 19, 16, 16]
+valid_tiles = [597]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dr27o"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 1, 38, 16, 1, 16, 16, 38]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_u6bce"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 38, 1, 1, 38, 16, 38, 38]
+valid_tiles = [109]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_blg58"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 1, 12, 38, 38, 1]
+valid_tiles = [707]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_r5atj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 1, 12, 38, 1, 38, 1, 1]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_1i7tk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 12, 1, 12, 1, 1, 1, 1]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3ox18"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 38, 1, 12, 16]
+valid_tiles = [740]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_me6nr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 38, 12, 16, 16]
+valid_tiles = [673]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a02vg"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 12, 16, 16, 12]
+valid_tiles = [674]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_t26eu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 1, 1, 38, 16, 16, 12, 1]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bv2xf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 12, 16, 12, 1, 1]
+valid_tiles = [631]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8v76v"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 16, 19, 1, 1, 1]
+valid_tiles = [538]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wbe0d"]
+script = ExtResource("1_2h5mj")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 16, 16, 1, 1, 1]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_4kx8v"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 19, 38, 1, 1, 1]
+valid_tiles = [598]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jdnj5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 1, 16, 16, 12, 1, 1, 1]
+valid_tiles = [676]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_qp5ki"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 16, 16, 38, 1, 1, 1, 1]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uvatt"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 16, 12, 1, 1, 1, 1]
+valid_tiles = [164, 132]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_20gau"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 1, 1, 1, 1, 1, 1]
+valid_tiles = [165, 70]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kkf3k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 16, 1, 1, 1, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_j4o4u"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 16, 16, 1, 1, 1, 1, 1]
+valid_tiles = [103, 67]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gr0iw"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 1, 1, 12, 1, 1, 1]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0n1of"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [16, 1, 16, 1, 16, 1, 1, 1]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_l3drl"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 16, 16, 12, 19, 1, 1, 16]
+valid_tiles = [628]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_e8bgh"]
+script = ExtResource("1_2h5mj")
+center_terrain = 19
+neighbor_terrains = [16, 16, 16, 16, 16, 1, 16, 16]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_b526n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 16, 1, 19, 16, 16, 16, 12]
+valid_tiles = [571]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0xhpd"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 1, 1, 16, 38, 16, 12, 1]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xl10k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 1, 38, 16, 38, 12, 1, 1]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xhevn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 38, 12, 38, 1, 1, 1, 1]
+valid_tiles = [741]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_m0mhj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 12, 1, 38, 1, 1, 1, 1]
+valid_tiles = [76]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_yjcxx"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 1, 1, 1, 12]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_q5bcj"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [38, 38, 38, 1, 16, 16, 12, 1]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_xfmsp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [38, 38, 38, 12, 16, 12, 1, 1]
+valid_tiles = [631]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_03sdi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [38, 38, 12, 16, 12, 1, 1, 1]
+valid_tiles = [598]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_5cntu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [38, 12, 16, 16, 1, 1, 1, 1]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_k14v8"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 16, 12, 1, 1, 1, 1]
+valid_tiles = [14, 70]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_e3lf4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 19, 1, 1, 1, 1, 38]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_aw7dx"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 19, 16, 1, 1, 1, 38, 1]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ae4d3"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [19, 16, 38, 1, 1, 38, 1, 1]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_od3bi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 38, 12, 1, 1, 1, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_awwx4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 12, 1, 1, 1, 1, 1, 1]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_d50af"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 12, 1, 1, 1, 1, 12]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_msjp6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 12, 16, 1, 1, 1, 12, 16]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_gi8mk"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 19, 1, 16, 12, 16, 16]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_lf2dc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 19, 16, 1, 16, 16, 16, 16]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6a4fq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [19, 16, 16, 16, 12, 16, 16, 19]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_7ykvu"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [16, 16, 38, 16, 1, 16, 19, 16]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ywf65"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 38, 38, 12, 1, 19, 16, 16]
+valid_tiles = [106]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dhxh7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 38, 1, 1, 1, 16, 16, 16]
+valid_tiles = [47]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0cp7d"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 1, 16, 16, 16]
+valid_tiles = [107]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_2xo5h"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 12, 16, 1, 1, 1]
+valid_tiles = [631]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jjlke"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 12, 16, 16, 1, 1, 1, 1]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_8topi"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 12, 1, 1, 1, 1, 1]
+valid_tiles = [103, 74]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ugvhs"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 12, 1, 1, 1, 1, 1, 38]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_mhmw1"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 1, 1, 38, 1]
+valid_tiles = [133]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_06y56"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 38, 1, 1]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_co3s4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [640, 676]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_tkj13"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 12, 1, 16, 16]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ji1js"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [1, 1, 1, 1, 16, 16, 16, 12]
+valid_tiles = [718]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_oxg0k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 16, 12, 16, 16, 12, 1]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_62lm7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 16, 16, 16, 16, 12, 1, 1]
+valid_tiles = [596]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3j8vn"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [16, 16, 12, 16, 19, 1, 1, 1]
+valid_tiles = [539]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_saann"]
+script = ExtResource("1_2h5mj")
+center_terrain = 19
+neighbor_terrains = [16, 12, 1, 16, 16, 1, 1, 1]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_m2j2b"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [12, 1, 1, 19, 16, 1, 1, 1]
+valid_tiles = [539]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_a8gp5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 16, 16, 1, 1, 1]
+valid_tiles = [539]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_b160n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [12, 16, 16, 1, 1, 1, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_6nxp6"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_w7e3k"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 38, 1, 1, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0iy67"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 38, 1, 1, 1, 1, 1, 1]
+valid_tiles = [137, 38]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dg6n4"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 19]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_02avs"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 12, 1, 16, 1, 1, 1]
+valid_tiles = [636]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_53j2s"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 12, 16, 16, 12, 1, 1, 1]
+valid_tiles = [598]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_wafof"]
+script = ExtResource("1_2h5mj")
+center_terrain = 12
+neighbor_terrains = [12, 16, 16, 16, 1, 1, 1, 1]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_ayjod"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 19, 1, 1, 1, 1, 1]
+valid_tiles = [74]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3iw75"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 19, 16, 1, 1, 1, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_p4khc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [19, 16, 16, 1, 1, 1, 1, 1]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_b7kj7"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [16, 16, 16, 1, 1, 1, 1, 1]
+valid_tiles = [70, 71]
+frequency = 3
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3ty23"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 1, 1, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_o4ndc"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 19, 16, 1, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_n6u3q"]
+script = ExtResource("1_2h5mj")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_bbnnb"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 0, 0]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_d6g3c"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 0, 0, 0]
+valid_tiles = [38, 6, 103, 99, 166, 73, 136, 82]
+frequency = 25
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_jik11"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 16, 0, 0, 0]
+valid_tiles = [167]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_0ip6u"]
+script = ExtResource("1_2h5mj")
+center_terrain = 16
+neighbor_terrains = [1, 1, 1, 1, 1, 0, 0, 0]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_04t7s"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 1, 19, 16, 1, 0, 0, 0]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_uucjr"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [1, 19, 1, 1, 1, 0, 0, 0]
+valid_tiles = [135]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pvgy5"]
+script = ExtResource("1_2h5mj")
+center_terrain = 1
+neighbor_terrains = [19, 1, 1, 1, 1, 0, 0, 0]
+valid_tiles = [134]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_arxfp"]
+script = ExtResource("1_2h5mj")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 1, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_3kegf"]
+script = ExtResource("1_2h5mj")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 27
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_pu45n"]
+script = ExtResource("1_2h5mj")
+center_terrain = 0
+neighbor_terrains = [1, 1, 16, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_kvwpq"]
+script = ExtResource("1_2h5mj")
+center_terrain = 0
+neighbor_terrains = [1, 16, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[sub_resource type="Resource" id="Resource_dn653"]
+script = ExtResource("1_2h5mj")
+center_terrain = 0
+neighbor_terrains = [16, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter19BBattleOfBulgar"]
+
+[resource]
+script = ExtResource("2_cmbot")
+tileset_id = "a500xxac"
+patterns = {
+"0_16_1_1_0_0_0_0_0": SubResource("Resource_dn653"),
+"0_1_16_1_0_0_0_0_0": SubResource("Resource_kvwpq"),
+"0_1_1_16_0_0_0_0_0": SubResource("Resource_pu45n"),
+"0_1_1_1_0_0_0_0_0": SubResource("Resource_3kegf"),
+"0_1_1_1_1_0_0_0_0": SubResource("Resource_arxfp"),
+"11_1_25_44_44_44_25_25_1": SubResource("Resource_3okyn"),
+"12_12_16_16_16_1_1_1_1": SubResource("Resource_wafof"),
+"12_16_16_38_16_1_16_19_16": SubResource("Resource_7ykvu"),
+"12_16_1_12_1_16_16_12_38": SubResource("Resource_08vcu"),
+"12_16_1_16_1_16_1_1_1": SubResource("Resource_0n1of"),
+"12_1_12_16_16_1_1_1_1": SubResource("Resource_jjlke"),
+"12_1_12_16_16_38_16_19_16": SubResource("Resource_jg57r"),
+"12_1_12_1_22_1_12_26_26": SubResource("Resource_c6tqd"),
+"12_1_16_16_38_1_1_1_1": SubResource("Resource_qp5ki"),
+"12_1_16_1_1_16_12_16_1": SubResource("Resource_oqgkc"),
+"12_1_1_12_38_1_38_1_1": SubResource("Resource_r5atj"),
+"12_1_1_16_16_1_1_1_1": SubResource("Resource_nyhls"),
+"12_1_1_1_1_16_16_16_12": SubResource("Resource_ji1js"),
+"12_1_1_1_1_16_16_1_1": SubResource("Resource_typ60"),
+"12_1_1_1_1_1_12_1_1": SubResource("Resource_ug58d"),
+"12_1_1_1_38_16_16_12_1": SubResource("Resource_t26eu"),
+"12_1_25_25_1_1_22_12_1": SubResource("Resource_2jhwr"),
+"12_22_22_12_22_26_26_26_1": SubResource("Resource_ml1wh"),
+"12_38_12_16_16_1_1_1_1": SubResource("Resource_5cntu"),
+"12_38_38_38_1_16_16_12_1": SubResource("Resource_q5bcj"),
+"16_12_1_1_19_16_1_1_1": SubResource("Resource_m2j2b"),
+"16_12_38_1_19_1_16_16_1": SubResource("Resource_q75rm"),
+"16_16_16_12_16_19_1_1_1": SubResource("Resource_3j8vn"),
+"16_16_16_19_1_16_12_16_19": SubResource("Resource_jwqb3"),
+"16_16_16_1_19_16_16_16_12": SubResource("Resource_b526n"),
+"16_16_19_16_16_16_16_19_16": SubResource("Resource_ieg7t"),
+"16_16_19_16_1_16_16_16_16": SubResource("Resource_lf2dc"),
+"16_16_1_16_12_16_16_1_38": SubResource("Resource_plqti"),
+"16_16_1_1_16_38_16_12_1": SubResource("Resource_0xhpd"),
+"16_19_16_16_16_12_16_16_19": SubResource("Resource_6a4fq"),
+"16_19_16_1_16_1_19_16_16": SubResource("Resource_8rpi1"),
+"16_1_12_16_12_1_12_38_1": SubResource("Resource_llw31"),
+"16_1_12_16_16_12_1_1_1": SubResource("Resource_53j2s"),
+"16_1_16_12_16_19_1_16_16": SubResource("Resource_5ikwa"),
+"16_1_16_16_12_19_1_1_16": SubResource("Resource_l3drl"),
+"16_1_16_16_16_16_12_1_1": SubResource("Resource_62lm7"),
+"16_1_16_16_16_1_1_1_12": SubResource("Resource_y6xhp"),
+"16_1_16_16_16_38_1_38_1": SubResource("Resource_vrtqb"),
+"16_1_1_12_12_1_1_1_26": SubResource("Resource_3u2fp"),
+"16_1_1_12_16_1_1_1_1": SubResource("Resource_bnsy8"),
+"16_1_1_12_1_12_16_16_19": SubResource("Resource_bmtof"),
+"16_1_1_12_1_16_1_1_1": SubResource("Resource_02avs"),
+"16_1_1_12_1_1_1_1_26": SubResource("Resource_mf0h1"),
+"16_1_1_16_12_16_16_12_1": SubResource("Resource_oxg0k"),
+"16_1_1_16_12_1_1_1_26": SubResource("Resource_6n0gb"),
+"16_1_1_16_16_16_16_1_16": SubResource("Resource_57lxn"),
+"16_1_1_16_16_1_16_38_38": SubResource("Resource_mg41o"),
+"16_1_1_16_16_1_1_1_26": SubResource("Resource_l74vi"),
+"16_1_1_16_1_16_1_1_1": SubResource("Resource_uixvp"),
+"16_1_1_1_12_16_12_1_1": SubResource("Resource_bv2xf"),
+"16_1_1_1_12_16_1_1_1": SubResource("Resource_2xo5h"),
+"16_1_1_1_12_1_1_1_1": SubResource("Resource_xocir"),
+"16_1_1_1_16_16_12_1_1": SubResource("Resource_xatat"),
+"16_1_1_1_16_16_1_1_1": SubResource("Resource_a8gp5"),
+"16_1_1_1_16_19_1_1_1": SubResource("Resource_8v76v"),
+"16_1_1_1_16_1_1_1_12": SubResource("Resource_wh47j"),
+"16_1_1_1_19_38_1_1_1": SubResource("Resource_4kx8v"),
+"16_1_1_1_1_12_1_1_1": SubResource("Resource_ue18m"),
+"16_1_1_1_1_16_12_1_1": SubResource("Resource_2i842"),
+"16_1_1_1_1_16_16_16_1": SubResource("Resource_1auga"),
+"16_1_1_1_1_16_16_16_38": SubResource("Resource_clh76"),
+"16_1_1_1_1_16_16_1_1": SubResource("Resource_yf1bi"),
+"16_1_1_1_1_16_38_12_1": SubResource("Resource_70rm3"),
+"16_1_1_1_1_1_0_0_0": SubResource("Resource_0ip6u"),
+"16_1_1_1_1_1_16_1_1": SubResource("Resource_6rdie"),
+"16_1_1_1_1_1_1_12_16": SubResource("Resource_tvqgb"),
+"16_1_1_1_1_1_1_1_1": SubResource("Resource_gdltk"),
+"16_38_38_12_16_12_1_1_1": SubResource("Resource_03sdi"),
+"16_38_38_38_12_16_12_1_1": SubResource("Resource_xfmsp"),
+"19_16_12_1_16_16_1_1_1": SubResource("Resource_saann"),
+"19_16_12_38_16_16_16_16_16": SubResource("Resource_0vuxw"),
+"19_16_16_16_16_16_1_16_16": SubResource("Resource_e8bgh"),
+"19_1_1_1_16_16_1_1_1": SubResource("Resource_wbe0d"),
+"19_1_1_1_1_1_12_1_1": SubResource("Resource_10xvb"),
+"19_1_1_1_1_1_1_1_1": SubResource("Resource_n6u3q"),
+"1_11_44_25_25_1_1_1_25": SubResource("Resource_j3td4"),
+"1_12_16_16_12_1_1_1_1": SubResource("Resource_k14v8"),
+"1_12_16_16_16_38_38_1_38": SubResource("Resource_6nb24"),
+"1_12_16_16_1_1_1_1_1": SubResource("Resource_b160n"),
+"1_12_16_19_1_16_12_16_16": SubResource("Resource_gi8mk"),
+"1_12_16_1_1_1_1_1_1": SubResource("Resource_dof6n"),
+"1_12_16_1_1_26_26_26_1": SubResource("Resource_x160m"),
+"1_12_16_1_1_26_26_26_26": SubResource("Resource_6eijf"),
+"1_12_1_1_12_26_26_26_1": SubResource("Resource_2achj"),
+"1_12_1_1_1_16_16_16_16": SubResource("Resource_bqruh"),
+"1_12_1_1_1_1_1_1_1": SubResource("Resource_h7oda"),
+"1_12_1_1_1_1_1_1_12": SubResource("Resource_yjcxx"),
+"1_12_1_1_1_1_1_38_1": SubResource("Resource_mhmw1"),
+"1_12_26_26_26_1_1_1_1": SubResource("Resource_xwkta"),
+"1_16_12_1_1_1_1_16_16": SubResource("Resource_yqt4k"),
+"1_16_12_1_1_1_1_1_1": SubResource("Resource_rb7xy"),
+"1_16_12_1_1_1_1_1_38": SubResource("Resource_ugvhs"),
+"1_16_16_12_1_1_1_1_1": SubResource("Resource_8topi"),
+"1_16_16_16_12_1_1_1_1": SubResource("Resource_uvatt"),
+"1_16_16_16_16_16_1_12_16": SubResource("Resource_aftuk"),
+"1_16_16_16_1_1_1_1_1": SubResource("Resource_b7kj7"),
+"1_16_16_19_1_1_1_1_1": SubResource("Resource_ayjod"),
+"1_16_16_19_1_1_1_1_38": SubResource("Resource_e3lf4"),
+"1_16_16_1_1_12_1_16_12": SubResource("Resource_4vved"),
+"1_16_16_1_1_12_1_1_1": SubResource("Resource_gr0iw"),
+"1_16_16_1_1_1_1_1_1": SubResource("Resource_20gau"),
+"1_16_16_1_1_26_26_1_1": SubResource("Resource_twcna"),
+"1_16_19_16_1_1_1_1_1": SubResource("Resource_3iw75"),
+"1_16_19_16_1_1_1_38_1": SubResource("Resource_aw7dx"),
+"1_16_1_1_1_1_1_1_1": SubResource("Resource_2foh7"),
+"1_16_1_1_1_1_1_1_16": SubResource("Resource_vsfg0"),
+"1_16_1_1_1_1_38_1_1": SubResource("Resource_hsg12"),
+"1_16_1_1_1_26_1_1_26": SubResource("Resource_wnsd1"),
+"1_16_1_1_1_26_26_26_26": SubResource("Resource_jxfja"),
+"1_16_1_38_16_1_16_16_38": SubResource("Resource_dr27o"),
+"1_16_1_38_38_38_16_1_38": SubResource("Resource_g012i"),
+"1_16_38_12_1_1_1_1_1": SubResource("Resource_od3bi"),
+"1_16_38_38_12_1_19_16_16": SubResource("Resource_ywf65"),
+"1_16_38_38_38_1_38_38_1": SubResource("Resource_aehgj"),
+"1_19_16_16_1_1_1_1_1": SubResource("Resource_p4khc"),
+"1_19_16_38_1_1_38_1_1": SubResource("Resource_ae4d3"),
+"1_19_1_1_1_1_0_0_0": SubResource("Resource_pvgy5"),
+"1_19_1_1_1_1_1_1_26": SubResource("Resource_pmks8"),
+"1_1_12_16_16_1_1_1_1": SubResource("Resource_c6qf4"),
+"1_1_12_16_16_1_1_26_26": SubResource("Resource_biuku"),
+"1_1_12_16_1_1_1_12_16": SubResource("Resource_msjp6"),
+"1_1_12_1_12_1_1_1_1": SubResource("Resource_1i7tk"),
+"1_1_16_12_1_1_1_1_1": SubResource("Resource_a3ybf"),
+"1_1_16_12_1_1_1_1_16": SubResource("Resource_8o6rg"),
+"1_1_16_16_12_1_1_1_16": SubResource("Resource_2a3cs"),
+"1_1_16_16_16_1_1_26_1": SubResource("Resource_tphxs"),
+"1_1_16_16_1_1_1_1_1": SubResource("Resource_j4o4u"),
+"1_1_16_1_16_1_1_26_26": SubResource("Resource_wjk6r"),
+"1_1_16_1_16_1_38_38_1": SubResource("Resource_55of4"),
+"1_1_16_1_1_1_1_1_1": SubResource("Resource_klhg2"),
+"1_1_16_1_1_26_1_26_26": SubResource("Resource_kse78"),
+"1_1_19_1_12_1_1_1_1": SubResource("Resource_do3gk"),
+"1_1_19_1_1_1_0_0_0": SubResource("Resource_uucjr"),
+"1_1_1_12_1_1_1_1_12": SubResource("Resource_d50af"),
+"1_1_1_16_16_12_1_12_16": SubResource("Resource_bxa37"),
+"1_1_1_16_16_1_1_1_1": SubResource("Resource_f8lsu"),
+"1_1_1_16_16_1_1_1_26": SubResource("Resource_one4i"),
+"1_1_1_16_19_1_1_1_1": SubResource("Resource_awuq7"),
+"1_1_1_16_1_1_1_1_1": SubResource("Resource_kkf3k"),
+"1_1_1_19_16_1_0_0_0": SubResource("Resource_04t7s"),
+"1_1_1_1_12_1_1_1_1": SubResource("Resource_i36y8"),
+"1_1_1_1_16_16_12_16_16": SubResource("Resource_258fd"),
+"1_1_1_1_16_1_1_1_26": SubResource("Resource_hg5j3"),
+"1_1_1_1_1_12_12_16_1": SubResource("Resource_v1t6h"),
+"1_1_1_1_1_12_16_16_1": SubResource("Resource_wvwj6"),
+"1_1_1_1_1_12_1_16_1": SubResource("Resource_qovwp"),
+"1_1_1_1_1_12_1_16_16": SubResource("Resource_tkj13"),
+"1_1_1_1_1_16_0_0_0": SubResource("Resource_jik11"),
+"1_1_1_1_1_16_12_16_1": SubResource("Resource_gj6kd"),
+"1_1_1_1_1_16_16_12_1": SubResource("Resource_473wv"),
+"1_1_1_1_1_16_16_16_1": SubResource("Resource_cuta7"),
+"1_1_1_1_1_16_16_1_1": SubResource("Resource_nkf1p"),
+"1_1_1_1_1_16_16_1_12": SubResource("Resource_g0l76"),
+"1_1_1_1_1_16_16_38_12": SubResource("Resource_geq0r"),
+"1_1_1_1_1_16_19_1_1": SubResource("Resource_6g21n"),
+"1_1_1_1_1_16_1_16_16": SubResource("Resource_1qb7e"),
+"1_1_1_1_1_16_1_1_1": SubResource("Resource_musku"),
+"1_1_1_1_1_19_16_1_1": SubResource("Resource_o4ndc"),
+"1_1_1_1_1_1_0_0_0": SubResource("Resource_d6g3c"),
+"1_1_1_1_1_1_12_16_1": SubResource("Resource_lj2d7"),
+"1_1_1_1_1_1_12_16_16": SubResource("Resource_gmno5"),
+"1_1_1_1_1_1_12_1_1": SubResource("Resource_bgcfv"),
+"1_1_1_1_1_1_16_16_1": SubResource("Resource_4xje4"),
+"1_1_1_1_1_1_16_16_16": SubResource("Resource_l02pl"),
+"1_1_1_1_1_1_16_16_19": SubResource("Resource_a5evq"),
+"1_1_1_1_1_1_16_19_16": SubResource("Resource_cnwma"),
+"1_1_1_1_1_1_16_1_1": SubResource("Resource_gtqpf"),
+"1_1_1_1_1_1_16_1_16": SubResource("Resource_4iywb"),
+"1_1_1_1_1_1_19_16_38": SubResource("Resource_v4w1o"),
+"1_1_1_1_1_1_1_0_0": SubResource("Resource_bbnnb"),
+"1_1_1_1_1_1_1_12_1": SubResource("Resource_sf4u0"),
+"1_1_1_1_1_1_1_12_16": SubResource("Resource_wf4aa"),
+"1_1_1_1_1_1_1_16_1": SubResource("Resource_gh7q6"),
+"1_1_1_1_1_1_1_16_12": SubResource("Resource_m2e47"),
+"1_1_1_1_1_1_1_16_16": SubResource("Resource_7wrn3"),
+"1_1_1_1_1_1_1_19_1": SubResource("Resource_c1d7o"),
+"1_1_1_1_1_1_1_1_1": SubResource("Resource_3wysk"),
+"1_1_1_1_1_1_1_1_12": SubResource("Resource_5rluj"),
+"1_1_1_1_1_1_1_1_16": SubResource("Resource_puvaf"),
+"1_1_1_1_1_1_1_1_19": SubResource("Resource_dg6n4"),
+"1_1_1_1_1_1_1_1_25": SubResource("Resource_0e80m"),
+"1_1_1_1_1_1_1_1_26": SubResource("Resource_mhl3g"),
+"1_1_1_1_1_1_1_1_27": SubResource("Resource_5pgfw"),
+"1_1_1_1_1_1_1_1_5": SubResource("Resource_jrage"),
+"1_1_1_1_1_1_1_25_1": SubResource("Resource_dhfwb"),
+"1_1_1_1_1_1_1_25_25": SubResource("Resource_5a0en"),
+"1_1_1_1_1_1_1_26_26": SubResource("Resource_jeoc2"),
+"1_1_1_1_1_1_1_27_1": SubResource("Resource_nt344"),
+"1_1_1_1_1_1_1_5_26": SubResource("Resource_durr2"),
+"1_1_1_1_1_1_1_5_5": SubResource("Resource_c0fu1"),
+"1_1_1_1_1_1_25_1_25": SubResource("Resource_o7ycp"),
+"1_1_1_1_1_1_25_25_1": SubResource("Resource_h02vv"),
+"1_1_1_1_1_1_25_25_25": SubResource("Resource_es2bm"),
+"1_1_1_1_1_1_25_25_26": SubResource("Resource_4domb"),
+"1_1_1_1_1_1_25_26_26": SubResource("Resource_6p3g2"),
+"1_1_1_1_1_1_26_1_1": SubResource("Resource_xjpxb"),
+"1_1_1_1_1_1_26_25_25": SubResource("Resource_jb704"),
+"1_1_1_1_1_1_26_26_1": SubResource("Resource_2mxjr"),
+"1_1_1_1_1_1_26_26_25": SubResource("Resource_es4cu"),
+"1_1_1_1_1_1_26_26_26": SubResource("Resource_cpwi6"),
+"1_1_1_1_1_1_38_12_16": SubResource("Resource_pvcnk"),
+"1_1_1_1_1_1_38_38_12": SubResource("Resource_di3po"),
+"1_1_1_1_1_1_38_38_38": SubResource("Resource_ym10w"),
+"1_1_1_1_1_1_5_26_1": SubResource("Resource_xdu56"),
+"1_1_1_1_1_25_1_1_25": SubResource("Resource_rm62c"),
+"1_1_1_1_1_25_1_25_1": SubResource("Resource_306wy"),
+"1_1_1_1_1_25_25_1_1": SubResource("Resource_niftp"),
+"1_1_1_1_1_25_27_1_1": SubResource("Resource_rsjl4"),
+"1_1_1_1_1_26_1_1_1": SubResource("Resource_344nw"),
+"1_1_1_1_1_26_26_1_1": SubResource("Resource_oltjh"),
+"1_1_1_1_1_26_26_1_26": SubResource("Resource_a2dy1"),
+"1_1_1_1_1_26_26_26_26": SubResource("Resource_dacd4"),
+"1_1_1_1_1_27_25_1_1": SubResource("Resource_rkwub"),
+"1_1_1_1_1_38_1_1_1": SubResource("Resource_6nxp6"),
+"1_1_1_1_1_38_38_1_1": SubResource("Resource_06y56"),
+"1_1_1_1_1_5_5_5_5": SubResource("Resource_tr81l"),
+"1_1_1_1_25_25_1_1_12": SubResource("Resource_mowt4"),
+"1_1_1_1_26_1_1_1_1": SubResource("Resource_6espu"),
+"1_1_1_1_26_1_1_26_26": SubResource("Resource_bhe0m"),
+"1_1_1_1_38_1_1_1_1": SubResource("Resource_gck0c"),
+"1_1_1_1_38_1_1_1_12": SubResource("Resource_3gn18"),
+"1_1_1_1_5_1_5_1_5": SubResource("Resource_nasii"),
+"1_1_1_1_5_5_5_26_1": SubResource("Resource_3sdwn"),
+"1_1_1_22_1_1_1_26_26": SubResource("Resource_jg8tq"),
+"1_1_1_25_1_1_1_1_1": SubResource("Resource_1qpel"),
+"1_1_1_25_1_1_1_5_5": SubResource("Resource_uat03"),
+"1_1_1_25_1_25_1_1_1": SubResource("Resource_ajj6v"),
+"1_1_1_25_25_1_1_1_1": SubResource("Resource_w5gvv"),
+"1_1_1_25_25_1_1_26_1": SubResource("Resource_tb2nq"),
+"1_1_1_25_25_1_1_26_26": SubResource("Resource_nm8j7"),
+"1_1_1_25_25_1_1_5_5": SubResource("Resource_sw57n"),
+"1_1_1_25_27_1_1_26_26": SubResource("Resource_marjq"),
+"1_1_1_26_1_1_1_1_1": SubResource("Resource_nliv8"),
+"1_1_1_26_1_26_26_26_26": SubResource("Resource_456r7"),
+"1_1_1_26_26_1_1_1_1": SubResource("Resource_tgwsu"),
+"1_1_1_26_26_1_1_1_5": SubResource("Resource_5ap5i"),
+"1_1_1_26_26_26_26_5_1": SubResource("Resource_dp0dd"),
+"1_1_1_26_26_5_1_1_1": SubResource("Resource_ssnkt"),
+"1_1_1_27_25_1_1_26_1": SubResource("Resource_uv7lb"),
+"1_1_1_27_25_1_25_1_1": SubResource("Resource_gq04w"),
+"1_1_1_38_1_1_1_1_1": SubResource("Resource_3ty23"),
+"1_1_1_38_38_1_1_1_1": SubResource("Resource_w7e3k"),
+"1_1_1_3_1_1_1_1_1": SubResource("Resource_oqqos"),
+"1_1_1_5_1_1_1_1_1": SubResource("Resource_yqi5j"),
+"1_1_1_5_1_1_1_1_26": SubResource("Resource_p4dgi"),
+"1_1_1_5_1_25_25_1_1": SubResource("Resource_ir5yn"),
+"1_1_22_22_1_1_26_26_26": SubResource("Resource_77k10"),
+"1_1_25_1_1_1_1_1_1": SubResource("Resource_4edc2"),
+"1_1_25_1_1_26_26_1_1": SubResource("Resource_dim7x"),
+"1_1_25_1_1_26_26_26_26": SubResource("Resource_mm5fu"),
+"1_1_25_1_1_3_5_5_1": SubResource("Resource_177fi"),
+"1_1_25_1_25_1_1_1_1": SubResource("Resource_8i80k"),
+"1_1_25_25_1_1_1_1_1": SubResource("Resource_8r81x"),
+"1_1_25_25_1_1_1_1_26": SubResource("Resource_3n3lj"),
+"1_1_25_25_1_1_26_26_26": SubResource("Resource_n7ifd"),
+"1_1_25_25_1_5_5_5_3": SubResource("Resource_fmwsc"),
+"1_1_25_25_25_1_1_1_1": SubResource("Resource_twmbq"),
+"1_1_26_1_1_1_1_1_1": SubResource("Resource_ufduh"),
+"1_1_26_1_1_3_1_5_5": SubResource("Resource_tjoeg"),
+"1_1_26_1_26_1_1_1_1": SubResource("Resource_dkmck"),
+"1_1_26_1_26_1_26_1_1": SubResource("Resource_ymnlb"),
+"1_1_26_1_5_5_5_3_5": SubResource("Resource_jktmk"),
+"1_1_26_26_1_1_1_1_1": SubResource("Resource_f33cw"),
+"1_1_26_26_1_1_1_1_26": SubResource("Resource_5m6it"),
+"1_1_26_26_1_1_5_5_5": SubResource("Resource_o3b78"),
+"1_1_26_5_1_1_26_26_26": SubResource("Resource_nkbsn"),
+"1_1_26_5_5_5_1_1_1": SubResource("Resource_6vud5"),
+"1_1_27_1_1_26_26_1_1": SubResource("Resource_0yqw1"),
+"1_1_38_1_1_1_1_1_1": SubResource("Resource_0iy67"),
+"1_1_38_1_1_38_16_38_38": SubResource("Resource_u6bce"),
+"1_1_3_5_1_1_1_1_1": SubResource("Resource_mfahh"),
+"1_1_3_5_5_5_26_26_1": SubResource("Resource_mjb4y"),
+"1_1_5_26_26_26_26_1_1": SubResource("Resource_svxsg"),
+"1_1_5_26_26_26_26_26_27": SubResource("Resource_o6a1p"),
+"1_1_5_3_1_1_1_1_25": SubResource("Resource_7reve"),
+"1_1_5_5_1_1_1_1_1": SubResource("Resource_hnbnu"),
+"1_1_5_5_1_25_25_25_1": SubResource("Resource_t3aqo"),
+"1_1_5_7_1_1_1_26_1": SubResource("Resource_cx8yw"),
+"1_22_1_1_1_26_26_1_1": SubResource("Resource_3wtsu"),
+"1_22_22_1_1_1_26_26_1": SubResource("Resource_pf52f"),
+"1_22_22_1_1_26_26_1_1": SubResource("Resource_de15h"),
+"1_22_22_22_1_1_1_26_1": SubResource("Resource_fc14b"),
+"1_22_22_22_1_1_26_26_26": SubResource("Resource_f051n"),
+"1_22_22_22_22_1_1_1_26": SubResource("Resource_2hp1g"),
+"1_25_1_1_1_1_1_1_1": SubResource("Resource_ht88k"),
+"1_25_1_1_1_1_1_26_1": SubResource("Resource_5f0gi"),
+"1_25_1_1_1_1_25_25_1": SubResource("Resource_0p8sb"),
+"1_25_1_1_1_1_5_1_5": SubResource("Resource_abugi"),
+"1_25_1_1_1_25_25_1_1": SubResource("Resource_oorju"),
+"1_25_1_1_25_1_1_25_25": SubResource("Resource_6ve0g"),
+"1_25_1_25_1_12_22_22_12": SubResource("Resource_qsuy6"),
+"1_25_25_1_12_1_12_1_26": SubResource("Resource_6bnas"),
+"1_25_25_1_1_1_1_1_1": SubResource("Resource_lq6g1"),
+"1_25_25_1_1_1_1_25_1": SubResource("Resource_hphiq"),
+"1_25_25_1_1_26_26_1_1": SubResource("Resource_bdo6v"),
+"1_25_25_1_1_5_26_26_27": SubResource("Resource_1buy3"),
+"1_25_25_1_25_25_5_5_5": SubResource("Resource_2nl70"),
+"1_25_25_25_1_1_1_26_1": SubResource("Resource_v4hbw"),
+"1_25_25_45_1_1_1_1_1": SubResource("Resource_wr807"),
+"1_25_45_25_1_1_1_1_1": SubResource("Resource_1c56s"),
+"1_25_5_5_1_1_1_1_1": SubResource("Resource_i8m1x"),
+"1_25_5_5_5_1_1_25_25": SubResource("Resource_5lddq"),
+"1_26_1_1_1_1_1_1_1": SubResource("Resource_b40nn"),
+"1_26_1_1_1_1_1_1_12": SubResource("Resource_qa5r7"),
+"1_26_1_1_1_1_1_1_16": SubResource("Resource_2fhak"),
+"1_26_1_1_1_1_1_1_26": SubResource("Resource_wiwn1"),
+"1_26_1_1_1_1_5_1_1": SubResource("Resource_rinss"),
+"1_26_1_1_1_5_1_1_1": SubResource("Resource_pp5bf"),
+"1_26_1_1_26_1_1_26_26": SubResource("Resource_115lf"),
+"1_26_1_26_26_1_1_5_5": SubResource("Resource_3mhtk"),
+"1_26_1_26_26_1_27_26_26": SubResource("Resource_alks7"),
+"1_26_1_5_1_1_1_25_25": SubResource("Resource_hetrv"),
+"1_26_26_1_1_1_1_1_1": SubResource("Resource_uvu2y"),
+"1_26_26_1_1_1_1_1_25": SubResource("Resource_7jyxc"),
+"1_26_26_1_1_1_3_5_1": SubResource("Resource_wk0an"),
+"1_26_26_1_1_26_26_1_1": SubResource("Resource_h04k1"),
+"1_26_26_26_1_1_1_1_1": SubResource("Resource_kkfkc"),
+"1_26_26_26_1_1_5_5_1": SubResource("Resource_8ydrj"),
+"1_26_26_26_26_1_1_1_1": SubResource("Resource_gp077"),
+"1_26_26_26_26_1_1_3_5": SubResource("Resource_pmm66"),
+"1_26_26_26_26_1_26_26_1": SubResource("Resource_73b0w"),
+"1_26_26_27_1_1_1_1_1": SubResource("Resource_jqabg"),
+"1_26_26_27_1_1_1_26_1": SubResource("Resource_pm3la"),
+"1_26_26_30_1_1_1_1_1": SubResource("Resource_uudvy"),
+"1_26_27_26_1_1_1_1_1": SubResource("Resource_n31nx"),
+"1_26_27_26_1_26_26_1_1": SubResource("Resource_ph2lm"),
+"1_26_30_30_1_1_1_1_26": SubResource("Resource_ecqiq"),
+"1_26_5_1_1_1_26_26_1": SubResource("Resource_puj5a"),
+"1_27_26_26_1_26_1_1_1": SubResource("Resource_36vu6"),
+"1_27_26_26_26_26_26_26_27": SubResource("Resource_6jqss"),
+"1_30_26_26_1_26_26_26_26": SubResource("Resource_eqti8"),
+"1_30_30_26_1_1_1_26_26": SubResource("Resource_vmib0"),
+"1_38_12_1_1_1_1_1_1": SubResource("Resource_awwx4"),
+"1_38_12_1_38_1_1_1_1": SubResource("Resource_m0mhj"),
+"1_38_1_1_1_12_38_12_1": SubResource("Resource_dtito"),
+"1_38_1_1_1_1_16_16_16": SubResource("Resource_0cp7d"),
+"1_38_1_1_1_1_1_1_1": SubResource("Resource_t84sm"),
+"1_38_1_38_16_38_16_1_1": SubResource("Resource_q1mvf"),
+"1_38_38_1_1_1_16_16_16": SubResource("Resource_dhxh7"),
+"1_38_38_1_1_1_38_1_1": SubResource("Resource_x4hcv"),
+"1_38_38_1_38_1_1_38_12": SubResource("Resource_mew6s"),
+"1_3_5_1_1_25_25_25_25": SubResource("Resource_0jy0o"),
+"1_3_5_5_1_1_1_1_1": SubResource("Resource_jg0qh"),
+"1_44_25_1_1_1_1_25_25": SubResource("Resource_tiqx7"),
+"1_44_25_1_1_5_1_1_25": SubResource("Resource_jgjp6"),
+"1_44_44_25_25_1_1_1_1": SubResource("Resource_wfl5m"),
+"1_45_25_25_1_1_1_1_25": SubResource("Resource_uxogg"),
+"1_5_1_1_5_5_3_5_5": SubResource("Resource_oe4tg"),
+"1_5_1_5_1_1_26_1_1": SubResource("Resource_0rmbp"),
+"1_5_25_1_1_1_1_1_1": SubResource("Resource_fxnbi"),
+"1_5_25_1_1_1_3_5_1": SubResource("Resource_vnevt"),
+"1_5_3_1_1_22_22_22_22": SubResource("Resource_wymrh"),
+"1_5_3_5_1_1_1_25_25": SubResource("Resource_7g6lw"),
+"1_5_5_1_1_22_1_1_1": SubResource("Resource_6rnfb"),
+"1_5_5_1_1_22_22_22_22": SubResource("Resource_qiq84"),
+"1_5_5_1_1_25_1_1_1": SubResource("Resource_yf75w"),
+"1_5_5_1_1_25_25_25_45": SubResource("Resource_21y8q"),
+"1_5_5_1_1_27_25_1_1": SubResource("Resource_0ai3v"),
+"1_5_5_25_25_1_1_1_1": SubResource("Resource_cjqk8"),
+"1_5_5_25_25_1_1_3_5": SubResource("Resource_nmtb3"),
+"1_5_5_26_26_26_26_1_1": SubResource("Resource_b4o5d"),
+"1_5_5_3_5_1_1_22_22": SubResource("Resource_rumnw"),
+"1_5_5_5_1_3_1_1_1": SubResource("Resource_r83bh"),
+"1_5_5_5_3_1_1_22_22": SubResource("Resource_qbkws"),
+"1_5_5_5_5_1_1_22_22": SubResource("Resource_bijl1"),
+"1_5_5_5_5_1_1_25_1": SubResource("Resource_xx365"),
+"1_5_6_25_25_1_1_1_1": SubResource("Resource_h8qxy"),
+"1_5_7_5_1_26_26_1_26": SubResource("Resource_fj074"),
+"1_6_25_5_1_1_1_1_1": SubResource("Resource_0avyq"),
+"22_1_1_12_22_12_22_12_26": SubResource("Resource_gyper"),
+"22_1_1_22_22_22_1_1_1": SubResource("Resource_ir80j"),
+"22_1_1_22_22_22_22_1_1": SubResource("Resource_q7qae"),
+"22_1_1_22_22_22_22_22_1": SubResource("Resource_1gtc3"),
+"22_1_22_22_22_1_1_1_1": SubResource("Resource_1bhtl"),
+"22_1_22_22_22_22_1_1_1": SubResource("Resource_3hg5a"),
+"22_22_22_22_22_1_1_1_26": SubResource("Resource_pqirr"),
+"22_3_1_1_1_22_22_22_22": SubResource("Resource_ljhqn"),
+"22_5_1_1_1_22_1_1_1": SubResource("Resource_l8elq"),
+"22_5_1_1_1_22_22_22_1": SubResource("Resource_a8wi6"),
+"25_1_1_1_1_1_1_1_26": SubResource("Resource_2wjqn"),
+"25_1_1_1_1_25_1_12_1": SubResource("Resource_gehv1"),
+"25_1_1_1_1_25_1_1_1": SubResource("Resource_xmoff"),
+"25_1_1_1_1_25_1_25_25": SubResource("Resource_awxg7"),
+"25_1_1_1_1_25_25_1_1": SubResource("Resource_mdorc"),
+"25_1_1_1_25_1_12_1_1": SubResource("Resource_dmvwp"),
+"25_1_1_1_25_1_1_1_26": SubResource("Resource_4h1p7"),
+"25_1_1_1_25_1_1_1_5": SubResource("Resource_6phkq"),
+"25_1_1_1_25_25_1_1_1": SubResource("Resource_1u2pk"),
+"25_1_1_1_25_26_26_26_26": SubResource("Resource_rx00b"),
+"25_1_1_1_26_25_30_26_26": SubResource("Resource_hirte"),
+"25_1_1_25_1_1_1_1_1": SubResource("Resource_ck7ml"),
+"25_1_1_25_25_1_1_1_1": SubResource("Resource_ln1ig"),
+"25_1_1_25_25_25_25_25_1": SubResource("Resource_n4o2o"),
+"25_1_1_25_25_45_1_1_1": SubResource("Resource_vkic4"),
+"25_1_25_1_25_1_25_1_25": SubResource("Resource_iop7o"),
+"25_1_25_25_1_25_1_1_5": SubResource("Resource_jqpvb"),
+"25_1_5_5_1_1_1_1_3": SubResource("Resource_snl1h"),
+"25_1_5_5_5_1_1_1_1": SubResource("Resource_60be3"),
+"25_25_1_1_1_25_5_5_1": SubResource("Resource_4yo7i"),
+"25_25_25_25_25_1_1_5_5": SubResource("Resource_13myu"),
+"25_25_44_11_45_25_1_1_1": SubResource("Resource_ptk8o"),
+"25_44_11_44_25_1_1_1_1": SubResource("Resource_keeqi"),
+"25_44_44_44_44_1_1_1_1": SubResource("Resource_l1rof"),
+"25_5_1_1_1_1_25_25_1": SubResource("Resource_dc6b7"),
+"25_5_1_1_1_25_1_1_1": SubResource("Resource_qkste"),
+"25_5_1_1_1_44_25_45_25": SubResource("Resource_orh1f"),
+"25_5_5_5_6_5_1_1_1": SubResource("Resource_2xps7"),
+"25_5_5_6_1_1_25_1_1": SubResource("Resource_7xnm4"),
+"26_12_1_26_26_1_1_1_1": SubResource("Resource_kbcld"),
+"26_16_1_1_1_1_26_1_1": SubResource("Resource_v0tqy"),
+"26_16_1_1_1_26_1_1_1": SubResource("Resource_xlubi"),
+"26_16_1_1_1_26_26_26_26": SubResource("Resource_oqixl"),
+"26_16_1_1_26_1_1_1_1": SubResource("Resource_fkc17"),
+"26_1_1_1_1_1_1_1_1": SubResource("Resource_y1mha"),
+"26_1_1_1_1_1_1_26_5": SubResource("Resource_yv25c"),
+"26_1_1_1_1_1_26_1_1": SubResource("Resource_m64ok"),
+"26_1_1_1_1_26_1_1_1": SubResource("Resource_4ocvx"),
+"26_1_1_1_1_26_26_26_1": SubResource("Resource_uuhuf"),
+"26_1_1_1_1_26_26_26_26": SubResource("Resource_vuiil"),
+"26_1_1_1_25_26_26_26_26": SubResource("Resource_kqyew"),
+"26_1_1_1_26_1_1_1_1": SubResource("Resource_8h6gw"),
+"26_1_1_1_26_1_1_1_26": SubResource("Resource_pgpgg"),
+"26_1_1_1_26_25_30_30_26": SubResource("Resource_vd2yc"),
+"26_1_1_1_26_26_26_1_1": SubResource("Resource_lnexn"),
+"26_1_1_1_26_26_26_26_1": SubResource("Resource_37r8h"),
+"26_1_1_1_26_26_26_26_30": SubResource("Resource_3r3gw"),
+"26_1_1_1_26_26_26_27_26": SubResource("Resource_8u2pg"),
+"26_1_1_1_26_26_26_30_30": SubResource("Resource_2vw8c"),
+"26_1_1_1_5_1_1_26_5": SubResource("Resource_ustbn"),
+"26_1_1_26_1_26_1_26_26": SubResource("Resource_aw7gm"),
+"26_1_1_26_26_1_26_26_1": SubResource("Resource_3ifc5"),
+"26_1_1_26_26_26_1_1_1": SubResource("Resource_nm1nb"),
+"26_1_1_26_26_26_26_26_1": SubResource("Resource_gki1l"),
+"26_1_1_5_26_27_27_26_26": SubResource("Resource_k0w4m"),
+"26_1_26_1_1_1_5_1_5": SubResource("Resource_0cv4n"),
+"26_1_26_1_1_5_5_1_5": SubResource("Resource_b31oh"),
+"26_1_26_26_1_26_26_26_26": SubResource("Resource_o0bwg"),
+"26_1_26_26_26_1_1_1_1": SubResource("Resource_pnlxq"),
+"26_1_26_26_26_26_1_1_1": SubResource("Resource_n4aml"),
+"26_1_26_26_26_26_26_1_1": SubResource("Resource_xh6oh"),
+"26_1_26_26_26_26_26_26_26": SubResource("Resource_0lm3l"),
+"26_1_26_26_26_27_1_1_1": SubResource("Resource_lsu8l"),
+"26_22_12_1_12_26_26_1_1": SubResource("Resource_y8t1v"),
+"26_22_12_26_26_1_1_1_1": SubResource("Resource_adv7p"),
+"26_25_1_1_1_1_1_1_1": SubResource("Resource_1dlhm"),
+"26_25_1_1_1_26_26_26_27": SubResource("Resource_jil82"),
+"26_25_25_26_26_26_1_26_26": SubResource("Resource_rnv4h"),
+"26_25_26_26_26_26_26_26_26": SubResource("Resource_j7c7k"),
+"26_26_16_26_26_26_1_1_1": SubResource("Resource_43shq"),
+"26_26_1_1_1_26_1_1_1": SubResource("Resource_q5tht"),
+"26_26_1_1_26_1_1_1_1": SubResource("Resource_jgddi"),
+"26_26_1_1_27_26_26_26_1": SubResource("Resource_u31mi"),
+"26_26_1_26_26_27_1_1_1": SubResource("Resource_3gt4j"),
+"26_26_1_26_26_27_27_26_26": SubResource("Resource_1y2ps"),
+"26_26_25_25_30_26_1_1_26": SubResource("Resource_pc5ga"),
+"26_26_26_1_1_26_1_1_1": SubResource("Resource_f8fe1"),
+"26_26_26_1_1_26_26_27_26": SubResource("Resource_nudyt"),
+"26_26_26_1_26_1_1_1_26": SubResource("Resource_0mth8"),
+"26_26_26_1_26_26_26_1_1": SubResource("Resource_0gg83"),
+"26_26_26_26_1_26_26_26_26": SubResource("Resource_myret"),
+"26_26_26_26_26_1_1_1_1": SubResource("Resource_lcyht"),
+"26_26_26_26_26_1_26_26_26": SubResource("Resource_amlvv"),
+"26_26_26_26_26_26_26_26_1": SubResource("Resource_ka1u3"),
+"26_26_26_26_26_30_1_1_1": SubResource("Resource_ebejf"),
+"26_26_26_27_27_26_1_1_26": SubResource("Resource_1y8sx"),
+"26_26_26_27_27_26_1_26_1": SubResource("Resource_dqrcy"),
+"26_26_27_26_26_1_1_26_26": SubResource("Resource_e420p"),
+"26_26_27_26_26_26_26_1_1": SubResource("Resource_pecm5"),
+"26_27_1_1_1_26_1_1_1": SubResource("Resource_nq8sh"),
+"26_27_26_26_1_1_1_1_3": SubResource("Resource_6sm8o"),
+"26_27_26_26_26_1_1_1_1": SubResource("Resource_ionsj"),
+"26_5_1_5_26_1_1_26_26": SubResource("Resource_h41dc"),
+"26_5_1_5_5_1_1_26_1": SubResource("Resource_5qaj1"),
+"26_5_26_16_1_26_1_1_1": SubResource("Resource_tat1y"),
+"26_5_26_1_1_1_26_27_26": SubResource("Resource_j6xb1"),
+"26_5_26_1_1_5_1_1_1": SubResource("Resource_65n4t"),
+"26_5_5_1_27_26_26_1_26": SubResource("Resource_0qw4o"),
+"26_7_5_5_1_1_1_26_1": SubResource("Resource_rykua"),
+"27_1_1_1_1_1_1_1_26": SubResource("Resource_xmqhr"),
+"27_1_26_1_26_26_26_26_26": SubResource("Resource_wwat4"),
+"27_1_26_26_26_26_1_1_26": SubResource("Resource_1tv2h"),
+"27_1_5_5_26_26_26_26_1": SubResource("Resource_dsl8s"),
+"27_26_26_26_26_26_1_1_1": SubResource("Resource_h6451"),
+"30_26_26_25_30_26_1_1_1": SubResource("Resource_m5fu4"),
+"30_26_26_26_26_30_1_1_1": SubResource("Resource_il4f7"),
+"38_12_16_1_12_1_19_16_1": SubResource("Resource_cp67u"),
+"38_16_16_1_16_38_38_1_1": SubResource("Resource_f2ivv"),
+"38_16_16_38_1_1_1_38_38": SubResource("Resource_8ku31"),
+"38_16_1_1_38_1_1_1_1": SubResource("Resource_haa2j"),
+"38_1_1_16_16_12_1_1_1": SubResource("Resource_jdnj5"),
+"38_1_1_1_1_1_1_1_1": SubResource("Resource_co3s4"),
+"38_1_1_1_38_12_16_16_12": SubResource("Resource_a02vg"),
+"38_1_1_1_38_38_12_16_16": SubResource("Resource_me6nr"),
+"38_1_1_1_38_38_1_12_16": SubResource("Resource_3ox18"),
+"38_1_1_38_16_38_12_1_1": SubResource("Resource_xl10k"),
+"38_1_38_12_38_1_1_1_1": SubResource("Resource_xhevn"),
+"38_1_38_1_1_38_1_38_1": SubResource("Resource_fukdl"),
+"38_1_38_38_1_1_1_1_38": SubResource("Resource_83pfn"),
+"38_38_1_1_1_12_38_38_1": SubResource("Resource_blg58"),
+"38_38_1_1_38_1_38_1_1": SubResource("Resource_w0wni"),
+"3_1_5_5_5_1_1_1_22": SubResource("Resource_n7o7g"),
+"3_25_1_1_1_5_5_1_5": SubResource("Resource_oetlf"),
+"3_26_1_1_1_5_5_5_5": SubResource("Resource_mdyvm"),
+"3_5_1_5_5_5_1_1_1": SubResource("Resource_qk7qn"),
+"3_5_5_1_1_5_1_1_1": SubResource("Resource_3ju5g"),
+"44_1_1_25_25_11_45_25_25": SubResource("Resource_btiq8"),
+"44_25_44_44_11_25_25_1_1": SubResource("Resource_7fwqb"),
+"45_1_25_44_25_25_1_1_1": SubResource("Resource_a1xoj"),
+"5_1_1_1_1_26_26_1_26": SubResource("Resource_xp1ux"),
+"5_1_1_1_1_5_5_5_1": SubResource("Resource_rtyjy"),
+"5_1_1_1_3_1_1_5_26": SubResource("Resource_jvpy6"),
+"5_1_1_1_3_1_5_5_1": SubResource("Resource_jdarq"),
+"5_1_1_1_5_1_1_1_27": SubResource("Resource_apdiv"),
+"5_1_1_1_5_5_5_1_1": SubResource("Resource_jtjnc"),
+"5_1_1_3_1_5_1_1_1": SubResource("Resource_bbrqi"),
+"5_1_1_3_5_1_27_26_26": SubResource("Resource_ndigs"),
+"5_1_1_5_5_25_25_1_1": SubResource("Resource_fkeos"),
+"5_1_1_5_5_3_5_1_1": SubResource("Resource_m0tiv"),
+"5_1_1_5_5_5_5_1_1": SubResource("Resource_oddf1"),
+"5_1_25_25_5_1_1_1_22": SubResource("Resource_jcram"),
+"5_1_26_1_1_5_1_1_25": SubResource("Resource_lv48l"),
+"5_1_3_5_5_5_1_1_3": SubResource("Resource_f742j"),
+"5_1_5_5_3_1_1_1_25": SubResource("Resource_af6q4"),
+"5_1_5_5_5_1_1_1_22": SubResource("Resource_ch355"),
+"5_25_1_1_1_5_1_25_1": SubResource("Resource_grbmc"),
+"5_25_1_1_1_5_26_27_26": SubResource("Resource_ups5e"),
+"5_25_1_25_5_5_3_1_1": SubResource("Resource_rjm0w"),
+"5_25_25_1_1_5_5_3_1": SubResource("Resource_psnx3"),
+"5_26_1_1_1_5_3_5_1": SubResource("Resource_c7pvc"),
+"5_26_1_26_26_1_1_1_1": SubResource("Resource_y033f"),
+"5_26_1_26_26_1_1_5_3": SubResource("Resource_hqlk7"),
+"5_26_1_5_5_6_1_25_1": SubResource("Resource_0g0wb"),
+"5_26_5_1_1_3_1_1_1": SubResource("Resource_7m7vr"),
+"5_3_5_1_1_26_26_1_26": SubResource("Resource_eb465"),
+"5_3_5_1_5_1_1_3_5": SubResource("Resource_kn033"),
+"5_5_1_5_3_5_1_1_1": SubResource("Resource_id1e6"),
+"5_5_25_5_5_1_1_1_25": SubResource("Resource_xv4rx"),
+"5_5_5_25_25_5_1_1_1": SubResource("Resource_ov8cg"),
+"6_1_5_5_5_25_25_1_1": SubResource("Resource_iqwa3")
+}
+terrain_tiles = {}
+tile_relationships = {}
+extraction_stats = {
+"extraction_timestamp": "2025-05-27T18:24:18",
+"patterns_extracted": 0,
+"terrains_covered": 0,
+"total_tile_variants": 0
+}
