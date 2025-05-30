@@ -1,0 +1,4518 @@
+[gd_resource type="Resource" script_class="AutotilingDatabase" load_steps=503 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TilePattern.gd" id="1_q6p2w"]
+[ext_resource type="Script" path="res://scripts/resources/AutotilingDatabase.gd" id="2_c2sb3"]
+
+[sub_resource type="Resource" id="Resource_k1rbf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [691, 827, 70, 6, 38, 80, 164]
+frequency = 11
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vj1iy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 1, 1]
+valid_tiles = [791, 757]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wya8g"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0b30c"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [691, 793]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dthly"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tp42w"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 26, 1]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_u6ui8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 1, 26, 26, 1, 1]
+valid_tiles = [870]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_b7n4e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 1, 1, 1]
+valid_tiles = [868, 961]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gw5w2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 1, 1]
+valid_tiles = [836, 711, 804, 800, 769, 896, 832]
+frequency = 8
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_afo4u"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 1, 26]
+valid_tiles = [836, 804, 800]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_canhd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 26, 26]
+valid_tiles = [933, 712]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bqq7j"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [933, 805, 804, 773, 800, 711]
+frequency = 13
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_226ah"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 23]
+valid_tiles = [804, 933]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7xlxy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 23, 23]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_riv5m"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 23, 23, 29]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ixack"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 23, 29, 23]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0dits"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 29, 23, 31]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2msd1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 31, 23]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_btjpe"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 31, 23, 29]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_sjscp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 29, 23]
+valid_tiles = [793]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_blyfq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 23, 26, 26]
+valid_tiles = [790]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_av00o"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 1, 26, 26, 26]
+valid_tiles = [790, 758, 691]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_t4ljk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 1, 26, 26, 26]
+valid_tiles = [790, 758]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rf6bw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [790, 691]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_l4dd0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [790, 163, 691]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_d013q"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [791, 66]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rf10s"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 1, 1, 26, 26, 26]
+valid_tiles = [931, 899]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_x3irk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [691, 790, 953]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5jq4f"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 26, 1]
+valid_tiles = [691, 790, 758]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fuwub"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 1, 26]
+valid_tiles = [691, 790]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fsnci"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 26, 1]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nweaf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 1, 1]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_srx1x"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 23, 26, 26, 23]
+valid_tiles = [842]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_arxos"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 26, 23, 23]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_01hpq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 29, 23, 23, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_h0qqy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 29
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 26, 26]
+valid_tiles = [581]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vvb5a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 29, 31, 26, 26, 23]
+valid_tiles = [677]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m31pq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 31
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 23, 23]
+valid_tiles = [34]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_r4lhc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 31, 29, 23, 23, 23]
+valid_tiles = [678]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nh5dm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 29
+neighbor_terrains = [26, 1, 1, 23, 23, 23, 23, 23]
+valid_tiles = [581]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_o5vqx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 23, 26, 23, 23, 23]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6wxfq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 23, 23]
+valid_tiles = [836, 932, 778]
+frequency = 6
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hfr1g"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 23, 26]
+valid_tiles = [836, 933]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xwjdf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 26, 26]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_n7ixk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 26, 26, 26]
+valid_tiles = [836, 868, 773]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cu4fb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 26, 26, 26, 26, 26]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hypye"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 26, 26, 26]
+valid_tiles = [836, 773, 800]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_i1244"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 26, 26]
+valid_tiles = [871, 994, 835]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tnj71"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 26, 26]
+valid_tiles = [763]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_k2cqq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 26, 26]
+valid_tiles = [757]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_iig3v"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_oabl3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 23, 26, 26, 26]
+valid_tiles = [743]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_w2f43"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 26, 23, 26, 26, 26]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7jic0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 29, 23, 26, 26, 26, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hliuq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 29, 23, 23, 26, 26, 26, 23]
+valid_tiles = [744]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xi12j"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [29, 23, 31, 26, 23, 26, 23, 23]
+valid_tiles = [874]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_el8iw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 31, 23, 26, 23, 23, 23, 23]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_lqg23"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [31, 23, 29, 23, 23, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_a3yqq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 29, 23, 23, 23, 23, 23, 30]
+valid_tiles = [614]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7jrh8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [611, 643, 675]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2e7xh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [615, 732, 644, 729, 730, 808]
+frequency = 7
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_i4r02"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 23, 23, 23]
+valid_tiles = [729, 730]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_w463j"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 23, 23, 23]
+valid_tiles = [841, 906, 744]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_j5fny"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [711, 804, 836, 776, 778, 746, 747, 777]
+frequency = 9
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nc0e2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 26]
+valid_tiles = [804, 836, 801]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gnlpp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 23, 26, 26]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_u3oya"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 26, 26, 26, 23]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_okliu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 26, 26, 26, 23, 23]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mhr5d"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 23, 23, 23]
+valid_tiles = [712, 776]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cmkaf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 23, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ve210"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 23, 33]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xddum"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 1, 26, 23, 33, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jj7ft"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 33, 26, 26]
+valid_tiles = [870]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1x3nn"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 26, 26, 26, 1]
+valid_tiles = [868]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_v6boo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 26, 1, 26]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_831b8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 1, 26, 26]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m3xs4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 23, 26, 26, 26]
+valid_tiles = [933]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ibbek"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 26, 23, 26, 26, 26]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_oo7do"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_10dba"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_33cwk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 30, 26, 26, 23]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xrt6a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [729, 732, 730]
+frequency = 10
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_34dog"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 26]
+valid_tiles = [640, 672]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qr8lb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 26, 23]
+valid_tiles = [641, 673]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ghaqc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 26, 23, 23]
+valid_tiles = [642, 674, 738]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ad6pc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 23, 23, 23, 23]
+valid_tiles = [743]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fa0j7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 23, 23, 23]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_lb4py"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 23, 30]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_piqfq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 23, 23, 23, 30, 23]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_c707e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 23, 33, 30, 23, 23]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2e4tx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 33
+neighbor_terrains = [1, 26, 26, 23, 26, 23, 23, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rcem3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 33, 26, 23, 23, 33]
+valid_tiles = [744]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2d7ds"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 23, 33, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_aemeu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 26, 33, 23, 23]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qcy2c"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 23, 23, 23]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_x7lxl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 26, 23, 23, 26]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gs4xi"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 26, 1]
+valid_tiles = [711]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qjmv1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 1, 26]
+valid_tiles = [804, 773]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_g5s1n"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 26, 26]
+valid_tiles = [804, 773]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_k3tuh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 30, 26, 23, 26, 26, 26]
+valid_tiles = [777]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fgvo3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 23, 23]
+valid_tiles = [729]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yyuwt"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [970, 874]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bx1ar"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [699]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rfxu3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 23, 23, 23, 23]
+valid_tiles = [676]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jhjd7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [729, 613]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_f5l73"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 30, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7oy55"]
+script = ExtResource("1_q6p2w")
+center_terrain = 30
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [938]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_o4n7w"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 33, 30, 23, 23, 23, 23]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_aics8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 33, 26, 23, 23, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hki6d"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [33, 26, 26, 23, 33, 23, 23, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_38e5b"]
+script = ExtResource("1_q6p2w")
+center_terrain = 33
+neighbor_terrains = [26, 26, 1, 23, 23, 23, 26, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kobsv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 33, 23, 26, 23, 33]
+valid_tiles = [667]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nhom6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 26, 26, 23, 23, 23, 33, 23]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jttou"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 33, 23, 23]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ig4is"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 1, 23, 23, 23]
+valid_tiles = [903]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_100eo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 33]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gclsm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 23, 33, 23]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5mamn"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 26, 33, 23, 26]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_utyww"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 26, 26]
+valid_tiles = [730, 729]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jlx0a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 26, 26, 23]
+valid_tiles = [809, 729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3wl7g"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 26, 23, 23]
+valid_tiles = [729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fwx7e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 27]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ag4oy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 27, 23]
+valid_tiles = [705]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_onupq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 30, 23, 23, 27, 23, 23]
+valid_tiles = [706]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2oqq0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 30, 23, 23, 23, 23, 23, 29]
+valid_tiles = [707]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_j5j6l"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [30, 23, 23, 23, 23, 23, 29, 23]
+valid_tiles = [708]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3hcpo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 29, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_decjy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 33, 23, 26, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_sgfl1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 33, 23, 23, 23, 23, 23, 29]
+valid_tiles = [970]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_o2id0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [33, 23, 23, 26, 33, 23, 29, 23]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xdy1l"]
+script = ExtResource("1_q6p2w")
+center_terrain = 33
+neighbor_terrains = [23, 23, 23, 23, 23, 29, 23, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xdfot"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 33, 23, 23, 23, 26]
+valid_tiles = [667]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kl1wd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 23, 26, 23]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vhudu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 23, 33, 26, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qugb7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 33
+neighbor_terrains = [1, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8mwmy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 33, 26, 23, 23, 23]
+valid_tiles = [667]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dkne0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 23, 23, 23]
+valid_tiles = [931]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dack8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 23, 26]
+valid_tiles = [934, 998]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1r0xp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 26, 1]
+valid_tiles = [698, 699]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_10a1h"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 1, 26]
+valid_tiles = [729]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_n5p3r"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 27, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qku7c"]
+script = ExtResource("1_q6p2w")
+center_terrain = 27
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 26]
+valid_tiles = [840]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_g3vhc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 27, 23, 23, 26, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vnbsv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 29, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1eefr"]
+script = ExtResource("1_q6p2w")
+center_terrain = 29
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [581]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2dm3e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 29, 23, 26, 26, 23]
+valid_tiles = [741]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_g5vt3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 29, 23, 23, 23]
+valid_tiles = [739]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ic4e1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 29
+neighbor_terrains = [26, 23, 33, 23, 23, 23, 23, 23]
+valid_tiles = [581]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6tjfk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 33, 23, 29, 23, 23, 23, 45]
+valid_tiles = [668]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vc7tr"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [33, 23, 23, 23, 26, 23, 45, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_akubp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 45, 23, 23]
+valid_tiles = [907]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cs4ep"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 33, 26, 23, 23, 23, 23]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qua02"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 33, 23, 23, 23, 23, 23, 23]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_q5ivr"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [33, 23, 26, 23, 23, 23, 23, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_j703o"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 26, 26, 23, 23, 26, 26, 23]
+valid_tiles = [731, 729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4cyyu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 26, 26, 23, 33]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_41r0c"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 23, 1, 23, 33, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_inln1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 26, 33, 23, 23]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_flhyl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 27, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_k2hgg"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 27, 23, 23, 26, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hw7cs"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [27, 23, 23, 23, 26, 26, 26, 26]
+valid_tiles = [999]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_sxcd3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 29, 26, 26, 26, 26, 23]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_icgqb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 29, 23, 26, 26, 26, 23, 23]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kt585"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [29, 23, 23, 26, 23, 23, 23, 26]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4chqq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 26, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6lr40"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 29, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0alu7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 29, 23, 23, 23, 26, 26, 26]
+valid_tiles = [613]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1mtw0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [29, 23, 23, 23, 45, 26, 26, 26]
+valid_tiles = [732]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ydw0o"]
+script = ExtResource("1_q6p2w")
+center_terrain = 45
+neighbor_terrains = [23, 23, 26, 23, 23, 26, 26, 23]
+valid_tiles = [36]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hw74a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 45, 23, 26, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_044kh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 33, 23, 26, 26]
+valid_tiles = [668]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wfphv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 33
+neighbor_terrains = [23, 26, 1, 23, 23, 26, 26, 26]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_r4vb4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 33, 23, 26, 26, 26]
+valid_tiles = [667]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_na6si"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 26, 26, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hrghb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 23, 1, 23, 23, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_k7dey"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 23, 33]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bq0r8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 23, 33, 23]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nxe41"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 33, 23, 26]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xpr7q"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 23, 26, 1]
+valid_tiles = [773, 800]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_62nd5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 26, 26, 1, 26]
+valid_tiles = [773, 800]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dx4xs"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 23, 1, 26, 26]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8v8rk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 26, 26, 26]
+valid_tiles = [668]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_diaoq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 26, 26, 26, 26]
+valid_tiles = [729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_11do8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 23, 26, 26, 26, 26]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_iwrm8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 23]
+valid_tiles = [801, 804]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gf4fr"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 23, 23]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_h7k0s"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 45, 26, 26, 23, 23, 26]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1dc5y"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 45, 23, 26, 23, 23, 26, 1]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yrr8y"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [45, 23, 23, 26, 23, 26, 1, 1]
+valid_tiles = [668]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tdy67"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 1, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dka5v"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_raou5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 33, 23, 26, 26, 26, 26]
+valid_tiles = [999]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_01qqt"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 33, 23, 26, 26, 26, 26, 26]
+valid_tiles = [967]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_krrm7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [33, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [801]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7ts4o"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 26]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4j238"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 26, 26, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ra5pp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 26, 26, 1]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xkxc3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 23, 33, 26, 1, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7vxtq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 33
+neighbor_terrains = [1, 26, 26, 23, 23, 1, 26, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kvyuw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 33, 26, 26, 23, 23]
+valid_tiles = [667]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bximp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2f8st"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 1, 26, 23, 23, 23]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5upm3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 23, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_70a7j"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 23, 1, 26, 1]
+valid_tiles = [902, 777]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6o4kw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 26, 1, 1]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_skm0b"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 1, 1, 1]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7bhg8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 23, 1, 1, 1, 26]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bj3jx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 26, 1, 1, 26, 23]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wke7m"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 26, 23, 23]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3ufc0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 23, 23, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3pjgp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 26, 1]
+valid_tiles = [966]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dfx88"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 1, 1, 26]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dm0w1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 26, 1, 26, 26]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4nvi4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 26, 26, 26, 26]
+valid_tiles = [773, 836, 842]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4802m"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [967, 836, 804]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_36qr0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 1, 26, 26, 26]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_b81pl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 33, 26, 26, 26, 26, 26]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_s3etc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 33, 23, 1, 23, 26, 26, 26]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jw2sq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [33, 23, 26, 26, 23, 26, 26, 1]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_i42c3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 26, 1, 1]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_weqmp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 23, 23, 1, 1, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_akf6r"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 26, 26, 23, 23, 1, 26, 26]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_y6w6a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qkxh6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 1, 26, 26, 30]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1kog3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 30, 26]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5f25n"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 1, 1, 30, 26, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_q2r1u"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 26, 1, 26, 26, 26]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3jpjn"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 26, 1, 1, 26, 26, 1]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rtwjy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 26, 1, 1, 26, 26, 1, 26]
+valid_tiles = [789]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m2l8v"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 23, 1, 26, 1]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wrdvx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 1, 26, 26, 23, 26, 1, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fhdck"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 26, 26, 23, 26, 1, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5sl2s"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 1, 26, 26, 26]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3m2t3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 23, 23, 26]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_p4qgc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 23, 26, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_pcpu7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 1]
+valid_tiles = [800, 994]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2ve3q"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 1, 1]
+valid_tiles = [800, 832]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_37dqp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 1, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_58og4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 26, 1, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4omqv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 26, 26, 1, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yvjxd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 1, 1, 1, 1]
+valid_tiles = [835]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_uo8xh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 1, 1, 1, 1]
+valid_tiles = [819]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jjc7f"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 1, 1, 1]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cmqu0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 1, 1, 1]
+valid_tiles = [966]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_a3r2f"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 1, 1, 1]
+valid_tiles = [998]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_go7bf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 26, 30, 1, 1, 1]
+valid_tiles = [904]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6ib65"]
+script = ExtResource("1_q6p2w")
+center_terrain = 30
+neighbor_terrains = [26, 1, 26, 26, 26, 1, 1, 26]
+valid_tiles = [940]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1a2jn"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 30, 26, 1, 26, 26]
+valid_tiles = [936]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wf15v"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 26, 26, 23]
+valid_tiles = [999]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_f3rml"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 23, 23]
+valid_tiles = [967]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mvhlx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 26, 23, 23, 23]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_pafxm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 1, 1, 23, 23, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4itdj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 26, 26]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_24yrw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 1, 26, 26, 26, 41]
+valid_tiles = [870]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ewqwo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 26, 26, 26, 41, 26]
+valid_tiles = [868]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ckb8d"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 1, 26, 23, 26, 1, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cfddg"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 23, 26, 26, 26, 26]
+valid_tiles = [932]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qkqku"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 23, 23]
+valid_tiles = [871]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4tq3r"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 23, 23, 26]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fukgq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 23, 26, 26]
+valid_tiles = [891]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3rdu6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 26, 26]
+valid_tiles = [829, 827, 758, 726, 830, 985]
+frequency = 9
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_37ecc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 26, 26, 26]
+valid_tiles = [829]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kxhrd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 26, 26, 1]
+valid_tiles = [829, 790, 827]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_aseoa"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 1, 26, 1, 1]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0rokv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [829, 691]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_x0l4l"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 1, 26]
+valid_tiles = [830]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_snk8x"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 30, 1, 1, 1, 26, 26]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ps51l"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 30, 26, 1, 26, 26, 26, 26]
+valid_tiles = [98]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7apj8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [30, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_l2isu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 23, 26, 26, 26]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0fdnb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 26, 23, 26, 26, 26]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xvidl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 26, 23, 23, 26, 26, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tiiva"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 26, 1, 23, 26, 26, 26, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_x45qr"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 23, 26, 26, 26, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5gf76"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 41, 26, 23, 23]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hr2hp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 41
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [5]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8b05s"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 1, 26, 26, 1, 1]
+valid_tiles = [902, 934]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dv6nx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 26, 1, 1, 26]
+valid_tiles = [711]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nxb5w"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 26, 23, 26, 1, 26]
+valid_tiles = [700]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_v27es"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 26, 1, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_scs3i"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 23, 26, 26, 26, 23]
+valid_tiles = [776]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_uq3w2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 23, 23]
+valid_tiles = [712]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_n0pih"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 26, 26]
+valid_tiles = [871]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_352fh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 26, 26]
+valid_tiles = [66, 764]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_erobq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [870]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4pqp4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [836, 801]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3nc8s"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [836, 773, 995]
+frequency = 6
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_s7ii2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 26, 26, 26]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fbde5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 41, 26, 23, 26, 26, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jwma6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 41, 26, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hdc50"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 26, 1, 26, 23, 23]
+valid_tiles = [794]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0i28d"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 23, 23, 23]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_62t3b"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 1, 1, 23, 23, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3ja3p"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 26, 1]
+valid_tiles = [763]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_42nhi"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 23, 1, 1, 26]
+valid_tiles = [743]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tpj36"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 1, 26, 1]
+valid_tiles = [669]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8dxkt"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 1, 26]
+valid_tiles = [729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jug1a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 1, 26, 23]
+valid_tiles = [729]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_y37y6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 23, 23]
+valid_tiles = [808]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jk8w7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 23, 26, 23, 23, 23]
+valid_tiles = [744]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m62i3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 23, 23, 23]
+valid_tiles = [712]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yleox"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [932]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_x8c31"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 26, 26]
+valid_tiles = [836, 800]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6dxn6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 26, 23, 30, 23, 23]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wapfw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 1, 26, 23, 23, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0sicp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 26, 1, 23, 26, 23, 23, 30]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_p354g"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 23, 1, 23, 30, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5lmu1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 26, 1, 30, 23, 23]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3o2s0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 23, 1, 26, 23, 23, 26]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wm01r"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 1, 1, 23, 26, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kngik"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 1]
+valid_tiles = [728]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_upg4e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 23, 26, 1, 1]
+valid_tiles = [902, 934]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3nhhb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 1, 1, 26]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hvwuq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 1, 26, 1]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hlowg"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_am50u"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 30, 23, 23, 23, 23]
+valid_tiles = [698]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tnsff"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 30, 23, 23, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_udwxg"]
+script = ExtResource("1_q6p2w")
+center_terrain = 30
+neighbor_terrains = [23, 26, 1, 23, 23, 23, 26, 23]
+valid_tiles = [938]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mx048"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 30, 23, 26, 23, 23]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xw7j6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 1, 26, 23, 26, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_iry0w"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 23, 26, 23, 23, 26]
+valid_tiles = [999]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5f5wj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 1, 23, 26, 23]
+valid_tiles = [967]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bb647"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 23, 26, 1, 26, 23, 23]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0mif5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 1, 26, 23, 23, 26]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5ef5e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 1, 23, 26, 26]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_lr0xj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 1, 1, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1nwfs"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 26, 1]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6ibbv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 1, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_as2fh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mi05a"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 26, 26]
+valid_tiles = [729, 730, 808]
+frequency = 7
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ubxqn"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 23, 26, 26, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bfyrm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [30, 23, 23, 23, 23, 26, 23, 23]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_oiixs"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 30, 23, 26, 23, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bl3lh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 30, 23, 23, 23, 23, 23, 23]
+valid_tiles = [970]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_lbofg"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [30, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_v8q1r"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 23, 23, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hanu5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 26, 23, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6jkr7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 23, 23, 26, 26, 26]
+valid_tiles = [970]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1lb5e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 26, 23, 26, 26, 26]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_j6125"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [1, 1, 26, 23, 26, 26, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rqfq6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 23, 26, 26, 26, 26]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_h4dr6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 1, 26, 26, 26]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yxsg5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 23, 26, 1, 26, 26, 26]
+valid_tiles = [761]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_s6uny"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 1, 26, 26, 26, 26]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dm01l"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 1, 26, 26, 1]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gv5sm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 1, 1]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5weow"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 1, 26]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nw0gq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 26, 1]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hlmso"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 26]
+valid_tiles = [668]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ngaql"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 26, 26, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qswpd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 26, 23, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3dieb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 23, 26, 23, 23, 23]
+valid_tiles = [999]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1cwqj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 23, 26, 26, 23, 23, 23]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_53ock"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 23, 23]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_svti2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 23, 23, 26]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_aafks"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 26, 23, 26, 26]
+valid_tiles = [773]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_agdvt"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 26, 26, 26]
+valid_tiles = [773, 801]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hbqd2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 26, 1, 26, 26, 26]
+valid_tiles = [967]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xhqxy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 26, 26, 1, 26, 26, 26]
+valid_tiles = [794]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_30qp5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 1, 26, 26, 26]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3veuc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [791, 985]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_oyxcm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 26, 1]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_a6d5f"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 1, 1]
+valid_tiles = [728]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_k2sqi"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 1, 1]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m85mb"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 26, 1]
+valid_tiles = [800, 896]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0pvql"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 1, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bsswq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 1, 1]
+valid_tiles = [800]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gfy56"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 1, 1, 1]
+valid_tiles = [934]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_h766v"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 1, 1, 1]
+valid_tiles = [699]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_o505c"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 1, 1, 1]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7irbp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 1, 1, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_uknr5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 1, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rlj6i"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 26, 23]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2dlhh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 23, 23]
+valid_tiles = [903]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_sedro"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 26, 26, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tn631"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 26, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_s87ax"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 1, 1, 1]
+valid_tiles = [800, 835, 896, 961]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bmm8u"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 1, 1, 1]
+valid_tiles = [800, 896]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_uq5hu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 26, 1, 1, 1, 1]
+valid_tiles = [835]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_e0mwp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 26, 26, 1, 1, 1, 1]
+valid_tiles = [761]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fieno"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 1, 1]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_p1spc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_7y7up"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [792, 794]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_iw0vf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 26, 26]
+valid_tiles = [758, 726]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mfjbx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 23, 1, 1, 26, 1, 1]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_x457f"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 1, 1, 1, 1, 1]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m6h25"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 1, 1, 1, 26]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2ku8h"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 1, 26, 26]
+valid_tiles = [725]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_p0ah4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 26, 26, 26]
+valid_tiles = [962]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nh25k"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 23, 26, 26, 1]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_lmqff"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 26, 23, 26, 1, 26]
+valid_tiles = [668]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_20akp"]
+script = ExtResource("1_q6p2w")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 1, 26, 26]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_02jof"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 26, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ig0d1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 1, 1]
+valid_tiles = [963]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8gdpo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 1, 26]
+valid_tiles = [794]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_agtuj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 26, 26, 1]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cpjl8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 26, 1, 26]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rkyo2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 26, 26]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1c287"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 1, 26]
+valid_tiles = [899, 995]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_iyum6"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 1, 26, 26]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bi2t5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 1, 26, 26, 26, 1]
+valid_tiles = [995]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ap5yq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 26, 1, 1]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bkfqm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 1, 1, 1, 26]
+valid_tiles = [994]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_g7oil"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 26, 26, 1, 26, 26]
+valid_tiles = [763]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gtvxi"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 1, 26, 26, 26, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_v1e7k"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gx5wo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 26, 1]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5l14e"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 26, 1, 26, 1, 1]
+valid_tiles = [794]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_60466"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 26, 1, 1, 26]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_m5qs4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 26, 1]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_hpd2x"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 1, 1]
+valid_tiles = [930, 769, 800]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_sa34p"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_td1bd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 26, 1, 1, 1]
+valid_tiles = [761]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_07kui"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 1, 26, 1]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yyie5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 1, 26]
+valid_tiles = [994]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xfdqo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_i0yyc"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 1]
+valid_tiles = [995]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3sper"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 26, 1, 1]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_pv5rl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 1, 1, 1]
+valid_tiles = [769, 801]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_dwtt4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 1, 1, 26]
+valid_tiles = [963]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vi137"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 1, 26, 26]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gfaan"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_anuht"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [793]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_sju8m"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 26, 26, 1, 26]
+valid_tiles = [757]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_4duaj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 1, 26, 1, 26, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_y67w0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 1, 26, 26, 26]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jsutx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 26, 26, 1]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3aum2"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 26, 1, 1]
+valid_tiles = [725, 894]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_k1soy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 1, 1, 1, 1, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ivjuu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 26, 1]
+valid_tiles = [794, 793]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vx4jo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 26, 1, 1]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_xl631"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 26, 1, 1, 1, 1, 26]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_21s8q"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 26, 1, 26, 1]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_yca7k"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 1, 1]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wu1vo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 26, 1, 1, 1]
+valid_tiles = [791]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_pdp44"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 26, 1, 1]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0dih3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 1, 1, 1, 26]
+valid_tiles = [898]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wddgh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 1, 1]
+valid_tiles = [790]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_31kl3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 1, 26]
+valid_tiles = [757]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_fi2wd"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 26, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8jvgq"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 26, 26, 26, 1]
+valid_tiles = [882]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_w1fdy"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 1, 26, 26, 1, 1]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_0unsv"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 1, 1, 26]
+valid_tiles = [961]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_77r4g"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 1, 1, 26, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8ulv8"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 1, 26, 26, 26]
+valid_tiles = [387]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_508ef"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 26, 26, 26, 26]
+valid_tiles = [894]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8b7eg"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_1xbs7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 26, 1]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_rersx"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 1, 1]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_i5idm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 1, 1, 1, 1, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_823yj"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 26, 1, 1, 26, 1]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_r1f1x"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mdpcl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 1, 1, 1, 26]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mvxpo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [931]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bl4un"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 1, 26, 1]
+valid_tiles = [355]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_on04l"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 1, 26, 1, 1, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_de3tl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 26, 26, 1, 1, 26, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5xvt3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 1]
+valid_tiles = [890]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_2m444"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 1, 26, 26, 1, 1]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3cfpt"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 26, 1, 26, 26, 1, 1, 1]
+valid_tiles = [835]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cqanl"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_so3es"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 1, 1, 1, 1]
+valid_tiles = [819, 793]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8b2p1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 26, 1, 1, 1]
+valid_tiles = [890]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_qm2h1"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_6t2r5"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 26, 26, 26, 1]
+valid_tiles = [791]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mmqdu"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [930]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_c7e6y"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 26, 1, 1, 1]
+valid_tiles = [757]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vq1xt"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 1, 26]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_od82g"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 26, 26]
+valid_tiles = [355]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_88l7h"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 1, 26, 26, 26, 26]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_62q4p"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 26, 26, 1]
+valid_tiles = [928]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_t4khm"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 1, 1, 1, 1]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_55r0p"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 26, 1, 1, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_vta5u"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [15, 141, 77]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_bofdk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 1, 1, 1, 1]
+valid_tiles = [829]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_p4ofr"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [827, 830]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_g52ih"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 1, 1, 1, 1]
+valid_tiles = [829, 66]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_aoh26"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 1, 1, 1, 1, 1]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_gmay4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 1, 1, 1, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_jcnhh"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 1, 26, 1, 1, 26, 26]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_tplwn"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 26, 26, 1, 1]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_8p1e7"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 1, 1, 26]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_y0h8d"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [827]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_iusq4"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 0, 0]
+valid_tiles = [15]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_627u0"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 0, 0, 0]
+valid_tiles = [141, 691]
+frequency = 4
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_s7j6d"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [26, 26, 1, 1, 26, 0, 0, 0]
+valid_tiles = [890, 791]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_07nb3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 1, 26, 0, 0, 0]
+valid_tiles = [865]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_3be0t"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 0, 0, 0]
+valid_tiles = [928, 835]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_slvu3"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 1, 0, 0, 0]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_mhhaf"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 26, 1, 0, 0, 0]
+valid_tiles = [792]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_60ojo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 0, 0, 0]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_kehmk"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 0, 0, 0]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_nyglo"]
+script = ExtResource("1_q6p2w")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 0, 0, 0]
+valid_tiles = [163, 70, 71, 82, 6, 38]
+frequency = 9
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wvtgw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 1, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_cm36x"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 12
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_5pmfw"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [1, 1, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_lojox"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [1, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_wkd86"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [26, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 5
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_n1j5t"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [26, 26, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[sub_resource type="Resource" id="Resource_ep140"]
+script = ExtResource("1_q6p2w")
+center_terrain = 0
+neighbor_terrains = [26, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter20BTheSilverWolf"]
+
+[resource]
+script = ExtResource("2_c2sb3")
+tileset_id = "b100xxb3"
+patterns = {
+"0_1_1_1_0_0_0_0_0": SubResource("Resource_cm36x"),
+"0_1_1_1_1_0_0_0_0": SubResource("Resource_wvtgw"),
+"0_1_1_26_0_0_0_0_0": SubResource("Resource_5pmfw"),
+"0_1_26_26_0_0_0_0_0": SubResource("Resource_lojox"),
+"0_26_1_1_0_0_0_0_0": SubResource("Resource_ep140"),
+"0_26_26_1_0_0_0_0_0": SubResource("Resource_n1j5t"),
+"0_26_26_26_0_0_0_0_0": SubResource("Resource_wkd86"),
+"1_1_1_1_1_1_0_0_0": SubResource("Resource_nyglo"),
+"1_1_1_1_1_1_1_1_1": SubResource("Resource_k1rbf"),
+"1_1_1_1_1_1_1_1_26": SubResource("Resource_dthly"),
+"1_1_1_1_1_1_1_26_26": SubResource("Resource_rkyo2"),
+"1_1_1_1_1_1_23_26_26": SubResource("Resource_blyfq"),
+"1_1_1_1_1_1_26_1_1": SubResource("Resource_y0h8d"),
+"1_1_1_1_1_1_26_26_26": SubResource("Resource_l4dd0"),
+"1_1_1_1_1_26_1_1_1": SubResource("Resource_vj1iy"),
+"1_1_1_1_1_26_1_26_1": SubResource("Resource_tp42w"),
+"1_1_1_1_1_26_26_1_1": SubResource("Resource_rersx"),
+"1_1_1_1_1_26_26_26_26": SubResource("Resource_d013q"),
+"1_1_1_1_26_1_0_0_0": SubResource("Resource_kehmk"),
+"1_1_1_1_26_1_1_1_1": SubResource("Resource_0b30c"),
+"1_1_1_1_26_1_1_26_1": SubResource("Resource_bl4un"),
+"1_1_1_1_26_1_23_29_23": SubResource("Resource_sjscp"),
+"1_1_1_1_26_1_26_26_1": SubResource("Resource_1xbs7"),
+"1_1_1_1_26_1_26_26_26": SubResource("Resource_352fh"),
+"1_1_1_1_26_26_1_1_1": SubResource("Resource_td1bd"),
+"1_1_1_1_26_26_23_23_33": SubResource("Resource_ve210"),
+"1_1_1_1_26_26_26_26_26": SubResource("Resource_tnj71"),
+"1_1_1_26_1_1_1_1_1": SubResource("Resource_g52ih"),
+"1_1_1_26_1_1_1_1_26": SubResource("Resource_mdpcl"),
+"1_1_1_26_1_1_26_1_1": SubResource("Resource_aseoa"),
+"1_1_1_26_1_1_26_26_26": SubResource("Resource_av00o"),
+"1_1_1_26_1_26_26_1_1": SubResource("Resource_3aum2"),
+"1_1_1_26_26_1_1_1_1": SubResource("Resource_so3es"),
+"1_1_1_26_26_1_26_26_26": SubResource("Resource_8ulv8"),
+"1_1_1_26_26_26_23_23_23": SubResource("Resource_mvhlx"),
+"1_1_1_26_26_26_26_26_1": SubResource("Resource_8jvgq"),
+"1_1_26_1_1_1_1_1_1": SubResource("Resource_aoh26"),
+"1_1_26_1_1_1_26_26_26": SubResource("Resource_t4ljk"),
+"1_1_26_1_1_26_1_1_1": SubResource("Resource_8b2p1"),
+"1_1_26_1_1_26_26_26_1": SubResource("Resource_6t2r5"),
+"1_1_26_1_1_26_26_26_26": SubResource("Resource_508ef"),
+"1_1_26_1_26_1_1_26_1": SubResource("Resource_823yj"),
+"1_1_26_1_26_1_1_26_26": SubResource("Resource_jcnhh"),
+"1_1_26_23_26_1_26_23_23": SubResource("Resource_bb647"),
+"1_1_26_23_26_1_26_26_26": SubResource("Resource_yxsg5"),
+"1_1_26_26_1_1_1_1_1": SubResource("Resource_0rokv"),
+"1_1_26_26_1_1_26_26_26": SubResource("Resource_30qp5"),
+"1_1_26_26_1_26_1_1_1": SubResource("Resource_c7e6y"),
+"1_1_26_26_1_26_1_26_1": SubResource("Resource_21s8q"),
+"1_1_26_26_1_26_26_26_26": SubResource("Resource_xfdqo"),
+"1_1_26_26_26_1_0_0_0": SubResource("Resource_mhhaf"),
+"1_1_26_26_26_1_1_1_1": SubResource("Resource_55r0p"),
+"1_1_26_26_26_1_26_23_23": SubResource("Resource_hdc50"),
+"1_1_26_26_26_1_26_26_26": SubResource("Resource_x3irk"),
+"1_1_26_26_26_1_30_23_23": SubResource("Resource_5lmu1"),
+"1_23_23_23_1_1_1_1_26": SubResource("Resource_m6h25"),
+"1_23_23_23_1_26_1_1_1": SubResource("Resource_jjc7f"),
+"1_23_23_23_1_26_1_26_26": SubResource("Resource_2ku8h"),
+"1_23_23_23_1_26_26_23_23": SubResource("Resource_wke7m"),
+"1_23_23_23_26_1_1_1_1": SubResource("Resource_uo8xh"),
+"1_23_23_23_26_26_23_23_33": SubResource("Resource_k7dey"),
+"1_23_23_23_26_26_26_1_1": SubResource("Resource_gv5sm"),
+"1_23_23_23_26_26_26_26_1": SubResource("Resource_kngik"),
+"1_23_23_23_26_26_33_23_23": SubResource("Resource_inln1"),
+"1_23_23_26_1_1_26_26_1": SubResource("Resource_3jpjn"),
+"1_23_23_33_26_26_26_26_26": SubResource("Resource_b81pl"),
+"1_23_26_1_1_26_26_1_26": SubResource("Resource_rtwjy"),
+"1_26_1_1_1_1_1_1_1": SubResource("Resource_p4ofr"),
+"1_26_1_1_1_1_26_1_1": SubResource("Resource_r1f1x"),
+"1_26_1_1_1_1_26_1_26": SubResource("Resource_cpjl8"),
+"1_26_1_1_1_1_26_26_1": SubResource("Resource_kxhrd"),
+"1_26_1_1_1_1_26_26_26": SubResource("Resource_rf6bw"),
+"1_26_1_1_1_26_1_1_26": SubResource("Resource_60466"),
+"1_26_1_1_26_1_26_26_1": SubResource("Resource_jsutx"),
+"1_26_1_26_1_1_1_1_26": SubResource("Resource_xl631"),
+"1_26_1_26_26_1_1_1_1": SubResource("Resource_e0mwp"),
+"1_26_1_26_26_1_26_26_26": SubResource("Resource_xhqxy"),
+"1_26_23_23_1_1_1_1_1": SubResource("Resource_x457f"),
+"1_26_23_23_1_26_23_23_26": SubResource("Resource_0mif5"),
+"1_26_23_23_1_26_26_26_26": SubResource("Resource_s6uny"),
+"1_26_23_23_26_1_1_26_23": SubResource("Resource_bj3jx"),
+"1_26_23_23_26_1_26_26_26": SubResource("Resource_q2r1u"),
+"1_26_23_23_26_26_1_26_26": SubResource("Resource_g7oil"),
+"1_26_23_23_26_26_23_26_1": SubResource("Resource_3ja3p"),
+"1_26_23_23_26_26_23_26_26": SubResource("Resource_4itdj"),
+"1_26_26_1_1_1_1_1_1": SubResource("Resource_bofdk"),
+"1_26_26_1_1_1_26_1_1": SubResource("Resource_vx4jo"),
+"1_26_26_1_1_1_26_26_1": SubResource("Resource_agtuj"),
+"1_26_26_1_1_1_26_26_26": SubResource("Resource_37ecc"),
+"1_26_26_1_1_26_0_0_0": SubResource("Resource_s7j6d"),
+"1_26_26_1_1_26_1_1_1": SubResource("Resource_wu1vo"),
+"1_26_26_1_1_26_26_1_26": SubResource("Resource_sju8m"),
+"1_26_26_1_26_1_26_1_1": SubResource("Resource_5l14e"),
+"1_26_26_23_1_1_26_1_1": SubResource("Resource_mfjbx"),
+"1_26_26_23_1_26_23_23_26": SubResource("Resource_3o2s0"),
+"1_26_26_26_1_1_0_0_0": SubResource("Resource_627u0"),
+"1_26_26_26_1_1_1_0_0": SubResource("Resource_iusq4"),
+"1_26_26_26_1_1_1_1_1": SubResource("Resource_vta5u"),
+"1_26_26_26_1_1_1_1_26": SubResource("Resource_x0l4l"),
+"1_26_26_26_1_1_1_26_26": SubResource("Resource_iw0vf"),
+"1_26_26_26_1_1_23_26_26": SubResource("Resource_fukgq"),
+"1_26_26_26_1_1_26_1_1": SubResource("Resource_wddgh"),
+"1_26_26_26_1_1_26_1_26": SubResource("Resource_fuwub"),
+"1_26_26_26_1_1_26_26_1": SubResource("Resource_5jq4f"),
+"1_26_26_26_1_1_26_26_26": SubResource("Resource_3rdu6"),
+"1_26_26_26_1_26_1_1_1": SubResource("Resource_fieno"),
+"1_26_26_26_1_26_1_1_26": SubResource("Resource_31kl3"),
+"1_26_26_26_1_26_1_26_1": SubResource("Resource_fsnci"),
+"1_26_26_26_1_26_1_26_26": SubResource("Resource_k2cqq"),
+"1_26_26_26_1_26_23_23_23": SubResource("Resource_0i28d"),
+"1_26_26_26_1_26_23_23_26": SubResource("Resource_3m2t3"),
+"1_26_26_26_1_26_26_26_1": SubResource("Resource_5xvt3"),
+"1_26_26_26_1_26_26_26_26": SubResource("Resource_3veuc"),
+"1_26_26_26_26_1_1_1_1": SubResource("Resource_7y7up"),
+"1_26_26_26_26_1_1_1_26": SubResource("Resource_8gdpo"),
+"1_26_26_26_26_1_1_26_1": SubResource("Resource_ivjuu"),
+"1_26_26_26_26_1_1_26_26": SubResource("Resource_od82g"),
+"1_26_26_26_26_1_23_23_26": SubResource("Resource_4tq3r"),
+"1_26_26_26_26_1_26_26_26": SubResource("Resource_anuht"),
+"1_26_26_26_26_26_23_23_23": SubResource("Resource_bximp"),
+"1_26_26_26_26_26_23_23_33": SubResource("Resource_100eo"),
+"1_26_26_26_26_26_26_1_1": SubResource("Resource_a6d5f"),
+"1_26_26_26_26_26_26_30_26": SubResource("Resource_1kog3"),
+"1_26_26_26_26_26_33_23_23": SubResource("Resource_aemeu"),
+"1_26_26_30_1_1_1_26_26": SubResource("Resource_snk8x"),
+"1_26_30_26_1_26_26_26_26": SubResource("Resource_ps51l"),
+"23_1_1_26_23_23_23_23_23": SubResource("Resource_wapfw"),
+"23_1_1_26_23_26_1_26_26": SubResource("Resource_ckb8d"),
+"23_1_1_26_23_26_23_23_23": SubResource("Resource_xw7j6"),
+"23_1_1_26_23_26_26_26_26": SubResource("Resource_j6125"),
+"23_1_1_26_26_23_26_1_26": SubResource("Resource_wrdvx"),
+"23_1_26_1_23_26_23_23_30": SubResource("Resource_0sicp"),
+"23_1_26_1_23_26_26_26_26": SubResource("Resource_tiiva"),
+"23_1_26_26_23_23_1_26_26": SubResource("Resource_akf6r"),
+"23_1_26_26_23_23_23_33_23": SubResource("Resource_nhom6"),
+"23_1_26_26_23_23_26_26_23": SubResource("Resource_j703o"),
+"23_1_26_26_23_26_1_26_26": SubResource("Resource_fhdck"),
+"23_23_23_23_23_23_1_1_26": SubResource("Resource_tdy67"),
+"23_23_23_23_23_23_1_26_1": SubResource("Resource_1nwfs"),
+"23_23_23_23_23_23_1_26_26": SubResource("Resource_utyww"),
+"23_23_23_23_23_23_23_23_23": SubResource("Resource_xrt6a"),
+"23_23_23_23_23_23_23_23_26": SubResource("Resource_34dog"),
+"23_23_23_23_23_23_23_23_27": SubResource("Resource_fwx7e"),
+"23_23_23_23_23_23_23_26_23": SubResource("Resource_qr8lb"),
+"23_23_23_23_23_23_23_27_23": SubResource("Resource_ag4oy"),
+"23_23_23_23_23_23_26_1_26": SubResource("Resource_10a1h"),
+"23_23_23_23_23_23_26_26_26": SubResource("Resource_10dba"),
+"23_23_23_23_23_23_29_23_23": SubResource("Resource_3hcpo"),
+"23_23_23_23_23_26_23_23_23": SubResource("Resource_fgvo3"),
+"23_23_23_23_23_27_23_23_23": SubResource("Resource_n5p3r"),
+"23_23_23_23_23_29_26_26_26": SubResource("Resource_vnbsv"),
+"23_23_23_23_23_30_23_23_23": SubResource("Resource_f5l73"),
+"23_23_23_23_23_30_26_26_23": SubResource("Resource_33cwk"),
+"23_23_23_23_26_23_1_1_1": SubResource("Resource_h766v"),
+"23_23_23_23_26_23_1_1_26": SubResource("Resource_lr0xj"),
+"23_23_23_23_26_23_23_23_23": SubResource("Resource_bx1ar"),
+"23_23_23_23_26_23_23_26_1": SubResource("Resource_1r0xp"),
+"23_23_23_23_26_23_23_26_26": SubResource("Resource_4chqq"),
+"23_23_23_23_26_23_26_26_26": SubResource("Resource_hlmso"),
+"23_23_23_23_27_23_23_26_26": SubResource("Resource_g3vhc"),
+"23_23_23_23_29_23_26_26_23": SubResource("Resource_2dm3e"),
+"23_23_23_26_23_23_1_1_1": SubResource("Resource_o505c"),
+"23_23_23_26_23_23_1_26_26": SubResource("Resource_6ibbv"),
+"23_23_23_26_23_23_23_23_26": SubResource("Resource_v8q1r"),
+"23_23_23_26_23_23_26_23_23": SubResource("Resource_ghaqc"),
+"23_23_23_26_23_23_26_26_23": SubResource("Resource_jlx0a"),
+"23_23_23_26_23_23_26_26_26": SubResource("Resource_dka5v"),
+"23_23_23_26_23_30_23_23_26": SubResource("Resource_tnsff"),
+"23_23_23_26_26_23_1_1_26": SubResource("Resource_3nhhb"),
+"23_23_23_26_26_23_26_26_26": SubResource("Resource_4j238"),
+"23_23_23_26_26_33_23_26_26": SubResource("Resource_044kh"),
+"23_23_23_26_33_23_23_23_26": SubResource("Resource_xdfot"),
+"23_23_23_27_23_23_26_26_26": SubResource("Resource_flhyl"),
+"23_23_23_29_23_23_26_26_26": SubResource("Resource_6lr40"),
+"23_23_23_29_23_26_26_26_26": SubResource("Resource_7jic0"),
+"23_23_23_30_23_23_27_23_23": SubResource("Resource_onupq"),
+"23_23_23_30_23_26_23_23_23": SubResource("Resource_oiixs"),
+"23_23_23_33_23_26_23_23_23": SubResource("Resource_decjy"),
+"23_23_23_33_26_23_23_23_23": SubResource("Resource_cs4ep"),
+"23_23_23_33_30_23_23_23_23": SubResource("Resource_o4n7w"),
+"23_23_26_1_23_23_23_26_23": SubResource("Resource_kl1wd"),
+"23_23_26_1_23_23_26_1_1": SubResource("Resource_i42c3"),
+"23_23_26_1_23_23_26_26_1": SubResource("Resource_ra5pp"),
+"23_23_26_23_23_23_26_23_23": SubResource("Resource_3wl7g"),
+"23_23_26_23_23_23_26_26_23": SubResource("Resource_ngaql"),
+"23_23_26_23_23_29_23_23_23": SubResource("Resource_g5vt3"),
+"23_23_26_23_45_23_26_23_23": SubResource("Resource_hw74a"),
+"23_23_26_26_23_23_1_1_26": SubResource("Resource_7irbp"),
+"23_23_26_26_23_23_1_26_1": SubResource("Resource_hvwuq"),
+"23_23_26_26_23_23_23_23_23": SubResource("Resource_7jrh8"),
+"23_23_26_26_23_23_26_26_26": SubResource("Resource_as2fh"),
+"23_23_26_26_23_26_23_26_26": SubResource("Resource_hanu5"),
+"23_23_26_26_26_23_26_1_26": SubResource("Resource_lmqff"),
+"23_23_27_23_23_26_26_26_26": SubResource("Resource_k2hgg"),
+"23_23_29_23_23_23_23_23_30": SubResource("Resource_a3yqq"),
+"23_23_29_23_23_23_26_26_26": SubResource("Resource_0alu7"),
+"23_23_30_23_23_23_23_23_29": SubResource("Resource_2oqq0"),
+"23_23_31_23_26_23_23_23_23": SubResource("Resource_el8iw"),
+"23_23_33_23_23_23_23_23_23": SubResource("Resource_qua02"),
+"23_23_33_23_29_23_23_23_45": SubResource("Resource_6tjfk"),
+"23_23_33_26_23_23_23_23_23": SubResource("Resource_aics8"),
+"23_26_1_1_23_26_1_26_26": SubResource("Resource_v27es"),
+"23_26_1_1_26_23_26_26_26": SubResource("Resource_1lb5e"),
+"23_26_1_1_26_23_30_23_23": SubResource("Resource_6dxn6"),
+"23_26_1_1_30_23_26_23_23": SubResource("Resource_mx048"),
+"23_26_1_26_23_23_1_1_26": SubResource("Resource_weqmp"),
+"23_26_1_26_23_23_26_26_26": SubResource("Resource_xvidl"),
+"23_26_1_26_23_33_26_1_26": SubResource("Resource_xkxc3"),
+"23_26_1_26_23_33_26_23_23": SubResource("Resource_vhudu"),
+"23_26_1_26_23_33_30_23_23": SubResource("Resource_c707e"),
+"23_26_1_26_33_23_26_23_33": SubResource("Resource_kobsv"),
+"23_26_1_26_33_23_26_26_26": SubResource("Resource_r4vb4"),
+"23_26_23_23_23_23_23_23_23": SubResource("Resource_jhjd7"),
+"23_26_23_23_23_23_26_23_23": SubResource("Resource_qswpd"),
+"23_26_23_23_23_23_26_26_26": SubResource("Resource_oo7do"),
+"23_26_23_23_26_23_26_26_26": SubResource("Resource_w2f43"),
+"23_26_23_23_30_23_23_23_23": SubResource("Resource_am50u"),
+"23_26_26_1_23_23_23_30_23": SubResource("Resource_piqfq"),
+"23_26_26_1_26_23_26_1_26": SubResource("Resource_nxb5w"),
+"23_26_26_1_26_23_26_26_26": SubResource("Resource_0fdnb"),
+"23_26_26_1_31_29_23_23_23": SubResource("Resource_r4lhc"),
+"23_26_26_23_23_23_23_23_23": SubResource("Resource_rfxu3"),
+"23_26_26_23_23_23_26_26_26": SubResource("Resource_ubxqn"),
+"23_26_26_23_23_26_26_23_23": SubResource("Resource_na6si"),
+"23_26_26_23_23_26_26_23_33": SubResource("Resource_4cyyu"),
+"23_26_26_23_23_26_26_26_26": SubResource("Resource_diaoq"),
+"23_26_26_23_26_23_26_26_26": SubResource("Resource_ibbek"),
+"23_26_26_26_23_23_1_26_23": SubResource("Resource_jug1a"),
+"23_26_26_26_23_23_1_26_26": SubResource("Resource_uknr5"),
+"23_26_26_26_23_23_23_23_23": SubResource("Resource_2e7xh"),
+"23_26_26_26_23_23_23_23_30": SubResource("Resource_lb4py"),
+"23_26_26_26_23_23_26_1_26": SubResource("Resource_8dxkt"),
+"23_26_26_26_23_23_26_23_23": SubResource("Resource_hlowg"),
+"23_26_26_26_23_23_26_26_26": SubResource("Resource_mi05a"),
+"23_26_26_26_23_26_1_1_1": SubResource("Resource_skm0b"),
+"23_26_26_26_23_26_1_26_26": SubResource("Resource_20akp"),
+"23_26_26_26_23_26_23_23_23": SubResource("Resource_i4r02"),
+"23_26_26_26_23_26_26_23_23": SubResource("Resource_y37y6"),
+"23_26_26_26_23_26_26_26_23": SubResource("Resource_rlj6i"),
+"23_26_26_26_23_26_26_26_26": SubResource("Resource_y6w6a"),
+"23_26_26_26_23_26_33_23_23": SubResource("Resource_jttou"),
+"23_26_26_26_23_29_23_23_26": SubResource("Resource_01hpq"),
+"23_26_26_26_26_23_1_26_1": SubResource("Resource_tpj36"),
+"23_26_26_26_26_23_23_23_23": SubResource("Resource_fa0j7"),
+"23_26_26_26_26_23_26_1_1": SubResource("Resource_6o4kw"),
+"23_26_26_26_26_23_26_23_23": SubResource("Resource_arxos"),
+"23_26_26_26_26_23_26_26_26": SubResource("Resource_8v8rk"),
+"23_26_26_26_29_31_26_26_23": SubResource("Resource_vvb5a"),
+"23_26_26_26_33_26_23_23_23": SubResource("Resource_8mwmy"),
+"23_26_26_26_33_26_26_23_23": SubResource("Resource_kvyuw"),
+"23_26_26_41_26_23_26_26_26": SubResource("Resource_fbde5"),
+"23_26_41_26_23_23_26_26_26": SubResource("Resource_jwma6"),
+"23_29_23_23_23_45_26_26_26": SubResource("Resource_1mtw0"),
+"23_30_23_23_23_23_23_29_23": SubResource("Resource_j5j6l"),
+"23_30_23_23_23_23_26_23_23": SubResource("Resource_bfyrm"),
+"23_30_23_23_26_23_23_23_23": SubResource("Resource_lbofg"),
+"23_31_23_29_23_23_23_23_23": SubResource("Resource_lqg23"),
+"23_33_23_23_23_26_23_45_23": SubResource("Resource_vc7tr"),
+"23_33_23_23_26_33_23_29_23": SubResource("Resource_o2id0"),
+"23_33_23_26_23_23_23_23_26": SubResource("Resource_q5ivr"),
+"23_33_23_26_26_23_26_26_1": SubResource("Resource_jw2sq"),
+"23_33_26_26_23_33_23_23_26": SubResource("Resource_hki6d"),
+"23_45_23_23_26_23_26_1_1": SubResource("Resource_yrr8y"),
+"26_1_1_1_1_1_1_1_1": SubResource("Resource_wya8g"),
+"26_1_1_1_1_26_1_1_26": SubResource("Resource_1c287"),
+"26_1_1_1_1_26_1_26_1": SubResource("Resource_m5qs4"),
+"26_1_1_1_1_26_26_26_26": SubResource("Resource_erobq"),
+"26_1_1_1_23_26_23_23_23": SubResource("Resource_o5vqx"),
+"26_1_1_1_23_26_26_26_23": SubResource("Resource_scs3i"),
+"26_1_1_1_26_1_0_0_0": SubResource("Resource_60ojo"),
+"26_1_1_1_26_1_1_1_1": SubResource("Resource_sa34p"),
+"26_1_1_1_26_1_1_1_26": SubResource("Resource_yyie5"),
+"26_1_1_1_26_1_23_23_23": SubResource("Resource_cmkaf"),
+"26_1_1_1_26_1_23_26_26": SubResource("Resource_n0pih"),
+"26_1_1_1_26_1_26_23_23": SubResource("Resource_f3rml"),
+"26_1_1_1_26_1_26_26_26": SubResource("Resource_i1244"),
+"26_1_1_1_26_1_31_23_29": SubResource("Resource_btjpe"),
+"26_1_1_1_26_26_0_0_0": SubResource("Resource_3be0t"),
+"26_1_1_1_26_26_1_1_1": SubResource("Resource_s87ax"),
+"26_1_1_1_26_26_1_1_26": SubResource("Resource_dwtt4"),
+"26_1_1_1_26_26_1_26_1": SubResource("Resource_07kui"),
+"26_1_1_1_26_26_1_26_26": SubResource("Resource_iyum6"),
+"26_1_1_1_26_26_23_23_23": SubResource("Resource_6wxfq"),
+"26_1_1_1_26_26_23_23_26": SubResource("Resource_hfr1g"),
+"26_1_1_1_26_26_23_26_26": SubResource("Resource_xwjdf"),
+"26_1_1_1_26_26_23_31_23": SubResource("Resource_2msd1"),
+"26_1_1_1_26_26_26_1_1": SubResource("Resource_hpd2x"),
+"26_1_1_1_26_26_26_23_23": SubResource("Resource_uq3w2"),
+"26_1_1_1_26_26_29_23_31": SubResource("Resource_0dits"),
+"26_1_1_26_1_1_1_1_26": SubResource("Resource_i5idm"),
+"26_1_1_26_1_1_26_26_26": SubResource("Resource_rf10s"),
+"26_1_1_26_1_26_23_33_26": SubResource("Resource_xddum"),
+"26_1_1_26_1_26_26_1_1": SubResource("Resource_u6ui8"),
+"26_1_1_26_1_26_26_26_1": SubResource("Resource_bi2t5"),
+"26_1_1_26_26_1_0_0_0": SubResource("Resource_slvu3"),
+"26_1_1_26_26_1_1_1_1": SubResource("Resource_t4khm"),
+"26_1_1_26_26_1_1_1_26": SubResource("Resource_gmay4"),
+"26_1_1_26_26_26_1_1_1": SubResource("Resource_bmm8u"),
+"26_1_1_26_26_26_1_26_26": SubResource("Resource_vi137"),
+"26_1_1_26_26_26_23_23_23": SubResource("Resource_m62i3"),
+"26_1_1_26_26_26_26_1_1": SubResource("Resource_pdp44"),
+"26_1_1_26_26_26_26_26_26": SubResource("Resource_n7ixk"),
+"26_1_26_1_23_26_23_23_26": SubResource("Resource_iry0w"),
+"26_1_26_1_23_26_26_26_26": SubResource("Resource_rqfq6"),
+"26_1_26_1_26_1_1_1_1": SubResource("Resource_uq5hu"),
+"26_1_26_1_26_1_26_26_26": SubResource("Resource_hbqd2"),
+"26_1_26_1_26_26_1_1_1": SubResource("Resource_3cfpt"),
+"26_1_26_1_26_26_26_23_23": SubResource("Resource_okliu"),
+"26_1_26_1_26_26_26_26_26": SubResource("Resource_cu4fb"),
+"26_1_26_1_30_26_1_26_26": SubResource("Resource_1a2jn"),
+"26_1_26_23_1_1_23_23_26": SubResource("Resource_pafxm"),
+"26_1_26_23_26_26_1_1_1": SubResource("Resource_4omqv"),
+"26_1_26_26_1_1_1_1_26": SubResource("Resource_k1soy"),
+"26_1_26_26_1_26_1_1_26": SubResource("Resource_on04l"),
+"26_1_26_26_1_26_26_1_1": SubResource("Resource_w1fdy"),
+"26_1_26_26_23_26_26_26_26": SubResource("Resource_cfddg"),
+"26_1_26_26_26_1_1_1_26": SubResource("Resource_0dih3"),
+"26_1_26_26_26_1_26_26_26": SubResource("Resource_gfaan"),
+"26_1_26_26_26_26_1_1_1": SubResource("Resource_b7n4e"),
+"26_1_26_26_26_26_23_23_23": SubResource("Resource_yleox"),
+"26_1_26_26_26_26_26_1_1": SubResource("Resource_ap5yq"),
+"26_1_26_26_26_26_26_26_26": SubResource("Resource_4pqp4"),
+"26_1_26_26_26_26_33_26_26": SubResource("Resource_jj7ft"),
+"26_1_26_26_26_41_26_23_23": SubResource("Resource_5gf76"),
+"26_23_23_23_1_1_23_26_26": SubResource("Resource_5ef5e"),
+"26_23_23_23_1_1_26_26_1": SubResource("Resource_dm01l"),
+"26_23_23_23_1_23_26_1_1": SubResource("Resource_upg4e"),
+"26_23_23_23_1_26_1_1_1": SubResource("Resource_cmqu0"),
+"26_23_23_23_1_26_23_23_23": SubResource("Resource_dkne0"),
+"26_23_23_23_1_26_23_23_26": SubResource("Resource_3ufc0"),
+"26_23_23_23_1_26_23_33_23": SubResource("Resource_bq0r8"),
+"26_23_23_23_1_26_26_26_26": SubResource("Resource_p0ah4"),
+"26_23_23_23_23_23_23_23_23": SubResource("Resource_yyuwt"),
+"26_23_23_23_23_23_45_23_23": SubResource("Resource_akubp"),
+"26_23_23_23_26_1_26_26_26": SubResource("Resource_36qr0"),
+"26_23_23_23_26_23_1_1_1": SubResource("Resource_gfy56"),
+"26_23_23_23_26_23_23_23_26": SubResource("Resource_dack8"),
+"26_23_23_23_26_23_26_26_26": SubResource("Resource_7ts4o"),
+"26_23_23_23_26_26_1_1_1": SubResource("Resource_bsswq"),
+"26_23_23_23_26_26_1_1_26": SubResource("Resource_5weow"),
+"26_23_23_23_26_26_1_26_1": SubResource("Resource_nw0gq"),
+"26_23_23_23_26_26_1_26_26": SubResource("Resource_g5s1n"),
+"26_23_23_23_26_26_23_26_1": SubResource("Resource_3pjgp"),
+"26_23_23_23_26_26_26_1_26": SubResource("Resource_qjmv1"),
+"26_23_23_23_26_26_26_23_23": SubResource("Resource_gf4fr"),
+"26_23_23_23_26_26_26_26_23": SubResource("Resource_iwrm8"),
+"26_23_23_23_26_26_26_26_26": SubResource("Resource_3nc8s"),
+"26_23_23_23_26_26_33_23_26": SubResource("Resource_nxe41"),
+"26_23_23_26_1_26_26_1_1": SubResource("Resource_8b05s"),
+"26_23_23_26_1_26_26_26_26": SubResource("Resource_gtvxi"),
+"26_23_23_26_1_26_26_26_41": SubResource("Resource_24yrw"),
+"26_23_23_26_23_26_23_23_23": SubResource("Resource_3dieb"),
+"26_23_23_26_26_23_26_26_1": SubResource("Resource_nh25k"),
+"26_23_23_26_26_26_1_1_1": SubResource("Resource_a3r2f"),
+"26_23_23_26_26_26_1_1_26": SubResource("Resource_dfx88"),
+"26_23_23_26_26_26_1_26_26": SubResource("Resource_831b8"),
+"26_23_23_26_26_26_23_23_26": SubResource("Resource_svti2"),
+"26_23_23_26_26_26_23_26_1": SubResource("Resource_xpr7q"),
+"26_23_23_26_26_26_26_26_26": SubResource("Resource_s7ii2"),
+"26_23_23_29_26_26_26_26_23": SubResource("Resource_sxcd3"),
+"26_23_23_30_26_23_26_26_26": SubResource("Resource_k3tuh"),
+"26_23_23_45_26_26_23_23_26": SubResource("Resource_h7k0s"),
+"26_23_26_1_26_26_26_41_26": SubResource("Resource_ewqwo"),
+"26_23_26_1_26_30_1_1_1": SubResource("Resource_go7bf"),
+"26_23_26_23_26_26_23_23_23": SubResource("Resource_1cwqj"),
+"26_23_26_26_26_23_1_1_26": SubResource("Resource_42nhi"),
+"26_23_26_26_26_23_26_26_26": SubResource("Resource_m3xs4"),
+"26_23_26_26_26_26_1_1_26": SubResource("Resource_dv6nx"),
+"26_23_26_26_26_26_1_26_26": SubResource("Resource_dm0w1"),
+"26_23_26_26_26_26_23_26_26": SubResource("Resource_aafks"),
+"26_23_26_26_26_26_26_1_26": SubResource("Resource_62nd5"),
+"26_23_26_26_26_26_26_26_26": SubResource("Resource_v1e7k"),
+"26_23_29_23_23_26_26_26_23": SubResource("Resource_hliuq"),
+"26_23_29_23_26_26_26_23_23": SubResource("Resource_icgqb"),
+"26_23_30_23_23_23_23_23_23": SubResource("Resource_bl3lh"),
+"26_23_33_23_1_23_26_26_26": SubResource("Resource_s3etc"),
+"26_23_33_23_23_23_23_23_29": SubResource("Resource_sgfl1"),
+"26_23_33_23_26_26_26_26_26": SubResource("Resource_01qqt"),
+"26_23_45_23_26_23_23_26_1": SubResource("Resource_1dc5y"),
+"26_26_1_1_1_1_1_1_1": SubResource("Resource_qm2h1"),
+"26_26_1_1_1_1_1_1_26": SubResource("Resource_mvxpo"),
+"26_26_1_1_1_1_26_1_1": SubResource("Resource_mmqdu"),
+"26_26_1_1_1_1_26_26_26": SubResource("Resource_8b7eg"),
+"26_26_1_1_1_23_1_26_1": SubResource("Resource_m2l8v"),
+"26_26_1_1_1_26_0_0_0": SubResource("Resource_07nb3"),
+"26_26_1_1_1_26_26_1_1": SubResource("Resource_tplwn"),
+"26_26_1_1_26_1_1_1_1": SubResource("Resource_cqanl"),
+"26_26_1_1_26_1_1_26_26": SubResource("Resource_77r4g"),
+"26_26_1_1_26_26_1_1_1": SubResource("Resource_pv5rl"),
+"26_26_1_1_26_26_23_23_23": SubResource("Resource_mhr5d"),
+"26_26_1_1_26_26_23_29_23": SubResource("Resource_ixack"),
+"26_26_1_1_26_26_26_1_1": SubResource("Resource_tn631"),
+"26_26_1_1_26_26_26_26_1": SubResource("Resource_62q4p"),
+"26_26_1_1_26_26_26_26_23": SubResource("Resource_wf15v"),
+"26_26_1_1_26_26_26_26_26": SubResource("Resource_hypye"),
+"26_26_1_26_1_26_1_26_26": SubResource("Resource_4duaj"),
+"26_26_1_26_23_1_23_30_23": SubResource("Resource_p354g"),
+"26_26_1_26_23_26_26_26_23": SubResource("Resource_x45qr"),
+"26_26_1_26_26_1_1_26_26": SubResource("Resource_de3tl"),
+"26_26_1_26_26_1_23_26_23": SubResource("Resource_5f5wj"),
+"26_26_1_26_26_1_26_26_26": SubResource("Resource_h4dr6"),
+"26_26_1_26_26_26_1_1_1": SubResource("Resource_58og4"),
+"26_26_1_26_26_26_26_26_23": SubResource("Resource_u3oya"),
+"26_26_23_23_1_1_23_26_26": SubResource("Resource_wm01r"),
+"26_26_23_23_23_1_23_23_23": SubResource("Resource_hrghb"),
+"26_26_23_23_23_1_23_33_23": SubResource("Resource_41r0c"),
+"26_26_23_23_23_26_26_26_26": SubResource("Resource_11do8"),
+"26_26_23_23_26_1_1_1_1": SubResource("Resource_yvjxd"),
+"26_26_23_23_26_26_1_1_1": SubResource("Resource_0pvql"),
+"26_26_23_23_26_26_23_23_23": SubResource("Resource_53ock"),
+"26_26_23_23_26_26_23_23_26": SubResource("Resource_5upm3"),
+"26_26_23_23_26_26_23_26_1": SubResource("Resource_gs4xi"),
+"26_26_23_23_26_26_26_1_26": SubResource("Resource_v6boo"),
+"26_26_23_23_26_26_26_26_26": SubResource("Resource_4802m"),
+"26_26_23_33_23_26_26_26_26": SubResource("Resource_raou5"),
+"26_26_26_1_1_26_26_1_1": SubResource("Resource_2m444"),
+"26_26_26_1_1_26_26_26_26": SubResource("Resource_88l7h"),
+"26_26_26_1_23_23_26_26_26": SubResource("Resource_6jkr7"),
+"26_26_26_1_23_26_23_23_23": SubResource("Resource_jk8w7"),
+"26_26_26_1_26_1_26_26_26": SubResource("Resource_y67w0"),
+"26_26_26_1_26_26_1_1_1": SubResource("Resource_37dqp"),
+"26_26_26_1_26_26_1_1_26": SubResource("Resource_0unsv"),
+"26_26_26_1_26_26_23_23_29": SubResource("Resource_riv5m"),
+"26_26_26_1_26_26_23_26_26": SubResource("Resource_gnlpp"),
+"26_26_26_1_26_26_26_1_1": SubResource("Resource_3sper"),
+"26_26_26_1_26_26_26_26_1": SubResource("Resource_sedro"),
+"26_26_26_1_26_26_26_26_26": SubResource("Resource_agdvt"),
+"26_26_26_23_1_1_23_23_26": SubResource("Resource_62t3b"),
+"26_26_26_23_1_1_30_26_26": SubResource("Resource_5f25n"),
+"26_26_26_23_1_26_23_23_23": SubResource("Resource_2f8st"),
+"26_26_26_23_23_1_1_1_26": SubResource("Resource_7bhg8"),
+"26_26_26_23_26_1_1_1_26": SubResource("Resource_bkfqm"),
+"26_26_26_23_26_23_26_26_26": SubResource("Resource_oabl3"),
+"26_26_26_23_26_26_23_23_26": SubResource("Resource_x7lxl"),
+"26_26_26_23_26_26_26_26_1": SubResource("Resource_1x3nn"),
+"26_26_26_23_26_26_26_26_26": SubResource("Resource_4nvi4"),
+"26_26_26_23_26_26_33_23_26": SubResource("Resource_5mamn"),
+"26_26_26_26_1_1_1_1_1": SubResource("Resource_p1spc"),
+"26_26_26_26_1_1_1_1_26": SubResource("Resource_vq1xt"),
+"26_26_26_26_1_1_26_1_1": SubResource("Resource_yca7k"),
+"26_26_26_26_1_1_26_26_1": SubResource("Resource_oyxcm"),
+"26_26_26_26_1_26_1_1_1": SubResource("Resource_k2sqi"),
+"26_26_26_26_1_26_1_26_26": SubResource("Resource_fi2wd"),
+"26_26_26_26_1_26_23_23_23": SubResource("Resource_qcy2c"),
+"26_26_26_26_1_26_23_26_26": SubResource("Resource_p4qgc"),
+"26_26_26_26_1_26_23_33_23": SubResource("Resource_gclsm"),
+"26_26_26_26_1_26_26_1_1": SubResource("Resource_nweaf"),
+"26_26_26_26_1_26_26_26_1": SubResource("Resource_i0yyc"),
+"26_26_26_26_1_26_26_26_26": SubResource("Resource_iig3v"),
+"26_26_26_26_23_1_23_23_23": SubResource("Resource_ig4is"),
+"26_26_26_26_23_1_26_26_26": SubResource("Resource_5sl2s"),
+"26_26_26_26_23_1_26_26_30": SubResource("Resource_qkxh6"),
+"26_26_26_26_23_26_23_23_23": SubResource("Resource_w463j"),
+"26_26_26_26_23_26_26_23_23": SubResource("Resource_2dlhh"),
+"26_26_26_26_23_26_26_26_26": SubResource("Resource_02jof"),
+"26_26_26_26_26_1_1_1_26": SubResource("Resource_8p1e7"),
+"26_26_26_26_26_1_23_33_23": SubResource("Resource_2d7ds"),
+"26_26_26_26_26_1_26_1_1": SubResource("Resource_ig0d1"),
+"26_26_26_26_26_1_26_23_23": SubResource("Resource_qkqku"),
+"26_26_26_26_26_1_26_26_1": SubResource("Resource_gx5wo"),
+"26_26_26_26_26_23_1_26_1": SubResource("Resource_70a7j"),
+"26_26_26_26_26_23_1_26_26": SubResource("Resource_dx4xs"),
+"26_26_26_26_26_23_23_23_23": SubResource("Resource_ad6pc"),
+"26_26_26_26_26_23_26_26_23": SubResource("Resource_srx1x"),
+"26_26_26_26_26_23_26_26_26": SubResource("Resource_l2isu"),
+"26_26_26_26_26_26_1_1_1": SubResource("Resource_gw5w2"),
+"26_26_26_26_26_26_1_1_26": SubResource("Resource_afo4u"),
+"26_26_26_26_26_26_1_26_1": SubResource("Resource_m85mb"),
+"26_26_26_26_26_26_1_26_26": SubResource("Resource_canhd"),
+"26_26_26_26_26_26_23_23_23": SubResource("Resource_j5fny"),
+"26_26_26_26_26_26_23_23_26": SubResource("Resource_nc0e2"),
+"26_26_26_26_26_26_23_26_26": SubResource("Resource_x8c31"),
+"26_26_26_26_26_26_26_1_1": SubResource("Resource_2ve3q"),
+"26_26_26_26_26_26_26_23_23": SubResource("Resource_7xlxy"),
+"26_26_26_26_26_26_26_26_1": SubResource("Resource_pcpu7"),
+"26_26_26_26_26_26_26_26_23": SubResource("Resource_226ah"),
+"26_26_26_26_26_26_26_26_26": SubResource("Resource_bqq7j"),
+"26_26_26_26_33_26_23_23_33": SubResource("Resource_rcem3"),
+"26_27_23_23_23_26_26_26_26": SubResource("Resource_hw7cs"),
+"26_29_23_23_26_23_23_23_26": SubResource("Resource_kt585"),
+"26_29_23_31_26_23_26_23_23": SubResource("Resource_xi12j"),
+"26_30_26_26_1_26_26_26_26": SubResource("Resource_7apj8"),
+"26_33_23_23_26_26_26_26_26": SubResource("Resource_krrm7"),
+"27_23_23_23_23_23_23_23_26": SubResource("Resource_qku7c"),
+"29_23_23_23_23_23_26_26_26": SubResource("Resource_1eefr"),
+"29_26_1_1_23_23_23_23_23": SubResource("Resource_nh5dm"),
+"29_26_23_33_23_23_23_23_23": SubResource("Resource_ic4e1"),
+"29_26_26_26_23_23_23_26_26": SubResource("Resource_h0qqy"),
+"30_23_23_23_23_23_23_23_23": SubResource("Resource_7oy55"),
+"30_23_26_1_23_23_23_26_23": SubResource("Resource_udwxg"),
+"30_26_1_26_26_26_1_1_26": SubResource("Resource_6ib65"),
+"31_26_26_26_23_23_26_23_23": SubResource("Resource_m31pq"),
+"33_1_26_26_23_23_1_26_23": SubResource("Resource_7vxtq"),
+"33_1_26_26_23_23_23_23_23": SubResource("Resource_qugb7"),
+"33_1_26_26_23_26_23_23_23": SubResource("Resource_2e4tx"),
+"33_23_23_23_23_23_29_23_23": SubResource("Resource_xdy1l"),
+"33_23_26_1_23_23_26_26_26": SubResource("Resource_wfphv"),
+"33_26_26_1_23_23_23_26_23": SubResource("Resource_38e5b"),
+"41_26_26_26_26_26_23_23_23": SubResource("Resource_hr2hp"),
+"45_23_23_26_23_23_26_26_23": SubResource("Resource_ydw0o")
+}
+terrain_tiles = {}
+tile_relationships = {}
+extraction_stats = {
+"extraction_timestamp": "2025-05-27T18:24:18",
+"patterns_extracted": 0,
+"terrains_covered": 0,
+"total_tile_variants": 0
+}

@@ -1,0 +1,6066 @@
+[gd_resource type="Resource" script_class="AutotilingDatabase" load_steps=675 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TilePattern.gd" id="1_3jvll"]
+[ext_resource type="Script" path="res://scripts/resources/AutotilingDatabase.gd" id="2_d44y8"]
+
+[sub_resource type="Resource" id="Resource_u841m"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 1, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xuyni"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 12, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_06fy5"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 12, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hsvbm"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 12, 12, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3g4v6"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 12, 1, 21, 21, 1, 38, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xkji1"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 12, 21, 21, 38, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ekp1x"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 12, 21, 21, 38, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4ddv4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 12, 38, 21, 21, 21, 21, 21]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_nn86y"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 38, 38, 21, 21, 21, 21, 21]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gctds"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 38, 21, 21, 21, 21, 21, 21]
+valid_tiles = [244, 213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w8ago"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 21, 21, 21, 21, 21, 21, 21]
+valid_tiles = [213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qr3j2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 21, 21, 21]
+valid_tiles = [213, 277, 212, 276]
+frequency = 7
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8q2mt"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 38, 21, 21, 21]
+valid_tiles = [212, 245]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1jwbv"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 21, 1, 21, 21, 21]
+valid_tiles = [84, 56, 54]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_slcwj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 21, 21, 21]
+valid_tiles = [71, 130, 102, 230, 274, 163, 467]
+frequency = 10
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oure0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 21, 21]
+valid_tiles = [70, 6, 71, 103, 102, 114, 231, 168, 230, 275, 172, 209, 143, 99, 100, 14, 270, 130, 144, 300, 163]
+frequency = 36
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bmyvs"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 12, 21, 21, 21]
+valid_tiles = [71, 742]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0y7xf"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 21, 21, 1, 12, 21, 21, 38]
+valid_tiles = [848]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_g3am6"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 38, 21]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_n6fkb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 21, 21]
+valid_tiles = [44, 230, 165, 177]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5moys"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 38, 21, 21, 21]
+valid_tiles = [130, 238, 231, 199, 367, 143, 209, 165, 100]
+frequency = 13
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_akqd1"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 38, 21, 21, 21]
+valid_tiles = [23]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_uecf6"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 21, 21, 21, 21]
+valid_tiles = [88, 87]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_a8il1"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 38, 21, 21, 21, 38]
+valid_tiles = [213, 276]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m5xj2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 21, 38, 38]
+valid_tiles = [213, 245, 212]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8521y"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 38, 38, 38]
+valid_tiles = [213, 245, 244]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fbbfj"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 38, 38, 1]
+valid_tiles = [276, 212, 213]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5c520"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 38, 1, 1]
+valid_tiles = [213, 245, 244, 277]
+frequency = 9
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_n8y5t"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 1, 1, 1]
+valid_tiles = [213, 244, 277]
+frequency = 14
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2kyn3"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 38, 21, 21, 1, 1, 1]
+valid_tiles = [213, 244, 212]
+frequency = 6
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_52b15"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 1, 21, 21, 1, 1, 1]
+valid_tiles = [213, 212]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ced01"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 21, 1, 1, 1]
+valid_tiles = [213, 245, 981, 244]
+frequency = 8
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_nqgbj"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 1, 1]
+valid_tiles = [213, 212, 276, 277, 245, 980]
+frequency = 25
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mf3eg"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 12, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_miu77"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 12, 21, 38, 1, 1, 1]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w1y2j"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 21, 1, 38, 21]
+valid_tiles = [86]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6dlx7"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 38, 21, 38, 21, 21]
+valid_tiles = [276]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_87aqh"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 21, 21, 21]
+valid_tiles = [213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_853e0"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 21, 21, 21]
+valid_tiles = [213, 245]
+frequency = 7
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e6gpj"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 38, 21, 21, 21, 21, 21]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j6ubk"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 21, 21, 21, 38, 21, 21, 21]
+valid_tiles = [277, 245]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_54tn7"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 21, 38, 21, 21, 21]
+valid_tiles = [22, 58]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6u352"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 38, 21, 21, 21]
+valid_tiles = [21, 87, 116]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_poxih"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 1, 21, 21, 21]
+valid_tiles = [26, 119, 118]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4qq1n"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 21, 38]
+valid_tiles = [114, 199, 301, 82, 38]
+frequency = 6
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j7oy0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 38, 1]
+valid_tiles = [82, 401, 230]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_n77jc"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 1, 1]
+valid_tiles = [82, 433, 231]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1rp0j"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 1, 1]
+valid_tiles = [6, 102, 38, 436, 437, 402, 177, 231]
+frequency = 9
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kc0ix"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 1, 38]
+valid_tiles = [81, 230]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qm14u"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 38, 38]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8utbd"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 38, 38]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sfn65"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 1, 1, 38, 38, 21]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_11cjy"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 38, 21, 1, 21, 21, 38, 1]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_nfmcf"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 21, 21, 38, 21, 38, 1, 1]
+valid_tiles = [276]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2dog0"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 1, 1, 8]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oveh8"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 1, 8, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gdj5y"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 38, 21, 21, 8, 1, 12]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dd5j4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 38, 21, 21, 1, 12, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_a6hgk"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 38, 38, 21, 21, 12, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eu6tj"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 38, 38, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_42wye"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 38, 1, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1rr6p"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 38, 1, 1, 1]
+valid_tiles = [277, 245]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1epq7"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 21, 1, 1, 1, 1]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7oli7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 1, 1, 1]
+valid_tiles = [130, 208]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_t2lni"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_es7qb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 1, 1, 25]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2dxfs"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 38, 1, 25, 25]
+valid_tiles = [27]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_recqv"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 38, 25, 25, 25]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2hssd"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 21, 25, 25, 25]
+valid_tiles = [23]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vnst3"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 38, 21, 21, 1, 25, 25, 25]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8s3tj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 21, 21, 38, 1, 25, 25, 25]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_puman"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 25, 25, 25]
+valid_tiles = [163, 130]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jx5ew"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 8, 25, 25, 25]
+valid_tiles = [14]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ve7qf"]
+script = ExtResource("1_3jvll")
+center_terrain = 8
+neighbor_terrains = [21, 21, 21, 1, 1, 25, 25, 25]
+valid_tiles = [996]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_udywq"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 8, 12, 25, 25, 25]
+valid_tiles = [105]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hwr8g"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 21, 21, 1, 1, 25, 25, 25]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_35hkw"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 12, 1, 25, 25, 25]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yo0tt"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 25, 25, 1]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pwnud"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 25, 1, 12]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ms6ne"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 12, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lfqi1"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 12, 1, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6xlq7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 1, 1, 1, 1, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cnpmb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 1, 1, 1, 1, 1, 38]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ypucn"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 1, 1, 38, 38]
+valid_tiles = [114]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_54wmi"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 38, 1]
+valid_tiles = [45, 401]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_86x3p"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 25, 38, 1, 1]
+valid_tiles = [915]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sfp18"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 38, 38, 1, 25, 1, 1, 12]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qvs7v"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 38, 38, 25, 25, 1, 12, 1]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wev6u"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 38, 21, 25, 25, 12, 1, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_unoyw"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 38, 1, 25, 25, 12, 1, 1]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lekyf"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 1, 1, 25, 25, 1, 1, 12]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qobta"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 12, 1]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pjeaj"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 12, 1, 1]
+valid_tiles = [916]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_klx77"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 8, 25, 25, 1, 1, 46]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6ic1e"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 8, 1, 25, 25, 1, 46, 46]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jk4i1"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [8, 1, 12, 25, 25, 46, 46, 46]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mmvms"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 12, 1, 25, 25, 46, 46, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8rly7"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [12, 1, 1, 25, 25, 46, 1, 38]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_a8h6j"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 1, 1, 38, 1]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tvohl"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 25, 12, 38, 1, 1]
+valid_tiles = [918]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_81lct"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_f5fqu"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 12, 1, 1, 1, 2]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_71303"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 2, 19]
+valid_tiles = [162]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cipk4"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 2, 19, 19]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_buc68"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 19, 19, 19]
+valid_tiles = [130, 145, 401, 163, 274, 297]
+frequency = 8
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1ua25"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 19, 19, 19]
+valid_tiles = [163, 198]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fc4mr"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 38, 19, 19, 19]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_detmx"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 1, 19, 19, 19]
+valid_tiles = [24]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5nqub"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 38, 1, 19, 19, 19]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4ib0y"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 12, 19, 19, 19]
+valid_tiles = [162]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_blydm"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [25, 25, 25, 1, 1, 19, 19, 19]
+valid_tiles = [720, 782]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_y3wwx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 12, 1, 19, 19, 19]
+valid_tiles = [70, 137]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cqcng"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 12, 19, 19, 19]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fmurq"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 12, 1, 19, 19, 2]
+valid_tiles = [206]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_reua2"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 46, 19, 2, 1]
+valid_tiles = [47]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_817wp"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [25, 25, 25, 1, 46, 2, 1, 1]
+valid_tiles = [807]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jba6l"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [25, 25, 25, 46, 46, 1, 1, 1]
+valid_tiles = [808]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_v1jin"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [25, 25, 25, 46, 1, 1, 1, 1]
+valid_tiles = [809]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tbgt7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 46, 38, 1, 1, 41]
+valid_tiles = [46]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_c2tj8"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [25, 25, 1, 1, 1, 1, 41, 1]
+valid_tiles = [505]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fqhar"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 1, 12, 38, 1, 41, 1, 1]
+valid_tiles = [145]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tvdxm"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 12, 1, 1, 1, 1, 1, 38]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2344o"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 2, 1, 38, 38]
+valid_tiles = [198]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ipald"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [1, 1, 1, 1, 19, 38, 38, 38]
+valid_tiles = [947]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kuxr4"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 2, 19, 38, 38, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5uidy"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 38, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qx3sb"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 38, 19, 19, 1, 1, 7]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_r3feq"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 38, 38, 19, 19, 1, 7, 12]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x0xve"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 1, 19, 19, 7, 12, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lytlv"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 1, 1, 19, 19, 12, 1, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rmmve"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 12, 19, 19, 1, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xwo0s"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 12, 1, 19, 19, 1, 1, 38]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1cs2a"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [12, 1, 1, 19, 19, 1, 38, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0gxqx"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [12, 1, 1, 19, 19, 46, 46, 46]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eshgm"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 12, 19, 19, 46, 46, 38]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_o4fa4"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 12, 1, 19, 19, 46, 38, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0o1sl"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [12, 1, 1, 19, 2, 38, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lv1to"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [1, 1, 46, 19, 1, 1, 1, 1]
+valid_tiles = [950]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_57b5g"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 46, 46, 2, 1, 1, 1, 1]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_f0lml"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 46, 1, 1, 1, 1, 2]
+valid_tiles = [162]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vnysn"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 1, 1, 1, 1, 2, 19]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_f75wk"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 1, 38, 1, 41, 2, 19, 19]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fqqe6"]
+script = ExtResource("1_3jvll")
+center_terrain = 41
+neighbor_terrains = [1, 38, 1, 1, 1, 19, 19, 19]
+valid_tiles = [5]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1ant2"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 41, 1, 19, 19, 19]
+valid_tiles = [163]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jgqnr"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 2, 1, 38, 19, 19, 19]
+valid_tiles = [506]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1ygyd"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 2, 19, 38, 38, 19, 19, 19]
+valid_tiles = [507]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_n5mot"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [2, 19, 19, 38, 1, 19, 19, 19]
+valid_tiles = [473]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_18odr"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 38, 1, 19, 19, 19]
+valid_tiles = [209]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mmk4a"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 7, 19, 19, 19]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_v3va3"]
+script = ExtResource("1_3jvll")
+center_terrain = 7
+neighbor_terrains = [19, 19, 19, 1, 12, 19, 19, 19]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kxolj"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [19, 19, 19, 7, 1, 19, 19, 19]
+valid_tiles = [848]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4ohfx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 12, 1, 19, 19, 19]
+valid_tiles = [142]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4c38f"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 1, 19, 19, 19]
+valid_tiles = [79, 102, 82, 6]
+frequency = 6
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ppt4o"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 38, 19, 19, 19]
+valid_tiles = [71, 103]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sbqpf"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [19, 19, 19, 1, 1, 19, 19, 2]
+valid_tiles = [502, 507]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jbj4m"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 46, 46, 1, 38, 1]
+valid_tiles = [840]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5txl3"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 46, 38, 38, 1, 1]
+valid_tiles = [841]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m3y0c"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [19, 19, 19, 46, 1, 1, 1, 1]
+valid_tiles = [507]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7kg08"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 2, 38, 1, 1, 1, 1]
+valid_tiles = [437]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_td7fh"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 2, 1, 1, 1, 1, 1, 1]
+valid_tiles = [433, 307]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_80dk8"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [177]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w8i8k"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 2, 1, 1, 1]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oishm"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [1, 1, 1, 1, 19, 1, 1, 1]
+valid_tiles = [979]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jpuwm"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 41, 2, 19, 1, 1, 6]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6hm3b"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 41, 1, 19, 19, 1, 6, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hcyw6"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [41, 1, 1, 19, 19, 6, 1, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hr6ym"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 38, 19, 19, 1, 1, 1]
+valid_tiles = [853, 884]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5jysd"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 38, 38, 19, 19, 1, 1, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hhsap"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 38, 19, 19, 1, 1, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gq7gi"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 1, 19, 19, 1, 1, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xmhs8"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 1, 1, 19, 19, 1, 1, 38]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_p3d07"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 7, 19, 19, 1, 38, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0l6jg"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 7, 12, 19, 19, 38, 1, 46]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_82hip"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [7, 12, 1, 19, 19, 1, 46, 3]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qfuax"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [12, 1, 1, 19, 19, 46, 3, 46]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mhi20"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 3, 46, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8atb2"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 38, 19, 19, 46, 1, 5]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pcqea"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 38, 1, 19, 2, 1, 5, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_k5dqj"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [46, 46, 46, 1, 1, 12, 1, 2]
+valid_tiles = [508]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_khfqj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 38, 38, 1, 1, 2, 19]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rv7hy"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 38, 1, 1, 1, 2, 19, 19]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lsad8"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 1, 19, 19, 19]
+valid_tiles = [198]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6al7x"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 2, 1, 1, 19, 19, 19]
+valid_tiles = [442, 165, 401]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_iv3so"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 2, 19, 1, 1, 19, 19, 19]
+valid_tiles = [443]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dnlsa"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 19, 19, 1, 6, 19, 19, 19]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ei7x1"]
+script = ExtResource("1_3jvll")
+center_terrain = 6
+neighbor_terrains = [19, 19, 19, 1, 1, 19, 19, 19]
+valid_tiles = [901]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m48sx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 6, 1, 19, 19, 19]
+valid_tiles = [209]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_k2oin"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 38, 46, 19, 2, 1]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qht1p"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 1, 3, 2, 1, 1]
+valid_tiles = [871]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rmt2w"]
+script = ExtResource("1_3jvll")
+center_terrain = 3
+neighbor_terrains = [19, 19, 19, 46, 46, 1, 1, 38]
+valid_tiles = [872]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wanla"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 3, 1, 1, 38, 38]
+valid_tiles = [873]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eowym"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 46, 5, 38, 38, 1]
+valid_tiles = [144]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_b0xcf"]
+script = ExtResource("1_3jvll")
+center_terrain = 5
+neighbor_terrains = [19, 19, 2, 1, 1, 38, 1, 1]
+valid_tiles = [805]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cyif7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 1, 12, 2, 1, 5, 1]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8nmej"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [38, 1, 1, 1, 19, 5, 1, 1]
+valid_tiles = [979]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sq7uh"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 2, 19, 1, 1, 1]
+valid_tiles = [884]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xph48"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 1, 1, 1]
+valid_tiles = [885, 884, 852, 853, 820]
+frequency = 14
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_iv3x3"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 6, 19, 19, 1, 1, 38]
+valid_tiles = [885]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tv3gg"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 6, 1, 19, 19, 1, 38, 1]
+valid_tiles = [885]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eacpb"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [6, 1, 1, 19, 19, 38, 1, 1]
+valid_tiles = [884]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w73ba"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 38, 1, 19, 2, 1, 1, 1]
+valid_tiles = [885]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bn23u"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [38, 1, 46, 19, 1, 1, 1, 1]
+valid_tiles = [982]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tig7y"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 46, 3, 2, 1, 1, 1, 12]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wiugv"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 3, 46, 1, 38, 1, 12, 1]
+valid_tiles = [436]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_f4ahh"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [3, 46, 1, 1, 38, 12, 1, 25]
+valid_tiles = [506]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4et6g"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [46, 1, 5, 38, 1, 1, 25, 25]
+valid_tiles = [507]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xwost"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 5, 1, 38, 1, 25, 25, 25]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vbfjd"]
+script = ExtResource("1_3jvll")
+center_terrain = 5
+neighbor_terrains = [12, 1, 2, 1, 1, 25, 25, 25]
+valid_tiles = [805]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_c0bwt"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 2, 19, 5, 1, 25, 25, 25]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0yx4o"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 19, 19, 1, 1, 25, 25, 25]
+valid_tiles = [307]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mlcg6"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 1, 25, 25, 25]
+valid_tiles = [301, 164, 132, 102, 6]
+frequency = 6
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6irv4"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 38, 25, 25, 25]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qcvcs"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [19, 19, 19, 1, 1, 25, 25, 25]
+valid_tiles = [505]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pvq40"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 38, 1, 25, 25, 1]
+valid_tiles = [437]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_83bn5"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 1, 25, 1, 1]
+valid_tiles = [177, 71]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j4y18"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 1, 1, 1, 1]
+valid_tiles = [199, 144, 273, 401, 130, 165]
+frequency = 8
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8a5ek"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 2, 1, 1, 1, 1, 1]
+valid_tiles = [177]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3lonx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 1, 1, 1, 12, 1, 1, 1]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6sfus"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [1, 1, 38, 1, 1, 1, 1, 1]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w2sa3"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 38, 12, 25, 1, 1, 38]
+valid_tiles = [1011]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_t0jmw"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 38, 1, 1, 25, 1, 38, 12]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x2nbl"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 1, 1, 25, 25, 38, 12, 44]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1icjn"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 5, 1, 25, 25, 44, 44, 1]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qj7a8"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [5, 1, 1, 25, 25, 44, 1, 1]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_btu6t"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 1, 1]
+valid_tiles = [949, 948, 917]
+frequency = 9
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fg270"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 38, 25, 25, 1, 1, 1]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_54s3t"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 38, 1, 25, 25, 1, 1, 1]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5bwmo"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 1, 1, 25, 1, 1, 1, 38]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x4ayj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 25, 1, 1, 38, 38]
+valid_tiles = [1014]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xqavq"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 1, 38]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lvutj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 38, 21]
+valid_tiles = [436]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_trkjb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 21, 21]
+valid_tiles = [437, 306]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xe36b"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 21, 21, 21]
+valid_tiles = [433, 401, 177]
+frequency = 6
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e74ec"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 12, 1, 1, 21, 21, 21]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m4opp"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 12, 1, 1, 1, 21, 21, 21]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xan1u"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [12, 1, 25, 1, 38, 21, 21, 21]
+valid_tiles = [144]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pukje"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 25, 25, 1, 12, 21, 21, 21]
+valid_tiles = [508]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_t8ku8"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [25, 25, 25, 38, 44, 21, 21, 21]
+valid_tiles = [782]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ftgyn"]
+script = ExtResource("1_3jvll")
+center_terrain = 44
+neighbor_terrains = [25, 25, 25, 44, 1, 21, 21, 21]
+valid_tiles = [780]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dsqw5"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 44, 1, 21, 21, 21]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rgjxg"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 21, 21, 21]
+valid_tiles = [45, 230]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_r2rwo"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 21, 21, 38]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dds7n"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 21, 38, 1]
+valid_tiles = [274]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q4jiy"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 38, 1, 1]
+valid_tiles = [435, 401]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cd1fs"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 1, 1, 1]
+valid_tiles = [231, 230]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_k45b7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 1, 1, 38]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dpxp1"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 38, 1, 38, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_otqdb"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [25, 1, 1, 1, 38, 38, 1, 1]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dqq3x"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 1, 1, 1, 1]
+valid_tiles = [56]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_k8ila"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 38, 1, 1, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1vhgd"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 21, 1, 1, 1]
+valid_tiles = [53]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_41aev"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 38, 21, 1, 1, 38]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5lmbp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 38, 44]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jloc3"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 38, 44, 44]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_g4m5t"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 44, 44, 44]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j8gyk"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 44, 44, 1]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_auh2h"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 44, 1, 1]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_iv846"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 12, 21, 21, 1, 1, 12]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ot8qp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 12, 44, 21, 21, 1, 12, 1]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3isva"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 44, 1, 21, 21, 1, 1, 38]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_k3ojh"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 1, 1, 21, 21, 1, 38, 38]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1ydlb"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 38, 38, 38]
+valid_tiles = [980]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6ns2p"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 38, 38, 38, 21]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yw1id"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 21, 1, 38, 21, 38]
+valid_tiles = [58]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x5jyx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 21, 38, 38]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6uyfj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 38, 21]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kivc5"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 21, 21, 21]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jcpb6"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 38, 1, 1, 21, 21, 21]
+valid_tiles = [502]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_njmjh"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 38, 38, 1, 21, 21, 21]
+valid_tiles = [177, 130]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ny63i"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 38, 1, 1, 1, 21, 21, 21]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6xb4f"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 38, 1, 1, 21, 21, 21]
+valid_tiles = [231, 82]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_i4kma"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 21, 1, 1, 21, 21, 21]
+valid_tiles = [270, 230]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7x6co"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 21, 21, 1, 38, 21, 21, 21]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4qged"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 44, 21, 21, 21]
+valid_tiles = [672, 642]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jqhlq"]
+script = ExtResource("1_3jvll")
+center_terrain = 44
+neighbor_terrains = [21, 21, 21, 38, 44, 21, 21, 21]
+valid_tiles = [810]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j1tqn"]
+script = ExtResource("1_3jvll")
+center_terrain = 44
+neighbor_terrains = [21, 21, 21, 44, 44, 21, 21, 21]
+valid_tiles = [811]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5qs3y"]
+script = ExtResource("1_3jvll")
+center_terrain = 44
+neighbor_terrains = [21, 21, 21, 44, 1, 21, 21, 21]
+valid_tiles = [812]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7cva7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 44, 1, 21, 21, 21]
+valid_tiles = [742]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_y7u5a"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 21, 21]
+valid_tiles = [720]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qt8cl"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 38, 21, 38, 1]
+valid_tiles = [231, 71]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kmb8h"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 38, 38, 1, 1]
+valid_tiles = [116]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cf30s"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 38, 1, 1, 1]
+valid_tiles = [53, 54]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xl5xw"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 38, 38, 21, 1, 1, 38]
+valid_tiles = [57]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_uwwmp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 1, 38, 38, 1, 38, 1]
+valid_tiles = [245]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_csp0x"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 21, 38, 38, 1, 1]
+valid_tiles = [124]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_77r60"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 38, 21, 1, 1, 1]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2udw4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 38, 21, 1, 1, 1]
+valid_tiles = [244, 276, 212]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ebbf2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5dko2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 1, 21, 21, 1, 38, 44]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jpkma"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 21, 38, 44, 11]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dpeto"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 44, 11, 44]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_53k7r"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 11, 44, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0v0ub"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 44, 18, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lpob8"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 18, 18, 18]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_a65ex"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 44, 21, 21, 18, 18, 1]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6rl0x"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 44, 44, 21, 21, 18, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ypdy2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 44, 44, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fj0jb"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 44, 1, 21, 21, 1, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fixfi"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 1, 1, 21, 21, 38, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_difbt"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 12, 21, 21, 21, 21, 21]
+valid_tiles = [213, 980]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qyvgn"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 1, 21, 21, 21, 21, 21]
+valid_tiles = [213, 980]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_grali"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 38, 21, 1, 21, 21, 21]
+valid_tiles = [54, 56]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_a8116"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 38, 38, 1, 1, 21, 21, 21]
+valid_tiles = [70, 82]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gd7so"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 38, 21, 1, 38, 21, 21, 21]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jrykx"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 21, 38, 1, 1, 21, 21, 21]
+valid_tiles = [641]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q06s3"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 38, 38, 1, 21, 21, 21]
+valid_tiles = [238]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ymqr7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 38, 21, 1, 1, 21, 21, 21]
+valid_tiles = [198, 230]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wdkpw"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 21, 21, 1, 1, 21, 21, 21]
+valid_tiles = [231, 71, 103, 199]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_d3yej"]
+script = ExtResource("1_3jvll")
+center_terrain = 44
+neighbor_terrains = [21, 21, 21, 38, 11, 21, 21, 21]
+valid_tiles = [842]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vpum7"]
+script = ExtResource("1_3jvll")
+center_terrain = 11
+neighbor_terrains = [21, 21, 21, 44, 44, 21, 21, 21]
+valid_tiles = [843]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2t001"]
+script = ExtResource("1_3jvll")
+center_terrain = 44
+neighbor_terrains = [21, 21, 21, 11, 18, 21, 21, 21]
+valid_tiles = [844]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_55g41"]
+script = ExtResource("1_3jvll")
+center_terrain = 18
+neighbor_terrains = [21, 21, 21, 44, 18, 21, 21, 21]
+valid_tiles = [579]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wkr5x"]
+script = ExtResource("1_3jvll")
+center_terrain = 18
+neighbor_terrains = [21, 21, 21, 18, 18, 21, 21, 21]
+valid_tiles = [425, 616, 545, 522]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ai6no"]
+script = ExtResource("1_3jvll")
+center_terrain = 18
+neighbor_terrains = [21, 21, 21, 18, 1, 21, 21, 21]
+valid_tiles = [561, 465, 592, 589]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gdi5q"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 18, 1, 21, 21, 21]
+valid_tiles = [198, 366]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1e2im"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 21, 21, 21, 38]
+valid_tiles = [55, 23]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rplil"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 38, 21, 21, 38, 1]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_a7bfb"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 1, 21, 21, 1, 38, 1]
+valid_tiles = [245]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wwo76"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 21, 38, 1, 1]
+valid_tiles = [244, 212]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_nk5uj"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 1, 38]
+valid_tiles = [213, 212]
+frequency = 6
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_82btq"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 38, 12]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ayqdw"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 38, 12, 2]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x2d17"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 1, 21, 21, 12, 2, 2]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_y8q5p"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 21, 2, 2, 2]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_doll0"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 2, 2, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_nw2du"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 2, 18, 18]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_uytbk"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 44, 11, 21, 21, 18, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q40uj"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 11, 44, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e5mox"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [11, 44, 18, 21, 21, 1, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lrcf3"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [44, 18, 18, 21, 21, 38, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_iileo"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 18, 18, 21, 21, 21, 21, 21]
+valid_tiles = [245, 213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qm2kv"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 18, 1, 21, 21, 21, 21, 21]
+valid_tiles = [212, 213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qgtbx"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 1, 1, 21, 21, 21, 21, 21]
+valid_tiles = [244, 213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0frlc"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 21, 21, 38, 21, 21, 21]
+valid_tiles = [245, 213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sqx64"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 21, 21, 21, 1, 21, 21, 21]
+valid_tiles = [58]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_odumx"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 21, 21]
+valid_tiles = [643, 677, 676]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_r3hh1"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 12, 21, 21, 21]
+valid_tiles = [640]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yjp6o"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 21, 21, 38, 2, 21, 21, 21]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bv4qj"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [21, 21, 21, 12, 2, 21, 21, 21]
+valid_tiles = [791]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oqeb0"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [21, 21, 21, 2, 2, 21, 21, 21]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8h83g"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [21, 21, 21, 2, 18, 21, 21, 21]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hjh4n"]
+script = ExtResource("1_3jvll")
+center_terrain = 18
+neighbor_terrains = [21, 21, 21, 2, 18, 21, 21, 21]
+valid_tiles = [583, 551, 516]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_krpxv"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 21, 21, 21, 21]
+valid_tiles = [21, 55, 23]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jf3ci"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 21, 38, 1]
+valid_tiles = [213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ge03r"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_orqck"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 38, 21, 21, 1, 38, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_p6tbm"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 1, 21, 21, 38, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ctccl"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 1, 21, 21, 1, 1, 2]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lcmos"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 21, 1, 2, 18]
+valid_tiles = [213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_g5lpf"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 2, 18, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xjwqc"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 12, 21, 21, 18, 18, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6dxkp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 12, 2, 21, 21, 18, 18, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m73th"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 2, 2, 21, 21, 18, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_co2ey"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 2, 2, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gfo16"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 2, 18, 21, 21, 1, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vebdt"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 18, 18, 21, 21, 38, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kikd7"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 21, 21, 21, 21, 21, 21]
+valid_tiles = [213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_u6n86"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 2, 21, 21, 21]
+valid_tiles = [230, 198]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q1yw7"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [21, 21, 21, 1, 18, 21, 21, 21]
+valid_tiles = [724]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bvlaa"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 38, 21, 21, 21, 21]
+valid_tiles = [244, 213, 212]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_o8dm4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 21, 21, 38]
+valid_tiles = [213, 277]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vcjem"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 1, 1, 1]
+valid_tiles = [213, 980]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_03hqr"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 18, 18, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_s4o11"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 2, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6a21x"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 2, 18, 21, 21, 1, 38, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5jomw"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 18, 18, 21, 21, 38, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e2ver"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 18, 18, 21, 21, 38, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dqmqq"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 1, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_myn2x"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 18, 18]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rq4t5"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 18, 18, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0w1dx"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 18, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_s8dyf"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 2, 21, 21, 1, 1, 1]
+valid_tiles = [212, 213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4avl0"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 2, 18, 21, 21, 1, 1, 1]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_uww1e"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 18, 18, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cedwi"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 18, 18, 21, 21, 1, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_iiroe"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 21, 21, 38]
+valid_tiles = [168, 433]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mitjn"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 38, 21]
+valid_tiles = [80]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eg1hx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 18, 21, 21, 21]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_je08h"]
+script = ExtResource("1_3jvll")
+center_terrain = 18
+neighbor_terrains = [21, 21, 21, 1, 18, 21, 21, 21]
+valid_tiles = [559]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oea4d"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 38, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_quxea"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 38, 1, 1, 1]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vgwqj"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 1, 1]
+valid_tiles = [87]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vmiyp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 38, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hmps2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 18, 21, 21, 38, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vmjtg"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 18, 18, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7eik7"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 18, 1, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dipq7"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [18, 1, 1, 21, 21, 1, 38, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4uylp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 38, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qegck"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 21, 1, 21, 21, 38]
+valid_tiles = [124]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7kgay"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 21, 38, 1]
+valid_tiles = [44]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hqwui"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 1, 38]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1fmdx"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 38, 21]
+valid_tiles = [45, 401]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rxvyc"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 1, 1, 21, 21, 21]
+valid_tiles = [164, 198, 38]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qn5tv"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 21, 1, 1, 21, 21, 21]
+valid_tiles = [144]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5akxf"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 38, 21, 21, 38, 38]
+valid_tiles = [276, 212]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_daw6m"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 1, 1, 12]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_h5m1a"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 1, 12, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oxk7g"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 1, 21, 38, 1, 1, 1]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xokjm"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 21, 1, 1, 1, 2]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qg2qw"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 38, 1, 2, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_28t0f"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 21, 2, 1, 1]
+valid_tiles = [27]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_370hg"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 38, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wx1e3"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 38, 38, 1]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_710ns"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 38, 1, 1]
+valid_tiles = [276]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tstgr"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 1, 25]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ablii"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 1, 25, 25]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fqu46"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 1, 21, 21, 25, 25, 25]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8hyy2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 21, 25, 25, 25]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ra58s"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 25, 25, 25]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bfsyv"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 25, 25, 25]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7njlu"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 21, 21, 38, 25, 25, 25]
+valid_tiles = [276]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m82fn"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 21, 21, 21, 38, 25, 25, 25]
+valid_tiles = [87]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ew85l"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 1, 25, 25, 1]
+valid_tiles = [26]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_h7jsi"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 25, 1, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jtk5f"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 12, 1, 1, 39]
+valid_tiles = [46]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e1xsu"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 39, 38]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sikhs"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 1, 1, 2, 21, 21, 21]
+valid_tiles = [145]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gv75o"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [38, 1, 38, 1, 1, 21, 21, 21]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jy4wo"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 21, 2, 1, 21, 21, 21]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5naq6"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 38, 21, 38, 38]
+valid_tiles = [198, 103]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x76wh"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 38, 38, 38, 38]
+valid_tiles = [506]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_u8xg2"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 1, 38, 38, 38]
+valid_tiles = [507]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eemn0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 38, 38, 38]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xamdn"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 25, 38, 38, 1]
+valid_tiles = [915]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gbe6x"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 21, 21, 1, 25, 38, 1, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qdbv4"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 21, 21, 25, 25, 1, 1, 46]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0jc8a"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 21, 21, 25, 25, 1, 46, 46]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_o7icq"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 21, 21, 25, 25, 46, 46, 46]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3hht7"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 21, 21, 25, 25, 46, 46, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eojy8"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 21, 38, 25, 25, 46, 1, 1]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_y03je"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [21, 38, 38, 25, 25, 1, 1, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vpck2"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [38, 38, 1, 25, 1, 1, 1, 2]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_n3svu"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 25, 1, 1, 2, 1]
+valid_tiles = [918]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dsf2k"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 12, 1, 39, 2, 1, 1]
+valid_tiles = [206]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hobvg"]
+script = ExtResource("1_3jvll")
+center_terrain = 39
+neighbor_terrains = [1, 12, 1, 1, 38, 1, 1, 1]
+valid_tiles = [3]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q0p3x"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 2, 1, 21, 21, 1, 1, 1]
+valid_tiles = [245, 213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_heco8"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 1, 1, 21, 21, 1, 1, 1]
+valid_tiles = [244, 213]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0aujh"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 1, 2]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eig4l"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 2, 19]
+valid_tiles = [276]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kwiwy"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 38, 2, 19, 19]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0tnx8"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 38, 21, 38, 19, 19, 19]
+valid_tiles = [84]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2jxiw"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 38, 38, 38, 38, 19, 19, 19]
+valid_tiles = [86]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cx78y"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 38, 1, 38, 38, 19, 19, 19]
+valid_tiles = [22]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ed2i2"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 38, 38, 19, 19, 19]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_nnb2h"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 25, 38, 1, 19, 19, 19]
+valid_tiles = [26]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_x2fqo"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 38, 1, 19, 19, 19]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5bfgn"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 46, 19, 19, 2]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pi12y"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [25, 25, 25, 1, 46, 19, 2, 1]
+valid_tiles = [807]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q7aab"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [25, 25, 25, 46, 46, 2, 1, 1]
+valid_tiles = [808]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1kttj"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [25, 25, 25, 46, 1, 1, 1, 38]
+valid_tiles = [809]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_imi0f"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 46, 1, 1, 38, 21]
+valid_tiles = [132]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ep2l8"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 38, 21, 21]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_p5s6s"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 2, 21, 21, 21]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7fbrg"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [25, 1, 1, 1, 1, 21, 21, 21]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_f303u"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 39, 2, 1, 21, 21, 21]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_c5i8r"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 39, 38, 1, 1, 21, 21, 21]
+valid_tiles = [143]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_y6k1d"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 2, 1, 1, 1]
+valid_tiles = [434]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jhc4t"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [21, 21, 21, 1, 19, 1, 1, 12]
+valid_tiles = [947]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_arqpv"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [21, 21, 38, 2, 19, 1, 12, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pthpe"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [21, 38, 38, 19, 19, 12, 1, 46]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_il411"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 38, 19, 19, 1, 46, 46]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_s58es"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 38, 19, 19, 46, 46, 46]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bxykl"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 38, 19, 19, 46, 46, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_k0pm0"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 38, 1, 19, 19, 46, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7w7as"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 1, 1, 19, 19, 1, 1, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ke2lm"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 46, 19, 2, 1, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6faa4"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [1, 46, 46, 19, 1, 1, 1, 2]
+valid_tiles = [950]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bfvoq"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 46, 2, 1, 1, 2, 1]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_utaiu"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 1, 1, 38, 2, 1, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3amxy"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [46, 1, 1, 1, 21, 1, 1, 1]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8ospo"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 21, 1, 2, 19, 19]
+valid_tiles = [22]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tqtta"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 19, 19, 19]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xi8jy"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 2, 19, 1, 12, 19, 19, 19]
+valid_tiles = [130, 199]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1scec"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [2, 19, 19, 1, 1, 19, 19, 19]
+valid_tiles = [782]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ec61v"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 12, 46, 19, 19, 2]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qf12y"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 1, 46, 19, 2, 1]
+valid_tiles = [839]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_scpg4"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 46, 46, 2, 1, 1]
+valid_tiles = [840]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rdp7m"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 46, 1, 1, 1, 1]
+valid_tiles = [841]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6jock"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 46, 1, 1, 1, 25]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_td0pe"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 1, 1, 25, 25]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hf5do"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 2, 1, 1, 25, 25, 25]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5vx36"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 2, 1, 1, 2, 25, 25, 25]
+valid_tiles = [144]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_8af1q"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [2, 1, 1, 1, 1, 25, 25, 25]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w5lx7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 2, 1, 25, 25, 25]
+valid_tiles = [80]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vp6i0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 21, 1, 1, 25, 25, 25]
+valid_tiles = [144]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_i77dr"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 21, 21, 1, 1, 25, 25, 1]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3500w"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 25, 1, 1]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eey8l"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [21, 38, 1, 2, 19, 12, 1, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qto2w"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [38, 1, 1, 19, 19, 1, 1, 46]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kqss4"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 1, 46, 3]
+valid_tiles = [884]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_knpxu"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 46, 3, 46]
+valid_tiles = [885]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_l2ick"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 3, 46, 12]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xfyts"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 12, 19, 19, 46, 12, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4jhhd"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 12, 1, 19, 19, 12, 1, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lmjhh"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [12, 1, 46, 19, 2, 1, 1, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_67atb"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [1, 46, 46, 19, 1, 1, 1, 1]
+valid_tiles = [982]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_d38bq"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 46, 2, 1, 1, 1, 1]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_i21xd"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 46, 1, 1, 1, 1, 1, 1]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wxrha"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 1, 1, 1, 25, 1, 1, 1]
+valid_tiles = [915]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xfe2u"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 1, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6uasn"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 2, 25, 25, 1, 1, 12]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dgfxc"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 2, 1, 25, 25, 1, 12, 12]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dycvx"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [2, 1, 1, 25, 25, 12, 12, 1]
+valid_tiles = [916]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wccow"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 1, 1, 1, 25]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pj4ps"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 25, 1, 1, 25, 25]
+valid_tiles = [918]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sr65g"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 25, 25, 25]
+valid_tiles = [130, 165]
+frequency = 4
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_q068q"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 19, 19, 12, 1, 25, 25, 25]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_v0gxp"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 46, 25, 25, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6fn2l"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 1, 3, 25, 1, 1]
+valid_tiles = [871]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ki7xf"]
+script = ExtResource("1_3jvll")
+center_terrain = 3
+neighbor_terrains = [19, 19, 19, 46, 46, 1, 1, 1]
+valid_tiles = [872]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e0a63"]
+script = ExtResource("1_3jvll")
+center_terrain = 46
+neighbor_terrains = [19, 19, 19, 3, 12, 1, 1, 2]
+valid_tiles = [873]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0qxkx"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [19, 19, 19, 46, 1, 1, 2, 19]
+valid_tiles = [782]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_udp5e"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 12, 1, 2, 19, 19]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3gy0j"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 2, 1, 1, 19, 19, 19]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_123v0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 2, 1, 1, 1, 19, 19, 19]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dc1bk"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 1, 1, 1, 1, 19, 19, 19]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_eb3my"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 1, 1, 19, 19, 19]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ssytl"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 1, 19, 19, 2]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_es8ci"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 1, 19, 2, 1]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_skutv"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 12, 2, 1, 38]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_l8cl3"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [25, 25, 25, 1, 12, 1, 38, 1]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qh32n"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [25, 25, 25, 12, 1, 38, 1, 1]
+valid_tiles = [782]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_43cct"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 12, 1, 1, 1, 1]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xc2tb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 1, 25, 1, 1, 1]
+valid_tiles = [1011]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_e8dg3"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [25, 1, 1, 1, 25, 1, 1, 38]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1wcid"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 38, 1]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fhejf"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 38, 1, 1]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ushe3"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [12, 1, 1, 25, 25, 1, 5, 1]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5jhb0"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 46, 25, 1, 5, 1, 1]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_db8od"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 46, 3, 25, 1, 1, 1, 1]
+valid_tiles = [1014]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xugwy"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [46, 3, 46, 1, 1, 1, 1, 1]
+valid_tiles = [177]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2axw5"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [3, 46, 12, 1, 2, 1, 1, 1]
+valid_tiles = [434]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tpkts"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [46, 12, 1, 1, 19, 1, 1, 12]
+valid_tiles = [947]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kp6dn"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [12, 1, 1, 2, 19, 1, 12, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yodhn"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 12, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0hrl4"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 1, 1, 38]
+valid_tiles = [821, 885]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3lcwv"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 2, 1, 38, 21]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4tp5m"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [1, 1, 1, 19, 1, 38, 21, 21]
+valid_tiles = [950]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ocxum"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 12, 2, 38, 21, 21, 21]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_uwddn"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 12, 12, 1, 1, 21, 21, 21]
+valid_tiles = [507]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_n1lmh"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [12, 12, 1, 38, 1, 21, 21, 21]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dxi64"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 1, 21, 21, 21]
+valid_tiles = [198]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_efabc"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 25, 1, 1, 21, 21, 21]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xm1wy"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 1, 38, 21, 21, 21]
+valid_tiles = [466]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wb650"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [25, 25, 25, 1, 1, 21, 21, 38]
+valid_tiles = [507]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_pe3el"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 38, 1, 21, 38, 1]
+valid_tiles = [145]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7ubaw"]
+script = ExtResource("1_3jvll")
+center_terrain = 5
+neighbor_terrains = [25, 25, 25, 1, 1, 2, 19, 19]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6nfpi"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 1, 5, 1, 19, 19, 19]
+valid_tiles = [164]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1fsap"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 1, 1, 1, 1, 19, 19, 19]
+valid_tiles = [198]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fd778"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [2, 19, 19, 1, 1, 19, 19, 2]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yqrfe"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 12, 1, 19, 2, 1]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0id7i"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 1, 2, 1, 1]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_o0g2v"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [19, 19, 19, 1, 38, 1, 1, 1]
+valid_tiles = [130]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_2b06a"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [19, 19, 2, 1, 21, 1, 1, 38]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kj3fk"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [19, 2, 1, 38, 21, 1, 38, 1]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5lve3"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [2, 1, 38, 21, 21, 38, 1, 1]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_134vx"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 1, 21, 21, 1, 1, 1]
+valid_tiles = [980, 213]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gvfpa"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 1, 21, 38, 1, 1, 1]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_h0gr2"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 21, 1, 1, 1, 1]
+valid_tiles = [56]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_iadp8"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 5, 1, 2, 19, 1, 1, 1]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kd0p1"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [5, 1, 1, 19, 19, 1, 1, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_08254"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 1, 19, 19, 1, 38, 38]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_368j4"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 1, 12, 19, 19, 38, 38, 21]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kp38f"]
+script = ExtResource("1_3jvll")
+center_terrain = 19
+neighbor_terrains = [1, 12, 1, 19, 2, 38, 21, 21]
+valid_tiles = [852]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_crgww"]
+script = ExtResource("1_3jvll")
+center_terrain = 2
+neighbor_terrains = [12, 1, 1, 19, 1, 21, 21, 21]
+valid_tiles = [982]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mafll"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 2, 1, 21, 21, 21]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ydv5y"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 1, 21, 21, 21]
+valid_tiles = [307, 403]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ys6r7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 21, 1, 38, 21, 21, 21]
+valid_tiles = [294]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sqt1l"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 21, 21, 1, 1, 21, 21, 21]
+valid_tiles = [473]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kdvp7"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 21, 38, 39]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_c53y6"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 39, 1]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_u8a3o"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 39, 1, 1]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xtiqr"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 1, 25]
+valid_tiles = [145]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_d5xt2"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 1, 25, 25]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jiwwh"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 1, 1, 25, 25, 25]
+valid_tiles = [198]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_u2ruj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 1, 1, 1, 25, 25, 25]
+valid_tiles = [177]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hnjh3"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 1, 25, 25, 25]
+valid_tiles = [237]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5wg25"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [2, 19, 19, 1, 1, 25, 25, 1]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7m1i7"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [19, 19, 19, 1, 38, 1, 1, 12]
+valid_tiles = [119]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dxylt"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [19, 19, 19, 38, 21, 1, 12, 1]
+valid_tiles = [57]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4b4ae"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [19, 19, 2, 38, 21, 12, 1, 1]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_p8bxe"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [19, 2, 1, 21, 21, 1, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_m4n3k"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 1, 1, 21, 38, 1, 1, 12]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_t1qe6"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 21, 39, 1, 12, 1]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_0jjp6"]
+script = ExtResource("1_3jvll")
+center_terrain = 39
+neighbor_terrains = [1, 1, 1, 38, 1, 12, 1, 1]
+valid_tiles = [3]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_26etb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 39, 1, 1, 1, 12]
+valid_tiles = [238]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ouxv0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 25, 1, 12, 1]
+valid_tiles = [1011]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_wvnt8"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 1, 25, 12, 1, 1]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_p7g4v"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 1, 38]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_h73jr"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 1, 38, 38]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ifm4o"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 25, 38, 38, 21]
+valid_tiles = [948]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ic7lw"]
+script = ExtResource("1_3jvll")
+center_terrain = 25
+neighbor_terrains = [1, 1, 1, 25, 1, 21, 21, 21]
+valid_tiles = [949]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rfryf"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 25, 1, 21, 21, 21]
+valid_tiles = [1014]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xhl3x"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 38, 1, 12, 21, 21, 21]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3e3sj"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [38, 38, 21, 1, 1, 21, 21, 21]
+valid_tiles = [782]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6p8id"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 21, 21, 12, 1, 21, 21, 21]
+valid_tiles = [165]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1cx7n"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 1, 12, 21, 21, 21]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4wq3b"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 38, 39, 1, 1, 21, 21, 21]
+valid_tiles = [783]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3mi7m"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 39, 1, 12, 1, 21, 21, 21]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hjvmj"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [39, 1, 1, 1, 12, 21, 21, 21]
+valid_tiles = [231]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_v06e5"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [1, 1, 25, 1, 1, 21, 21, 21]
+valid_tiles = [783]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ip2kf"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 25, 25, 12, 1, 21, 21, 38]
+valid_tiles = [113]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7vfku"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [25, 25, 25, 1, 38, 21, 38, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_s7l70"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [25, 25, 25, 1, 38, 38, 1, 1]
+valid_tiles = [119]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_540bd"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [25, 25, 25, 38, 21, 1, 1, 1]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_5p6ev"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [25, 25, 1, 21, 21, 1, 12, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_t5tou"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [25, 1, 1, 21, 21, 12, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tjf0k"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 12, 21, 21, 1, 38, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tn68u"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 1, 21, 21, 38, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ts3tw"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 1, 21, 21, 1, 1, 12]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fvdd4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 12, 1]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mj3bs"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 38, 12, 1, 12]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_fq5d8"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 21, 1, 1, 12, 1]
+valid_tiles = [56]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jppwb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 12, 1, 1]
+valid_tiles = [162]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4hrjp"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 1, 1, 12]
+valid_tiles = [100]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_uowdb"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 21, 1, 12, 1]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dayg4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 38, 21, 12, 1, 38]
+valid_tiles = [980]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xjfh8"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 12, 21, 21, 1, 38, 21]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_up1v8"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 1, 21, 21, 38, 21, 21]
+valid_tiles = [980, 212]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_b5nkh"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 1, 21, 21, 21, 21, 21]
+valid_tiles = [981, 244]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_st2wf"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 1, 21, 38, 21, 21, 21]
+valid_tiles = [981]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yy2jr"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 12, 1, 21, 21, 21]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qfrsr"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 1, 38, 1, 38]
+valid_tiles = [676]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_4arqm"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 1, 38, 21]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_b8bsy"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 12, 38, 21, 21]
+valid_tiles = [238]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j2u8h"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 12, 12, 21, 21, 21]
+valid_tiles = [14]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_djwey"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [21, 38, 1, 1, 1, 21, 21, 21]
+valid_tiles = [815]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ax3e0"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 12, 1, 21, 21, 21]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_rkit6"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 12, 21, 21, 21]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_s1sut"]
+script = ExtResource("1_3jvll")
+center_terrain = 12
+neighbor_terrains = [1, 38, 21, 1, 1, 21, 21, 21]
+valid_tiles = [815]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ag6cf"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [38, 21, 21, 12, 38, 21, 21, 21]
+valid_tiles = [46]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_mu0c4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 1, 21, 21, 1, 1, 1]
+valid_tiles = [245]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yc0a4"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 38, 21, 1, 1, 1, 1]
+valid_tiles = [22]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_06ipb"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [1, 38, 1, 38, 38, 1, 1, 1]
+valid_tiles = [130]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_gvmk0"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 1, 21, 1, 1, 1]
+valid_tiles = [57]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_tm1rg"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 12, 38, 21, 1, 1, 1]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_b6fj2"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 12, 1, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7tw3g"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 12, 21, 21, 1, 38, 21]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_dugme"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [12, 1, 38, 21, 21, 21, 21, 21]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_khsh8"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [38, 21, 21, 21, 38, 21, 21, 21]
+valid_tiles = [54]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_qqr3m"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 1, 1, 1, 21, 21, 21]
+valid_tiles = [82]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_yrrpg"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 38, 21, 21, 38, 38, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ooe6p"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 38, 38, 21, 21, 38, 1, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_551md"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 38, 38, 21, 21, 1, 1, 38]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cbnh4"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 38, 1, 21, 21, 1, 38, 1]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_bluy6"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [1, 1, 38, 21, 38, 1, 1, 1]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_o46qh"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 1, 0, 0]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_1h4o3"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 1, 21, 21, 0, 0, 0]
+valid_tiles = [277, 244, 213, 212]
+frequency = 7
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_14788"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 1, 38, 21, 21, 0, 0, 0]
+valid_tiles = [276]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_6rohc"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [1, 38, 21, 21, 21, 0, 0, 0]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_vb4ii"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [38, 21, 21, 21, 21, 0, 0, 0]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_7nndp"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 21, 0, 0, 0]
+valid_tiles = [245]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ksh7l"]
+script = ExtResource("1_3jvll")
+center_terrain = 21
+neighbor_terrains = [21, 21, 21, 21, 38, 0, 0, 0]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_lumeh"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 21, 38, 0, 0, 0]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_76xkw"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 38, 0, 0, 0]
+valid_tiles = [117]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_v2s74"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 38, 1, 0, 0, 0]
+valid_tiles = [118]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_v5lme"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 38, 1, 0, 0, 0]
+valid_tiles = [142, 102]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_ra78b"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 38, 0, 0, 0]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_cgiat"]
+script = ExtResource("1_3jvll")
+center_terrain = 38
+neighbor_terrains = [21, 21, 21, 1, 1, 0, 0, 0]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_jxima"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 21, 1, 1, 0, 0, 0]
+valid_tiles = [38]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_j64vh"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 21, 38, 1, 1, 0, 0, 0]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_sg5j1"]
+script = ExtResource("1_3jvll")
+center_terrain = 1
+neighbor_terrains = [21, 38, 38, 1, 1, 0, 0, 0]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_djxh1"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [21, 21, 21, 1, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_c4ohb"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [21, 21, 21, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 11
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_w122m"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [21, 21, 38, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_hx5qa"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [21, 38, 38, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_oqs2a"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [38, 38, 38, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_au8cg"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [38, 38, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_xry5s"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [38, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_3mwx1"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [1, 1, 38, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_kqfx0"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [1, 38, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter13RescueMission"]
+
+[sub_resource type="Resource" id="Resource_u2lcg"]
+script = ExtResource("1_3jvll")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 5
+source_maps = ["Chapter13RescueMission"]
+
+[resource]
+script = ExtResource("2_d44y8")
+tileset_id = "014cxx4e"
+patterns = {
+"0_1_1_1_0_0_0_0_0": SubResource("Resource_u2lcg"),
+"0_1_1_38_0_0_0_0_0": SubResource("Resource_3mwx1"),
+"0_1_38_1_0_0_0_0_0": SubResource("Resource_kqfx0"),
+"0_21_21_21_0_0_0_0_0": SubResource("Resource_c4ohb"),
+"0_21_21_21_1_0_0_0_0": SubResource("Resource_djxh1"),
+"0_21_21_38_0_0_0_0_0": SubResource("Resource_w122m"),
+"0_21_38_38_0_0_0_0_0": SubResource("Resource_hx5qa"),
+"0_38_1_1_0_0_0_0_0": SubResource("Resource_xry5s"),
+"0_38_38_1_0_0_0_0_0": SubResource("Resource_au8cg"),
+"0_38_38_38_0_0_0_0_0": SubResource("Resource_oqs2a"),
+"11_21_21_21_44_44_21_21_21": SubResource("Resource_vpum7"),
+"12_19_19_19_46_1_1_2_19": SubResource("Resource_0qxkx"),
+"12_19_19_19_7_1_19_19_19": SubResource("Resource_kxolj"),
+"12_1_1_1_1_1_1_1_1": SubResource("Resource_81lct"),
+"12_1_1_25_1_1_21_21_21": SubResource("Resource_v06e5"),
+"12_1_1_38_1_1_1_1_1": SubResource("Resource_6sfus"),
+"12_1_38_21_1_1_21_21_21": SubResource("Resource_s1sut"),
+"12_21_21_21_1_12_21_21_38": SubResource("Resource_0y7xf"),
+"12_21_21_21_1_1_1_39_38": SubResource("Resource_e1xsu"),
+"12_21_21_21_1_1_21_21_21": SubResource("Resource_y7u5a"),
+"12_21_21_21_1_1_25_25_25": SubResource("Resource_hwr8g"),
+"12_21_21_21_38_2_21_21_21": SubResource("Resource_yjp6o"),
+"12_21_38_1_1_1_21_21_21": SubResource("Resource_djwey"),
+"12_21_38_39_1_1_21_21_21": SubResource("Resource_4wq3b"),
+"12_25_25_25_12_1_38_1_1": SubResource("Resource_qh32n"),
+"12_25_25_25_1_12_1_38_1": SubResource("Resource_l8cl3"),
+"12_25_25_25_1_1_19_19_19": SubResource("Resource_blydm"),
+"12_25_25_25_38_44_21_21_21": SubResource("Resource_t8ku8"),
+"12_2_19_19_1_1_19_19_19": SubResource("Resource_1scec"),
+"12_2_19_19_1_1_19_19_2": SubResource("Resource_fd778"),
+"12_38_38_21_1_1_21_21_21": SubResource("Resource_3e3sj"),
+"18_21_21_21_18_18_21_21_21": SubResource("Resource_wkr5x"),
+"18_21_21_21_18_1_21_21_21": SubResource("Resource_ai6no"),
+"18_21_21_21_1_18_21_21_21": SubResource("Resource_je08h"),
+"18_21_21_21_2_18_21_21_21": SubResource("Resource_hjh4n"),
+"18_21_21_21_44_18_21_21_21": SubResource("Resource_55g41"),
+"19_12_1_1_19_19_1_38_1": SubResource("Resource_1cs2a"),
+"19_12_1_1_19_19_46_3_46": SubResource("Resource_qfuax"),
+"19_12_1_1_19_19_46_46_46": SubResource("Resource_0gxqx"),
+"19_12_1_1_19_2_38_1_1": SubResource("Resource_0o1sl"),
+"19_12_1_1_2_19_1_12_1": SubResource("Resource_kp6dn"),
+"19_12_1_46_19_2_1_1_1": SubResource("Resource_lmjhh"),
+"19_1_12_1_19_19_12_1_1": SubResource("Resource_4jhhd"),
+"19_1_12_1_19_19_1_1_38": SubResource("Resource_xwo0s"),
+"19_1_12_1_19_19_46_38_1": SubResource("Resource_o4fa4"),
+"19_1_12_1_19_2_38_21_21": SubResource("Resource_kp38f"),
+"19_1_1_12_19_19_1_1_1": SubResource("Resource_rmmve"),
+"19_1_1_12_19_19_38_38_21": SubResource("Resource_368j4"),
+"19_1_1_12_19_19_46_12_1": SubResource("Resource_xfyts"),
+"19_1_1_12_19_19_46_46_38": SubResource("Resource_eshgm"),
+"19_1_1_1_19_19_12_1_1": SubResource("Resource_yodhn"),
+"19_1_1_1_19_19_1_1_1": SubResource("Resource_xph48"),
+"19_1_1_1_19_19_1_1_38": SubResource("Resource_0hrl4"),
+"19_1_1_1_19_19_1_38_38": SubResource("Resource_08254"),
+"19_1_1_1_19_19_1_46_3": SubResource("Resource_kqss4"),
+"19_1_1_1_19_19_38_1_1": SubResource("Resource_5uidy"),
+"19_1_1_1_19_19_3_46_1": SubResource("Resource_mhi20"),
+"19_1_1_1_19_19_3_46_12": SubResource("Resource_l2ick"),
+"19_1_1_1_19_19_46_3_46": SubResource("Resource_knpxu"),
+"19_1_1_1_19_2_1_38_21": SubResource("Resource_3lcwv"),
+"19_1_1_1_2_19_1_1_1": SubResource("Resource_sq7uh"),
+"19_1_1_1_2_19_38_38_1": SubResource("Resource_kuxr4"),
+"19_1_1_38_19_19_1_1_1": SubResource("Resource_hr6ym"),
+"19_1_1_38_19_19_1_1_7": SubResource("Resource_qx3sb"),
+"19_1_1_38_19_19_46_1_5": SubResource("Resource_8atb2"),
+"19_1_1_41_2_19_1_1_6": SubResource("Resource_jpuwm"),
+"19_1_1_46_19_2_1_1_1": SubResource("Resource_ke2lm"),
+"19_1_1_6_19_19_1_1_38": SubResource("Resource_iv3x3"),
+"19_1_1_7_19_19_1_38_1": SubResource("Resource_p3d07"),
+"19_1_38_1_19_2_1_1_1": SubResource("Resource_w73ba"),
+"19_1_38_1_19_2_1_5_1": SubResource("Resource_pcqea"),
+"19_1_38_38_19_19_1_1_1": SubResource("Resource_5jysd"),
+"19_1_38_38_19_19_1_7_12": SubResource("Resource_r3feq"),
+"19_1_41_1_19_19_1_6_1": SubResource("Resource_6hm3b"),
+"19_1_5_1_2_19_1_1_1": SubResource("Resource_iadp8"),
+"19_1_6_1_19_19_1_38_1": SubResource("Resource_tv3gg"),
+"19_1_7_12_19_19_38_1_46": SubResource("Resource_0l6jg"),
+"19_21_21_38_2_19_1_12_1": SubResource("Resource_arqpv"),
+"19_21_38_1_2_19_12_1_1": SubResource("Resource_eey8l"),
+"19_21_38_38_19_19_12_1_46": SubResource("Resource_pthpe"),
+"19_38_1_1_19_19_12_1_1": SubResource("Resource_lytlv"),
+"19_38_1_1_19_19_1_1_1": SubResource("Resource_7w7as"),
+"19_38_1_1_19_19_1_1_38": SubResource("Resource_xmhs8"),
+"19_38_1_1_19_19_1_1_46": SubResource("Resource_qto2w"),
+"19_38_38_1_19_19_1_1_1": SubResource("Resource_gq7gi"),
+"19_38_38_1_19_19_46_1_1": SubResource("Resource_k0pm0"),
+"19_38_38_1_19_19_7_12_1": SubResource("Resource_x0xve"),
+"19_38_38_38_19_19_1_1_1": SubResource("Resource_hhsap"),
+"19_38_38_38_19_19_1_46_46": SubResource("Resource_il411"),
+"19_38_38_38_19_19_46_46_1": SubResource("Resource_bxykl"),
+"19_38_38_38_19_19_46_46_46": SubResource("Resource_s58es"),
+"19_41_1_1_19_19_6_1_1": SubResource("Resource_hcyw6"),
+"19_5_1_1_19_19_1_1_1": SubResource("Resource_kd0p1"),
+"19_6_1_1_19_19_38_1_1": SubResource("Resource_eacpb"),
+"19_7_12_1_19_19_1_46_3": SubResource("Resource_82hip"),
+"1_12_12_1_38_1_21_21_21": SubResource("Resource_n1lmh"),
+"1_12_1_1_1_1_21_21_21": SubResource("Resource_dxi64"),
+"1_12_1_1_1_2_1_38_38": SubResource("Resource_2344o"),
+"1_12_1_25_1_38_21_21_21": SubResource("Resource_xan1u"),
+"1_19_19_19_12_1_19_19_19": SubResource("Resource_4ohfx"),
+"1_19_19_19_12_1_19_2_1": SubResource("Resource_yqrfe"),
+"1_19_19_19_12_1_2_19_19": SubResource("Resource_udp5e"),
+"1_19_19_19_12_46_19_19_2": SubResource("Resource_ec61v"),
+"1_19_19_19_1_1_19_19_19": SubResource("Resource_4c38f"),
+"1_19_19_19_1_1_1_1_1": SubResource("Resource_j4y18"),
+"1_19_19_19_1_1_1_25_25": SubResource("Resource_td0pe"),
+"1_19_19_19_1_1_25_1_1": SubResource("Resource_83bn5"),
+"1_19_19_19_1_1_25_25_25": SubResource("Resource_mlcg6"),
+"1_19_19_19_1_1_2_1_1": SubResource("Resource_0id7i"),
+"1_19_19_19_1_38_19_19_19": SubResource("Resource_ppt4o"),
+"1_19_19_19_1_38_1_1_1": SubResource("Resource_o0g2v"),
+"1_19_19_19_1_38_25_25_25": SubResource("Resource_6irv4"),
+"1_19_19_19_1_46_25_25_1": SubResource("Resource_v0gxp"),
+"1_19_19_19_1_7_19_19_19": SubResource("Resource_mmk4a"),
+"1_19_19_19_38_1_19_19_19": SubResource("Resource_18odr"),
+"1_19_19_19_38_1_25_25_1": SubResource("Resource_pvq40"),
+"1_19_19_19_38_46_19_2_1": SubResource("Resource_k2oin"),
+"1_19_19_19_46_1_1_1_25": SubResource("Resource_6jock"),
+"1_19_19_19_46_5_38_38_1": SubResource("Resource_eowym"),
+"1_19_19_19_6_1_19_19_19": SubResource("Resource_m48sx"),
+"1_19_19_2_1_1_19_19_19": SubResource("Resource_3gy0j"),
+"1_19_19_2_1_1_1_1_1": SubResource("Resource_8a5ek"),
+"1_19_19_2_1_1_25_25_25": SubResource("Resource_hf5do"),
+"1_19_19_2_38_1_1_1_1": SubResource("Resource_7kg08"),
+"1_19_2_1_1_1_19_19_19": SubResource("Resource_123v0"),
+"1_19_2_1_1_1_1_1_1": SubResource("Resource_td7fh"),
+"1_19_2_1_1_2_25_25_25": SubResource("Resource_5vx36"),
+"1_1_12_1_1_1_1_1_38": SubResource("Resource_tvdxm"),
+"1_1_12_1_1_1_21_21_21": SubResource("Resource_m4opp"),
+"1_1_1_12_1_1_21_21_21": SubResource("Resource_e74ec"),
+"1_1_1_12_1_39_2_1_1": SubResource("Resource_dsf2k"),
+"1_1_1_12_2_38_21_21_21": SubResource("Resource_ocxum"),
+"1_1_1_1_12_1_1_1_2": SubResource("Resource_f5fqu"),
+"1_1_1_1_1_1_19_19_19": SubResource("Resource_buc68"),
+"1_1_1_1_1_1_1_1_1": SubResource("Resource_t2lni"),
+"1_1_1_1_1_1_1_2_19": SubResource("Resource_71303"),
+"1_1_1_1_1_1_1_38_21": SubResource("Resource_lvutj"),
+"1_1_1_1_1_1_21_21_21": SubResource("Resource_xe36b"),
+"1_1_1_1_1_1_25_25_25": SubResource("Resource_sr65g"),
+"1_1_1_1_1_1_2_19_19": SubResource("Resource_cipk4"),
+"1_1_1_1_1_1_38_1_38": SubResource("Resource_xqavq"),
+"1_1_1_1_1_1_38_21_21": SubResource("Resource_trkjb"),
+"1_1_1_1_1_1_38_38_1": SubResource("Resource_54wmi"),
+"1_1_1_1_1_1_38_38_21": SubResource("Resource_6uyfj"),
+"1_1_1_1_1_25_1_12_1": SubResource("Resource_ouxv0"),
+"1_1_1_1_1_2_1_1_1": SubResource("Resource_w8i8k"),
+"1_1_1_1_1_38_19_19_19": SubResource("Resource_1ua25"),
+"1_1_1_1_1_38_1_1_12": SubResource("Resource_4hrjp"),
+"1_1_1_1_1_38_1_1_25": SubResource("Resource_es7qb"),
+"1_1_1_1_1_38_21_21_21": SubResource("Resource_kivc5"),
+"1_1_1_1_25_12_38_1_1": SubResource("Resource_tvohl"),
+"1_1_1_1_25_1_1_25_25": SubResource("Resource_pj4ps"),
+"1_1_1_1_25_1_1_38_38": SubResource("Resource_x4ayj"),
+"1_1_1_1_25_1_21_21_21": SubResource("Resource_rfryf"),
+"1_1_1_1_2_1_21_21_21": SubResource("Resource_mafll"),
+"1_1_1_1_38_1_12_1_1": SubResource("Resource_jppwb"),
+"1_1_1_1_38_1_19_19_19": SubResource("Resource_tqtta"),
+"1_1_1_1_38_1_1_1_1": SubResource("Resource_7oli7"),
+"1_1_1_1_38_1_21_38_38": SubResource("Resource_x5jyx"),
+"1_1_1_1_38_38_1_1_1": SubResource("Resource_k8ila"),
+"1_1_1_1_38_38_1_2_1": SubResource("Resource_qg2qw"),
+"1_1_1_1_39_1_1_1_12": SubResource("Resource_26etb"),
+"1_1_1_25_1_1_19_19_19": SubResource("Resource_eb3my"),
+"1_1_1_25_1_1_21_21_21": SubResource("Resource_efabc"),
+"1_1_1_25_38_1_19_19_19": SubResource("Resource_5nqub"),
+"1_1_1_2_1_1_19_19_19": SubResource("Resource_6al7x"),
+"1_1_1_38_1_12_21_21_21": SubResource("Resource_rkit6"),
+"1_1_1_38_1_1_21_21_21": SubResource("Resource_ydv5y"),
+"1_1_1_38_1_25_38_1_1": SubResource("Resource_86x3p"),
+"1_1_1_38_2_1_25_25_25": SubResource("Resource_w5lx7"),
+"1_1_1_39_2_1_21_21_21": SubResource("Resource_f303u"),
+"1_1_25_25_12_1_21_21_38": SubResource("Resource_ip2kf"),
+"1_1_25_25_1_12_19_19_19": SubResource("Resource_4ib0y"),
+"1_1_25_25_1_1_19_19_2": SubResource("Resource_ssytl"),
+"1_1_25_25_1_38_21_21_21": SubResource("Resource_xm1wy"),
+"1_1_25_25_38_1_19_19_19": SubResource("Resource_x2fqo"),
+"1_1_2_19_1_12_19_19_19": SubResource("Resource_xi8jy"),
+"1_1_2_19_1_1_19_19_19": SubResource("Resource_iv3so"),
+"1_1_2_19_5_1_25_25_25": SubResource("Resource_c0bwt"),
+"1_1_38_1_12_2_1_5_1": SubResource("Resource_cyif7"),
+"1_1_38_1_38_38_1_1_1": SubResource("Resource_06ipb"),
+"1_1_38_21_1_1_21_21_21": SubResource("Resource_i4kma"),
+"1_1_38_21_1_1_25_25_25": SubResource("Resource_vp6i0"),
+"1_1_38_21_1_38_21_21_21": SubResource("Resource_ys6r7"),
+"1_1_38_21_2_1_21_21_21": SubResource("Resource_jy4wo"),
+"1_1_38_38_12_25_1_1_38": SubResource("Resource_w2sa3"),
+"1_1_38_38_1_12_21_21_21": SubResource("Resource_xhl3x"),
+"1_1_38_38_38_1_21_21_21": SubResource("Resource_njmjh"),
+"1_1_39_38_1_1_21_21_21": SubResource("Resource_c5i8r"),
+"1_1_46_3_25_1_1_1_1": SubResource("Resource_db8od"),
+"1_1_46_3_2_1_1_1_12": SubResource("Resource_tig7y"),
+"1_1_46_46_2_1_1_1_1": SubResource("Resource_57b5g"),
+"1_1_5_1_38_1_25_25_25": SubResource("Resource_xwost"),
+"1_21_21_21_12_1_21_21_21": SubResource("Resource_yy2jr"),
+"1_21_21_21_12_1_25_25_25": SubResource("Resource_35hkw"),
+"1_21_21_21_18_1_21_21_21": SubResource("Resource_gdi5q"),
+"1_21_21_21_1_12_1_1_39": SubResource("Resource_jtk5f"),
+"1_21_21_21_1_12_21_21_21": SubResource("Resource_bmyvs"),
+"1_21_21_21_1_12_38_21_21": SubResource("Resource_b8bsy"),
+"1_21_21_21_1_18_21_21_21": SubResource("Resource_eg1hx"),
+"1_21_21_21_1_1_0_0_0": SubResource("Resource_jxima"),
+"1_21_21_21_1_1_12_1_1": SubResource("Resource_lfqi1"),
+"1_21_21_21_1_1_1_12_1": SubResource("Resource_ms6ne"),
+"1_21_21_21_1_1_1_1_1": SubResource("Resource_1rp0j"),
+"1_21_21_21_1_1_1_1_25": SubResource("Resource_xtiqr"),
+"1_21_21_21_1_1_1_1_38": SubResource("Resource_kc0ix"),
+"1_21_21_21_1_1_1_25_25": SubResource("Resource_d5xt2"),
+"1_21_21_21_1_1_1_38_21": SubResource("Resource_1fmdx"),
+"1_21_21_21_1_1_1_38_38": SubResource("Resource_qm14u"),
+"1_21_21_21_1_1_21_21_21": SubResource("Resource_oure0"),
+"1_21_21_21_1_1_21_21_38": SubResource("Resource_4qq1n"),
+"1_21_21_21_1_1_21_38_1": SubResource("Resource_j7oy0"),
+"1_21_21_21_1_1_21_38_21": SubResource("Resource_mitjn"),
+"1_21_21_21_1_1_21_38_39": SubResource("Resource_kdvp7"),
+"1_21_21_21_1_1_25_1_1": SubResource("Resource_3500w"),
+"1_21_21_21_1_1_25_1_12": SubResource("Resource_pwnud"),
+"1_21_21_21_1_1_25_25_1": SubResource("Resource_yo0tt"),
+"1_21_21_21_1_1_25_25_25": SubResource("Resource_puman"),
+"1_21_21_21_1_1_38_1_1": SubResource("Resource_n77jc"),
+"1_21_21_21_1_1_38_1_38": SubResource("Resource_hqwui"),
+"1_21_21_21_1_1_38_21_21": SubResource("Resource_n6fkb"),
+"1_21_21_21_1_1_38_38_21": SubResource("Resource_g3am6"),
+"1_21_21_21_1_1_38_38_38": SubResource("Resource_8utbd"),
+"1_21_21_21_1_1_38_39_1": SubResource("Resource_c53y6"),
+"1_21_21_21_1_1_39_1_1": SubResource("Resource_u8a3o"),
+"1_21_21_21_1_25_38_38_1": SubResource("Resource_xamdn"),
+"1_21_21_21_1_2_1_1_1": SubResource("Resource_y6k1d"),
+"1_21_21_21_1_2_21_21_21": SubResource("Resource_u6n86"),
+"1_21_21_21_1_38_0_0_0": SubResource("Resource_ra78b"),
+"1_21_21_21_1_38_21_21_21": SubResource("Resource_5moys"),
+"1_21_21_21_1_38_21_38_1": SubResource("Resource_qt8cl"),
+"1_21_21_21_1_38_21_38_38": SubResource("Resource_5naq6"),
+"1_21_21_21_1_8_25_25_25": SubResource("Resource_jx5ew"),
+"1_21_21_21_38_1_0_0_0": SubResource("Resource_v5lme"),
+"1_21_21_21_38_1_1_38_21": SubResource("Resource_4arqm"),
+"1_21_21_21_38_1_21_21_21": SubResource("Resource_slcwj"),
+"1_21_21_21_38_1_21_21_38": SubResource("Resource_iiroe"),
+"1_21_21_21_38_1_21_38_1": SubResource("Resource_7kgay"),
+"1_21_21_21_38_1_25_1_1": SubResource("Resource_h7jsi"),
+"1_21_21_21_38_1_38_38_38": SubResource("Resource_eemn0"),
+"1_21_21_21_44_1_21_21_21": SubResource("Resource_7cva7"),
+"1_21_21_21_8_12_25_25_25": SubResource("Resource_udywq"),
+"1_21_21_38_12_12_21_21_21": SubResource("Resource_j2u8h"),
+"1_21_21_38_1_12_21_21_21": SubResource("Resource_1cx7n"),
+"1_21_21_38_1_1_0_0_0": SubResource("Resource_j64vh"),
+"1_21_21_38_1_1_1_1_1": SubResource("Resource_6xlq7"),
+"1_21_21_38_1_1_21_21_21": SubResource("Resource_rxvyc"),
+"1_21_21_38_1_1_25_25_25": SubResource("Resource_jiwwh"),
+"1_21_21_38_1_1_38_38_21": SubResource("Resource_sfn65"),
+"1_21_38_1_1_1_1_1_38": SubResource("Resource_cnpmb"),
+"1_21_38_1_1_1_21_21_21": SubResource("Resource_qqr3m"),
+"1_21_38_1_1_1_25_25_25": SubResource("Resource_u2ruj"),
+"1_21_38_1_1_2_21_21_21": SubResource("Resource_sikhs"),
+"1_21_38_21_1_1_21_21_21": SubResource("Resource_qn5tv"),
+"1_21_38_38_1_1_0_0_0": SubResource("Resource_sg5j1"),
+"1_21_38_38_38_1_21_21_21": SubResource("Resource_q06s3"),
+"1_25_1_12_38_1_41_1_1": SubResource("Resource_fqhar"),
+"1_25_1_1_1_1_19_19_19": SubResource("Resource_1fsap"),
+"1_25_25_1_1_25_1_1_1": SubResource("Resource_xc2tb"),
+"1_25_25_1_1_2_21_21_21": SubResource("Resource_p5s6s"),
+"1_25_25_1_1_38_1_38_1": SubResource("Resource_dpxp1"),
+"1_25_25_1_5_1_19_19_19": SubResource("Resource_6nfpi"),
+"1_25_25_25_12_1_19_19_19": SubResource("Resource_y3wwx"),
+"1_25_25_25_12_1_19_19_2": SubResource("Resource_fmurq"),
+"1_25_25_25_12_1_1_1_1": SubResource("Resource_43cct"),
+"1_25_25_25_1_12_19_19_19": SubResource("Resource_cqcng"),
+"1_25_25_25_1_12_2_1_38": SubResource("Resource_skutv"),
+"1_25_25_25_1_1_19_2_1": SubResource("Resource_es8ci"),
+"1_25_25_25_1_1_1_1_1": SubResource("Resource_cd1fs"),
+"1_25_25_25_1_1_1_1_38": SubResource("Resource_k45b7"),
+"1_25_25_25_1_1_21_21_21": SubResource("Resource_rgjxg"),
+"1_25_25_25_1_1_21_21_38": SubResource("Resource_r2rwo"),
+"1_25_25_25_1_1_21_38_1": SubResource("Resource_dds7n"),
+"1_25_25_25_1_1_38_1_1": SubResource("Resource_q4jiy"),
+"1_25_25_25_1_1_38_21_21": SubResource("Resource_ep2l8"),
+"1_25_25_25_1_38_21_38_1": SubResource("Resource_7vfku"),
+"1_25_25_25_1_46_19_19_2": SubResource("Resource_5bfgn"),
+"1_25_25_25_1_46_19_2_1": SubResource("Resource_reua2"),
+"1_25_25_25_38_1_21_38_1": SubResource("Resource_pe3el"),
+"1_25_25_25_44_1_21_21_21": SubResource("Resource_dsqw5"),
+"1_25_25_25_46_1_1_38_21": SubResource("Resource_imi0f"),
+"1_25_25_25_46_38_1_1_41": SubResource("Resource_tbgt7"),
+"1_2_19_19_12_1_25_25_25": SubResource("Resource_q068q"),
+"1_2_19_19_1_1_25_25_1": SubResource("Resource_5wg25"),
+"1_2_19_19_1_1_25_25_25": SubResource("Resource_0yx4o"),
+"1_2_19_19_1_6_19_19_19": SubResource("Resource_dnlsa"),
+"1_2_1_1_1_12_1_1_1": SubResource("Resource_3lonx"),
+"1_2_1_1_1_1_19_19_19": SubResource("Resource_dc1bk"),
+"1_2_1_1_1_1_1_1_1": SubResource("Resource_80dk8"),
+"1_38_1_1_12_1_21_21_21": SubResource("Resource_ax3e0"),
+"1_38_1_1_1_1_19_19_19": SubResource("Resource_lsad8"),
+"1_38_1_1_1_1_1_38_38": SubResource("Resource_ypucn"),
+"1_38_1_1_1_1_25_25_25": SubResource("Resource_hnjh3"),
+"1_38_1_1_25_1_1_2_1": SubResource("Resource_n3svu"),
+"1_38_1_1_41_1_19_19_19": SubResource("Resource_1ant2"),
+"1_38_1_38_1_1_21_21_21": SubResource("Resource_6xb4f"),
+"1_38_21_21_12_1_21_21_21": SubResource("Resource_6p8id"),
+"1_38_21_21_12_38_21_21_21": SubResource("Resource_ag6cf"),
+"1_38_21_21_1_1_21_21_21": SubResource("Resource_wdkpw"),
+"1_38_21_21_1_1_25_25_1": SubResource("Resource_i77dr"),
+"1_38_21_21_1_38_21_21_21": SubResource("Resource_7x6co"),
+"1_38_21_21_38_1_25_25_25": SubResource("Resource_8s3tj"),
+"1_38_38_1_1_1_21_21_21": SubResource("Resource_ny63i"),
+"1_38_38_21_1_1_21_21_21": SubResource("Resource_ymqr7"),
+"1_38_38_21_1_38_21_21_21": SubResource("Resource_gd7so"),
+"1_38_38_38_1_1_21_21_21": SubResource("Resource_a8116"),
+"1_38_39_1_12_1_21_21_21": SubResource("Resource_3mi7m"),
+"1_39_1_1_1_12_21_21_21": SubResource("Resource_hjvmj"),
+"1_3_46_12_1_2_1_1_1": SubResource("Resource_2axw5"),
+"1_46_1_1_1_25_1_1_1": SubResource("Resource_wxrha"),
+"1_46_1_38_1_41_2_19_19": SubResource("Resource_f75wk"),
+"1_46_38_1_1_1_2_19_19": SubResource("Resource_rv7hy"),
+"1_46_3_46_1_1_1_1_1": SubResource("Resource_xugwy"),
+"1_46_3_46_1_38_1_12_1": SubResource("Resource_wiugv"),
+"1_46_46_1_1_1_1_1_1": SubResource("Resource_i21xd"),
+"1_46_46_1_1_1_1_2_19": SubResource("Resource_vnysn"),
+"1_46_46_1_1_38_2_1_1": SubResource("Resource_utaiu"),
+"1_46_46_38_38_1_1_2_19": SubResource("Resource_khfqj"),
+"1_46_46_46_1_1_1_1_2": SubResource("Resource_f0lml"),
+"1_46_46_46_2_1_1_1_1": SubResource("Resource_d38bq"),
+"1_46_46_46_2_1_1_2_1": SubResource("Resource_bfvoq"),
+"21_11_44_18_21_21_1_38_21": SubResource("Resource_e5mox"),
+"21_12_12_12_21_21_1_1_38": SubResource("Resource_hsvbm"),
+"21_12_12_1_21_21_1_38_38": SubResource("Resource_3g4v6"),
+"21_12_12_38_21_21_21_21_21": SubResource("Resource_4ddv4"),
+"21_12_1_12_21_21_1_1_1": SubResource("Resource_xuyni"),
+"21_12_1_12_21_21_1_38_21": SubResource("Resource_7tw3g"),
+"21_12_1_12_21_21_38_38_21": SubResource("Resource_xkji1"),
+"21_12_1_1_21_21_1_1_1": SubResource("Resource_mu0c4"),
+"21_12_1_1_21_21_1_1_12": SubResource("Resource_ts3tw"),
+"21_12_1_1_21_21_21_21_21": SubResource("Resource_b5nkh"),
+"21_12_1_1_21_38_21_21_21": SubResource("Resource_st2wf"),
+"21_12_1_38_21_21_21_21_21": SubResource("Resource_dugme"),
+"21_12_2_2_21_21_18_1_1": SubResource("Resource_m73th"),
+"21_12_38_38_21_21_21_21_21": SubResource("Resource_nn86y"),
+"21_18_18_18_21_21_1_38_21": SubResource("Resource_cedwi"),
+"21_18_18_18_21_21_21_21_21": SubResource("Resource_iileo"),
+"21_18_18_18_21_21_38_21_21": SubResource("Resource_e2ver"),
+"21_18_18_1_21_21_1_1_38": SubResource("Resource_7eik7"),
+"21_18_18_1_21_21_21_21_21": SubResource("Resource_qm2kv"),
+"21_18_1_1_21_21_1_38_21": SubResource("Resource_dipq7"),
+"21_18_1_1_21_21_21_21_21": SubResource("Resource_qgtbx"),
+"21_19_19_2_38_21_12_1_1": SubResource("Resource_4b4ae"),
+"21_19_2_1_21_21_1_1_1": SubResource("Resource_p8bxe"),
+"21_19_2_1_38_21_1_38_1": SubResource("Resource_kj3fk"),
+"21_1_12_12_21_21_1_1_1": SubResource("Resource_06fy5"),
+"21_1_12_12_21_21_38_21_21": SubResource("Resource_ekp1x"),
+"21_1_12_12_21_38_1_1_1": SubResource("Resource_miu77"),
+"21_1_12_1_21_21_1_1_1": SubResource("Resource_u841m"),
+"21_1_12_1_21_21_1_1_38": SubResource("Resource_b6fj2"),
+"21_1_12_1_21_21_21_21_21": SubResource("Resource_qyvgn"),
+"21_1_12_1_21_21_38_1_1": SubResource("Resource_tn68u"),
+"21_1_12_1_21_21_38_21_21": SubResource("Resource_up1v8"),
+"21_1_18_18_21_21_1_1_1": SubResource("Resource_vmjtg"),
+"21_1_1_12_21_21_1_1_1": SubResource("Resource_mf3eg"),
+"21_1_1_12_21_21_1_38_1": SubResource("Resource_tjf0k"),
+"21_1_1_12_21_21_1_38_21": SubResource("Resource_xjfh8"),
+"21_1_1_12_21_21_21_21_21": SubResource("Resource_difbt"),
+"21_1_1_12_38_21_1_1_1": SubResource("Resource_tm1rg"),
+"21_1_1_18_21_21_38_1_1": SubResource("Resource_hmps2"),
+"21_1_1_1_21_21_0_0_0": SubResource("Resource_1h4o3"),
+"21_1_1_1_21_21_11_44_18": SubResource("Resource_53k7r"),
+"21_1_1_1_21_21_18_18_1": SubResource("Resource_rq4t5"),
+"21_1_1_1_21_21_18_18_18": SubResource("Resource_03hqr"),
+"21_1_1_1_21_21_18_1_1": SubResource("Resource_0w1dx"),
+"21_1_1_1_21_21_1_0_0": SubResource("Resource_o46qh"),
+"21_1_1_1_21_21_1_12_1": SubResource("Resource_fvdd4"),
+"21_1_1_1_21_21_1_18_18": SubResource("Resource_myn2x"),
+"21_1_1_1_21_21_1_1_1": SubResource("Resource_nqgbj"),
+"21_1_1_1_21_21_1_1_18": SubResource("Resource_dqmqq"),
+"21_1_1_1_21_21_1_1_2": SubResource("Resource_0aujh"),
+"21_1_1_1_21_21_1_1_25": SubResource("Resource_tstgr"),
+"21_1_1_1_21_21_1_1_38": SubResource("Resource_nk5uj"),
+"21_1_1_1_21_21_1_2_19": SubResource("Resource_eig4l"),
+"21_1_1_1_21_21_1_38_1": SubResource("Resource_vmiyp"),
+"21_1_1_1_21_21_1_38_12": SubResource("Resource_82btq"),
+"21_1_1_1_21_21_1_38_38": SubResource("Resource_370hg"),
+"21_1_1_1_21_21_1_38_44": SubResource("Resource_5lmbp"),
+"21_1_1_1_21_21_21_21_21": SubResource("Resource_87aqh"),
+"21_1_1_1_21_21_25_25_25": SubResource("Resource_ra58s"),
+"21_1_1_1_21_21_2_18_18": SubResource("Resource_nw2du"),
+"21_1_1_1_21_21_2_2_18": SubResource("Resource_doll0"),
+"21_1_1_1_21_21_38_1_1": SubResource("Resource_710ns"),
+"21_1_1_1_21_21_38_21_21": SubResource("Resource_4uylp"),
+"21_1_1_1_21_21_38_38_1": SubResource("Resource_wx1e3"),
+"21_1_1_1_21_21_38_38_38": SubResource("Resource_1ydlb"),
+"21_1_1_1_21_21_38_44_44": SubResource("Resource_jloc3"),
+"21_1_1_1_21_21_44_11_44": SubResource("Resource_dpeto"),
+"21_1_1_1_21_21_44_18_18": SubResource("Resource_0v0ub"),
+"21_1_1_1_21_21_44_44_1": SubResource("Resource_j8gyk"),
+"21_1_1_1_21_21_44_44_44": SubResource("Resource_g4m5t"),
+"21_1_1_1_21_38_12_1_12": SubResource("Resource_mj3bs"),
+"21_1_1_1_21_38_1_1_1": SubResource("Resource_1rr6p"),
+"21_1_1_1_21_38_2_19_19": SubResource("Resource_kwiwy"),
+"21_1_1_1_21_38_38_38_21": SubResource("Resource_6ns2p"),
+"21_1_1_1_38_21_12_1_38": SubResource("Resource_dayg4"),
+"21_1_1_1_38_21_1_1_1": SubResource("Resource_2udw4"),
+"21_1_1_1_38_21_1_1_38": SubResource("Resource_41aev"),
+"21_1_1_1_38_21_38_21_21": SubResource("Resource_6dlx7"),
+"21_1_1_2_21_21_1_1_1": SubResource("Resource_s8dyf"),
+"21_1_1_2_21_21_1_1_38": SubResource("Resource_s4o11"),
+"21_1_1_38_21_21_0_0_0": SubResource("Resource_14788"),
+"21_1_1_38_21_21_18_18_18": SubResource("Resource_lpob8"),
+"21_1_1_38_21_21_1_1_1": SubResource("Resource_vcjem"),
+"21_1_1_38_21_21_1_1_38": SubResource("Resource_ebbf2"),
+"21_1_1_38_21_21_1_25_25": SubResource("Resource_ablii"),
+"21_1_1_38_21_21_21_21_21": SubResource("Resource_853e0"),
+"21_1_1_38_21_21_25_25_25": SubResource("Resource_bfsyv"),
+"21_1_1_38_21_21_2_18_18": SubResource("Resource_g5lpf"),
+"21_1_1_38_21_21_38_12_2": SubResource("Resource_ayqdw"),
+"21_1_1_38_21_21_44_1_1": SubResource("Resource_auh2h"),
+"21_1_2_18_21_21_1_1_1": SubResource("Resource_4avl0"),
+"21_1_2_18_21_21_1_38_38": SubResource("Resource_6a21x"),
+"21_1_2_1_21_21_1_1_1": SubResource("Resource_q0p3x"),
+"21_1_38_12_21_21_18_18_18": SubResource("Resource_xjwqc"),
+"21_1_38_12_21_21_1_1_12": SubResource("Resource_iv846"),
+"21_1_38_1_21_21_12_2_2": SubResource("Resource_x2d17"),
+"21_1_38_1_21_21_1_1_1": SubResource("Resource_134vx"),
+"21_1_38_1_21_21_1_1_2": SubResource("Resource_ctccl"),
+"21_1_38_1_21_21_1_38_44": SubResource("Resource_5dko2"),
+"21_1_38_1_21_21_25_25_25": SubResource("Resource_fqu46"),
+"21_1_38_1_21_38_1_1_1": SubResource("Resource_gvfpa"),
+"21_1_38_21_21_21_0_0_0": SubResource("Resource_6rohc"),
+"21_1_38_21_21_21_21_21_21": SubResource("Resource_kikd7"),
+"21_1_38_21_21_38_21_21_21": SubResource("Resource_0frlc"),
+"21_1_38_21_21_38_25_25_25": SubResource("Resource_7njlu"),
+"21_1_38_38_21_21_21_21_21": SubResource("Resource_e6gpj"),
+"21_1_38_44_21_21_18_18_1": SubResource("Resource_a65ex"),
+"21_21_21_21_21_21_0_0_0": SubResource("Resource_7nndp"),
+"21_21_21_21_21_21_1_12_1": SubResource("Resource_h5m1a"),
+"21_21_21_21_21_21_1_1_1": SubResource("Resource_n8y5t"),
+"21_21_21_21_21_21_1_1_12": SubResource("Resource_daw6m"),
+"21_21_21_21_21_21_1_1_38": SubResource("Resource_ge03r"),
+"21_21_21_21_21_21_1_1_8": SubResource("Resource_2dog0"),
+"21_21_21_21_21_21_1_8_1": SubResource("Resource_oveh8"),
+"21_21_21_21_21_21_21_21_21": SubResource("Resource_qr3j2"),
+"21_21_21_21_21_21_21_21_38": SubResource("Resource_o8dm4"),
+"21_21_21_21_21_21_21_38_1": SubResource("Resource_jf3ci"),
+"21_21_21_21_21_21_21_38_38": SubResource("Resource_m5xj2"),
+"21_21_21_21_21_21_38_1_1": SubResource("Resource_5c520"),
+"21_21_21_21_21_21_38_38_1": SubResource("Resource_fbbfj"),
+"21_21_21_21_21_21_38_38_38": SubResource("Resource_8521y"),
+"21_21_21_21_21_38_0_0_0": SubResource("Resource_ksh7l"),
+"21_21_21_21_21_38_21_21_21": SubResource("Resource_8q2mt"),
+"21_21_21_21_38_21_21_21_21": SubResource("Resource_bvlaa"),
+"21_21_21_21_38_21_21_21_38": SubResource("Resource_a8il1"),
+"21_21_21_21_38_21_21_38_1": SubResource("Resource_rplil"),
+"21_21_21_21_38_21_21_38_38": SubResource("Resource_5akxf"),
+"21_21_21_38_21_21_1_1_1": SubResource("Resource_2kyn3"),
+"21_21_21_38_21_21_1_38_1": SubResource("Resource_orqck"),
+"21_21_21_38_21_21_38_38_1": SubResource("Resource_yrrpg"),
+"21_21_21_38_21_21_8_1_12": SubResource("Resource_gdj5y"),
+"21_21_38_1_21_21_1_1_1": SubResource("Resource_52b15"),
+"21_21_38_1_21_21_1_38_1": SubResource("Resource_a7bfb"),
+"21_21_38_1_21_21_38_1_1": SubResource("Resource_p6tbm"),
+"21_21_38_1_21_38_1_1_1": SubResource("Resource_oxk7g"),
+"21_21_38_1_38_38_1_38_1": SubResource("Resource_uwwmp"),
+"21_21_38_38_21_21_1_12_1": SubResource("Resource_dd5j4"),
+"21_21_38_38_21_21_1_1_1": SubResource("Resource_oea4d"),
+"21_21_38_38_21_21_38_1_1": SubResource("Resource_ooe6p"),
+"21_25_1_1_21_21_12_1_1": SubResource("Resource_t5tou"),
+"21_25_25_1_21_21_1_12_1": SubResource("Resource_5p6ev"),
+"21_2_18_18_21_21_1_1_38": SubResource("Resource_uww1e"),
+"21_2_18_18_21_21_38_21_21": SubResource("Resource_vebdt"),
+"21_2_18_18_21_21_38_38_21": SubResource("Resource_5jomw"),
+"21_2_1_1_21_21_1_1_1": SubResource("Resource_heco8"),
+"21_2_1_38_21_21_38_1_1": SubResource("Resource_5lve3"),
+"21_2_2_18_21_21_1_38_21": SubResource("Resource_gfo16"),
+"21_2_2_2_21_21_1_1_38": SubResource("Resource_co2ey"),
+"21_38_12_2_21_21_18_18_1": SubResource("Resource_6dxkp"),
+"21_38_12_44_21_21_1_12_1": SubResource("Resource_ot8qp"),
+"21_38_1_1_21_21_1_1_1": SubResource("Resource_ced01"),
+"21_38_1_1_21_21_1_2_18": SubResource("Resource_lcmos"),
+"21_38_1_1_21_21_25_25_25": SubResource("Resource_8hyy2"),
+"21_38_1_1_21_21_2_2_2": SubResource("Resource_y8q5p"),
+"21_38_1_1_21_21_38_1_1": SubResource("Resource_wwo76"),
+"21_38_1_1_21_21_38_44_11": SubResource("Resource_jpkma"),
+"21_38_1_1_21_38_1_1_1": SubResource("Resource_quxea"),
+"21_38_1_1_21_38_1_1_12": SubResource("Resource_m4n3k"),
+"21_38_21_21_21_21_0_0_0": SubResource("Resource_vb4ii"),
+"21_38_21_21_21_21_21_21_21": SubResource("Resource_w8ago"),
+"21_38_21_21_21_38_21_21_21": SubResource("Resource_j6ubk"),
+"21_38_21_21_38_21_38_1_1": SubResource("Resource_nfmcf"),
+"21_38_38_1_21_21_1_1_1": SubResource("Resource_42wye"),
+"21_38_38_1_21_21_1_38_1": SubResource("Resource_cbnh4"),
+"21_38_38_21_21_21_21_21_21": SubResource("Resource_gctds"),
+"21_38_38_38_21_21_12_1_1": SubResource("Resource_a6hgk"),
+"21_38_38_38_21_21_1_1_1": SubResource("Resource_eu6tj"),
+"21_38_38_38_21_21_1_1_38": SubResource("Resource_551md"),
+"21_38_44_11_21_21_18_1_1": SubResource("Resource_uytbk"),
+"21_38_44_44_21_21_18_1_1": SubResource("Resource_6rl0x"),
+"21_44_11_44_21_21_1_1_38": SubResource("Resource_q40uj"),
+"21_44_18_18_21_21_38_21_21": SubResource("Resource_lrcf3"),
+"21_44_1_1_21_21_1_38_38": SubResource("Resource_k3ojh"),
+"21_44_1_1_21_21_38_21_21": SubResource("Resource_fixfi"),
+"21_44_44_1_21_21_1_1_38": SubResource("Resource_3isva"),
+"21_44_44_1_21_21_1_38_21": SubResource("Resource_fj0jb"),
+"21_44_44_44_21_21_1_1_38": SubResource("Resource_ypdy2"),
+"25_12_1_1_25_25_1_5_1": SubResource("Resource_ushe3"),
+"25_12_1_1_25_25_46_1_38": SubResource("Resource_8rly7"),
+"25_1_12_1_25_25_46_46_1": SubResource("Resource_mmvms"),
+"25_1_1_1_1_25_12_1_1": SubResource("Resource_wvnt8"),
+"25_1_1_1_1_25_1_1_1": SubResource("Resource_xfe2u"),
+"25_1_1_1_25_1_1_1_25": SubResource("Resource_wccow"),
+"25_1_1_1_25_1_1_38_1": SubResource("Resource_a8h6j"),
+"25_1_1_1_25_1_21_21_21": SubResource("Resource_ic7lw"),
+"25_1_1_1_25_25_12_1_1": SubResource("Resource_pjeaj"),
+"25_1_1_1_25_25_1_12_1": SubResource("Resource_qobta"),
+"25_1_1_1_25_25_1_1_1": SubResource("Resource_btu6t"),
+"25_1_1_1_25_25_1_1_38": SubResource("Resource_p7g4v"),
+"25_1_1_1_25_25_1_38_1": SubResource("Resource_1wcid"),
+"25_1_1_1_25_25_1_38_38": SubResource("Resource_h73jr"),
+"25_1_1_1_25_25_38_1_1": SubResource("Resource_fhejf"),
+"25_1_1_1_25_25_38_38_21": SubResource("Resource_ifm4o"),
+"25_1_1_2_25_25_1_1_12": SubResource("Resource_6uasn"),
+"25_1_1_38_25_25_1_1_1": SubResource("Resource_fg270"),
+"25_1_1_46_25_1_5_1_1": SubResource("Resource_5jhb0"),
+"25_1_1_8_25_25_1_1_46": SubResource("Resource_klx77"),
+"25_1_2_1_25_25_1_12_12": SubResource("Resource_dgfxc"),
+"25_1_38_1_25_25_1_1_1": SubResource("Resource_54s3t"),
+"25_1_38_38_1_25_1_1_12": SubResource("Resource_sfp18"),
+"25_1_5_1_25_25_44_44_1": SubResource("Resource_1icjn"),
+"25_1_8_1_25_25_1_46_46": SubResource("Resource_6ic1e"),
+"25_21_21_21_1_25_38_1_1": SubResource("Resource_gbe6x"),
+"25_21_21_21_25_25_1_1_46": SubResource("Resource_qdbv4"),
+"25_21_21_21_25_25_1_46_46": SubResource("Resource_0jc8a"),
+"25_21_21_21_25_25_46_46_1": SubResource("Resource_3hht7"),
+"25_21_21_21_25_25_46_46_46": SubResource("Resource_o7icq"),
+"25_21_21_38_25_25_46_1_1": SubResource("Resource_eojy8"),
+"25_21_38_1_25_25_12_1_1": SubResource("Resource_unoyw"),
+"25_21_38_38_25_25_1_1_1": SubResource("Resource_y03je"),
+"25_25_1_1_1_25_1_1_38": SubResource("Resource_e8dg3"),
+"25_2_1_1_25_25_12_12_1": SubResource("Resource_dycvx"),
+"25_38_1_1_25_1_1_1_38": SubResource("Resource_5bwmo"),
+"25_38_1_1_25_25_1_1_12": SubResource("Resource_lekyf"),
+"25_38_1_1_25_25_38_12_44": SubResource("Resource_x2nbl"),
+"25_38_38_1_1_25_1_38_12": SubResource("Resource_t0jmw"),
+"25_38_38_1_25_1_1_1_2": SubResource("Resource_vpck2"),
+"25_38_38_21_25_25_12_1_1": SubResource("Resource_wev6u"),
+"25_38_38_38_25_25_1_12_1": SubResource("Resource_qvs7v"),
+"25_5_1_1_25_25_44_1_1": SubResource("Resource_qj7a8"),
+"25_8_1_12_25_25_46_46_46": SubResource("Resource_jk4i1"),
+"2_12_1_1_19_1_21_21_21": SubResource("Resource_crgww"),
+"2_1_1_1_19_1_38_21_21": SubResource("Resource_4tp5m"),
+"2_1_1_1_1_19_1_1_1": SubResource("Resource_oishm"),
+"2_1_1_1_1_19_38_38_38": SubResource("Resource_ipald"),
+"2_1_1_46_19_1_1_1_1": SubResource("Resource_lv1to"),
+"2_1_46_46_19_1_1_1_1": SubResource("Resource_67atb"),
+"2_1_46_46_19_1_1_1_2": SubResource("Resource_6faa4"),
+"2_21_21_21_12_2_21_21_21": SubResource("Resource_bv4qj"),
+"2_21_21_21_1_18_21_21_21": SubResource("Resource_q1yw7"),
+"2_21_21_21_1_19_1_1_12": SubResource("Resource_jhc4t"),
+"2_21_21_21_2_18_21_21_21": SubResource("Resource_8h83g"),
+"2_21_21_21_2_2_21_21_21": SubResource("Resource_oqeb0"),
+"2_25_1_1_1_1_21_21_21": SubResource("Resource_7fbrg"),
+"2_2_1_1_1_1_25_25_25": SubResource("Resource_8af1q"),
+"2_38_1_1_1_19_5_1_1": SubResource("Resource_8nmej"),
+"2_38_1_38_1_1_21_21_21": SubResource("Resource_gv75o"),
+"2_38_1_46_19_1_1_1_1": SubResource("Resource_bn23u"),
+"2_46_12_1_1_19_1_1_12": SubResource("Resource_tpkts"),
+"38_19_19_19_1_1_19_19_2": SubResource("Resource_sbqpf"),
+"38_19_19_19_1_1_25_25_25": SubResource("Resource_qcvcs"),
+"38_19_19_19_1_38_1_1_12": SubResource("Resource_7m1i7"),
+"38_19_19_19_38_21_1_12_1": SubResource("Resource_dxylt"),
+"38_19_19_19_46_1_1_1_1": SubResource("Resource_m3y0c"),
+"38_19_19_2_1_21_1_1_38": SubResource("Resource_2b06a"),
+"38_1_12_12_1_1_21_21_21": SubResource("Resource_uwddn"),
+"38_1_1_1_1_21_1_12_1": SubResource("Resource_uowdb"),
+"38_1_1_1_1_21_1_1_1": SubResource("Resource_1vhgd"),
+"38_1_1_1_1_21_2_1_1": SubResource("Resource_28t0f"),
+"38_1_1_1_1_38_19_19_19": SubResource("Resource_fc4mr"),
+"38_1_1_1_1_38_1_25_25": SubResource("Resource_2dxfs"),
+"38_1_1_1_21_1_1_12_1": SubResource("Resource_fq5d8"),
+"38_1_1_1_21_1_1_1_1": SubResource("Resource_1epq7"),
+"38_1_1_1_21_1_2_19_19": SubResource("Resource_8ospo"),
+"38_1_1_1_21_1_38_21_38": SubResource("Resource_yw1id"),
+"38_1_1_1_21_21_1_1_1": SubResource("Resource_vgwqj"),
+"38_1_1_1_21_39_1_12_1": SubResource("Resource_t1qe6"),
+"38_1_1_1_38_1_19_19_19": SubResource("Resource_detmx"),
+"38_1_1_1_38_1_1_1_1": SubResource("Resource_dqq3x"),
+"38_1_1_1_38_21_1_1_1": SubResource("Resource_77r60"),
+"38_1_1_1_38_21_1_38_21": SubResource("Resource_w1y2j"),
+"38_1_1_1_38_21_25_25_25": SubResource("Resource_2hssd"),
+"38_1_1_1_38_38_25_25_25": SubResource("Resource_recqv"),
+"38_1_1_25_38_1_19_19_19": SubResource("Resource_nnb2h"),
+"38_1_1_2_1_38_19_19_19": SubResource("Resource_jgqnr"),
+"38_1_1_38_1_1_21_21_21": SubResource("Resource_jcpb6"),
+"38_1_1_38_21_1_1_1_1": SubResource("Resource_yc0a4"),
+"38_1_1_38_21_1_21_21_21": SubResource("Resource_grali"),
+"38_1_1_38_21_38_19_19_19": SubResource("Resource_0tnx8"),
+"38_1_1_38_21_38_1_1_1": SubResource("Resource_bluy6"),
+"38_1_25_25_1_12_21_21_21": SubResource("Resource_pukje"),
+"38_1_2_19_38_38_19_19_19": SubResource("Resource_1ygyd"),
+"38_1_38_21_21_1_25_25_25": SubResource("Resource_vnst3"),
+"38_1_38_38_38_38_19_19_19": SubResource("Resource_2jxiw"),
+"38_21_21_21_1_12_21_21_21": SubResource("Resource_r3hh1"),
+"38_21_21_21_1_1_0_0_0": SubResource("Resource_cgiat"),
+"38_21_21_21_1_1_21_21_21": SubResource("Resource_odumx"),
+"38_21_21_21_1_1_38_1_38": SubResource("Resource_qfrsr"),
+"38_21_21_21_1_21_21_21_21": SubResource("Resource_krpxv"),
+"38_21_21_21_1_21_21_21_38": SubResource("Resource_1e2im"),
+"38_21_21_21_1_38_21_21_21": SubResource("Resource_akqd1"),
+"38_21_21_21_1_38_38_1_1": SubResource("Resource_kmb8h"),
+"38_21_21_21_1_38_38_38_38": SubResource("Resource_x76wh"),
+"38_21_21_21_1_44_21_21_21": SubResource("Resource_4qged"),
+"38_21_21_21_21_1_21_21_21": SubResource("Resource_1jwbv"),
+"38_21_21_21_21_1_21_21_38": SubResource("Resource_qegck"),
+"38_21_21_21_21_38_0_0_0": SubResource("Resource_lumeh"),
+"38_21_21_21_21_38_21_21_21": SubResource("Resource_54tn7"),
+"38_21_21_21_38_1_0_0_0": SubResource("Resource_v2s74"),
+"38_21_21_21_38_1_21_21_21": SubResource("Resource_poxih"),
+"38_21_21_21_38_1_25_25_1": SubResource("Resource_ew85l"),
+"38_21_21_21_38_1_38_38_38": SubResource("Resource_u8xg2"),
+"38_21_21_21_38_21_21_21_21": SubResource("Resource_uecf6"),
+"38_21_21_21_38_38_0_0_0": SubResource("Resource_76xkw"),
+"38_21_21_21_38_38_1_1_1": SubResource("Resource_cf30s"),
+"38_21_21_21_38_38_21_21_21": SubResource("Resource_6u352"),
+"38_21_21_38_38_21_1_1_38": SubResource("Resource_xl5xw"),
+"38_25_1_1_1_38_38_1_1": SubResource("Resource_otqdb"),
+"38_25_25_1_1_1_1_41_1": SubResource("Resource_c2tj8"),
+"38_25_25_25_1_1_21_21_38": SubResource("Resource_wb650"),
+"38_25_25_25_1_38_38_1_1": SubResource("Resource_s7l70"),
+"38_25_25_25_38_21_1_1_1": SubResource("Resource_540bd"),
+"38_2_19_19_38_1_19_19_19": SubResource("Resource_n5mot"),
+"38_38_1_1_1_21_1_1_1": SubResource("Resource_gvmk0"),
+"38_38_1_1_21_1_1_1_1": SubResource("Resource_h0gr2"),
+"38_38_1_1_21_1_1_1_2": SubResource("Resource_xokjm"),
+"38_38_1_1_21_38_38_1_1": SubResource("Resource_csp0x"),
+"38_38_1_1_38_38_19_19_19": SubResource("Resource_ed2i2"),
+"38_38_21_21_1_1_21_21_21": SubResource("Resource_sqt1l"),
+"38_38_21_21_21_1_21_21_21": SubResource("Resource_sqx64"),
+"38_38_21_21_21_38_21_21_21": SubResource("Resource_khsh8"),
+"38_38_21_21_21_38_25_25_25": SubResource("Resource_m82fn"),
+"38_38_21_38_1_1_21_21_21": SubResource("Resource_jrykx"),
+"38_38_38_1_38_38_19_19_19": SubResource("Resource_cx78y"),
+"38_38_38_21_1_21_21_38_1": SubResource("Resource_11cjy"),
+"38_3_46_1_1_38_12_1_25": SubResource("Resource_f4ahh"),
+"38_46_1_1_1_21_1_1_1": SubResource("Resource_3amxy"),
+"38_46_1_5_38_1_1_25_25": SubResource("Resource_4et6g"),
+"38_46_46_46_1_1_12_1_2": SubResource("Resource_k5dqj"),
+"39_1_12_1_1_38_1_1_1": SubResource("Resource_hobvg"),
+"39_1_1_1_38_1_12_1_1": SubResource("Resource_0jjp6"),
+"3_19_19_19_46_46_1_1_1": SubResource("Resource_ki7xf"),
+"3_19_19_19_46_46_1_1_38": SubResource("Resource_rmt2w"),
+"41_1_38_1_1_1_19_19_19": SubResource("Resource_fqqe6"),
+"44_21_21_21_11_18_21_21_21": SubResource("Resource_2t001"),
+"44_21_21_21_38_11_21_21_21": SubResource("Resource_d3yej"),
+"44_21_21_21_38_44_21_21_21": SubResource("Resource_jqhlq"),
+"44_21_21_21_44_1_21_21_21": SubResource("Resource_5qs3y"),
+"44_21_21_21_44_44_21_21_21": SubResource("Resource_j1tqn"),
+"44_25_25_25_44_1_21_21_21": SubResource("Resource_ftgyn"),
+"46_19_19_19_1_3_25_1_1": SubResource("Resource_6fn2l"),
+"46_19_19_19_1_3_2_1_1": SubResource("Resource_qht1p"),
+"46_19_19_19_1_46_19_2_1": SubResource("Resource_qf12y"),
+"46_19_19_19_3_12_1_1_2": SubResource("Resource_e0a63"),
+"46_19_19_19_3_1_1_38_38": SubResource("Resource_wanla"),
+"46_19_19_19_46_1_1_1_1": SubResource("Resource_rdp7m"),
+"46_19_19_19_46_38_38_1_1": SubResource("Resource_5txl3"),
+"46_19_19_19_46_46_1_38_1": SubResource("Resource_jbj4m"),
+"46_19_19_19_46_46_2_1_1": SubResource("Resource_scpg4"),
+"46_25_25_25_1_46_19_2_1": SubResource("Resource_pi12y"),
+"46_25_25_25_1_46_2_1_1": SubResource("Resource_817wp"),
+"46_25_25_25_46_1_1_1_1": SubResource("Resource_v1jin"),
+"46_25_25_25_46_1_1_1_38": SubResource("Resource_1kttj"),
+"46_25_25_25_46_46_1_1_1": SubResource("Resource_jba6l"),
+"46_25_25_25_46_46_2_1_1": SubResource("Resource_q7aab"),
+"5_12_1_2_1_1_25_25_25": SubResource("Resource_vbfjd"),
+"5_19_19_2_1_1_38_1_1": SubResource("Resource_b0xcf"),
+"5_25_25_25_1_1_2_19_19": SubResource("Resource_7ubaw"),
+"6_19_19_19_1_1_19_19_19": SubResource("Resource_ei7x1"),
+"7_19_19_19_1_12_19_19_19": SubResource("Resource_v3va3"),
+"8_21_21_21_1_1_25_25_25": SubResource("Resource_ve7qf")
+}
+terrain_tiles = {}
+tile_relationships = {}
+extraction_stats = {
+"extraction_timestamp": "2025-05-27T18:24:18",
+"patterns_extracted": 0,
+"terrains_covered": 0,
+"total_tile_variants": 0
+}

@@ -1,0 +1,4707 @@
+[gd_resource type="Resource" script_class="AutotilingDatabase" load_steps=524 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TilePattern.gd" id="1_ui132"]
+[ext_resource type="Script" path="res://scripts/resources/AutotilingDatabase.gd" id="2_0l44r"]
+
+[sub_resource type="Resource" id="Resource_3e4tl"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [18, 18, 18, 47, 1, 1, 1, 38]
+valid_tiles = [502]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_im8tm"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 1, 38, 1, 1, 38, 47]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_k3tvc"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 1, 1, 1, 18, 38, 47, 38]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mlsoy"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 1, 1, 47, 38, 1]
+valid_tiles = [919]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nupv6"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 18, 1, 38, 1, 1]
+valid_tiles = [798]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_e07ya"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 6, 1, 1, 1, 1, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_stjns"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 6, 1, 1, 7, 1, 1, 18]
+valid_tiles = [388]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_u1157"]
+script = ExtResource("1_ui132")
+center_terrain = 7
+neighbor_terrains = [6, 1, 1, 1, 1, 1, 18, 1]
+valid_tiles = [65]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ffcno"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 7, 1, 18, 1, 1]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_slmi6"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [176, 166, 167, 144, 241, 208, 401, 433, 237, 70, 82, 206, 198, 177, 265, 231, 100, 275, 47, 268]
+frequency = 28
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t6uv3"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 1, 1, 1, 1]
+valid_tiles = [6, 103, 268, 145]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5711v"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 38, 47, 1, 1, 1, 1, 1]
+valid_tiles = [6, 102, 203, 401]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2shxc"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 38, 1, 1, 38, 1, 1, 1]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t8qc5"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [38, 1, 1, 1, 47, 1, 1, 1]
+valid_tiles = [375]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7wfwq"]
+script = ExtResource("1_ui132")
+center_terrain = 47
+neighbor_terrains = [1, 1, 18, 38, 38, 1, 1, 1]
+valid_tiles = [414]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_chm7g"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 18, 1, 47, 1, 1, 1, 1]
+valid_tiles = [543]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_lwdpn"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 1, 1, 38, 1, 1, 1, 38]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_twlxs"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 38, 47]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bdac6"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 7, 1, 18, 38, 47, 47]
+valid_tiles = [114]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_u66mn"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 7, 1, 1, 1, 47, 47, 38]
+valid_tiles = [919]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_chyqu"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [7, 1, 1, 18, 1, 47, 38, 1]
+valid_tiles = [854]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_77fmm"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 38, 1, 1]
+valid_tiles = [208]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bc3yv"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 18]
+valid_tiles = [390, 67]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_18r1d"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 18, 18]
+valid_tiles = [144, 230]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ycybr"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 18, 18, 1]
+valid_tiles = [145, 401]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_fk7hs"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 18, 1, 1]
+valid_tiles = [176]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0d6fo"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [38, 47, 38, 1, 1, 1, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_eq841"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 38, 1, 1, 1, 1, 1, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6p6w1"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 38, 1, 1, 1]
+valid_tiles = [266, 66]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_53qcy"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 1, 1, 1, 47, 1, 1, 1]
+valid_tiles = [535]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4a0bx"]
+script = ExtResource("1_ui132")
+center_terrain = 47
+neighbor_terrains = [1, 1, 18, 38, 47, 1, 1, 1]
+valid_tiles = [382]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7vo1f"]
+script = ExtResource("1_ui132")
+center_terrain = 47
+neighbor_terrains = [1, 18, 1, 47, 38, 1, 1, 38]
+valid_tiles = [415]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_puafl"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [18, 1, 1, 47, 1, 1, 38, 47]
+valid_tiles = [476]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wr3a4"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 38, 1, 38, 47, 47]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wvw3o"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 18, 47, 47, 38]
+valid_tiles = [80, 103]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6y0hx"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 1, 18, 47, 38, 8]
+valid_tiles = [492]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nkku7"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 18, 1, 38, 8, 1]
+valid_tiles = [947]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cl103"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 18, 1, 8, 1, 1]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ifqq5"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 18, 18, 18]
+valid_tiles = [177]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_w0hke"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 18, 1, 26]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rg5ml"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 26, 26]
+valid_tiles = [179]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_slip5"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [132, 144, 401, 145, 433]
+frequency = 9
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_uw8sf"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 1]
+valid_tiles = [133, 199, 433, 231]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_40t6p"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [208, 206, 401]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_soq61"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [38, 47, 47, 1, 1, 1, 1, 1]
+valid_tiles = [70, 241]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hgspc"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 47, 38, 1, 38, 1, 1, 1]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ed821"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [47, 38, 1, 1, 47, 1, 1, 1]
+valid_tiles = [471]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_67ltr"]
+script = ExtResource("1_ui132")
+center_terrain = 47
+neighbor_terrains = [38, 1, 1, 38, 47, 1, 1, 1]
+valid_tiles = [382]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_il5a4"]
+script = ExtResource("1_ui132")
+center_terrain = 47
+neighbor_terrains = [1, 1, 18, 47, 38, 1, 1, 1]
+valid_tiles = [415, 414]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ba5jg"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 18, 18, 47, 8, 1, 1, 38]
+valid_tiles = [411]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kw0ly"]
+script = ExtResource("1_ui132")
+center_terrain = 8
+neighbor_terrains = [18, 18, 1, 38, 1, 1, 38, 47]
+valid_tiles = [97]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_uuadr"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 1, 1, 8, 1, 38, 47, 47]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xed1d"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 1, 18, 47, 38, 1]
+valid_tiles = [545]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wgu6v"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 18, 18, 38, 1, 1]
+valid_tiles = [429]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_u70xn"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 18, 1, 1, 1, 18]
+valid_tiles = [947]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bnbre"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 18, 26, 1, 18, 18]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_pmo55"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 18, 18, 18]
+valid_tiles = [116]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tud5u"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 18, 18, 18]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_pdugk"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 18, 18, 1]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_djtwh"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 18, 1, 26]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_utcvv"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 1, 26, 26]
+valid_tiles = [20, 21]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hgsee"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 26, 26]
+valid_tiles = [118]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_b2f1h"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 26, 26]
+valid_tiles = [338]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wtwaj"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 47, 38, 1, 1, 1, 1, 1]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_do4op"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 38, 8, 1, 38, 1, 1, 1]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jbmyy"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [38, 8, 1, 1, 47, 1, 1, 1]
+valid_tiles = [439]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nx7qy"]
+script = ExtResource("1_ui132")
+center_terrain = 47
+neighbor_terrains = [8, 1, 1, 38, 47, 1, 1, 1]
+valid_tiles = [415]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6386y"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 18, 18, 47, 1, 1, 1, 1]
+valid_tiles = [476]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jnhvk"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 18, 38, 1, 1, 1, 38]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_phw5w"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 1, 1, 18, 1, 38, 38]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_y82o5"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [18, 1, 26, 1, 18, 38, 38, 1]
+valid_tiles = [591]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_th3x8"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 26, 26, 18, 18, 38, 1, 1]
+valid_tiles = [616]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tckag"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 18, 1, 1, 1]
+valid_tiles = [492]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nlwp7"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 1, 1, 1, 18]
+valid_tiles = [919]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ru28f"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 18, 26, 1, 18, 18]
+valid_tiles = [854]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6lttg"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 18, 18, 18]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4jse4"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 18, 1, 26]
+valid_tiles = [124]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5pf2l"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 1, 26, 23]
+valid_tiles = [125]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_50djv"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 23, 23]
+valid_tiles = [125]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_qvoxq"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 23, 23]
+valid_tiles = [124, 21]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xdhs4"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 23, 23]
+valid_tiles = [52, 28, 53]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cjbqn"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 23, 23]
+valid_tiles = [370, 854]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1w4ij"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 23, 23, 23]
+valid_tiles = [433, 198]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_lqt63"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 23, 23, 26]
+valid_tiles = [433, 401]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ujr57"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 23, 26, 26]
+valid_tiles = [433]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_s3pdg"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 1, 26, 1, 1]
+valid_tiles = [177]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_77nnh"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 38, 47, 1, 1, 1, 1, 26]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8e4oq"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [38, 47, 47, 1, 1, 1, 26, 26]
+valid_tiles = [265]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5c4il"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 47, 38, 1, 1, 26, 26, 1]
+valid_tiles = [206]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_m0fiy"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [47, 38, 1, 1, 1, 26, 1, 1]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_klruu"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 1, 18, 1, 38, 1, 1, 1]
+valid_tiles = [443]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7goty"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 18, 18, 38, 1, 1, 1, 1]
+valid_tiles = [502]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mir2h"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 18, 38, 1, 1, 1, 1]
+valid_tiles = [14]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_gxlqj"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 18, 1, 1, 1, 1, 1]
+valid_tiles = [134, 6]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2skt8"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 1, 1, 18, 1, 1, 1]
+valid_tiles = [135]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t38t8"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [18, 1, 26, 1, 18, 1, 1, 1]
+valid_tiles = [559]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tlq1h"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 26, 26, 18, 18, 1, 1, 1]
+valid_tiles = [492]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_23wwa"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 18, 26, 1, 1, 18]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_41rrm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 23, 1, 18, 18]
+valid_tiles = [53]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_f2wpc"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 18, 18, 1]
+valid_tiles = [246]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_o320g"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 18, 1, 1]
+valid_tiles = [278]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kj27d"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 23, 23, 1, 1, 26]
+valid_tiles = [279]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jqhs2"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 23, 1, 26, 23]
+valid_tiles = [278]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_81ben"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 23, 26, 23, 23]
+valid_tiles = [279, 180]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6gbjs"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 26, 23, 23, 23]
+valid_tiles = [278]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2t786"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 23, 26, 23, 23, 23]
+valid_tiles = [86, 148]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t8so4"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 23, 26]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5qamw"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 23, 26, 26]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jciv4"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 26, 26, 26]
+valid_tiles = [29]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4yujl"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 26, 23]
+valid_tiles = [83]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_di7qr"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 23, 23]
+valid_tiles = [824]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xmkct"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 1, 1, 23, 23, 26]
+valid_tiles = [230]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mfuwb"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 38, 38, 1, 1, 23, 26, 26]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_q1gjx"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [38, 38, 1, 1, 1, 26, 26, 1]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kvwpd"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [38, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [199]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kjbvj"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 18, 1, 1, 1, 1, 1]
+valid_tiles = [203, 113]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_oyuux"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 18, 18, 1, 1, 1, 1, 1]
+valid_tiles = [70, 114]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_w7c6l"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 1, 26, 1, 18, 1, 1, 1]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1clsw"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 26, 23, 1, 18, 1, 1, 1]
+valid_tiles = [888]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ntgv1"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 23, 23, 18, 1, 1, 1, 1]
+valid_tiles = [917]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yv657"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 18, 1, 1, 1, 1]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wtj74"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 1, 1, 26]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_gmrmk"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 23, 1, 26, 26]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4w722"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 26]
+valid_tiles = [248, 255, 318, 180]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2t3ef"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 26, 26, 26]
+valid_tiles = [244, 180]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_e62n0"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 26, 26, 26]
+valid_tiles = [244, 180]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t8npb"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 26, 26]
+valid_tiles = [245, 180]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j41x5"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 23, 23, 26, 26, 26]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0soip"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 26, 26, 26, 26]
+valid_tiles = [245]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ldnaa"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 23, 26, 26, 26, 30]
+valid_tiles = [53]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xuywd"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 26, 30, 26]
+valid_tiles = [156]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jq53r"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 23, 30, 26, 26]
+valid_tiles = [60]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_d37ll"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 26, 23, 26, 26, 26]
+valid_tiles = [219]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_b0d5x"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 26, 26, 26, 23]
+valid_tiles = [252]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3sttq"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 23, 26, 26, 23, 23]
+valid_tiles = [61]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7yyfk"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 23, 26, 1]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7ax42"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 1, 1, 1, 1, 1, 1]
+valid_tiles = [167]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6x3cm"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 1, 1, 1, 1, 1, 1, 38]
+valid_tiles = [796]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_c8lqg"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 1, 38, 38]
+valid_tiles = [796]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mte35"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 1, 26, 38, 38, 18]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cx2ko"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 38, 18, 18]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ps2mt"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 18, 18, 18]
+valid_tiles = [20, 21]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_sfqc5"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 18, 18, 26]
+valid_tiles = [21]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7fsq1"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 18, 26, 26]
+valid_tiles = [25]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6quy3"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [21, 20]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_an1ko"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 26, 26, 26]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rsd7a"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 30, 26, 26, 26]
+valid_tiles = [23]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nv0m5"]
+script = ExtResource("1_ui132")
+center_terrain = 30
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [755]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yxvf0"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 30, 26, 26, 26, 26]
+valid_tiles = [22]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3fayl"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [20, 122]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2wkbj"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 23, 26, 26, 45]
+valid_tiles = [149]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_q6fa8"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 26, 23, 26, 45, 26]
+valid_tiles = [254]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jib33"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 23, 23, 45, 26, 26]
+valid_tiles = [92]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6fxss"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 23, 26, 26, 26]
+valid_tiles = [283]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xsodl"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 23, 26, 26, 23]
+valid_tiles = [284, 252]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mi8kc"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 26, 26, 23, 23]
+valid_tiles = [93]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1ffof"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 23, 1, 23, 23, 23]
+valid_tiles = [85]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hl30s"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 38, 26, 1, 1]
+valid_tiles = [112]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_dgr4c"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 1, 26, 1, 38, 1, 1, 26]
+valid_tiles = [642]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jd6bj"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 26, 26, 38, 18, 1, 26, 26]
+valid_tiles = [641]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8ob2s"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 38, 18, 26, 26, 26]
+valid_tiles = [774]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_acw55"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 18, 26, 26, 1]
+valid_tiles = [580]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_552gi"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 26, 26, 1, 1]
+valid_tiles = [580]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_l5lvw"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 18, 26, 1, 1, 38]
+valid_tiles = [223]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_omwdk"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 38, 18]
+valid_tiles = [191]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j0vl4"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 38, 18, 18]
+valid_tiles = [127]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nix1d"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 30, 26, 26, 18, 18, 23]
+valid_tiles = [127]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_etjj5"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 30, 26, 26, 26, 18, 23, 33]
+valid_tiles = [191]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wxwrw"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [30, 26, 26, 26, 26, 23, 33, 23]
+valid_tiles = [191]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3jpao"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 33, 23, 23]
+valid_tiles = [596]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4vk2y"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 45, 23, 23, 33]
+valid_tiles = [156]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jsh8w"]
+script = ExtResource("1_ui132")
+center_terrain = 45
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 33, 23]
+valid_tiles = [277]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vdenr"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 45, 26, 33, 23, 26]
+valid_tiles = [156]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j6sub"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 26, 23]
+valid_tiles = [125]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_is24a"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 23, 23]
+valid_tiles = [189]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_oh2xv"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 23, 23, 23]
+valid_tiles = [350, 213, 254, 319]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7lg17"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 23, 23, 23]
+valid_tiles = [180, 252, 283]
+frequency = 6
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t6trc"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 23, 23, 23, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_toy4k"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 38, 26, 1, 23, 23, 26]
+valid_tiles = [433]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_s3ck3"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 38, 38, 1, 26, 23, 26, 26]
+valid_tiles = [401]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_lrid1"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [38, 38, 18, 1, 26, 26, 26, 26]
+valid_tiles = [29]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bnclk"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [38, 18, 18, 26, 26, 26, 26, 23]
+valid_tiles = [24]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_stl08"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 18, 18, 26, 1, 26, 23, 23]
+valid_tiles = [117]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1h1xv"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 26, 26, 1, 23, 23, 26]
+valid_tiles = [824]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j38ak"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 26, 26, 1, 38, 23, 26, 26]
+valid_tiles = [80]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_56q76"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [26, 26, 26, 1, 18, 26, 26, 26]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5m4ny"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 38, 18, 26, 26, 1]
+valid_tiles = [463]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nagid"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 23, 26, 1, 38]
+valid_tiles = [555]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bxhbd"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 18, 33, 1, 38, 1]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_obcqr"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [26, 26, 26, 23, 23, 38, 1, 18]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ra70a"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 33, 23, 1, 18, 18]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t3l03"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 45, 23, 33, 18, 18, 23]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tjtuc"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [26, 45, 26, 23, 23, 18, 23, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_o1ewf"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [45, 26, 26, 33, 26, 23, 23, 33]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7aadc"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 33, 33]
+valid_tiles = [628]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_i20ar"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 26, 23, 33, 33, 23]
+valid_tiles = [218]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6fv4d"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 33, 23, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_sh0k0"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 30]
+valid_tiles = [314]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mmp2y"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 30, 23]
+valid_tiles = [282]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bl6fn"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [252, 284]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kvs30"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [180, 278]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_dqo12"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 23, 23, 23, 23, 23]
+valid_tiles = [180, 283]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_30a0f"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 26, 23, 23, 23]
+valid_tiles = [253]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_dicae"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 23, 26, 23, 23, 23]
+valid_tiles = [188]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_i066q"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [596]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_u8iyu"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 23, 23, 23, 23]
+valid_tiles = [27]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6nx6o"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 26, 23, 23, 23, 23]
+valid_tiles = [219]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3xgrd"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 26, 23, 23, 26]
+valid_tiles = [252]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5j0w8"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 38, 23, 26, 23, 26, 23]
+valid_tiles = [61]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_n121v"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 38, 18, 26, 26, 26, 23, 23]
+valid_tiles = [156]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_srn44"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [38, 18, 18, 26, 1, 23, 23, 23]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8tjew"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 23, 26, 38, 23, 23, 23]
+valid_tiles = [988, 956]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1gye4"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [18, 23, 33, 1, 1, 23, 23, 23]
+valid_tiles = [801]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_qgde1"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 33, 23, 38, 18, 23, 23, 26]
+valid_tiles = [858]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_urvvo"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [33, 23, 23, 1, 18, 23, 26, 1]
+valid_tiles = [495]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yau2e"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [23, 23, 33, 18, 23, 26, 1, 38]
+valid_tiles = [587]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_82pbg"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 33, 23, 18, 23, 1, 38, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bin42"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [33, 23, 26, 23, 33, 38, 1, 18]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cawe1"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [23, 26, 23, 23, 33, 1, 18, 18]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_acdsx"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [26, 23, 23, 33, 23, 18, 18, 26]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_lioxh"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 33, 23, 18, 26, 26]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_snj8s"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 30, 26, 26, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_k0ntt"]
+script = ExtResource("1_ui132")
+center_terrain = 30
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [758]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_v1vn3"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 23, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wcx7o"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 26, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_l0f5j"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 23, 23]
+valid_tiles = [180, 251, 283, 572]
+frequency = 6
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_auqan"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 23, 23, 23]
+valid_tiles = [283, 180, 88]
+frequency = 6
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6sqdq"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 23, 23, 23, 23]
+valid_tiles = [180, 181]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_x5n0y"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [283, 180, 572, 604]
+frequency = 6
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ur3gh"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 26, 23, 23, 23]
+valid_tiles = [252]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xnln7"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [596]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8tsp3"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 23, 23, 23]
+valid_tiles = [91]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_a4vjo"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 38, 23, 23, 23, 23, 26]
+valid_tiles = [284, 180]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_eqywd"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 38, 1, 23, 23, 23, 26, 23]
+valid_tiles = [93, 180]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6n1pt"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [38, 1, 18, 23, 26, 26, 23, 23]
+valid_tiles = [253, 250]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_n2ksm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 18, 18, 23, 1, 23, 23, 23]
+valid_tiles = [52, 53]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_fu1cv"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [18, 23, 23, 1, 1, 23, 23, 23]
+valid_tiles = [833]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ewfbj"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 33, 38, 18, 23, 23, 26]
+valid_tiles = [926]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0dml5"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [23, 33, 33, 1, 18, 23, 26, 1]
+valid_tiles = [495]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_a72em"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [33, 33, 23, 18, 26, 26, 1, 38]
+valid_tiles = [417]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xn51t"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [33, 23, 23, 18, 26, 1, 38, 40]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_03lpe"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 30, 26, 26, 38, 40, 18]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_uxkdc"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 30, 23, 26, 26, 40, 18, 18]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_gsd8a"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cxckv"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [790, 628]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_37ed6"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [180, 181]
+frequency = 11
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hqxt1"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rth03"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [180, 281, 252, 313, 571, 89, 697, 698]
+frequency = 14
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_x3rxl"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 23, 23, 23]
+valid_tiles = [180, 572, 633, 697]
+frequency = 6
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_w1ma6"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 23, 23]
+valid_tiles = [250, 181, 538, 180]
+frequency = 6
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5lmuj"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [596, 628]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vnb02"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 26, 26, 38, 23, 23, 23]
+valid_tiles = [854]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j8suw"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [18, 26, 26, 1, 40, 23, 23, 23]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1syv7"]
+script = ExtResource("1_ui132")
+center_terrain = 40
+neighbor_terrains = [26, 26, 26, 38, 18, 23, 23, 26]
+valid_tiles = [257]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wyhhp"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 40, 18, 23, 26, 1]
+valid_tiles = [559]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_67gjm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 26, 26, 26, 38, 1, 18]
+valid_tiles = [123]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_iauid"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 23, 26, 26, 1, 18, 18]
+valid_tiles = [123]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jq14g"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 18, 18, 38]
+valid_tiles = [123]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nj5ju"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 18, 38, 1]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_u3c1k"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 38, 1, 1]
+valid_tiles = [567]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_h7e0t"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 1, 1, 1]
+valid_tiles = [692, 150]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ngykd"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 1, 1, 26]
+valid_tiles = [318]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_051d0"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 26, 23]
+valid_tiles = [180, 572]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vsalp"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 38, 40, 23, 23, 23, 26, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ulpeb"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [38, 40, 18, 23, 26, 26, 23, 23]
+valid_tiles = [250]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_phgkm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [40, 18, 18, 23, 1, 23, 23, 23]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_k7f8o"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 38, 18, 23, 23, 26]
+valid_tiles = [796]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_g45m6"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 1, 18, 23, 26, 1]
+valid_tiles = [591]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4owob"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 38, 26, 1, 18]
+valid_tiles = [424]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_poydd"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [26, 26, 26, 18, 1, 1, 18, 18]
+valid_tiles = [347]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5ys04"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 38, 1, 18, 18, 18]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_uunia"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 23, 1, 1, 18, 18, 18]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2i6dt"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 1, 26, 18, 18, 38]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hb6ep"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 23, 18, 38, 38]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_on2pa"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 38, 38, 41]
+valid_tiles = [220]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_x8ydq"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 38, 41, 1]
+valid_tiles = [282]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_x524v"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 41, 1, 26]
+valid_tiles = [284]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ylwdw"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 26]
+valid_tiles = [282, 278, 538, 574]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mgpeq"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 23, 26, 26]
+valid_tiles = [282, 538]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vvkq6"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 26, 26, 26]
+valid_tiles = [282]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5dmip"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 26, 26, 27]
+valid_tiles = [282]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_844g0"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 27, 26]
+valid_tiles = [282]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_osdyj"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 27, 26, 26]
+valid_tiles = [284]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xuam1"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 26, 26, 26]
+valid_tiles = [318]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2h3at"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 26, 26, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_h6k6d"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 38, 26, 18, 23, 23, 23]
+valid_tiles = [894, 956]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vrlpt"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [18, 38, 1, 1, 18, 23, 23, 23]
+valid_tiles = [774]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4jaaq"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [38, 1, 1, 18, 18, 23, 23, 26]
+valid_tiles = [580]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7vql3"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 1, 18, 18, 23, 26, 1]
+valid_tiles = [419]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5mfuc"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [1, 1, 26, 18, 38, 26, 1, 18]
+valid_tiles = [618]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xkcy5"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [1, 26, 23, 18, 38, 1, 18, 18]
+valid_tiles = [412]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5ff8c"]
+script = ExtResource("1_ui132")
+center_terrain = 38
+neighbor_terrains = [26, 23, 23, 38, 41, 18, 18, 18]
+valid_tiles = [476]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_i2ume"]
+script = ExtResource("1_ui132")
+center_terrain = 41
+neighbor_terrains = [23, 23, 23, 38, 1, 18, 18, 18]
+valid_tiles = [226]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cy7ma"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 41, 26, 18, 18, 26]
+valid_tiles = [70]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ihqpg"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 23, 18, 26, 26]
+valid_tiles = [52]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_11lmf"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 26, 26, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_x0bjs"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 26, 23, 23]
+valid_tiles = [659, 661]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_fh1hs"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 23, 23]
+valid_tiles = [531, 21]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4dwdl"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 27, 23, 23, 23]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4iys6"]
+script = ExtResource("1_ui132")
+center_terrain = 27
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 23, 26]
+valid_tiles = [562]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_qvsa5"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 27, 26, 23, 26, 23]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8yjlj"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 23, 26, 26, 26, 23, 33]
+valid_tiles = [564]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_pm1ib"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 23, 33, 23]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3hhlq"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 33, 23, 23]
+valid_tiles = [564]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_d3d0d"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 33, 23, 33]
+valid_tiles = [318]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_e13ud"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 23, 33, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_skcle"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 18, 23, 23, 33, 23, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t5pka"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 18, 18, 23, 23, 23, 26, 23]
+valid_tiles = [180, 251]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_a5tue"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [18, 18, 18, 23, 26, 26, 23, 23]
+valid_tiles = [250, 317]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2atem"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 18, 18, 23, 1, 23, 23, 23]
+valid_tiles = [53, 52]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_x6c4a"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [18, 38, 38, 1, 18, 23, 23, 23]
+valid_tiles = [559]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tg7mf"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [38, 38, 41, 18, 18, 23, 23, 26]
+valid_tiles = [525]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_d43kw"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [38, 41, 1, 18, 18, 23, 26, 1]
+valid_tiles = [549]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_uu01p"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [41, 1, 26, 18, 26, 26, 1, 17]
+valid_tiles = [545]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tbikt"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 18, 26, 1, 17, 18]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0dg83"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 17, 18, 18]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_p0xgf"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 23, 18, 26, 26]
+valid_tiles = [149]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_sufjt"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 26, 23, 26, 26, 26]
+valid_tiles = [286]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j4ilt"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 27, 23, 23, 26, 26, 26]
+valid_tiles = [314]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0ibfd"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 27, 26, 23, 26, 26, 26, 26]
+valid_tiles = [315]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ofqnu"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [27, 26, 26, 23, 23, 26, 26, 30]
+valid_tiles = [596]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_k3hqy"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 33, 26, 30, 26]
+valid_tiles = [246]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_lor0a"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [26, 26, 26, 23, 23, 30, 26, 26]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6iol6"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 33, 23, 26, 26, 26]
+valid_tiles = [278]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_p2pqy"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 33, 33, 26, 26, 26]
+valid_tiles = [278]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_o7iph"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ubgad"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 33, 26, 26, 26, 23]
+valid_tiles = [246]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_oea7y"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 23, 23]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_aklfp"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 18, 23, 23, 23, 23, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_sutwp"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [18, 18, 26, 26, 17, 23, 23, 23]
+valid_tiles = [854]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_l2baf"]
+script = ExtResource("1_ui132")
+center_terrain = 17
+neighbor_terrains = [18, 26, 26, 1, 18, 23, 23, 23]
+valid_tiles = [711]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tipwr"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 17, 18, 23, 23, 26]
+valid_tiles = [559]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1deba"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 18, 23, 26, 26]
+valid_tiles = [715]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wchs3"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 18, 26, 26, 26, 26]
+valid_tiles = [715]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_b35dq"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 18, 26, 26, 26, 1]
+valid_tiles = [223]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ee1fv"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 26, 1, 17]
+valid_tiles = [127]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hs8n3"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 17, 18]
+valid_tiles = [127]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j21v3"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 17, 18, 23]
+valid_tiles = [127]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_msgov"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 18, 23, 26]
+valid_tiles = [222]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_amo2q"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 23, 26, 30, 23, 26, 26]
+valid_tiles = [726]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mvb4w"]
+script = ExtResource("1_ui132")
+center_terrain = 30
+neighbor_terrains = [26, 23, 33, 26, 26, 26, 26, 26]
+valid_tiles = [755]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_83oj7"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 33, 23, 30, 26, 26, 26, 23]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5xpo0"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [33, 23, 23, 26, 26, 26, 23, 23]
+valid_tiles = [564]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_dbdar"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [33, 23, 33, 26, 26, 23, 23, 26]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j7u2k"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 33, 23, 26, 26, 23, 26, 23]
+valid_tiles = [564]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2q8xg"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [33, 23, 26, 26, 23, 26, 23, 26]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_q0k0e"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 26, 23, 23, 26, 23]
+valid_tiles = [280]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5ajbh"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 26, 23, 23]
+valid_tiles = [244, 538]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1cw23"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 26, 23]
+valid_tiles = [244, 180]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_g720o"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 23, 33]
+valid_tiles = [628]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1nyn1"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 23, 33, 23]
+valid_tiles = [319]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_086jd"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 33, 23, 23]
+valid_tiles = [284]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hrcxj"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 17, 23, 23, 23, 23, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kn237"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 17, 18, 23, 23, 23, 26, 26]
+valid_tiles = [283]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jjp8r"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [17, 18, 18, 23, 26, 26, 26, 26]
+valid_tiles = [284]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0qvll"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 18, 18, 23, 26, 26, 26, 30]
+valid_tiles = [148]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6khkf"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 18, 26, 26, 26, 26, 30, 26]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rexog"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 26, 26, 26, 1, 30, 26, 26]
+valid_tiles = [117]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_iuw5b"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 17, 26, 26, 26]
+valid_tiles = [824]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wx2a7"]
+script = ExtResource("1_ui132")
+center_terrain = 17
+neighbor_terrains = [26, 26, 26, 1, 18, 26, 26, 26]
+valid_tiles = [685]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_go6iv"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 26, 17, 23, 26, 26, 26]
+valid_tiles = [591]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_46umc"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 18, 26, 26, 26, 1]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xeekg"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 30, 23, 26, 26, 1, 1]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ksqfj"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 30, 26, 26, 26, 1, 1, 18]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vols2"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [30, 26, 26, 26, 23, 1, 18, 23]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0263d"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 18, 23, 23]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0rllj"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 31, 23, 23]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ybccm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kca6j"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 26, 26, 23, 23, 23]
+valid_tiles = [212]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_414wh"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ngtav"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [212, 287, 699]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ueb18"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 23, 23, 23, 23, 23]
+valid_tiles = [596, 55]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_axwmj"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 26, 33, 23, 23, 23]
+valid_tiles = [248]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wgkhc"]
+script = ExtResource("1_ui132")
+center_terrain = 33
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [33]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4wry1"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 33, 23, 23, 23, 26]
+valid_tiles = [248]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_eyydo"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 23, 23, 23]
+valid_tiles = [598]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vhn7a"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 30, 23, 23, 23]
+valid_tiles = [599]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5audv"]
+script = ExtResource("1_ui132")
+center_terrain = 30
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [755]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_amiih"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 30, 26, 23, 23, 26]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3nr3y"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 1, 17, 26, 26, 23, 26, 23]
+valid_tiles = [564]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8tp47"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 17, 18, 26, 26, 26, 23, 23]
+valid_tiles = [126]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_oecri"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [17, 18, 23, 26, 26, 23, 23, 23]
+valid_tiles = [127]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cckg2"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 23, 26, 26, 1, 23, 23, 23]
+valid_tiles = [30]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_enwa3"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 26, 26, 26, 1, 23, 23, 23]
+valid_tiles = [854]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5oft4"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 18, 23, 23, 23]
+valid_tiles = [99]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_sdgv4"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [26, 26, 23, 1, 23, 23, 23, 26]
+valid_tiles = [495]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_axs1a"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 18, 23, 23, 26, 1]
+valid_tiles = [568]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xapw2"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 31, 23, 1, 18, 23]
+valid_tiles = [57]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_vedb8"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 18, 23, 23]
+valid_tiles = [633, 89]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_oe8eu"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 26, 23, 23, 23, 23, 23]
+valid_tiles = [572, 89]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jor6g"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 33, 23, 23, 23, 23, 23]
+valid_tiles = [88]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ynadu"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 33, 23, 23, 23, 23, 23, 23]
+valid_tiles = [634]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2j1pt"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [33, 23, 23, 23, 26, 23, 23, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4g6xq"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 26, 23, 23, 23, 23]
+valid_tiles = [248]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ijvae"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 30, 23, 23, 23, 23, 26]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_i1koh"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 30, 26, 23, 23, 23, 26, 26]
+valid_tiles = [244]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_817is"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [30, 26, 26, 23, 26, 26, 26, 27]
+valid_tiles = [278]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tpt4d"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 27, 26]
+valid_tiles = [628]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5fmie"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 27, 26, 30]
+valid_tiles = [254]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_v4d0e"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 26, 30, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6e14a"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 1, 23, 23, 30, 26, 26]
+valid_tiles = [251]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jvii0"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 23, 26, 26, 23]
+valid_tiles = [252]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jpu0n"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 18, 23, 23, 26, 23, 23]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_npowo"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 18, 23, 23, 26, 23, 23, 23]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_pxoto"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 23, 23, 23, 1, 23, 23, 23]
+valid_tiles = [62]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_r2wdu"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [31, 23, 23, 1, 23, 23, 23, 23]
+valid_tiles = [559]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3eq6o"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 18, 23, 23, 23, 1]
+valid_tiles = [568]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wmw1u"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 1, 1]
+valid_tiles = [605]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_03vjg"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 1, 1]
+valid_tiles = [538, 604, 180]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ijm40"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 1, 26]
+valid_tiles = [606, 180]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yl7d3"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 26, 26, 23]
+valid_tiles = [538]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jxl5m"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 26, 23, 26]
+valid_tiles = [691]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_p4uel"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 27, 23, 26, 23]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_r03ae"]
+script = ExtResource("1_ui132")
+center_terrain = 27
+neighbor_terrains = [23, 26, 23, 26, 26, 26, 23, 23]
+valid_tiles = [562]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ivm4i"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 27, 30, 23, 23, 23]
+valid_tiles = [564]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_y6l7l"]
+script = ExtResource("1_ui132")
+center_terrain = 30
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 23, 23]
+valid_tiles = [755]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yxkk2"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 30, 26, 23, 23, 23]
+valid_tiles = [563]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6tuso"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [692, 55]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tlrls"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 18, 23, 23, 23, 23, 23, 23]
+valid_tiles = [251]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_71onm"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [18, 23, 23, 23, 1, 23, 23, 23]
+valid_tiles = [94]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4wb85"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 23, 1, 23, 23, 23]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4n02g"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 1, 23, 23, 23]
+valid_tiles = [70, 114]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ij10g"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 23, 23, 23]
+valid_tiles = [71]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_c6efu"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 23, 23, 23, 1]
+valid_tiles = [152]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_b5ube"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 1, 1]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cgadp"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 1, 1, 23]
+valid_tiles = [604]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_llutq"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 1, 23, 23]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_071g6"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [600]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5ncv0"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 27, 23, 23, 23, 23, 23]
+valid_tiles = [55]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ebv57"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 27, 26, 26, 23, 23, 23, 23]
+valid_tiles = [666]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_woy3r"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [27, 26, 30, 23, 23, 23, 23, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0glpm"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 30, 26, 23, 23, 23, 23, 23]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xd6ua"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [30, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_opbru"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 26]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_v5vct"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 26, 26]
+valid_tiles = [181]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_enye2"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 1, 23, 23, 26, 26, 26]
+valid_tiles = [180, 251]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_eq4ff"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 1, 1, 23, 23, 26, 26, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ectvn"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 26, 23, 23, 23, 23, 23]
+valid_tiles = [283]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_1hcum"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 26, 23, 23, 1, 23, 23, 23]
+valid_tiles = [284]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_qp26m"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 23, 1, 23, 23, 23]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0u24d"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 26, 1, 23, 23, 23, 26]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_d47jp"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 1, 23, 23, 26, 1]
+valid_tiles = [119]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rv60l"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 23, 26, 1, 1]
+valid_tiles = [697]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_v4t0i"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 1, 1, 18]
+valid_tiles = [604]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_te1w2"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 1, 18, 23]
+valid_tiles = [604]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nu6xj"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 23, 23]
+valid_tiles = [116]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j7t52"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 26, 26]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6xnr5"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 26]
+valid_tiles = [150]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_t6fol"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 1, 1, 23, 23, 26, 26, 26]
+valid_tiles = [281]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yagos"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 23, 23, 26, 26, 23, 23]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7yhkr"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 23, 23, 23, 1, 23, 23, 23]
+valid_tiles = [31]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_mgtfu"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 1, 23, 23, 23]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_03vfr"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 18, 23, 23, 23]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_20ac0"]
+script = ExtResource("1_ui132")
+center_terrain = 18
+neighbor_terrains = [23, 23, 23, 1, 23, 23, 23, 26]
+valid_tiles = [493]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rvvxo"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 18, 23, 23, 26, 1]
+valid_tiles = [213]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8six2"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 1, 1]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wvgbi"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 26, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6yaaa"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 26, 26]
+valid_tiles = [53]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_o4gwx"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [154, 21, 20]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yb85y"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 26, 26, 26, 26]
+valid_tiles = [122]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6stf3"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 1]
+valid_tiles = [123]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_nrhfm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 1, 1]
+valid_tiles = [122, 21]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_bthyi"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 1, 1]
+valid_tiles = [148, 21]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ssgup"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 1, 1, 1]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_o838b"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 23, 23, 1, 1, 26]
+valid_tiles = [283]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_r60tv"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 23, 1, 26, 26]
+valid_tiles = [313]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_85oyl"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 1, 18, 23, 23, 26, 26, 26]
+valid_tiles = [284]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_2j1s3"]
+script = ExtResource("1_ui132")
+center_terrain = 23
+neighbor_terrains = [1, 18, 23, 23, 26, 26, 26, 26]
+valid_tiles = [180]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5ciwe"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [18, 23, 23, 23, 1, 26, 26, 26]
+valid_tiles = [85]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_v2s3u"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 26, 1, 26, 26, 26]
+valid_tiles = [824]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_cgcys"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 1, 26, 26, 26]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_y8hna"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 26, 26, 26]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_khl27"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 26, 26, 1]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_blc1k"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 1, 26]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_03w0i"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 26, 26]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6o83g"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yl6f6"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [149]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_3j2px"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [854]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_wnvfc"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 26, 26, 26]
+valid_tiles = [66, 99]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_d1wbr"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 23, 1, 1, 26, 26, 26]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_uraje"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 1, 1, 26, 26, 1]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5l2ey"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 26, 1, 1]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kha5b"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 26, 1, 1, 40]
+valid_tiles = [186]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yd6td"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 1, 40, 1]
+valid_tiles = [148]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_a15nh"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 40, 1, 1]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ugnlm"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 26, 26, 1, 1, 1]
+valid_tiles = [21]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_iw6wy"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 1, 1, 26]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tiaw6"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 26, 26, 26]
+valid_tiles = [20]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_5l72f"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 1, 26, 26, 26]
+valid_tiles = [149]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_buwyq"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 26]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hl2gb"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 26, 26, 1]
+valid_tiles = [122]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_4d8k8"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 1, 1]
+valid_tiles = [123]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ocme3"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 1, 18]
+valid_tiles = [122]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jieqo"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 18, 0, 0]
+valid_tiles = [123]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0mokb"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 0, 0, 0]
+valid_tiles = [122, 123]
+frequency = 5
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_u2ohe"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 26, 0, 0, 0]
+valid_tiles = [122, 123]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hcmim"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 0, 0, 0]
+valid_tiles = [123, 122]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_qqtm7"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 0, 0, 0]
+valid_tiles = [122, 123]
+frequency = 4
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7gjjc"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 0, 0, 0]
+valid_tiles = [187]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_hicbs"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 26, 1, 0, 0, 0]
+valid_tiles = [853]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_tikgb"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [1, 26, 26, 1, 40, 0, 0, 0]
+valid_tiles = [67]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_qca12"]
+script = ExtResource("1_ui132")
+center_terrain = 40
+neighbor_terrains = [26, 26, 26, 1, 1, 0, 0, 0]
+valid_tiles = [225]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_gxp6v"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 40, 1, 0, 0, 0]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_xgi6r"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 0, 0, 0]
+valid_tiles = [38]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rngxt"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 0, 0, 0]
+valid_tiles = [103]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_gk6er"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 1, 26, 0, 0, 0]
+valid_tiles = [186]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_yarhc"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 0, 0, 0]
+valid_tiles = [122]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_6mu1d"]
+script = ExtResource("1_ui132")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 26, 1, 0, 0, 0]
+valid_tiles = [187]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_b7m5b"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 0, 0, 0]
+valid_tiles = [854]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_kbeqe"]
+script = ExtResource("1_ui132")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 18, 0, 0, 0]
+valid_tiles = [131]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_h78qp"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [26, 26, 26, 18, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_j5077"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [26, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 13
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_sj8ub"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [26, 26, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_c250x"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [26, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_jnyef"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [1, 1, 40, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_k6tji"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [1, 40, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_7qe1s"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [40, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_8a1fm"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_ufce6"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [1, 1, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_rp11u"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [1, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[sub_resource type="Resource" id="Resource_0tkee"]
+script = ExtResource("1_ui132")
+center_terrain = 0
+neighbor_terrains = [1, 1, 18, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter20ALiberationofIlia"]
+
+[resource]
+script = ExtResource("2_0l44r")
+tileset_id = "7300xx75"
+patterns = {
+"0_1_1_18_0_0_0_0_0": SubResource("Resource_0tkee"),
+"0_1_1_1_0_0_0_0_0": SubResource("Resource_8a1fm"),
+"0_1_1_26_0_0_0_0_0": SubResource("Resource_ufce6"),
+"0_1_1_40_0_0_0_0_0": SubResource("Resource_jnyef"),
+"0_1_26_26_0_0_0_0_0": SubResource("Resource_rp11u"),
+"0_1_40_1_0_0_0_0_0": SubResource("Resource_k6tji"),
+"0_26_1_1_0_0_0_0_0": SubResource("Resource_c250x"),
+"0_26_26_1_0_0_0_0_0": SubResource("Resource_sj8ub"),
+"0_26_26_26_0_0_0_0_0": SubResource("Resource_j5077"),
+"0_26_26_26_18_0_0_0_0": SubResource("Resource_h78qp"),
+"0_40_1_1_0_0_0_0_0": SubResource("Resource_7qe1s"),
+"17_18_26_26_1_18_23_23_23": SubResource("Resource_l2baf"),
+"17_26_26_26_1_18_26_26_26": SubResource("Resource_wx2a7"),
+"18_18_1_26_1_18_1_1_1": SubResource("Resource_t38t8"),
+"18_18_1_26_1_18_38_38_1": SubResource("Resource_y82o5"),
+"18_18_38_1_1_18_23_23_23": SubResource("Resource_vrlpt"),
+"18_18_38_38_1_18_23_23_23": SubResource("Resource_x6c4a"),
+"18_1_1_1_18_18_23_26_1": SubResource("Resource_7vql3"),
+"18_1_1_1_18_18_38_1_1": SubResource("Resource_wgu6v"),
+"18_1_1_1_18_1_1_1_18": SubResource("Resource_u70xn"),
+"18_1_1_1_18_1_38_8_1": SubResource("Resource_nkku7"),
+"18_1_1_1_1_18_47_38_1": SubResource("Resource_xed1d"),
+"18_1_1_1_1_18_47_38_8": SubResource("Resource_6y0hx"),
+"18_1_1_1_1_1_47_38_1": SubResource("Resource_mlsoy"),
+"18_1_1_26_18_38_26_1_18": SubResource("Resource_5mfuc"),
+"18_1_26_23_1_18_1_1_1": SubResource("Resource_1clsw"),
+"18_1_26_26_18_18_1_1_1": SubResource("Resource_tlq1h"),
+"18_1_26_26_18_18_38_1_1": SubResource("Resource_th3x8"),
+"18_1_7_1_1_1_47_47_38": SubResource("Resource_u66mn"),
+"18_23_23_23_1_23_23_23_26": SubResource("Resource_20ac0"),
+"18_23_23_33_18_23_26_1_38": SubResource("Resource_yau2e"),
+"18_23_33_33_1_18_23_26_1": SubResource("Resource_0dml5"),
+"18_26_23_23_18_1_1_1_1": SubResource("Resource_ntgv1"),
+"18_26_26_23_1_23_23_23_26": SubResource("Resource_sdgv4"),
+"18_26_26_26_17_18_23_23_26": SubResource("Resource_tipwr"),
+"18_26_26_26_17_23_26_26_26": SubResource("Resource_go6iv"),
+"18_26_26_26_18_18_1_1_1": SubResource("Resource_tckag"),
+"18_26_26_26_18_18_23_26_26": SubResource("Resource_1deba"),
+"18_26_26_26_18_18_26_26_1": SubResource("Resource_acw55"),
+"18_26_26_26_18_1_1_1_18": SubResource("Resource_nlwp7"),
+"18_26_26_26_18_23_26_1_38": SubResource("Resource_nagid"),
+"18_26_26_26_18_26_26_1_1": SubResource("Resource_552gi"),
+"18_26_26_26_18_26_26_26_26": SubResource("Resource_wchs3"),
+"18_26_26_26_18_38_26_1_18": SubResource("Resource_4owob"),
+"18_26_26_26_1_18_23_26_1": SubResource("Resource_g45m6"),
+"18_26_26_26_38_18_26_26_1": SubResource("Resource_5m4ny"),
+"18_26_26_26_38_18_26_26_26": SubResource("Resource_8ob2s"),
+"18_26_26_26_40_18_23_26_1": SubResource("Resource_wyhhp"),
+"18_31_23_23_1_23_23_23_23": SubResource("Resource_r2wdu"),
+"18_33_23_23_1_18_23_26_1": SubResource("Resource_urvvo"),
+"18_33_33_23_18_26_26_1_38": SubResource("Resource_a72em"),
+"18_38_1_1_18_18_23_23_26": SubResource("Resource_4jaaq"),
+"18_38_38_41_18_18_23_23_26": SubResource("Resource_tg7mf"),
+"18_38_41_1_18_18_23_26_1": SubResource("Resource_d43kw"),
+"18_41_1_26_18_26_26_1_17": SubResource("Resource_uu01p"),
+"1_18_18_18_1_1_1_1_1": SubResource("Resource_gxlqj"),
+"1_18_18_18_38_1_1_1_1": SubResource("Resource_mir2h"),
+"1_18_18_18_38_1_1_1_38": SubResource("Resource_jnhvk"),
+"1_18_18_1_1_18_1_1_1": SubResource("Resource_2skt8"),
+"1_18_18_1_1_18_1_38_38": SubResource("Resource_phw5w"),
+"1_18_18_1_1_1_1_1_1": SubResource("Resource_7ax42"),
+"1_18_18_1_38_1_1_38_47": SubResource("Resource_im8tm"),
+"1_18_18_23_26_38_23_23_23": SubResource("Resource_8tjew"),
+"1_18_18_26_26_17_23_23_23": SubResource("Resource_sutwp"),
+"1_18_18_26_26_1_23_23_26": SubResource("Resource_1h1xv"),
+"1_18_18_26_26_38_23_23_23": SubResource("Resource_vnb02"),
+"1_18_18_38_26_18_23_23_23": SubResource("Resource_h6k6d"),
+"1_18_1_1_1_18_38_47_38": SubResource("Resource_k3tvc"),
+"1_18_1_1_1_1_1_1_38": SubResource("Resource_6x3cm"),
+"1_18_1_1_38_1_1_1_38": SubResource("Resource_lwdpn"),
+"1_18_1_1_8_1_38_47_47": SubResource("Resource_uuadr"),
+"1_18_1_26_1_18_1_1_1": SubResource("Resource_w7c6l"),
+"1_18_26_26_1_38_23_26_26": SubResource("Resource_j38ak"),
+"1_1_18_18_1_1_1_1_1": SubResource("Resource_oyuux"),
+"1_1_1_18_1_1_1_1_1": SubResource("Resource_kjbvj"),
+"1_1_1_1_18_1_38_1_1": SubResource("Resource_nupv6"),
+"1_1_1_1_18_1_8_1_1": SubResource("Resource_cl103"),
+"1_1_1_1_18_26_1_18_18": SubResource("Resource_bnbre"),
+"1_1_1_1_1_18_47_47_38": SubResource("Resource_wvw3o"),
+"1_1_1_1_1_1_18_18_1": SubResource("Resource_ycybr"),
+"1_1_1_1_1_1_18_18_18": SubResource("Resource_ifqq5"),
+"1_1_1_1_1_1_18_1_1": SubResource("Resource_fk7hs"),
+"1_1_1_1_1_1_18_1_26": SubResource("Resource_w0hke"),
+"1_1_1_1_1_1_1_18_18": SubResource("Resource_18r1d"),
+"1_1_1_1_1_1_1_1_1": SubResource("Resource_slmi6"),
+"1_1_1_1_1_1_1_1_18": SubResource("Resource_bc3yv"),
+"1_1_1_1_1_1_1_26_26": SubResource("Resource_rg5ml"),
+"1_1_1_1_1_1_1_38_47": SubResource("Resource_twlxs"),
+"1_1_1_1_1_1_23_23_23": SubResource("Resource_1w4ij"),
+"1_1_1_1_1_1_23_23_26": SubResource("Resource_lqt63"),
+"1_1_1_1_1_1_23_26_1": SubResource("Resource_7yyfk"),
+"1_1_1_1_1_1_23_26_26": SubResource("Resource_ujr57"),
+"1_1_1_1_1_1_26_1_1": SubResource("Resource_40t6p"),
+"1_1_1_1_1_1_26_26_1": SubResource("Resource_uw8sf"),
+"1_1_1_1_1_1_26_26_26": SubResource("Resource_slip5"),
+"1_1_1_1_1_1_38_1_1": SubResource("Resource_77fmm"),
+"1_1_1_1_1_26_23_26_26": SubResource("Resource_5qamw"),
+"1_1_1_1_1_38_26_1_1": SubResource("Resource_hl30s"),
+"1_1_1_1_26_1_23_23_23": SubResource("Resource_cjbqn"),
+"1_1_1_1_26_1_23_23_26": SubResource("Resource_t8so4"),
+"1_1_1_1_26_1_26_23_23": SubResource("Resource_di7qr"),
+"1_1_1_1_26_1_26_26_26": SubResource("Resource_b2f1h"),
+"1_1_1_1_38_1_38_47_47": SubResource("Resource_wr3a4"),
+"1_1_1_1_7_1_18_1_1": SubResource("Resource_ffcno"),
+"1_1_1_26_1_26_1_38_38": SubResource("Resource_c8lqg"),
+"1_1_1_26_26_1_0_0_0": SubResource("Resource_hicbs"),
+"1_1_1_38_1_1_1_1_1": SubResource("Resource_t6uv3"),
+"1_1_1_38_1_1_23_23_26": SubResource("Resource_xmkct"),
+"1_1_1_38_1_1_26_1_1": SubResource("Resource_s3pdg"),
+"1_1_1_38_26_1_23_23_26": SubResource("Resource_toy4k"),
+"1_1_1_6_1_1_1_1_1": SubResource("Resource_e07ya"),
+"1_1_1_7_1_18_38_47_47": SubResource("Resource_bdac6"),
+"1_1_26_26_1_40_0_0_0": SubResource("Resource_tikgb"),
+"1_1_38_38_1_1_23_26_26": SubResource("Resource_mfuwb"),
+"1_1_38_38_1_26_23_26_26": SubResource("Resource_s3ck3"),
+"1_1_38_47_1_1_1_1_1": SubResource("Resource_5711v"),
+"1_1_38_47_1_1_1_1_26": SubResource("Resource_77nnh"),
+"1_1_6_1_1_7_1_1_18": SubResource("Resource_stjns"),
+"1_23_23_23_18_1_1_1_1": SubResource("Resource_yv657"),
+"1_23_23_23_1_18_23_23_23": SubResource("Resource_03vfr"),
+"1_23_23_23_1_1_23_23_23": SubResource("Resource_4n02g"),
+"1_23_23_23_1_1_26_26_26": SubResource("Resource_cgcys"),
+"1_23_23_23_1_26_1_1_26": SubResource("Resource_wtj74"),
+"1_23_23_23_1_26_23_23_23": SubResource("Resource_ij10g"),
+"1_23_23_23_1_26_26_1_1": SubResource("Resource_5l2ey"),
+"1_23_23_23_1_26_26_26_26": SubResource("Resource_y8hna"),
+"1_23_23_23_23_1_23_23_23": SubResource("Resource_4wb85"),
+"1_23_23_23_26_1_23_23_23": SubResource("Resource_mgtfu"),
+"1_23_23_23_26_1_26_26_26": SubResource("Resource_v2s3u"),
+"1_23_23_23_41_26_18_18_26": SubResource("Resource_cy7ma"),
+"1_23_23_26_1_23_23_23_26": SubResource("Resource_0u24d"),
+"1_23_23_33_38_18_23_23_26": SubResource("Resource_ewfbj"),
+"1_23_26_26_26_1_23_23_23": SubResource("Resource_enwa3"),
+"1_23_33_23_38_18_23_23_26": SubResource("Resource_qgde1"),
+"1_26_23_23_1_1_26_26_1": SubResource("Resource_uraje"),
+"1_26_23_23_1_26_18_18_38": SubResource("Resource_2i6dt"),
+"1_26_23_23_23_1_23_23_23": SubResource("Resource_qp26m"),
+"1_26_26_23_1_1_18_18_18": SubResource("Resource_uunia"),
+"1_26_26_23_1_1_26_26_26": SubResource("Resource_d1wbr"),
+"1_26_26_26_18_26_1_18_18": SubResource("Resource_ru28f"),
+"1_26_26_26_18_26_1_1_18": SubResource("Resource_23wwa"),
+"1_26_26_26_1_18_0_0_0": SubResource("Resource_kbeqe"),
+"1_26_26_26_1_18_23_23_23": SubResource("Resource_5oft4"),
+"1_26_26_26_1_1_0_0_0": SubResource("Resource_xgi6r"),
+"1_26_26_26_1_1_26_26_26": SubResource("Resource_wnvfc"),
+"1_26_26_26_1_26_0_0_0": SubResource("Resource_rngxt"),
+"1_26_26_26_1_26_26_26_26": SubResource("Resource_buwyq"),
+"1_26_26_26_26_17_26_26_26": SubResource("Resource_iuw5b"),
+"1_26_26_26_26_1_0_0_0": SubResource("Resource_b7m5b"),
+"1_26_26_26_26_1_26_26_26": SubResource("Resource_3j2px"),
+"1_26_26_26_38_18_23_23_26": SubResource("Resource_k7f8o"),
+"1_26_26_26_38_1_18_18_18": SubResource("Resource_5ys04"),
+"1_26_26_26_40_1_0_0_0": SubResource("Resource_gxp6v"),
+"1_38_1_1_1_1_26_1_1": SubResource("Resource_kvwpd"),
+"1_38_1_1_1_38_1_1_1": SubResource("Resource_6p6w1"),
+"1_38_38_1_1_1_26_26_1": SubResource("Resource_q1gjx"),
+"1_38_47_38_1_1_1_1_1": SubResource("Resource_0d6fo"),
+"1_38_47_47_1_1_1_1_1": SubResource("Resource_soq61"),
+"1_38_47_47_1_1_1_26_26": SubResource("Resource_8e4oq"),
+"1_47_38_1_1_1_1_1_1": SubResource("Resource_eq841"),
+"1_47_38_1_1_1_26_1_1": SubResource("Resource_m0fiy"),
+"1_47_38_1_1_38_1_1_1": SubResource("Resource_2shxc"),
+"1_47_38_8_1_38_1_1_1": SubResource("Resource_do4op"),
+"1_47_47_38_1_1_1_1_1": SubResource("Resource_wtwaj"),
+"1_47_47_38_1_1_26_26_1": SubResource("Resource_5c4il"),
+"1_47_47_38_1_38_1_1_1": SubResource("Resource_hgspc"),
+"1_7_1_1_18_1_47_38_1": SubResource("Resource_chyqu"),
+"23_17_18_18_23_26_26_26_26": SubResource("Resource_jjp8r"),
+"23_18_18_18_23_26_26_23_23": SubResource("Resource_a5tue"),
+"23_18_23_23_23_1_23_23_23": SubResource("Resource_71onm"),
+"23_1_17_18_23_23_23_26_26": SubResource("Resource_kn237"),
+"23_1_18_18_23_23_23_26_23": SubResource("Resource_t5pka"),
+"23_1_18_23_23_23_23_23_23": SubResource("Resource_tlrls"),
+"23_1_18_23_23_26_23_23_23": SubResource("Resource_npowo"),
+"23_1_18_23_23_26_26_26_26": SubResource("Resource_2j1s3"),
+"23_1_1_18_23_23_26_23_23": SubResource("Resource_jpu0n"),
+"23_1_1_18_23_23_26_26_26": SubResource("Resource_85oyl"),
+"23_1_1_1_23_23_26_23_23": SubResource("Resource_81ben"),
+"23_1_1_1_23_23_26_26_23": SubResource("Resource_xsodl"),
+"23_1_1_1_23_26_23_23_23": SubResource("Resource_6gbjs"),
+"23_1_1_1_23_26_26_23_23": SubResource("Resource_mi8kc"),
+"23_1_1_1_23_26_26_26_23": SubResource("Resource_b0d5x"),
+"23_1_1_23_23_26_26_23_23": SubResource("Resource_yagos"),
+"23_1_1_26_23_23_23_23_23": SubResource("Resource_ectvn"),
+"23_1_26_23_23_1_23_23_23": SubResource("Resource_1hcum"),
+"23_1_38_1_23_23_23_26_23": SubResource("Resource_eqywd"),
+"23_1_38_40_23_23_23_26_23": SubResource("Resource_vsalp"),
+"23_23_1_1_23_23_26_26_23": SubResource("Resource_eq4ff"),
+"23_23_1_1_23_23_26_26_26": SubResource("Resource_t6fol"),
+"23_23_23_1_23_23_26_26_26": SubResource("Resource_enye2"),
+"23_23_23_23_18_23_23_23_1": SubResource("Resource_3eq6o"),
+"23_23_23_23_18_23_23_26_1": SubResource("Resource_rvvxo"),
+"23_23_23_23_23_23_1_1_1": SubResource("Resource_03vjg"),
+"23_23_23_23_23_23_1_1_26": SubResource("Resource_ijm40"),
+"23_23_23_23_23_23_1_26_23": SubResource("Resource_051d0"),
+"23_23_23_23_23_23_1_26_26": SubResource("Resource_wvgbi"),
+"23_23_23_23_23_23_23_1_1": SubResource("Resource_wmw1u"),
+"23_23_23_23_23_23_23_23_23": SubResource("Resource_rth03"),
+"23_23_23_23_23_23_23_23_26": SubResource("Resource_ylwdw"),
+"23_23_23_23_23_23_23_23_30": SubResource("Resource_sh0k0"),
+"23_23_23_23_23_23_23_26_23": SubResource("Resource_wcx7o"),
+"23_23_23_23_23_23_23_26_26": SubResource("Resource_v5vct"),
+"23_23_23_23_23_23_23_30_23": SubResource("Resource_mmp2y"),
+"23_23_23_23_23_23_26_1_1": SubResource("Resource_8six2"),
+"23_23_23_23_23_23_26_23_23": SubResource("Resource_l0f5j"),
+"23_23_23_23_23_23_26_23_26": SubResource("Resource_v1vn3"),
+"23_23_23_23_23_23_26_26_23": SubResource("Resource_hqxt1"),
+"23_23_23_23_23_23_26_26_26": SubResource("Resource_37ed6"),
+"23_23_23_23_23_23_26_27_26": SubResource("Resource_844g0"),
+"23_23_23_23_23_23_38_41_1": SubResource("Resource_x8ydq"),
+"23_23_23_23_23_23_41_1_26": SubResource("Resource_x524v"),
+"23_23_23_23_23_26_1_1_23": SubResource("Resource_cgadp"),
+"23_23_23_23_23_26_23_23_23": SubResource("Resource_w1ma6"),
+"23_23_23_23_23_26_23_26_23": SubResource("Resource_1cw23"),
+"23_23_23_23_23_26_26_26_23": SubResource("Resource_11lmf"),
+"23_23_23_23_23_26_27_26_26": SubResource("Resource_osdyj"),
+"23_23_23_23_23_30_26_26_26": SubResource("Resource_snj8s"),
+"23_23_23_23_26_23_1_1_26": SubResource("Resource_ngykd"),
+"23_23_23_23_26_23_23_1_1": SubResource("Resource_b5ube"),
+"23_23_23_23_26_23_23_23_23": SubResource("Resource_ngtav"),
+"23_23_23_23_26_23_26_26_26": SubResource("Resource_4w722"),
+"23_23_23_23_26_23_38_38_41": SubResource("Resource_on2pa"),
+"23_23_23_23_26_26_26_26_26": SubResource("Resource_gsd8a"),
+"23_23_23_23_33_23_18_26_26": SubResource("Resource_lioxh"),
+"23_23_23_23_33_23_23_23_26": SubResource("Resource_4wry1"),
+"23_23_23_23_33_26_26_26_23": SubResource("Resource_ubgad"),
+"23_23_23_26_23_23_1_18_23": SubResource("Resource_te1w2"),
+"23_23_23_26_23_23_23_23_23": SubResource("Resource_auqan"),
+"23_23_23_26_23_23_23_26_26": SubResource("Resource_mgpeq"),
+"23_23_23_26_23_23_26_26_26": SubResource("Resource_2t3ef"),
+"23_23_23_26_23_26_23_23_23": SubResource("Resource_ur3gh"),
+"23_23_23_26_26_23_1_1_1": SubResource("Resource_ssgup"),
+"23_23_23_26_26_23_23_23_23": SubResource("Resource_oh2xv"),
+"23_23_23_26_26_23_23_33_23": SubResource("Resource_1nyn1"),
+"23_23_23_26_26_23_26_26_26": SubResource("Resource_xuam1"),
+"23_23_23_26_26_23_33_23_33": SubResource("Resource_d3d0d"),
+"23_23_23_26_31_23_1_18_23": SubResource("Resource_xapw2"),
+"23_23_26_1_23_23_1_1_26": SubResource("Resource_o838b"),
+"23_23_26_1_23_23_23_23_23": SubResource("Resource_7lg17"),
+"23_23_26_1_23_23_23_33_23": SubResource("Resource_e13ud"),
+"23_23_26_1_23_23_26_26_26": SubResource("Resource_2h3at"),
+"23_23_26_1_23_23_33_23_23": SubResource("Resource_086jd"),
+"23_23_26_23_23_23_18_23_23": SubResource("Resource_vedb8"),
+"23_23_26_23_23_23_23_23_23": SubResource("Resource_x3rxl"),
+"23_23_26_23_23_23_26_26_23": SubResource("Resource_yl7d3"),
+"23_23_26_23_23_23_26_26_26": SubResource("Resource_vvkq6"),
+"23_23_26_23_26_23_23_26_23": SubResource("Resource_q0k0e"),
+"23_23_26_23_26_33_23_23_23": SubResource("Resource_axwmj"),
+"23_23_26_26_1_23_23_26_1": SubResource("Resource_d47jp"),
+"23_23_26_26_23_23_23_23_23": SubResource("Resource_bl6fn"),
+"23_23_26_26_23_23_26_26_26": SubResource("Resource_e62n0"),
+"23_23_26_26_26_23_23_23_23": SubResource("Resource_4g6xq"),
+"23_23_26_26_26_23_26_26_26": SubResource("Resource_sufjt"),
+"23_23_26_26_26_23_26_45_26": SubResource("Resource_q6fa8"),
+"23_23_26_26_26_26_23_23_23": SubResource("Resource_071g6"),
+"23_23_33_23_18_23_1_38_1": SubResource("Resource_82pbg"),
+"23_23_33_23_23_23_23_23_23": SubResource("Resource_ynadu"),
+"23_26_1_17_23_23_23_23_26": SubResource("Resource_hrcxj"),
+"23_26_1_18_23_23_23_23_26": SubResource("Resource_aklfp"),
+"23_26_1_18_23_23_33_23_26": SubResource("Resource_skcle"),
+"23_26_1_1_23_23_1_26_23": SubResource("Resource_jqhs2"),
+"23_26_1_1_23_23_1_26_26": SubResource("Resource_r60tv"),
+"23_26_1_1_23_23_23_23_23": SubResource("Resource_t6trc"),
+"23_26_1_1_23_23_26_26_23": SubResource("Resource_jvii0"),
+"23_26_1_1_23_23_26_26_26": SubResource("Resource_6fxss"),
+"23_26_1_1_23_26_23_23_23": SubResource("Resource_30a0f"),
+"23_26_1_1_23_26_23_23_26": SubResource("Resource_3xgrd"),
+"23_26_1_1_23_26_26_26_26": SubResource("Resource_0soip"),
+"23_26_1_1_26_23_26_26_26": SubResource("Resource_d37ll"),
+"23_26_1_38_23_23_23_23_26": SubResource("Resource_a4vjo"),
+"23_26_23_23_18_23_23_26_1": SubResource("Resource_axs1a"),
+"23_26_23_23_23_23_1_1_18": SubResource("Resource_v4t0i"),
+"23_26_23_23_23_23_23_23_23": SubResource("Resource_x5n0y"),
+"23_26_23_23_23_23_23_23_26": SubResource("Resource_opbru"),
+"23_26_23_23_23_23_26_23_23": SubResource("Resource_5ajbh"),
+"23_26_23_23_23_23_26_26_27": SubResource("Resource_5dmip"),
+"23_26_23_23_23_23_33_23_23": SubResource("Resource_6fv4d"),
+"23_26_23_23_33_33_26_26_26": SubResource("Resource_p2pqy"),
+"23_26_23_26_23_23_23_23_23": SubResource("Resource_oe8eu"),
+"23_26_23_33_23_23_23_23_23": SubResource("Resource_jor6g"),
+"23_26_26_1_23_23_1_1_26": SubResource("Resource_kj27d"),
+"23_26_26_1_23_23_23_23_23": SubResource("Resource_dqo12"),
+"23_26_26_1_23_23_26_26_26": SubResource("Resource_j41x5"),
+"23_26_26_1_23_23_30_26_26": SubResource("Resource_6e14a"),
+"23_26_26_1_23_23_45_26_26": SubResource("Resource_jib33"),
+"23_26_26_1_26_23_23_23_23": SubResource("Resource_6nx6o"),
+"23_26_26_23_23_23_23_23_23": SubResource("Resource_6sqdq"),
+"23_26_26_23_23_23_26_1_1": SubResource("Resource_rv60l"),
+"23_26_26_23_26_23_33_33_23": SubResource("Resource_i20ar"),
+"23_26_26_23_26_26_23_23_23": SubResource("Resource_kca6j"),
+"23_26_26_26_18_26_26_26_1": SubResource("Resource_46umc"),
+"23_26_26_26_18_33_1_38_1": SubResource("Resource_bxhbd"),
+"23_26_26_26_23_23_18_1_1": SubResource("Resource_o320g"),
+"23_26_26_26_23_23_23_23_23": SubResource("Resource_kvs30"),
+"23_26_26_26_23_23_26_26_26": SubResource("Resource_t8npb"),
+"23_26_26_26_23_23_26_30_26": SubResource("Resource_v4d0e"),
+"23_26_26_26_23_26_31_23_23": SubResource("Resource_0rllj"),
+"23_26_26_26_26_23_18_18_1": SubResource("Resource_f2wpc"),
+"23_26_26_26_26_23_18_23_23": SubResource("Resource_0263d"),
+"23_26_26_26_26_23_23_23_23": SubResource("Resource_8tsp3"),
+"23_26_26_26_26_23_27_26_30": SubResource("Resource_5fmie"),
+"23_26_26_26_26_33_26_30_26": SubResource("Resource_k3hqy"),
+"23_26_26_26_33_23_1_18_18": SubResource("Resource_ra70a"),
+"23_26_26_26_33_23_26_26_26": SubResource("Resource_6iol6"),
+"23_26_26_27_23_23_26_26_26": SubResource("Resource_j4ilt"),
+"23_26_26_30_23_23_23_23_26": SubResource("Resource_ijvae"),
+"23_26_26_45_23_33_18_18_23": SubResource("Resource_t3l03"),
+"23_26_27_26_23_26_26_26_26": SubResource("Resource_0ibfd"),
+"23_26_27_26_26_23_23_23_23": SubResource("Resource_ebv57"),
+"23_26_30_26_23_23_23_23_23": SubResource("Resource_0glpm"),
+"23_26_30_26_23_23_23_26_26": SubResource("Resource_i1koh"),
+"23_27_26_30_23_23_23_23_23": SubResource("Resource_woy3r"),
+"23_30_26_26_23_23_23_23_23": SubResource("Resource_xd6ua"),
+"23_30_26_26_23_26_26_26_27": SubResource("Resource_817is"),
+"23_33_23_23_23_26_23_23_23": SubResource("Resource_2j1pt"),
+"23_33_23_26_23_33_38_1_18": SubResource("Resource_bin42"),
+"23_38_1_18_23_26_26_23_23": SubResource("Resource_6n1pt"),
+"23_38_40_18_23_26_26_23_23": SubResource("Resource_ulpeb"),
+"23_45_26_26_33_26_23_23_33": SubResource("Resource_o1ewf"),
+"26_17_18_23_26_26_23_23_23": SubResource("Resource_oecri"),
+"26_18_18_18_23_1_23_23_23": SubResource("Resource_2atem"),
+"26_18_18_18_23_26_26_26_30": SubResource("Resource_0qvll"),
+"26_18_18_18_26_1_26_23_23": SubResource("Resource_stl08"),
+"26_18_18_26_26_26_26_30_26": SubResource("Resource_6khkf"),
+"26_18_23_23_23_1_23_23_23": SubResource("Resource_pxoto"),
+"26_18_23_23_23_1_26_26_26": SubResource("Resource_5ciwe"),
+"26_18_23_26_26_1_23_23_23": SubResource("Resource_cckg2"),
+"26_18_26_26_26_1_30_26_26": SubResource("Resource_rexog"),
+"26_1_17_18_26_26_26_23_23": SubResource("Resource_8tp47"),
+"26_1_18_18_23_1_23_23_23": SubResource("Resource_n2ksm"),
+"26_1_1_1_1_26_18_18_18": SubResource("Resource_pmo55"),
+"26_1_1_1_1_26_26_26_26": SubResource("Resource_jciv4"),
+"26_1_1_1_23_1_23_23_23": SubResource("Resource_1ffof"),
+"26_1_1_1_23_26_23_23_23": SubResource("Resource_2t786"),
+"26_1_1_1_23_26_26_23_23": SubResource("Resource_3sttq"),
+"26_1_1_1_26_1_0_0_0": SubResource("Resource_7gjjc"),
+"26_1_1_1_26_1_23_23_23": SubResource("Resource_xdhs4"),
+"26_1_1_1_26_1_26_26_23": SubResource("Resource_4yujl"),
+"26_1_1_1_26_1_26_26_26": SubResource("Resource_hgsee"),
+"26_1_1_1_26_26_0_0_0": SubResource("Resource_qqtm7"),
+"26_1_1_1_26_26_18_18_1": SubResource("Resource_pdugk"),
+"26_1_1_1_26_26_18_18_18": SubResource("Resource_tud5u"),
+"26_1_1_1_26_26_18_1_26": SubResource("Resource_djtwh"),
+"26_1_1_1_26_26_1_26_26": SubResource("Resource_utcvv"),
+"26_1_1_1_26_26_23_23_23": SubResource("Resource_qvoxq"),
+"26_1_1_1_26_26_26_23_23": SubResource("Resource_50djv"),
+"26_1_1_26_23_26_23_23_23": SubResource("Resource_dicae"),
+"26_1_1_26_23_26_26_26_30": SubResource("Resource_ldnaa"),
+"26_1_1_26_26_26_0_0_0": SubResource("Resource_yarhc"),
+"26_1_1_26_26_26_26_26_26": SubResource("Resource_tiaw6"),
+"26_1_1_38_23_26_23_26_23": SubResource("Resource_5j0w8"),
+"26_1_23_23_23_1_23_23_23": SubResource("Resource_7yhkr"),
+"26_1_26_23_18_26_1_17_18": SubResource("Resource_tbikt"),
+"26_1_26_23_1_26_38_38_18": SubResource("Resource_mte35"),
+"26_1_26_26_26_1_0_0_0": SubResource("Resource_6mu1d"),
+"26_1_26_26_26_1_26_26_26": SubResource("Resource_5l72f"),
+"26_1_26_26_26_26_23_23_23": SubResource("Resource_i066q"),
+"26_1_26_26_26_26_26_30_26": SubResource("Resource_xuywd"),
+"26_1_38_18_26_26_26_23_23": SubResource("Resource_n121v"),
+"26_23_23_23_1_23_18_26_26": SubResource("Resource_ihqpg"),
+"26_23_23_23_1_23_18_38_38": SubResource("Resource_hb6ep"),
+"26_23_23_23_1_23_1_26_26": SubResource("Resource_gmrmk"),
+"26_23_23_23_1_23_23_23_1": SubResource("Resource_c6efu"),
+"26_23_23_23_1_26_1_1_40": SubResource("Resource_kha5b"),
+"26_23_23_23_1_26_26_26_1": SubResource("Resource_khl27"),
+"26_23_23_23_23_23_23_23_23": SubResource("Resource_5lmuj"),
+"26_23_23_23_23_23_26_23_23": SubResource("Resource_oea7y"),
+"26_23_23_23_23_23_26_23_33": SubResource("Resource_g720o"),
+"26_23_23_23_23_23_26_26_26": SubResource("Resource_cxckv"),
+"26_23_23_23_23_26_1_23_23": SubResource("Resource_llutq"),
+"26_23_23_23_23_26_23_23_23": SubResource("Resource_nu6xj"),
+"26_23_23_23_23_26_26_23_23": SubResource("Resource_x0bjs"),
+"26_23_23_23_23_26_26_23_26": SubResource("Resource_jxl5m"),
+"26_23_23_23_26_23_1_1_1": SubResource("Resource_h7e0t"),
+"26_23_23_23_26_23_23_23_23": SubResource("Resource_6tuso"),
+"26_23_23_23_26_23_26_23_23": SubResource("Resource_is24a"),
+"26_23_23_23_26_23_26_26_26": SubResource("Resource_6xnr5"),
+"26_23_23_23_26_26_17_18_23": SubResource("Resource_j21v3"),
+"26_23_23_23_26_26_18_18_18": SubResource("Resource_ps2mt"),
+"26_23_23_23_26_26_18_18_26": SubResource("Resource_sfqc5"),
+"26_23_23_23_26_26_18_26_26": SubResource("Resource_7fsq1"),
+"26_23_23_23_26_26_18_38_1": SubResource("Resource_nj5ju"),
+"26_23_23_23_26_26_1_17_18": SubResource("Resource_hs8n3"),
+"26_23_23_23_26_26_1_1_1": SubResource("Resource_bthyi"),
+"26_23_23_23_26_26_1_1_26": SubResource("Resource_blc1k"),
+"26_23_23_23_26_26_1_26_26": SubResource("Resource_03w0i"),
+"26_23_23_23_26_26_1_40_1": SubResource("Resource_yd6td"),
+"26_23_23_23_26_26_23_23_23": SubResource("Resource_fh1hs"),
+"26_23_23_23_26_26_23_26_23": SubResource("Resource_j6sub"),
+"26_23_23_23_26_26_23_26_26": SubResource("Resource_j7t52"),
+"26_23_23_23_26_26_26_1_1": SubResource("Resource_nrhfm"),
+"26_23_23_23_26_26_26_26_1": SubResource("Resource_6stf3"),
+"26_23_23_23_26_26_26_26_26": SubResource("Resource_6quy3"),
+"26_23_23_23_26_26_33_23_23": SubResource("Resource_3hhlq"),
+"26_23_23_23_26_26_38_1_1": SubResource("Resource_u3c1k"),
+"26_23_23_23_26_27_23_23_23": SubResource("Resource_4dwdl"),
+"26_23_23_23_30_26_23_23_23": SubResource("Resource_yxkk2"),
+"26_23_23_23_45_26_33_23_26": SubResource("Resource_vdenr"),
+"26_23_23_26_23_23_23_23_23": SubResource("Resource_ueb18"),
+"26_23_23_26_26_23_18_26_26": SubResource("Resource_p0xgf"),
+"26_23_23_26_26_23_26_26_45": SubResource("Resource_2wkbj"),
+"26_23_23_26_26_26_18_23_26": SubResource("Resource_msgov"),
+"26_23_23_26_26_26_23_23_23": SubResource("Resource_eyydo"),
+"26_23_23_26_26_26_26_26_26": SubResource("Resource_an1ko"),
+"26_23_23_26_26_26_40_1_1": SubResource("Resource_a15nh"),
+"26_23_23_26_26_27_23_26_23": SubResource("Resource_p4uel"),
+"26_23_23_26_27_26_23_26_23": SubResource("Resource_qvsa5"),
+"26_23_23_30_26_26_38_40_18": SubResource("Resource_03lpe"),
+"26_23_26_1_26_26_1_1_1": SubResource("Resource_ugnlm"),
+"26_23_26_23_26_26_1_18_18": SubResource("Resource_iauid"),
+"26_23_26_23_26_26_26_23_33": SubResource("Resource_8yjlj"),
+"26_23_26_23_26_30_23_26_26": SubResource("Resource_amo2q"),
+"26_23_26_26_23_23_23_23_23": SubResource("Resource_xnln7"),
+"26_23_26_26_26_26_26_26_26": SubResource("Resource_6o83g"),
+"26_23_26_26_26_30_23_23_23": SubResource("Resource_vhn7a"),
+"26_23_26_26_26_30_26_26_26": SubResource("Resource_rsd7a"),
+"26_23_30_23_26_26_40_18_18": SubResource("Resource_uxkdc"),
+"26_23_33_23_26_26_23_26_23": SubResource("Resource_j7u2k"),
+"26_23_33_23_30_26_26_26_23": SubResource("Resource_83oj7"),
+"26_26_1_17_26_26_23_26_23": SubResource("Resource_3nr3y"),
+"26_26_1_1_26_26_0_0_0": SubResource("Resource_hcmim"),
+"26_26_1_1_26_26_1_1_26": SubResource("Resource_iw6wy"),
+"26_26_1_1_26_26_1_26_23": SubResource("Resource_5pf2l"),
+"26_26_23_23_23_23_23_23_23": SubResource("Resource_414wh"),
+"26_26_23_23_26_26_17_18_18": SubResource("Resource_0dg83"),
+"26_26_23_23_26_26_18_18_38": SubResource("Resource_jq14g"),
+"26_26_23_23_26_26_23_33_23": SubResource("Resource_pm1ib"),
+"26_26_23_23_26_26_26_1_17": SubResource("Resource_ee1fv"),
+"26_26_23_23_26_26_26_26_26": SubResource("Resource_3fayl"),
+"26_26_23_23_26_26_38_18_18": SubResource("Resource_cx2ko"),
+"26_26_23_23_27_30_23_23_23": SubResource("Resource_ivm4i"),
+"26_26_23_26_26_26_38_1_18": SubResource("Resource_67gjm"),
+"26_26_26_1_26_23_30_26_26": SubResource("Resource_jq53r"),
+"26_26_26_1_26_26_0_0_0": SubResource("Resource_u2ohe"),
+"26_26_26_1_26_26_18_1_26": SubResource("Resource_4jse4"),
+"26_26_26_1_30_26_23_23_26": SubResource("Resource_amiih"),
+"26_26_26_23_18_26_26_26_1": SubResource("Resource_b35dq"),
+"26_26_26_23_26_26_26_26_26": SubResource("Resource_yb85y"),
+"26_26_26_23_26_45_23_23_33": SubResource("Resource_4vk2y"),
+"26_26_26_23_30_26_26_26_26": SubResource("Resource_yxvf0"),
+"26_26_26_26_18_26_1_1_38": SubResource("Resource_l5lvw"),
+"26_26_26_26_1_23_1_18_18": SubResource("Resource_41rrm"),
+"26_26_26_26_1_26_0_0_0": SubResource("Resource_gk6er"),
+"26_26_26_26_1_26_18_18_18": SubResource("Resource_6lttg"),
+"26_26_26_26_1_26_26_26_1": SubResource("Resource_hl2gb"),
+"26_26_26_26_23_23_23_23_23": SubResource("Resource_ybccm"),
+"26_26_26_26_23_23_23_33_33": SubResource("Resource_7aadc"),
+"26_26_26_26_23_23_26_27_26": SubResource("Resource_tpt4d"),
+"26_26_26_26_23_26_26_26_26": SubResource("Resource_6yaaa"),
+"26_26_26_26_26_1_26_26_26": SubResource("Resource_yl6f6"),
+"26_26_26_26_26_23_23_23_23": SubResource("Resource_u8iyu"),
+"26_26_26_26_26_26_0_0_0": SubResource("Resource_0mokb"),
+"26_26_26_26_26_26_18_0_0": SubResource("Resource_jieqo"),
+"26_26_26_26_26_26_1_1_18": SubResource("Resource_ocme3"),
+"26_26_26_26_26_26_1_38_18": SubResource("Resource_omwdk"),
+"26_26_26_26_26_26_26_1_1": SubResource("Resource_4d8k8"),
+"26_26_26_26_26_26_26_26_26": SubResource("Resource_o4gwx"),
+"26_26_26_26_26_26_33_23_23": SubResource("Resource_3jpao"),
+"26_26_26_26_26_26_38_18_18": SubResource("Resource_j0vl4"),
+"26_26_26_27_23_23_23_23_23": SubResource("Resource_5ncv0"),
+"26_26_26_30_23_26_26_1_1": SubResource("Resource_xeekg"),
+"26_26_26_30_26_26_18_18_23": SubResource("Resource_nix1d"),
+"26_26_30_26_26_26_18_23_33": SubResource("Resource_etjj5"),
+"26_26_30_26_26_26_1_1_18": SubResource("Resource_ksqfj"),
+"26_27_26_26_23_23_26_26_30": SubResource("Resource_ofqnu"),
+"26_30_26_26_26_23_1_18_23": SubResource("Resource_vols2"),
+"26_30_26_26_26_26_23_33_23": SubResource("Resource_wxwrw"),
+"26_33_23_23_18_26_1_38_40": SubResource("Resource_xn51t"),
+"26_33_23_23_26_26_26_23_23": SubResource("Resource_5xpo0"),
+"26_33_23_26_26_23_26_23_26": SubResource("Resource_2q8xg"),
+"26_33_23_33_26_26_23_23_26": SubResource("Resource_dbdar"),
+"26_38_18_18_26_1_23_23_23": SubResource("Resource_srn44"),
+"26_38_18_18_26_26_26_26_23": SubResource("Resource_bnclk"),
+"26_38_38_18_1_26_26_26_26": SubResource("Resource_lrid1"),
+"26_40_18_18_23_1_23_23_23": SubResource("Resource_phgkm"),
+"27_23_23_23_26_26_23_23_26": SubResource("Resource_4iys6"),
+"27_23_26_23_26_26_26_23_23": SubResource("Resource_r03ae"),
+"30_23_23_23_23_23_26_26_26": SubResource("Resource_k0ntt"),
+"30_23_23_23_26_26_23_23_23": SubResource("Resource_y6l7l"),
+"30_26_23_33_26_26_26_26_26": SubResource("Resource_mvb4w"),
+"30_26_26_26_26_26_23_23_23": SubResource("Resource_5audv"),
+"30_26_26_26_26_26_26_26_26": SubResource("Resource_nv0m5"),
+"33_23_23_23_23_23_26_26_26": SubResource("Resource_o7iph"),
+"33_23_26_23_23_33_1_18_18": SubResource("Resource_cawe1"),
+"33_26_23_23_23_23_23_23_23": SubResource("Resource_wgkhc"),
+"33_26_23_23_33_23_18_18_26": SubResource("Resource_acdsx"),
+"33_26_26_26_23_23_30_26_26": SubResource("Resource_lor0a"),
+"33_26_26_26_23_23_38_1_18": SubResource("Resource_obcqr"),
+"33_26_45_26_23_23_18_23_23": SubResource("Resource_tjtuc"),
+"38_18_18_18_47_1_1_1_38": SubResource("Resource_3e4tl"),
+"38_18_1_1_47_1_1_38_47": SubResource("Resource_puafl"),
+"38_18_23_23_1_1_23_23_23": SubResource("Resource_fu1cv"),
+"38_18_23_33_1_1_23_23_23": SubResource("Resource_1gye4"),
+"38_18_26_26_1_40_23_23_23": SubResource("Resource_j8suw"),
+"38_1_18_18_38_1_1_1_1": SubResource("Resource_7goty"),
+"38_1_18_18_47_1_1_1_1": SubResource("Resource_6386y"),
+"38_1_18_18_47_8_1_1_38": SubResource("Resource_ba5jg"),
+"38_1_18_1_47_1_1_1_1": SubResource("Resource_chm7g"),
+"38_1_1_18_1_38_1_1_1": SubResource("Resource_klruu"),
+"38_1_1_1_1_47_1_1_1": SubResource("Resource_53qcy"),
+"38_1_1_26_1_38_1_1_26": SubResource("Resource_dgr4c"),
+"38_1_26_23_18_38_1_18_18": SubResource("Resource_xkcy5"),
+"38_1_26_26_38_18_1_26_26": SubResource("Resource_jd6bj"),
+"38_26_23_23_38_41_18_18_18": SubResource("Resource_5ff8c"),
+"38_26_26_26_18_1_1_18_18": SubResource("Resource_poydd"),
+"38_26_26_26_1_18_26_26_26": SubResource("Resource_56q76"),
+"38_38_1_1_1_47_1_1_1": SubResource("Resource_t8qc5"),
+"38_38_8_1_1_47_1_1_1": SubResource("Resource_jbmyy"),
+"38_47_38_1_1_47_1_1_1": SubResource("Resource_ed821"),
+"40_26_26_26_1_1_0_0_0": SubResource("Resource_qca12"),
+"40_26_26_26_38_18_23_23_26": SubResource("Resource_1syv7"),
+"41_23_23_23_38_1_18_18_18": SubResource("Resource_i2ume"),
+"45_26_23_23_26_26_23_33_23": SubResource("Resource_jsh8w"),
+"47_1_18_1_47_38_1_1_38": SubResource("Resource_7vo1f"),
+"47_1_1_18_38_38_1_1_1": SubResource("Resource_7wfwq"),
+"47_1_1_18_38_47_1_1_1": SubResource("Resource_4a0bx"),
+"47_1_1_18_47_38_1_1_1": SubResource("Resource_il5a4"),
+"47_38_1_1_38_47_1_1_1": SubResource("Resource_67ltr"),
+"47_8_1_1_38_47_1_1_1": SubResource("Resource_nx7qy"),
+"7_6_1_1_1_1_1_18_1": SubResource("Resource_u1157"),
+"8_18_18_1_38_1_1_38_47": SubResource("Resource_kw0ly")
+}
+terrain_tiles = {}
+tile_relationships = {}
+extraction_stats = {
+"extraction_timestamp": "2025-05-27T18:24:18",
+"patterns_extracted": 0,
+"terrains_covered": 0,
+"total_tile_variants": 0
+}

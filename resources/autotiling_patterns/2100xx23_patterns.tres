@@ -1,0 +1,3375 @@
+[gd_resource type="Resource" script_class="AutotilingDatabase" load_steps=376 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TilePattern.gd" id="1_l3csp"]
+[ext_resource type="Script" path="res://scripts/resources/AutotilingDatabase.gd" id="2_fo1g0"]
+
+[sub_resource type="Resource" id="Resource_umwpy"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 12, 1, 1, 1, 1, 34, 26]
+valid_tiles = [172]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4unmc"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [12, 1, 12, 1, 1, 34, 26, 26]
+valid_tiles = [793]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_3cfm0"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 12, 1, 1, 1, 26, 26, 26]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_fkqa3"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [794]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_hn8h2"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 26]
+valid_tiles = [140, 134, 135, 793, 794]
+frequency = 6
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pbpjk"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 26, 26, 34]
+valid_tiles = [72]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_7fgwu"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 45, 1, 23, 26, 34, 23]
+valid_tiles = [458]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_66hlq"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 45, 45, 26, 23, 34, 23, 23]
+valid_tiles = [528]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_llkpw"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [45, 45, 26, 23, 23, 23, 23, 23]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_as0dc"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [45, 26, 26, 23, 31, 23, 23, 23]
+valid_tiles = [657]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_7k2od"]
+script = ExtResource("1_l3csp")
+center_terrain = 31
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [623]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_twi2r"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 45, 31, 23, 23, 23, 23]
+valid_tiles = [528]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_edek2"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 45, 45, 23, 23, 23, 23, 23]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_r1sf8"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [45, 45, 26, 23, 26, 23, 23, 34]
+valid_tiles = [657]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ldpuo"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [45, 26, 1, 23, 1, 23, 34, 26]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_t2w3u"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 34, 26, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kmftp"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 12, 1, 1, 26, 26, 26]
+valid_tiles = [793]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ljy2t"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 12, 1, 1, 1, 26, 26, 34]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_v6wou"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [12, 1, 1, 1, 1, 26, 34, 1]
+valid_tiles = [794]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_5iao6"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 34, 1, 1]
+valid_tiles = [66]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ac4mf"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [1, 1, 1, 1, 26, 12, 34, 34]
+valid_tiles = [612]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_8028k"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 34, 26, 34, 34, 34]
+valid_tiles = [576]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_rpvvm"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 34, 34, 34]
+valid_tiles = [544, 545, 546]
+frequency = 7
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_3shww"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 34, 34, 34, 26]
+valid_tiles = [546]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2glfk"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [1, 26, 23, 26, 23, 34, 26, 23]
+valid_tiles = [614]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_a68lv"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 34, 23, 26, 23, 23]
+valid_tiles = [560]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_t5tlh"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [690, 691, 596, 625, 628, 688, 689]
+frequency = 13
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_nuohr"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 31, 23, 23, 23, 23, 23]
+valid_tiles = [659]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0j0b5"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 31, 23, 23, 23, 23, 23, 23]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_s6dhb"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [31, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [658]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_jmboc"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 34, 23, 23, 26]
+valid_tiles = [689]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4e88m"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 26, 1, 23, 26, 23, 26, 34]
+valid_tiles = [612]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tt4ov"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 34, 26, 26, 34, 34]
+valid_tiles = [576]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_b7520"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 34, 34, 34, 34]
+valid_tiles = [546]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gam6b"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [1, 1, 1, 26, 1, 34, 34, 1]
+valid_tiles = [614]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_bqqhw"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 34, 1, 34, 1, 12]
+valid_tiles = [1]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_c2gav"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [1, 34, 26, 12, 34, 12, 34, 34]
+valid_tiles = [736]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_j4bg3"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 26, 26, 34, 34, 34, 34, 34]
+valid_tiles = [608]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kr6wh"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 26, 26, 34, 34, 34, 34, 34]
+valid_tiles = [609, 641]
+frequency = 14
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_r5pfc"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 26, 34, 34, 26, 34, 34, 30]
+valid_tiles = [610]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_o62rb"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 34, 23, 34, 23, 34, 30, 23]
+valid_tiles = [616]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ppd1g"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [34, 23, 23, 26, 23, 30, 23, 23]
+valid_tiles = [720, 752]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_vkjgc"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 34, 23, 26, 23, 23, 30]
+valid_tiles = [753, 721]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_wk6g7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 34, 26, 23, 34, 23, 30, 34]
+valid_tiles = [713]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_htf80"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 26, 26, 26, 34, 30, 34, 34]
+valid_tiles = [608]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_cba48"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 26, 34, 34, 34, 34, 34, 34]
+valid_tiles = [610, 609]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gnn0b"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 1, 34, 1, 34, 34, 1]
+valid_tiles = [705]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_jh4p8"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 1, 1, 34, 12, 34, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_3wvk2"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [12, 34, 34, 12, 34, 1, 34, 34]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_xc3o6"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 34, 34, 34]
+valid_tiles = [675, 706, 707, 679, 641, 611, 677, 610, 640, 642]
+frequency = 47
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_qpl2t"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 26, 34, 30, 34, 34, 34]
+valid_tiles = [679]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_v7ca0"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [34, 26, 23, 34, 23, 34, 34, 23]
+valid_tiles = [648]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_mvhta"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 30, 23, 34, 23, 23]
+valid_tiles = [720, 496]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_n1egm"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 30, 23, 23, 34]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2g4i7"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [23, 26, 34, 23, 34, 23, 34, 34]
+valid_tiles = [745]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_sq3w2"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 34, 30, 34, 34, 34, 34]
+valid_tiles = [675]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_36cvu"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 1, 34, 1, 34, 34, 1]
+valid_tiles = [737]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_8mxsu"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 1, 12, 34, 1, 34, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_dgjuh"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [12, 34, 34, 1, 34, 26, 26, 26]
+valid_tiles = [768]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_xg1lr"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 26, 26, 26]
+valid_tiles = [672, 673, 674]
+frequency = 13
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_6kgtp"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 26, 26, 34]
+valid_tiles = [673, 674]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_w78mb"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 26, 34, 30]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_qbphi"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 34, 30, 26]
+valid_tiles = [673]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ifr1i"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 30, 34, 34, 30, 26, 26]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_mjjgb"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 30, 23, 34, 23, 26, 26, 26]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ddghs"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [30, 23, 23, 34, 23, 26, 26, 26]
+valid_tiles = [752]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_uciga"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 26]
+valid_tiles = [721, 627]
+frequency = 6
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_yhfl4"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 26, 23]
+valid_tiles = [596, 627]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1t4h2"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 23, 23]
+valid_tiles = [625, 627, 437, 628, 825]
+frequency = 6
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_sfolp"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 26]
+valid_tiles = [628, 532, 627]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_s818l"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 26, 26]
+valid_tiles = [721, 627]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_x5ult"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 30, 23, 34, 26, 26, 26]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_34ldf"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 30, 34, 23, 34, 26, 26, 26]
+valid_tiles = [801]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_p28w3"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [30, 34, 34, 34, 34, 26, 26, 26]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_a5nc4"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 26, 26, 30]
+valid_tiles = [673]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_hvh54"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 26, 30, 34]
+valid_tiles = [674]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_yjff2"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 30, 34, 26]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_6dcro"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 34, 26, 26]
+valid_tiles = [673, 674]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_5286e"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 1, 34, 1, 26, 26, 26]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_e0a47"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 1, 1, 34, 1, 26, 26, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_5mk8c"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 34, 34, 26, 26, 34, 34, 34]
+valid_tiles = [546]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_j8kx6"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 26, 26, 34, 34, 34]
+valid_tiles = [545, 546]
+frequency = 5
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ropdx"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 26, 34, 34, 34, 34]
+valid_tiles = [578, 544]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gcpo7"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 26, 30, 34, 34, 23]
+valid_tiles = [614]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_j2qds"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [34, 34, 34, 34, 26, 34, 23, 23]
+valid_tiles = [416]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_y8ebm"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 30, 26, 23, 23, 23]
+valid_tiles = [428]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2ane5"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 23, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_sos0w"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 23, 23, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_b0a3w"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_m6rx7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [429]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_j67f1"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [531]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_l4wt5"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 23, 23]
+valid_tiles = [628]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_vmqiq"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 23, 23]
+valid_tiles = [428]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_am6of"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 34, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_8igd1"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 34, 34, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_imo0l"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_jmlu5"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 26, 30, 23, 23, 23]
+valid_tiles = [429]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_5gw1r"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [34, 34, 34, 26, 34, 23, 23, 34]
+valid_tiles = [416]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_c42ad"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 30, 26, 23, 34, 34]
+valid_tiles = [612]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kd8re"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 34, 26, 34, 34, 34]
+valid_tiles = [576]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_da2f5"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 1, 26, 26, 34, 34, 34]
+valid_tiles = [544]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_msuso"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 1, 1, 26, 26, 34, 34, 34]
+valid_tiles = [545]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ty2f5"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 26, 34, 34, 34, 34, 34, 26]
+valid_tiles = [642, 610]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_3dr4j"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 30, 34, 23, 34, 26, 23]
+valid_tiles = [705]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ggxc5"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [34, 30, 26, 34, 23, 26, 23, 23]
+valid_tiles = [496]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_wsxlc"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [30, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [435]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_37lxr"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [595, 657, 656]
+frequency = 9
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2ex3e"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 23, 23, 23, 23, 23, 23]
+valid_tiles = [595]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gojqi"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [658, 469, 928]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_i4bpj"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 23, 23, 23]
+valid_tiles = [659, 500, 899]
+frequency = 4
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_muiqt"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 23]
+valid_tiles = [595]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_sbxxx"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 30, 23, 23, 23, 23, 23]
+valid_tiles = [436]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_i064t"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 30, 34, 23, 34, 23, 23, 34]
+valid_tiles = [594]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_dn05b"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [30, 34, 26, 23, 34, 23, 34, 34]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_apind"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 26, 34, 34, 30]
+valid_tiles = [642]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_w5fpa"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 23, 34, 23, 34, 30, 23]
+valid_tiles = [616]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_noq3y"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 34, 23, 34, 23, 23, 30]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_x3ub7"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 34, 34, 23, 34, 23, 30, 34]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1hbbm"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 30, 34, 34]
+valid_tiles = [640]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_c2tau"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 23, 26]
+valid_tiles = [501]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4uajf"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 23, 26, 26]
+valid_tiles = [463, 484]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_ivye7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [426, 430, 554]
+frequency = 6
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_lvpit"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 45]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_sehcf"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 45, 45]
+valid_tiles = [784]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_rrn40"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 45, 45, 26]
+valid_tiles = [785]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gmlfb"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 26, 45, 26, 26]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ycrxc"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 23]
+valid_tiles = [521]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_vdggh"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 23, 23]
+valid_tiles = [434]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_s4vpj"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 34, 23, 30, 23, 23, 34]
+valid_tiles = [594]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_t078k"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [23, 34, 34, 23, 34, 23, 34, 34]
+valid_tiles = [745]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_em86a"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 30, 34, 34, 34, 34]
+valid_tiles = [675]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_xwgw3"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 30, 34, 34, 26, 26, 34]
+valid_tiles = [673]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_mrkqo"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 30, 23, 34, 23, 26, 34, 23]
+valid_tiles = [800]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_biw2u"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [30, 23, 23, 34, 23, 34, 23, 23]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tkwpj"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 26, 23, 23, 26]
+valid_tiles = [626]
+frequency = 5
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0h4gc"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 23, 26, 23, 26, 1]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2m3b7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 1, 1]
+valid_tiles = [518]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4pxbj"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 1, 1]
+valid_tiles = [517, 518]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2vm83"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 45, 1, 1, 1]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_hapwv"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [26, 23, 23, 26, 45, 1, 1, 1]
+valid_tiles = [452]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kwdsk"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [23, 23, 26, 45, 26, 1, 1, 1]
+valid_tiles = [453]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_n3eaf"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 45, 26, 1, 1, 1]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_7m4d6"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 1, 1, 26]
+valid_tiles = [517]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ygwda"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 23, 1, 26, 23]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_rgbve"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 26, 23, 26, 23, 23]
+valid_tiles = [495]
+frequency = 5
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ppe2v"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 30, 23, 34, 23, 23, 34]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_dr5no"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 30, 34, 23, 34, 23, 34, 26]
+valid_tiles = [801]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_313y3"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [30, 34, 34, 34, 34, 34, 26, 26]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ivv40"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 23, 26, 23, 34, 34, 23]
+valid_tiles = [614]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_hjonu"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [34, 23, 23, 34, 23, 34, 23, 23]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_41tch"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 23, 1, 23, 26, 1]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_k8ywt"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 26, 1, 26, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_bj7mo"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [761, 762]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_e0pcd"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 26, 45, 1, 1, 1, 1, 1]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_leckb"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 45, 45, 1, 1, 1, 1, 1]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_wbgf8"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [45, 45, 26, 1, 1, 1, 1, 1]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_qmp8s"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [45, 26, 26, 1, 1, 1, 1, 1]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pl8cl"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 26, 26, 1, 26, 1, 1, 26]
+valid_tiles = [72]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_p2o41"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 1, 23, 1, 26, 23]
+valid_tiles = [491]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_cet55"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 34, 23, 34, 23, 23, 34]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_u7a1d"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 34, 34, 23, 26, 23, 34, 34]
+valid_tiles = [612]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_r6w2p"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 23, 34, 23, 34, 26, 23]
+valid_tiles = [705]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tku6k"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [34, 23, 23, 34, 23, 26, 23, 23]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_x5c8c"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 23, 1, 23, 26, 1]
+valid_tiles = [459]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_064l2"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 26, 1, 1]
+valid_tiles = [2, 662]
+frequency = 5
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ew1ci"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [727, 131, 793, 794, 731, 724, 665, 99, 729, 697, 761]
+frequency = 25
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_fxk7j"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 1, 1, 26]
+valid_tiles = [102, 730]
+frequency = 5
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_k0mf0"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 1, 23, 1, 26, 23]
+valid_tiles = [458]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_i47tn"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 34, 23, 34, 23, 23, 26]
+valid_tiles = [753]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gnmlr"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 34, 26, 23, 34, 23, 26, 34]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_lfvb1"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 26, 26, 34, 34, 26, 34, 34]
+valid_tiles = [608]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_x4vep"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 23, 1, 23, 26, 26]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_cpijx"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 26, 26, 26]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_r4hmm"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 26, 1]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0agtm"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 26, 1, 1]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gv4o1"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 1, 26]
+valid_tiles = [731]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_l3036"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 1, 26, 26]
+valid_tiles = [696]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_b6dns"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 26, 26, 26]
+valid_tiles = [72]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_wcsd5"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 1, 23, 26, 26, 23]
+valid_tiles = [491]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_r27ct"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 34, 34, 23, 34, 23, 30, 34]
+valid_tiles = [713]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_u6o8x"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 26, 34, 30, 34, 34]
+valid_tiles = [640]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_fm5lg"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 26, 34, 30, 34, 34, 26]
+valid_tiles = [642]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_vmd6u"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [34, 26, 23, 34, 23, 34, 26, 23]
+valid_tiles = [648]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_suekm"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 30, 23, 26, 23, 23]
+valid_tiles = [496]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_rsh5q"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 26, 23, 23, 23]
+valid_tiles = [501, 825]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_03ixb"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 23, 26, 23, 23, 23]
+valid_tiles = [552]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_te23c"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 1, 1, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_k62f0"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 23, 23, 26]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_fv3ha"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 1, 23, 26, 1]
+valid_tiles = [521]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4idsq"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 26, 1, 26, 1, 1]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_82e0y"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 1, 26]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_6rsi1"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 1, 26, 1, 26, 23]
+valid_tiles = [463]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_jh8ju"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 1, 26, 26, 26, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_td0qx"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 26, 26, 23, 23, 23]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kpvyf"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 26, 23, 23, 23, 23]
+valid_tiles = [553]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ii6gn"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 26, 23, 23, 23, 23]
+valid_tiles = [466]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0uxfc"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 30, 23, 23, 26]
+valid_tiles = [594]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pu8wd"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [23, 26, 34, 23, 34, 23, 26, 34]
+valid_tiles = [745]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_bnhc0"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 34, 30, 34, 26, 34, 34]
+valid_tiles = [640]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_hs1oh"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 30, 34, 26, 34, 34, 34]
+valid_tiles = [679]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_i788n"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 30, 23, 34, 23, 34, 34, 23]
+valid_tiles = [680]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_iw11g"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [30, 23, 23, 26, 23, 34, 23, 23]
+valid_tiles = [752]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ch5wb"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 23, 23, 26]
+valid_tiles = [722]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ueo2h"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 23, 1, 23, 26, 1]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ndbcf"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 1, 23, 1, 26, 23]
+valid_tiles = [458]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_lyxii"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 26, 23, 23]
+valid_tiles = [723]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kemr5"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 30, 23, 26, 23, 23, 34]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_cj0ru"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 30, 34, 23, 34, 23, 34, 34]
+valid_tiles = [777]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pbuvs"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [30, 34, 34, 26, 34, 34, 34, 34]
+valid_tiles = [675]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pswua"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 26, 34, 26]
+valid_tiles = [674]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_krath"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 26, 34, 34, 34, 26, 26]
+valid_tiles = [673]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_p7qdr"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 26, 23, 34, 23, 26, 26, 34]
+valid_tiles = [769]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_t3bxk"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 34, 23, 26, 34, 30]
+valid_tiles = [496]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_k3ew6"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 34, 30, 34]
+valid_tiles = [467]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tf30s"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 30, 34, 26]
+valid_tiles = [627]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_notej"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 34, 26, 23]
+valid_tiles = [689]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_vp02t"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 26, 26, 23, 26]
+valid_tiles = [721]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tx2po"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 26, 23, 26, 23, 26]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_j4jni"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 26, 34]
+valid_tiles = [688]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1mx7a"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 26, 34, 34]
+valid_tiles = [627]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ggv4f"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 34, 34, 30]
+valid_tiles = [468]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tnupd"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 34, 34, 30, 34]
+valid_tiles = [594]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_6ksr1"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 26, 34, 23, 34, 30, 34, 34]
+valid_tiles = [768]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_8hoef"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 34, 34, 34, 34, 34, 34]
+valid_tiles = [672]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_a575n"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 34, 34, 34, 26]
+valid_tiles = [673]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ues6u"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 26, 34, 26, 26, 34]
+valid_tiles = [460]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_71ejl"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 26, 26, 26, 34, 34]
+valid_tiles = [676]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_j6ri2"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 23, 26, 34, 34, 34, 34]
+valid_tiles = [545]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_12fjb"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 23, 23, 26, 30, 34, 34, 34]
+valid_tiles = [834]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1wqmc"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [23, 23, 23, 34, 34, 34, 34, 34]
+valid_tiles = [835]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_l6dmh"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 23, 23, 30, 26, 34, 34, 26]
+valid_tiles = [836]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_w1kxd"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 34, 23, 34, 26, 45]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_nm4r2"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 26, 26, 45, 26]
+valid_tiles = [720]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_fng5c"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 23, 1, 45, 26, 1]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_l0jp3"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 1, 23, 1, 26, 45]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_rnl0c"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 26, 26, 26, 45, 26]
+valid_tiles = [752]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_bskp5"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 34, 45, 26, 34]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0v35r"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 23, 23, 26, 34, 26, 34, 34]
+valid_tiles = [676]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_cbk13"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 23, 23, 34, 30, 34, 34, 34]
+valid_tiles = [802]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_axppt"]
+script = ExtResource("1_l3csp")
+center_terrain = 30
+neighbor_terrains = [23, 23, 34, 34, 34, 34, 34, 34]
+valid_tiles = [803]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_g32wl"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [23, 34, 34, 30, 34, 34, 34, 34]
+valid_tiles = [804]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_thi2b"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 34, 34, 26, 34, 34, 26]
+valid_tiles = [678]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ws7bs"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 34, 26, 34, 26, 26]
+valid_tiles = [462]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_tm28y"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 34, 26, 34, 1, 1, 34]
+valid_tiles = [517]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_m5oyt"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 26, 26, 34, 1, 34, 34]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gx1jj"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 30, 34, 34, 34, 34, 34]
+valid_tiles = [609]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4chjt"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 30, 34, 34, 34, 34, 34, 34]
+valid_tiles = [610, 609]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_4evsl"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [30, 34, 26, 34, 26, 34, 34, 1]
+valid_tiles = [705]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_jjxxe"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 26, 23, 34, 45, 34, 1, 1]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_nyq6i"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [26, 23, 26, 26, 26, 1, 1, 1]
+valid_tiles = [420]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_8kg16"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 1, 45, 1, 1, 1, 1]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_rhl6p"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 1, 1, 1]
+valid_tiles = [694]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_gqyoe"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 1, 1, 1]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_246al"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 23, 1, 45, 1, 1, 1]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_2dkdc"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 34, 45, 34, 1, 1, 34]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0fs8e"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 34, 26, 34, 1, 34, 34]
+valid_tiles = [704]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_6oe6x"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 30, 34, 34, 34, 34, 34]
+valid_tiles = [608]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_i523n"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [30, 34, 34, 34, 34, 34, 34, 34]
+valid_tiles = [609]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ukjbk"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 26, 34, 26, 34, 34, 1]
+valid_tiles = [705]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_60e33"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 26, 26, 34, 26, 34, 1, 1]
+valid_tiles = [518]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_mfjtr"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 26, 34, 1, 34, 1, 1, 34]
+valid_tiles = [166]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ki45b"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [26, 34, 34, 1, 34, 1, 34, 34]
+valid_tiles = [736, 704]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_jvrml"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 26, 34, 1, 34, 34, 1]
+valid_tiles = [737, 705]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_qtea3"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 26, 45, 34, 1, 34, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_18j2m"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 45, 26, 1, 1, 1, 1, 1]
+valid_tiles = [727]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_6j5s4"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [45, 26, 1, 1, 1, 1, 1, 1]
+valid_tiles = [110]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_0npe0"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 1, 1, 1, 1, 1]
+valid_tiles = [729]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_anboj"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 1, 1, 1, 1]
+valid_tiles = [730]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_xql7t"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 26, 45, 1, 1, 1, 1, 1]
+valid_tiles = [110]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_yd4dw"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [45, 26, 34, 1, 34, 1, 1, 34]
+valid_tiles = [102]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_v2s7x"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 26, 26, 34, 1, 34, 1, 1]
+valid_tiles = [2]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_hxspy"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 34, 1, 34, 1, 1, 34]
+valid_tiles = [70, 762]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_i44fq"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [1, 34, 34, 1, 34, 1, 34, 34]
+valid_tiles = [736]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_480c0"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 1, 1, 34, 1, 34, 1, 1]
+valid_tiles = [2]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_55ak0"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 34, 1, 34, 1, 1, 26]
+valid_tiles = [102, 794]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_wxnne"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [1, 34, 34, 1, 34, 1, 26, 26]
+valid_tiles = [768]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_kbfkv"]
+script = ExtResource("1_l3csp")
+center_terrain = 34
+neighbor_terrains = [34, 34, 1, 34, 1, 26, 26, 1]
+valid_tiles = [769]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ovqj4"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 1, 1, 34, 1, 26, 1, 1]
+valid_tiles = [2]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_wlf4h"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 34, 1, 26, 1, 1, 26]
+valid_tiles = [70, 76]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1yvt7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 34, 34, 1, 26, 1, 26, 26]
+valid_tiles = [484]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_oxw0t"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 34, 26, 26, 26, 26, 26]
+valid_tiles = [430, 427, 426]
+frequency = 9
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ssdhr"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [34, 34, 1, 26, 1, 26, 26, 1]
+valid_tiles = [484]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_vp547"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [34, 1, 1, 26, 1, 26, 1, 1]
+valid_tiles = [2]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_c0b17"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 1, 0, 0]
+valid_tiles = [6]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_7ga2a"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 26, 26, 1, 26, 0, 0, 0]
+valid_tiles = [516]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pg0ow"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 0, 0, 0]
+valid_tiles = [518, 517, 523, 522]
+frequency = 11
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_y7qmq"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 1, 26, 1, 0, 0, 0]
+valid_tiles = [516]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_uitsy"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 1, 1, 26, 1, 0, 0, 0]
+valid_tiles = [34]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_qp2hp"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 1, 1, 1, 0, 0, 0]
+valid_tiles = [793, 794, 140, 72, 71, 132]
+frequency = 7
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_5jhuq"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 1, 26, 1, 26, 0, 0, 0]
+valid_tiles = [136]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_fh8fx"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [1, 1, 26, 1, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_i0i3d"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [1, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1naud"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [26, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 11
+source_maps = ["Chapter6TheTrapIsSprung", "LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_xbca3"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [26, 26, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_1lqrq"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [26, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 3
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_b146m"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [1, 1, 1, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 7
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_ka7o4"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [1, 1, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["Chapter6TheTrapIsSprung"]
+
+[sub_resource type="Resource" id="Resource_pwgy7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 26]
+valid_tiles = [427, 522, 554]
+frequency = 5
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_s33ef"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 26, 26]
+valid_tiles = [521, 484, 429]
+frequency = 4
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_8svq8"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 26, 26]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_8hwgs"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 23, 26, 26, 26, 26, 26]
+valid_tiles = [523, 522]
+frequency = 4
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_njgvo"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 23, 23, 26, 26, 26, 26, 26]
+valid_tiles = [522, 555]
+frequency = 4
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_1fno2"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 26, 26]
+valid_tiles = [522]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_lpy0h"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 26, 26, 26]
+valid_tiles = [528]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_yikjv"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 26, 26, 26]
+valid_tiles = [658]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_pessv"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 23, 23, 23]
+valid_tiles = [657]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_smbst"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 23, 23, 23]
+valid_tiles = [522, 554]
+frequency = 3
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_1qxgc"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 23, 23]
+valid_tiles = [522, 426]
+frequency = 3
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_psix1"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 26]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_wrnas"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 23, 26, 23]
+valid_tiles = [899]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_rcac8"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 26, 23, 23]
+valid_tiles = [900]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_qb1hb"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 23, 26, 23]
+valid_tiles = [554]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_qtk4e"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 26, 26, 26, 23, 23]
+valid_tiles = [522]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_nl6w1"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 26, 23]
+valid_tiles = [896]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_20fly"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 26, 26, 23, 23]
+valid_tiles = [825]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_bxh7w"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 23, 23, 23]
+valid_tiles = [485]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_13v8i"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 26, 23, 23, 23, 23]
+valid_tiles = [864, 528]
+frequency = 3
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_i6hv3"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 23, 23, 45]
+valid_tiles = [865]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_7wdkp"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 23, 45, 1]
+valid_tiles = [867]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_ucos7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 23, 45, 1, 1]
+valid_tiles = [485]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_4kaft"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 26, 23, 1, 1, 1]
+valid_tiles = [823]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_yprqy"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 23, 23, 45, 23, 23]
+valid_tiles = [554]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_5xcvu"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 23, 23, 23, 23, 23]
+valid_tiles = [658, 961]
+frequency = 3
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_13r5c"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 45, 23, 23, 23]
+valid_tiles = [821]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_nxkgy"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [23, 23, 26, 23, 1, 23, 23, 23]
+valid_tiles = [423]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_r5v05"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [23, 26, 23, 45, 1, 23, 23, 23]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_4r1bd"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [26, 23, 23, 1, 1, 23, 23, 45]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_65pp0"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 23, 45, 23, 1, 1, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_0m74g"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 23, 1, 1, 45]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_arrgm"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 45, 23]
+valid_tiles = [659]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_2pvmg"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 45, 23, 23]
+valid_tiles = [657]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_gofqe"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 45, 23, 23, 23, 23, 23]
+valid_tiles = [530, 560]
+frequency = 3
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_d06fw"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 45, 1, 23, 23, 23, 23, 23]
+valid_tiles = [625]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_ft3tq"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [45, 1, 1, 23, 23, 23, 23, 23]
+valid_tiles = [928]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_tahpn"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 45, 23, 23, 23]
+valid_tiles = [822]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_15tb4"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [45, 23, 23, 1, 1, 23, 23, 26]
+valid_tiles = [724]
+frequency = 3
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_addj7"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 45, 23, 26, 1]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_brth4"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [23, 23, 23, 1, 23, 26, 1, 1]
+valid_tiles = [486]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_kxnpp"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 45, 23, 1, 1, 1]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_xmpo8"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 1, 26]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_8i4yh"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 1, 26, 23]
+valid_tiles = [625]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_teigk"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 26, 23, 26, 23]
+valid_tiles = [822]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_evkqj"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 45, 23, 1, 26, 23, 23]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_ykry7"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [1, 45, 23, 26, 1, 23, 23, 23]
+valid_tiles = [630]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_nvfpk"]
+script = ExtResource("1_l3csp")
+center_terrain = 1
+neighbor_terrains = [23, 23, 23, 1, 26, 23, 26, 45]
+valid_tiles = [724]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_8jc53"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 23, 1, 23, 26, 45, 45]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_onyy6"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 45, 45, 45]
+valid_tiles = [820]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_5rgst"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 23, 23, 45, 45, 26]
+valid_tiles = [929]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_7ww1h"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 23, 23, 23, 23, 23]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_cjjou"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 1, 26, 23, 23, 23, 26]
+valid_tiles = [688]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_wwpxf"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 1, 1, 23, 23, 23, 26, 26]
+valid_tiles = [960]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_bso8g"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [1, 1, 1, 23, 26, 26, 26, 26]
+valid_tiles = [822]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_dy85g"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [1, 1, 26, 23, 45, 26, 26, 26]
+valid_tiles = [516]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_frk60"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [1, 26, 23, 26, 45, 26, 26, 26]
+valid_tiles = [452]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_85ku4"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [26, 23, 23, 45, 45, 26, 26, 23]
+valid_tiles = [454]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_b5n52"]
+script = ExtResource("1_l3csp")
+center_terrain = 45
+neighbor_terrains = [23, 23, 23, 45, 26, 26, 23, 23]
+valid_tiles = [453]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_yeyqa"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 23, 23, 23, 26, 23, 23, 26]
+valid_tiles = [689]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_s3ciy"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 23, 26, 26, 26, 26, 26, 26]
+valid_tiles = [552]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_htt7x"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 45, 26, 26, 26, 26, 26]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_36324"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 45, 45, 26, 26, 26, 26, 26]
+valid_tiles = [426]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_wdeg7"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [45, 45, 45, 26, 23, 26, 26, 26]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_t67vf"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [45, 45, 26, 26, 23, 26, 26, 26]
+valid_tiles = [823]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_pepsq"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [23, 26, 26, 23, 26, 23, 23, 23]
+valid_tiles = [484]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_5t2u8"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 23, 26, 23, 26, 0, 0]
+valid_tiles = [528]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_pp4av"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 23, 26, 23, 23, 0, 0, 0]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_60jrq"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [23, 26, 26, 23, 23, 0, 0, 0]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_0t5r5"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 23, 0, 0, 0]
+valid_tiles = [595]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_k53kf"]
+script = ExtResource("1_l3csp")
+center_terrain = 23
+neighbor_terrains = [26, 26, 26, 23, 26, 0, 0, 0]
+valid_tiles = [657]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_jukit"]
+script = ExtResource("1_l3csp")
+center_terrain = 26
+neighbor_terrains = [26, 26, 26, 23, 26, 0, 0, 0]
+valid_tiles = [459]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_0fx3j"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [26, 23, 23, 26, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_a0x7q"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [23, 23, 23, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 4
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_iqnr1"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [23, 23, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[sub_resource type="Resource" id="Resource_yybej"]
+script = ExtResource("1_l3csp")
+center_terrain = 0
+neighbor_terrains = [23, 26, 26, 0, 0, 0, 0, 0]
+valid_tiles = [0]
+frequency = 2
+source_maps = ["LINKARENA"]
+
+[resource]
+script = ExtResource("2_fo1g0")
+tileset_id = "2100xx23"
+patterns = {
+"0_1_1_1_0_0_0_0_0": SubResource("Resource_b146m"),
+"0_1_1_26_0_0_0_0_0": SubResource("Resource_ka7o4"),
+"0_1_1_26_1_0_0_0_0": SubResource("Resource_fh8fx"),
+"0_1_26_26_0_0_0_0_0": SubResource("Resource_i0i3d"),
+"0_23_23_23_0_0_0_0_0": SubResource("Resource_a0x7q"),
+"0_23_23_26_0_0_0_0_0": SubResource("Resource_iqnr1"),
+"0_23_26_26_0_0_0_0_0": SubResource("Resource_yybej"),
+"0_26_1_1_0_0_0_0_0": SubResource("Resource_1lqrq"),
+"0_26_23_23_26_0_0_0_0": SubResource("Resource_0fx3j"),
+"0_26_26_1_0_0_0_0_0": SubResource("Resource_xbca3"),
+"0_26_26_26_0_0_0_0_0": SubResource("Resource_1naud"),
+"1_12_1_12_1_1_34_26_26": SubResource("Resource_4unmc"),
+"1_12_1_1_1_1_26_26_26": SubResource("Resource_fkqa3"),
+"1_12_1_1_1_1_26_34_1": SubResource("Resource_v6wou"),
+"1_1_12_1_1_1_1_34_26": SubResource("Resource_umwpy"),
+"1_1_12_1_1_1_26_26_26": SubResource("Resource_3cfm0"),
+"1_1_12_1_1_1_26_26_34": SubResource("Resource_ljy2t"),
+"1_1_1_12_1_1_26_26_26": SubResource("Resource_kmftp"),
+"1_1_1_1_1_1_0_0_0": SubResource("Resource_qp2hp"),
+"1_1_1_1_1_1_1_1_1": SubResource("Resource_ew1ci"),
+"1_1_1_1_1_1_1_1_26": SubResource("Resource_gv4o1"),
+"1_1_1_1_1_1_1_26_26": SubResource("Resource_l3036"),
+"1_1_1_1_1_1_26_1_1": SubResource("Resource_0agtm"),
+"1_1_1_1_1_1_26_26_1": SubResource("Resource_r4hmm"),
+"1_1_1_1_1_1_26_26_26": SubResource("Resource_hn8h2"),
+"1_1_1_1_1_1_34_1_1": SubResource("Resource_5iao6"),
+"1_1_1_1_1_26_1_1_26": SubResource("Resource_82e0y"),
+"1_1_1_1_26_1_26_1_1": SubResource("Resource_4idsq"),
+"1_1_1_1_34_1_34_1_12": SubResource("Resource_bqqhw"),
+"1_1_1_26_1_1_1_1_1": SubResource("Resource_anboj"),
+"1_1_1_26_1_26_0_0_0": SubResource("Resource_5jhuq"),
+"1_1_1_26_1_26_1_0_0": SubResource("Resource_c0b17"),
+"1_1_1_26_1_26_1_1_1": SubResource("Resource_gqyoe"),
+"1_1_1_26_1_26_1_1_26": SubResource("Resource_fxk7j"),
+"1_1_1_26_1_26_26_26_26": SubResource("Resource_b6dns"),
+"1_1_1_26_1_26_26_26_34": SubResource("Resource_pbpjk"),
+"1_1_1_34_1_26_1_1_26": SubResource("Resource_wlf4h"),
+"1_1_1_34_1_34_1_1_26": SubResource("Resource_55ak0"),
+"1_1_1_34_1_34_1_1_34": SubResource("Resource_hxspy"),
+"1_1_26_45_1_1_1_1_1": SubResource("Resource_xql7t"),
+"1_1_45_23_26_1_23_23_23": SubResource("Resource_ykry7"),
+"1_23_23_23_1_26_23_26_45": SubResource("Resource_nvfpk"),
+"1_23_23_23_1_45_23_26_1": SubResource("Resource_addj7"),
+"1_23_26_23_45_1_23_23_23": SubResource("Resource_r5v05"),
+"1_26_1_1_1_1_1_1_1": SubResource("Resource_0npe0"),
+"1_26_1_1_26_1_0_0_0": SubResource("Resource_uitsy"),
+"1_26_1_1_26_1_1_1_1": SubResource("Resource_rhl6p"),
+"1_26_1_1_26_1_26_1_1": SubResource("Resource_064l2"),
+"1_26_1_1_26_1_26_26_26": SubResource("Resource_cpijx"),
+"1_26_1_1_26_1_34_26_26": SubResource("Resource_t2w3u"),
+"1_26_23_23_1_1_23_23_45": SubResource("Resource_4r1bd"),
+"1_26_26_26_1_1_1_1_1": SubResource("Resource_bj7mo"),
+"1_26_26_26_1_26_1_1_26": SubResource("Resource_pl8cl"),
+"1_26_26_26_26_1_26_1_1": SubResource("Resource_k8ywt"),
+"1_26_26_34_1_34_1_1_34": SubResource("Resource_mfjtr"),
+"1_26_26_45_1_1_1_1_1": SubResource("Resource_e0pcd"),
+"1_26_45_26_1_1_1_1_1": SubResource("Resource_18j2m"),
+"1_26_45_45_1_1_1_1_1": SubResource("Resource_leckb"),
+"1_34_1_12_34_1_34_1_1": SubResource("Resource_8mxsu"),
+"1_34_1_1_26_1_26_1_1": SubResource("Resource_vp547"),
+"1_34_1_1_34_12_34_1_1": SubResource("Resource_jh4p8"),
+"1_34_1_1_34_1_26_1_1": SubResource("Resource_ovqj4"),
+"1_34_1_1_34_1_26_26_26": SubResource("Resource_e0a47"),
+"1_34_1_1_34_1_34_1_1": SubResource("Resource_480c0"),
+"1_34_26_26_34_1_34_1_1": SubResource("Resource_v2s7x"),
+"1_34_26_45_34_1_34_1_1": SubResource("Resource_qtea3"),
+"1_45_23_23_1_1_23_23_26": SubResource("Resource_15tb4"),
+"1_45_26_1_1_1_1_1_1": SubResource("Resource_6j5s4"),
+"1_45_26_26_1_1_1_1_1": SubResource("Resource_qmp8s"),
+"1_45_26_34_1_34_1_1_34": SubResource("Resource_yd4dw"),
+"1_45_45_26_1_1_1_1_1": SubResource("Resource_wbgf8"),
+"23_1_1_1_23_26_23_26_23": SubResource("Resource_teigk"),
+"23_1_1_1_23_26_26_26_26": SubResource("Resource_bso8g"),
+"23_1_1_1_23_45_23_23_23": SubResource("Resource_tahpn"),
+"23_23_23_23_23_23_1_1_26": SubResource("Resource_xmpo8"),
+"23_23_23_23_23_23_1_26_23": SubResource("Resource_8i4yh"),
+"23_23_23_23_23_23_1_45_23": SubResource("Resource_arrgm"),
+"23_23_23_23_23_23_23_23_23": SubResource("Resource_t5tlh"),
+"23_23_23_23_23_23_23_23_26": SubResource("Resource_sfolp"),
+"23_23_23_23_23_23_23_26_23": SubResource("Resource_nl6w1"),
+"23_23_23_23_23_23_23_26_26": SubResource("Resource_s818l"),
+"23_23_23_23_23_23_23_26_34": SubResource("Resource_j4jni"),
+"23_23_23_23_23_23_26_23_23": SubResource("Resource_1t4h2"),
+"23_23_23_23_23_23_26_26_23": SubResource("Resource_yhfl4"),
+"23_23_23_23_23_23_26_26_26": SubResource("Resource_uciga"),
+"23_23_23_23_23_23_26_34_34": SubResource("Resource_1mx7a"),
+"23_23_23_23_23_23_30_34_26": SubResource("Resource_tf30s"),
+"23_23_23_23_23_23_34_26_23": SubResource("Resource_notej"),
+"23_23_23_23_23_23_34_30_34": SubResource("Resource_k3ew6"),
+"23_23_23_23_23_23_34_34_30": SubResource("Resource_ggv4f"),
+"23_23_23_23_23_23_45_23_23": SubResource("Resource_2pvmg"),
+"23_23_23_23_23_23_45_45_26": SubResource("Resource_5rgst"),
+"23_23_23_23_23_26_23_23_23": SubResource("Resource_l4wt5"),
+"23_23_23_23_23_26_23_23_26": SubResource("Resource_c2tau"),
+"23_23_23_23_23_26_26_23_23": SubResource("Resource_20fly"),
+"23_23_23_23_23_26_45_45_26": SubResource("Resource_rrn40"),
+"23_23_23_23_23_45_23_23_23": SubResource("Resource_13r5c"),
+"23_23_23_23_26_23_23_23_23": SubResource("Resource_j67f1"),
+"23_23_23_23_26_23_26_0_0": SubResource("Resource_5t2u8"),
+"23_23_23_23_26_23_26_23_23": SubResource("Resource_vdggh"),
+"23_23_23_23_26_23_26_45_45": SubResource("Resource_sehcf"),
+"23_23_23_23_26_23_45_45_45": SubResource("Resource_onyy6"),
+"23_23_23_23_45_23_1_1_1": SubResource("Resource_kxnpp"),
+"23_23_23_26_23_23_0_0_0": SubResource("Resource_pp4av"),
+"23_23_23_26_23_23_23_23_23": SubResource("Resource_i4bpj"),
+"23_23_23_26_23_26_23_23_23": SubResource("Resource_rsh5q"),
+"23_23_23_26_23_26_23_23_26": SubResource("Resource_tkwpj"),
+"23_23_23_26_23_26_26_23_26": SubResource("Resource_vp02t"),
+"23_23_23_26_23_30_23_23_26": SubResource("Resource_0uxfc"),
+"23_23_23_26_23_30_23_23_34": SubResource("Resource_n1egm"),
+"23_23_23_26_23_34_23_23_26": SubResource("Resource_jmboc"),
+"23_23_23_26_23_34_34_30_34": SubResource("Resource_tnupd"),
+"23_23_23_26_26_23_23_23_23": SubResource("Resource_13v8i"),
+"23_23_23_26_26_23_26_26_26": SubResource("Resource_lpy0h"),
+"23_23_23_26_26_26_26_45_26": SubResource("Resource_nm4r2"),
+"23_23_23_30_23_26_23_23_34": SubResource("Resource_kemr5"),
+"23_23_23_30_23_34_23_23_34": SubResource("Resource_ppe2v"),
+"23_23_23_30_23_34_26_26_26": SubResource("Resource_x5ult"),
+"23_23_23_31_23_23_23_23_23": SubResource("Resource_nuohr"),
+"23_23_23_34_23_26_23_23_30": SubResource("Resource_vkjgc"),
+"23_23_23_34_23_30_23_23_34": SubResource("Resource_s4vpj"),
+"23_23_23_34_23_34_23_23_26": SubResource("Resource_i47tn"),
+"23_23_23_34_23_34_23_23_30": SubResource("Resource_noq3y"),
+"23_23_23_34_23_34_23_23_34": SubResource("Resource_cet55"),
+"23_23_23_45_23_23_23_23_23": SubResource("Resource_gofqe"),
+"23_23_26_1_26_23_23_23_26": SubResource("Resource_cjjou"),
+"23_23_26_23_23_23_23_23_23": SubResource("Resource_5xcvu"),
+"23_23_26_23_45_23_1_1_1": SubResource("Resource_65pp0"),
+"23_23_26_26_23_23_0_0_0": SubResource("Resource_60jrq"),
+"23_23_26_26_23_23_23_23_23": SubResource("Resource_muiqt"),
+"23_23_26_26_23_23_23_23_26": SubResource("Resource_psix1"),
+"23_23_26_26_23_23_23_23_45": SubResource("Resource_i6hv3"),
+"23_23_26_26_23_23_26_26_26": SubResource("Resource_yikjv"),
+"23_23_31_23_23_23_23_23_23": SubResource("Resource_0j0b5"),
+"23_23_45_1_23_23_23_23_23": SubResource("Resource_d06fw"),
+"23_26_1_1_23_23_23_26_26": SubResource("Resource_wwpxf"),
+"23_26_23_23_23_23_1_1_45": SubResource("Resource_0m74g"),
+"23_26_23_23_23_23_23_23_23": SubResource("Resource_gojqi"),
+"23_26_23_23_23_26_23_23_26": SubResource("Resource_yeyqa"),
+"23_26_23_23_26_23_23_23_23": SubResource("Resource_ii6gn"),
+"23_26_23_23_26_23_26_23_23": SubResource("Resource_rgbve"),
+"23_26_23_23_26_23_26_23_26": SubResource("Resource_tx2po"),
+"23_26_23_23_26_26_26_45_26": SubResource("Resource_rnl0c"),
+"23_26_23_23_30_23_26_23_23": SubResource("Resource_suekm"),
+"23_26_23_23_30_23_34_23_23": SubResource("Resource_mvhta"),
+"23_26_23_23_34_23_26_23_23": SubResource("Resource_a68lv"),
+"23_26_23_23_34_23_26_34_30": SubResource("Resource_t3bxk"),
+"23_26_26_23_23_23_23_23_23": SubResource("Resource_2ex3e"),
+"23_26_26_26_23_23_0_0_0": SubResource("Resource_0t5r5"),
+"23_26_26_26_23_23_23_23_23": SubResource("Resource_37lxr"),
+"23_26_26_26_23_23_23_26_23": SubResource("Resource_wrnas"),
+"23_26_26_26_23_26_0_0_0": SubResource("Resource_k53kf"),
+"23_26_26_26_23_26_23_23_23": SubResource("Resource_pessv"),
+"23_26_26_26_23_26_23_23_26": SubResource("Resource_ch5wb"),
+"23_26_26_26_23_26_23_45_1": SubResource("Resource_7wdkp"),
+"23_26_26_26_23_26_26_23_23": SubResource("Resource_rcac8"),
+"23_26_26_26_26_23_1_1_1": SubResource("Resource_4kaft"),
+"23_26_26_26_26_23_26_23_23": SubResource("Resource_lyxii"),
+"23_26_26_30_23_23_23_23_23": SubResource("Resource_sbxxx"),
+"23_26_26_45_31_23_23_23_23": SubResource("Resource_twi2r"),
+"23_26_30_34_23_34_23_23_34": SubResource("Resource_i064t"),
+"23_26_45_45_23_23_23_23_23": SubResource("Resource_edek2"),
+"23_26_45_45_26_23_34_23_23": SubResource("Resource_66hlq"),
+"23_30_23_23_26_23_34_23_23": SubResource("Resource_iw11g"),
+"23_30_23_23_34_23_26_26_26": SubResource("Resource_ddghs"),
+"23_30_23_23_34_23_34_23_23": SubResource("Resource_biw2u"),
+"23_30_26_26_23_23_23_23_23": SubResource("Resource_wsxlc"),
+"23_31_23_23_23_23_23_23_23": SubResource("Resource_s6dhb"),
+"23_34_23_23_26_23_30_23_23": SubResource("Resource_ppd1g"),
+"23_34_23_23_34_23_26_23_23": SubResource("Resource_tku6k"),
+"23_34_23_23_34_23_34_23_23": SubResource("Resource_hjonu"),
+"23_34_30_26_34_23_26_23_23": SubResource("Resource_ggxc5"),
+"23_45_1_1_23_23_23_23_23": SubResource("Resource_ft3tq"),
+"23_45_26_26_23_31_23_23_23": SubResource("Resource_as0dc"),
+"23_45_45_26_23_23_23_23_23": SubResource("Resource_llkpw"),
+"23_45_45_26_23_26_23_23_34": SubResource("Resource_r1sf8"),
+"23_45_45_26_26_23_26_26_26": SubResource("Resource_t67vf"),
+"26_1_1_1_1_26_1_26_23": SubResource("Resource_6rsi1"),
+"26_1_1_1_26_1_23_26_1": SubResource("Resource_fv3ha"),
+"26_1_1_1_26_26_23_23_26": SubResource("Resource_k62f0"),
+"26_1_1_1_26_26_26_23_23": SubResource("Resource_jh8ju"),
+"26_1_1_1_26_26_34_34_34": SubResource("Resource_rpvvm"),
+"26_1_1_1_26_34_34_34_34": SubResource("Resource_b7520"),
+"26_1_1_1_34_26_34_34_34": SubResource("Resource_8028k"),
+"26_1_1_26_23_45_26_26_26": SubResource("Resource_dy85g"),
+"26_1_1_26_26_26_23_23_23": SubResource("Resource_td0qx"),
+"26_1_1_26_26_34_34_34_26": SubResource("Resource_3shww"),
+"26_1_1_45_23_1_26_23_23": SubResource("Resource_evkqj"),
+"26_1_26_23_1_23_1_26_23": SubResource("Resource_k0mf0"),
+"26_1_26_23_1_23_1_26_45": SubResource("Resource_l0jp3"),
+"26_1_26_23_1_23_26_26_23": SubResource("Resource_wcsd5"),
+"26_1_26_23_1_45_1_1_1": SubResource("Resource_246al"),
+"26_1_26_23_26_23_23_23_23": SubResource("Resource_kpvyf"),
+"26_1_26_26_1_23_1_26_23": SubResource("Resource_ndbcf"),
+"26_1_26_26_1_26_0_0_0": SubResource("Resource_7ga2a"),
+"26_1_26_45_1_23_26_34_23": SubResource("Resource_7fgwu"),
+"26_1_34_34_1_26_1_26_26": SubResource("Resource_1yvt7"),
+"26_1_34_34_26_26_34_34_34": SubResource("Resource_5mk8c"),
+"26_23_23_23_1_23_26_45_45": SubResource("Resource_8jc53"),
+"26_23_23_23_23_23_23_23_23": SubResource("Resource_bxh7w"),
+"26_23_23_23_23_23_45_23_23": SubResource("Resource_yprqy"),
+"26_23_23_23_23_26_23_23_23": SubResource("Resource_vmqiq"),
+"26_23_23_23_23_26_23_26_26": SubResource("Resource_4uajf"),
+"26_23_23_23_23_26_45_26_26": SubResource("Resource_gmlfb"),
+"26_23_23_23_23_34_45_26_34": SubResource("Resource_bskp5"),
+"26_23_23_23_26_23_23_23_23": SubResource("Resource_m6rx7"),
+"26_23_23_23_26_23_26_26_23": SubResource("Resource_ycrxc"),
+"26_23_23_23_26_23_26_26_26": SubResource("Resource_1fno2"),
+"26_23_23_23_26_23_26_26_45": SubResource("Resource_lvpit"),
+"26_23_23_23_26_26_23_23_23": SubResource("Resource_b0a3w"),
+"26_23_23_23_26_26_26_26_26": SubResource("Resource_ivye7"),
+"26_23_23_23_34_23_34_26_45": SubResource("Resource_w1kxd"),
+"26_23_23_26_23_23_23_23_23": SubResource("Resource_7ww1h"),
+"26_23_23_26_26_26_26_26_26": SubResource("Resource_s3ciy"),
+"26_23_23_34_26_26_23_23_23": SubResource("Resource_am6of"),
+"26_23_26_1_23_1_23_26_1": SubResource("Resource_x5c8c"),
+"26_23_26_1_23_1_23_26_26": SubResource("Resource_x4vep"),
+"26_23_26_1_23_1_45_26_1": SubResource("Resource_fng5c"),
+"26_23_26_1_23_26_23_23_23": SubResource("Resource_03ixb"),
+"26_23_26_1_45_1_1_1_1": SubResource("Resource_8kg16"),
+"26_23_26_26_23_1_23_26_1": SubResource("Resource_41tch"),
+"26_23_26_26_23_26_23_23_23": SubResource("Resource_pepsq"),
+"26_23_26_26_23_26_23_26_1": SubResource("Resource_0h4gc"),
+"26_23_26_26_45_26_1_1_1": SubResource("Resource_n3eaf"),
+"26_23_26_34_45_34_1_1_34": SubResource("Resource_2dkdc"),
+"26_23_26_45_26_26_26_26_26": SubResource("Resource_htt7x"),
+"26_23_30_34_23_34_23_34_34": SubResource("Resource_cj0ru"),
+"26_23_34_26_23_34_23_30_34": SubResource("Resource_wk6g7"),
+"26_23_34_34_23_34_23_30_34": SubResource("Resource_r27ct"),
+"26_23_34_34_26_26_23_23_23": SubResource("Resource_8igd1"),
+"26_26_1_1_26_26_23_23_23": SubResource("Resource_te23c"),
+"26_26_1_1_34_26_26_34_34": SubResource("Resource_tt4ov"),
+"26_26_23_23_26_26_26_26_26": SubResource("Resource_njgvo"),
+"26_26_26_1_23_1_23_26_1": SubResource("Resource_ueo2h"),
+"26_26_26_1_26_1_0_0_0": SubResource("Resource_y7qmq"),
+"26_26_26_23_1_23_1_26_23": SubResource("Resource_p2o41"),
+"26_26_26_23_26_23_1_26_23": SubResource("Resource_ygwda"),
+"26_26_26_23_26_26_26_26_26": SubResource("Resource_8hwgs"),
+"26_26_26_23_26_45_1_1_1": SubResource("Resource_2vm83"),
+"26_26_26_26_23_23_45_1_1": SubResource("Resource_ucos7"),
+"26_26_26_26_23_26_0_0_0": SubResource("Resource_jukit"),
+"26_26_26_26_23_26_23_23_23": SubResource("Resource_smbst"),
+"26_26_26_26_26_26_0_0_0": SubResource("Resource_pg0ow"),
+"26_26_26_26_26_26_1_1_1": SubResource("Resource_4pxbj"),
+"26_26_26_26_26_26_1_1_26": SubResource("Resource_7m4d6"),
+"26_26_26_26_26_26_23_23_23": SubResource("Resource_1qxgc"),
+"26_26_26_26_26_26_23_23_26": SubResource("Resource_pwgy7"),
+"26_26_26_26_26_26_23_26_23": SubResource("Resource_qb1hb"),
+"26_26_26_26_26_26_23_26_26": SubResource("Resource_s33ef"),
+"26_26_26_26_26_26_26_1_1": SubResource("Resource_2m3b7"),
+"26_26_26_26_26_26_26_23_23": SubResource("Resource_qtk4e"),
+"26_26_26_26_26_26_26_26_26": SubResource("Resource_8svq8"),
+"26_26_26_34_26_34_1_1_34": SubResource("Resource_tm28y"),
+"26_26_34_23_34_23_34_30_23": SubResource("Resource_o62rb"),
+"26_26_45_45_26_26_26_26_26": SubResource("Resource_36324"),
+"26_34_1_1_26_26_34_34_34": SubResource("Resource_msuso"),
+"26_34_23_23_26_26_23_23_23": SubResource("Resource_sos0w"),
+"26_34_26_23_34_45_34_1_1": SubResource("Resource_jjxxe"),
+"26_34_26_26_34_26_34_1_1": SubResource("Resource_60e33"),
+"26_34_30_23_34_23_34_34_23": SubResource("Resource_i788n"),
+"26_34_34_1_26_1_26_26_1": SubResource("Resource_ssdhr"),
+"26_34_34_1_26_26_34_34_34": SubResource("Resource_da2f5"),
+"26_34_34_23_26_26_23_23_23": SubResource("Resource_2ane5"),
+"26_34_34_23_26_34_34_34_34": SubResource("Resource_j6ri2"),
+"26_34_34_23_34_23_34_30_23": SubResource("Resource_w5fpa"),
+"26_34_34_34_26_26_23_23_23": SubResource("Resource_imo0l"),
+"26_34_34_34_26_26_26_26_26": SubResource("Resource_oxw0t"),
+"26_34_34_34_26_26_34_34_34": SubResource("Resource_j8kx6"),
+"26_34_34_34_26_30_23_23_23": SubResource("Resource_jmlu5"),
+"26_34_34_34_26_34_26_26_34": SubResource("Resource_ues6u"),
+"26_34_34_34_26_34_34_34_34": SubResource("Resource_ropdx"),
+"26_34_34_34_30_26_23_23_23": SubResource("Resource_y8ebm"),
+"26_34_34_34_34_26_34_26_26": SubResource("Resource_ws7bs"),
+"26_34_34_34_34_26_34_34_34": SubResource("Resource_kd8re"),
+"26_45_26_1_23_1_23_34_26": SubResource("Resource_ldpuo"),
+"26_45_45_45_26_23_26_26_26": SubResource("Resource_wdeg7"),
+"30_23_23_23_34_34_34_34_34": SubResource("Resource_1wqmc"),
+"30_23_23_34_34_34_34_34_34": SubResource("Resource_axppt"),
+"30_23_26_34_23_34_23_26_34": SubResource("Resource_pu8wd"),
+"30_23_26_34_23_34_23_34_34": SubResource("Resource_2g4i7"),
+"30_23_34_34_23_34_23_34_34": SubResource("Resource_t078k"),
+"30_34_26_23_34_23_34_26_23": SubResource("Resource_vmd6u"),
+"30_34_26_23_34_23_34_34_23": SubResource("Resource_v7ca0"),
+"30_34_34_34_26_34_23_23_34": SubResource("Resource_5gw1r"),
+"30_34_34_34_34_26_34_23_23": SubResource("Resource_j2qds"),
+"31_26_26_26_23_23_23_23_23": SubResource("Resource_7k2od"),
+"34_12_34_34_12_34_1_34_34": SubResource("Resource_3wvk2"),
+"34_12_34_34_1_34_26_26_26": SubResource("Resource_dgjuh"),
+"34_1_1_1_1_26_12_34_34": SubResource("Resource_ac4mf"),
+"34_1_1_1_26_1_34_34_1": SubResource("Resource_gam6b"),
+"34_1_26_23_26_23_34_26_23": SubResource("Resource_2glfk"),
+"34_1_34_26_12_34_12_34_34": SubResource("Resource_c2gav"),
+"34_1_34_34_1_34_1_26_26": SubResource("Resource_wxnne"),
+"34_1_34_34_1_34_1_34_34": SubResource("Resource_i44fq"),
+"34_23_23_23_26_34_26_34_34": SubResource("Resource_0v35r"),
+"34_23_23_23_30_26_34_34_26": SubResource("Resource_l6dmh"),
+"34_23_23_23_34_30_34_34_34": SubResource("Resource_cbk13"),
+"34_23_26_1_23_26_23_26_34": SubResource("Resource_4e88m"),
+"34_23_26_34_23_34_30_34_34": SubResource("Resource_6ksr1"),
+"34_23_30_34_23_34_23_34_26": SubResource("Resource_dr5no"),
+"34_23_30_34_23_34_26_26_26": SubResource("Resource_34ldf"),
+"34_23_34_26_23_34_23_26_34": SubResource("Resource_gnmlr"),
+"34_23_34_34_23_26_23_34_34": SubResource("Resource_u7a1d"),
+"34_23_34_34_23_34_23_30_34": SubResource("Resource_x3ub7"),
+"34_23_34_34_30_34_34_34_34": SubResource("Resource_g32wl"),
+"34_26_26_26_34_34_34_34_34": SubResource("Resource_kr6wh"),
+"34_26_26_34_34_26_34_34_30": SubResource("Resource_r5pfc"),
+"34_26_26_34_34_34_34_34_26": SubResource("Resource_ty2f5"),
+"34_26_26_34_34_34_34_34_34": SubResource("Resource_cba48"),
+"34_26_34_1_34_1_34_34_1": SubResource("Resource_gnn0b"),
+"34_26_34_23_34_23_34_26_23": SubResource("Resource_r6w2p"),
+"34_26_34_26_26_34_1_34_34": SubResource("Resource_m5oyt"),
+"34_26_34_30_34_23_34_26_23": SubResource("Resource_3dr4j"),
+"34_26_34_30_34_34_34_34_34": SubResource("Resource_gx1jj"),
+"34_26_34_34_1_34_1_34_34": SubResource("Resource_ki45b"),
+"34_26_34_34_26_34_1_34_34": SubResource("Resource_0fs8e"),
+"34_26_34_34_30_34_26_34_34": SubResource("Resource_bnhc0"),
+"34_26_34_34_30_34_34_34_34": SubResource("Resource_sq3w2"),
+"34_26_34_34_34_34_34_34_34": SubResource("Resource_8hoef"),
+"34_30_34_26_23_34_23_34_34": SubResource("Resource_dn05b"),
+"34_30_34_26_34_26_34_34_1": SubResource("Resource_4evsl"),
+"34_30_34_34_26_34_34_34_34": SubResource("Resource_pbuvs"),
+"34_30_34_34_34_34_26_26_26": SubResource("Resource_p28w3"),
+"34_30_34_34_34_34_34_26_26": SubResource("Resource_313y3"),
+"34_30_34_34_34_34_34_34_34": SubResource("Resource_i523n"),
+"34_34_23_23_26_30_34_34_34": SubResource("Resource_12fjb"),
+"34_34_26_23_34_23_26_26_34": SubResource("Resource_p7qdr"),
+"34_34_26_26_26_34_30_34_34": SubResource("Resource_htf80"),
+"34_34_26_26_34_34_26_34_34": SubResource("Resource_lfvb1"),
+"34_34_26_26_34_34_34_34_34": SubResource("Resource_j4bg3"),
+"34_34_30_23_34_23_26_26_26": SubResource("Resource_mjjgb"),
+"34_34_30_23_34_23_26_34_23": SubResource("Resource_mrkqo"),
+"34_34_30_34_34_34_34_34_34": SubResource("Resource_4chjt"),
+"34_34_34_1_34_1_26_26_1": SubResource("Resource_kbfkv"),
+"34_34_34_1_34_1_26_26_26": SubResource("Resource_5286e"),
+"34_34_34_1_34_1_34_34_1": SubResource("Resource_36cvu"),
+"34_34_34_23_26_23_34_34_23": SubResource("Resource_ivv40"),
+"34_34_34_26_34_1_34_34_1": SubResource("Resource_jvrml"),
+"34_34_34_26_34_26_34_34_1": SubResource("Resource_ukjbk"),
+"34_34_34_26_34_30_34_34_26": SubResource("Resource_fm5lg"),
+"34_34_34_26_34_30_34_34_34": SubResource("Resource_qpl2t"),
+"34_34_34_26_34_34_34_26_26": SubResource("Resource_krath"),
+"34_34_34_30_34_26_34_34_34": SubResource("Resource_hs1oh"),
+"34_34_34_30_34_34_26_26_34": SubResource("Resource_xwgw3"),
+"34_34_34_30_34_34_30_26_26": SubResource("Resource_ifr1i"),
+"34_34_34_30_34_34_34_34_34": SubResource("Resource_6oe6x"),
+"34_34_34_34_26_26_26_34_34": SubResource("Resource_71ejl"),
+"34_34_34_34_26_30_34_34_23": SubResource("Resource_gcpo7"),
+"34_34_34_34_26_34_30_34_34": SubResource("Resource_u6o8x"),
+"34_34_34_34_30_26_23_34_34": SubResource("Resource_c42ad"),
+"34_34_34_34_30_34_34_34_34": SubResource("Resource_em86a"),
+"34_34_34_34_34_26_34_34_26": SubResource("Resource_thi2b"),
+"34_34_34_34_34_26_34_34_30": SubResource("Resource_apind"),
+"34_34_34_34_34_34_26_26_26": SubResource("Resource_xg1lr"),
+"34_34_34_34_34_34_26_26_30": SubResource("Resource_a5nc4"),
+"34_34_34_34_34_34_26_26_34": SubResource("Resource_6kgtp"),
+"34_34_34_34_34_34_26_30_34": SubResource("Resource_hvh54"),
+"34_34_34_34_34_34_26_34_26": SubResource("Resource_pswua"),
+"34_34_34_34_34_34_26_34_30": SubResource("Resource_w78mb"),
+"34_34_34_34_34_34_30_34_26": SubResource("Resource_yjff2"),
+"34_34_34_34_34_34_30_34_34": SubResource("Resource_1hbbm"),
+"34_34_34_34_34_34_34_26_26": SubResource("Resource_6dcro"),
+"34_34_34_34_34_34_34_30_26": SubResource("Resource_qbphi"),
+"34_34_34_34_34_34_34_34_26": SubResource("Resource_a575n"),
+"34_34_34_34_34_34_34_34_34": SubResource("Resource_xc3o6"),
+"45_1_26_23_26_45_26_26_26": SubResource("Resource_frk60"),
+"45_23_23_23_1_23_26_1_1": SubResource("Resource_brth4"),
+"45_23_23_23_45_26_26_23_23": SubResource("Resource_b5n52"),
+"45_23_23_26_23_1_23_23_23": SubResource("Resource_nxkgy"),
+"45_23_23_26_45_26_1_1_1": SubResource("Resource_kwdsk"),
+"45_26_23_23_26_45_1_1_1": SubResource("Resource_hapwv"),
+"45_26_23_23_45_45_26_26_23": SubResource("Resource_85ku4"),
+"45_26_23_26_26_26_1_1_1": SubResource("Resource_nyq6i")
+}
+terrain_tiles = {}
+tile_relationships = {}
+extraction_stats = {
+"extraction_timestamp": "2025-05-27T18:24:18",
+"patterns_extracted": 0,
+"terrains_covered": 0,
+"total_tile_variants": 0
+}
