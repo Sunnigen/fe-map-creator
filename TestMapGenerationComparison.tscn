@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://comparison_test"]
+
+[ext_resource type="Script" path="res://test_map_generation_comparison.gd" id="1"]
+
+[node name="TestMapGenerationComparison" type="Node"]
+script = ExtResource("1")
